@@ -163,3 +163,12 @@ p {
     background-color: #00a383;
     transform: translateY(-2px);
 }
+
+/* ✨ '검색 결과 없음' 메시지 스타일 */
+.no-results {
+    color: #a7a9be;
+    font-weight: bold;
+    padding: 30px 0;
+    text-align: center;
+    font-size: 1.1em;
+}

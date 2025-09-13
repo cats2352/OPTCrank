@@ -1,10 +1,9 @@
 // 이벤트 리스너 설정
 document.addEventListener('DOMContentLoaded', loadAndCompareRankings);
 document.getElementById('reloadBtn').addEventListener('click', loadAndCompareRankings);
-document.getElementById('searchBtn').addEventListener('click', filterByNickname);
-document.getElementById('searchInput').addEventListener('keyup', (event) => {
-    if (event.key === 'Enter') filterByNickname();
-});
+document.getElementById('saveAsImageBtn').addEventListener('click', saveTableAsImage);
+// ✅ 'input' 이벤트로 변경하여 실시간 검색을 구현합니다.
+document.getElementById('searchInput').addEventListener('input', filterByNickname);
 
 /**
  * 랭킹 파일을 불러오고 비교하는 메인 함수
@@ -78,11 +77,14 @@ function displayResults(oldData, newData) {
 }
 
 /**
- * 입력된 닉네임으로 테이블 결과를 필터링하는 함수
+ * 입력된 닉네임으로 테이블 결과를 필터링하는 함수 (✅ 최종 수정본)
  */
 function filterByNickname() {
     const searchTerm = document.getElementById('searchInput').value.toLowerCase();
-    const rows = document.querySelectorAll('#resultsTable tbody tr');
+    const table = document.getElementById('resultsTable');
+    const rows = table.querySelectorAll('tbody tr');
+    const noResultsMessage = document.getElementById('noResultsMessage');
+    let visibleCount = 0;
 
     rows.forEach(row => {
         const nicknameCell = row.querySelector('.nickname');
@@ -90,11 +92,21 @@ function filterByNickname() {
             const nickname = nicknameCell.textContent.toLowerCase();
             if (nickname.includes(searchTerm)) {
                 row.style.display = '';
+                visibleCount++;
             } else {
                 row.style.display = 'none';
             }
         }
     });
+
+    // 검색 결과가 하나도 없으면 테이블을 숨기고 "결과 없음" 메시지를 표시합니다.
+    if (visibleCount === 0) {
+        table.style.display = 'none';
+        noResultsMessage.style.display = 'block';
+    } else {
+        table.style.display = ''; // table의 기본 display 속성으로 복원
+        noResultsMessage.style.display = 'none';
+    }
 }
 
 // 이벤트 리스너 설정
