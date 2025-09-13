@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>해적제 랭킹</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>🏆 해적제 랭킹</h1>
+        <p>전달과 이번 달의 랭킹 비교를 보여줍니다.</p>
+        <div class="controls">
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="닉네임을 검색하세요...">
+            </div>
+            <div class="function-buttons">
+                <button id="reloadBtn">새로고침</button>
+                <button id="saveAsImageBtn">이미지로 저장</button>
+            </div>
+        </div>
+        <div class="table-container">
+            <table id="resultsTable">
+                <thead>
+                    <tr>
+                        <th>순위</th>
+                        <th>닉네임</th>
+                        <th>랭킹 포인트</th>
+                        <th>덱 정보</th>
+                        <th>순위 변화</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+            <div id="noResultsMessage" class="no-results" style="display: none;">
+                검색 결과가 없습니다.
+            </div>
+        </div>
+    </div>
+
+    <div id="deckModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2>해적제 덱 정보</h2>
+            <div id="deckInfo"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
