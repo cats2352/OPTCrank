@@ -2,7 +2,7 @@
 document.addEventListener('DOMContentLoaded', loadAndCompareRankings);
 document.getElementById('reloadBtn').addEventListener('click', loadAndCompareRankings);
 document.getElementById('searchBtn').addEventListener('click', filterByNickname);
-document.getElementById('saveAsImageBtn').addEventListener('click', saveTableAsImage); 
+document.getElementById('saveAsImageBtn').addEventListener('click', saveTableAsImage);
 document.getElementById('searchInput').addEventListener('keyup', (event) => {
     if (event.key === 'Enter') filterByNickname();
 });
@@ -11,13 +11,11 @@ document.getElementById('searchInput').addEventListener('keyup', (event) => {
  * 랭킹 파일을 불러오고 비교하는 메인 함수
  */
 function loadAndCompareRankings() {
-    // fetch 경로가 kizuna 데이터에 맞게 설정되어 있는지 확인합니다.
     Promise.all([
-        fetch('../data/kizuna_data/kizuna.json').then(response => response.json()),
-        fetch('../data/kizuna_data/kizuna2.json').then(response => response.json())
+        fetch('../data/gp_data/gp.json').then(response => response.json()),
+        fetch('../data/gp_data/gp2.json').then(response => response.json())
     ])
     .then(([oldJson, newJson]) => {
-        // ✅ 실제 데이터 배열이 담긴 키(key) 이름을 정확히 적어줍니다.
         const oldData = oldJson.ranked_records;
         const newData = newJson.ranked_records;
         
@@ -25,7 +23,7 @@ function loadAndCompareRankings() {
     })
     .catch(error => {
         console.error("랭킹 파일 로딩 오류:", error);
-        alert("랭킹 파일을 불러오는 데 실패했습니다. 'data/kizuna_data/' 폴더에 파일이 있는지, 폴더 구조가 올바른지 확인해주세요.");
+        alert("랭킹 파일을 불러오는 데 실패했습니다. 'data/gp_data/' 폴더에 파일이 있는지 확인해주세요.");
     });
 }
 
@@ -36,15 +34,15 @@ function displayResults(oldData, newData) {
     const tableBody = document.querySelector('#resultsTable tbody');
     tableBody.innerHTML = '';
 
-    const oldRanksMap = new Map(oldData.map(user => [user.nickname, user.rank]));
+    const oldRanksMap = new Map(oldData.map(record => [record.user.nickname, record.rank]));
 
-    newData.forEach(newUser => {
-        const oldRank = oldRanksMap.get(newUser.nickname);
+    newData.forEach(newRecord => {
+        const oldRank = oldRanksMap.get(newRecord.user.nickname);
         let rankChangeText = '';
         let rankChangeClass = '';
 
         if (oldRank !== undefined) {
-            const change = oldRank - newUser.rank;
+            const change = oldRank - newRecord.rank;
             if (change > 0) {
                 rankChangeText = `▲ ${change}`;
                 rankChangeClass = 'rank-up';
@@ -62,12 +60,12 @@ function displayResults(oldData, newData) {
 
         const row = document.createElement('tr');
         row.innerHTML = `
-            <td>${newUser.rank}</td>
-            <td class="nickname">${newUser.nickname}</td>
-            <td>${newUser.level}</td>
-            <td>${newUser.rescue_count}</td>
-            <td>${newUser.battle_count}</td>
-            <td>${newUser.kizuna_battle_point.toLocaleString()}</td>
+            <td>${newRecord.rank}</td>
+            <td class="nickname">${newRecord.user.nickname}</td>
+            <td>${newRecord.user.level}</td>
+            <td>${newRecord.user_assault_rumble_event.total_max_score.toLocaleString()}</td>
+            <td>${newRecord.user_assault_rumble_event.level}</td>
+            <td>${newRecord.user_assault_rumble_event.win_count}</td>
             <td class="${rankChangeClass}">${rankChangeText}</td>
         `;
         tableBody.appendChild(row);
