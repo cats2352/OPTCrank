@@ -34,6 +34,10 @@ p {
     font-size: 1.1em;
 }
 
+p.subtitle {
+    margin-bottom: 1px; /* 아래쪽 여백을 5px로 크게 줄입니다. */
+}
+
 .button-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
