@@ -8,8 +8,8 @@ let originalNewData = []; // 검색 필터링을 위해 원본 데이터 저장
 
 function loadAndCompareRankings() {
     Promise.all([
-        fetch('../data/bounty_data/bounty.json').then(r => r.json()),
-        fetch('../data/bounty_data/bounty2.json').then(r => r.json())
+        fetch('../data/bounty_data/2025년9월/bounty.json').then(r => r.json()),
+        fetch('../data/bounty_data/2025년9월/bounty2.json').then(r => r.json())
     ]).then(([oldJson, newJson]) => {
         originalNewData = newJson.rankings;
         displayResults(oldJson.rankings, originalNewData);

@@ -10,8 +10,8 @@ document.getElementById('searchInput').addEventListener('input', filterByNicknam
  */
 function loadAndCompareRankings() {
     Promise.all([
-        fetch('../data/gp_data/gp.json').then(response => response.json()),
-        fetch('../data/gp_data/gp2.json').then(response => response.json())
+        fetch('../data/gp_data/2025년9월/gp.json').then(response => response.json()),
+        fetch('../data/gp_data/2025년9월/gp2.json').then(response => response.json())
     ])
     .then(([oldJson, newJson]) => {
         // 데이터 구조에 맞게 'ranked_records'를 사용
