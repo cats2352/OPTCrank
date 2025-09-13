@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap');
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    background-color: #1a1a2e;
+    color: #e0e0e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.hub-container {
+    text-align: center;
+    background-color: #16213e;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+    width: 100%;
+    max-width: 800px;
+}
+
+h1 {
+    color: #00f5d4;
+    margin-bottom: 15px;
+}
+
+p {
+    color: #a7a9be;
+    margin-bottom: 40px;
+    font-size: 1.1em;
+}
+
+.button-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.hub-button {
+    display: block;
+    background-color: #e94560;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.hub-button:hover {
+    background-color: #f82a4d;
+    transform: translateY(-5px);
+}
+
+.hub-button.disabled {
+    background-color: #5a617e;
+    cursor: not-allowed;
+}
+
+.hub-button.disabled:hover {
+    transform: none;
+}

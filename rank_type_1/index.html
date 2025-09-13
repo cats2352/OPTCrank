@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>랭킹 비교 시스템</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🏆9월 n주차 트크런 랭킹</h1>
+        <p>전달과 이번 달의 랭킹비교를 보여줍니다.</p>
+        
+        <div class="controls">
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="닉네임을 검색하세요...">
+                <button id="searchBtn">검색</button>
+            </div>
+            <button id="reloadBtn">랭킹 다시 불러오기</button>
+            <button id="saveAsImageBtn">이미지로 저장</button>
+        </div>
+
+        <div class="table-container">
+            <table id="resultsTable">
+                <thead>
+                    <tr>
+                        <th>순위</th>
+                        <th>닉네임</th>
+                        <th>레벨</th>
+                        <th>점수</th>
+                        <th>순위 변화</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
