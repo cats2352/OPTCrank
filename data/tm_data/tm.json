@@ -1,0 +1,21 @@
+{
+  "rank_data": [
+    {
+      "rank": 1,
+      "rank_rate": null,
+      "treasure_point": 0,
+      "leader_character_id": 13358,
+      "user": {
+        "id": 11279,
+        "nickname": "[ΛF] Puzzy",
+        "achievement": "<icon=common_font_world_cruise2024_0053_sanji_2.png>",
+        "level": 1768
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 8
+      }
+    }
+  ],
+  "max_page": 1
+}
