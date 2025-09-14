@@ -27,8 +27,8 @@ document.getElementById('searchInput').addEventListener('input', filterByNicknam
  */
 function loadAndCompareRankings() {
     Promise.all([
-        fetch('../data/kizuna_data/2025년9월/kizuna.json').then(response => response.json()),
-        fetch('../data/kizuna_data/2025년9월/kizuna2.json').then(response => response.json())
+        fetch('../data/kizuna_data/2025년8월/kizuna.json').then(response => response.json()),
+        fetch('../data/kizuna_data/2025년9월/kizuna.json').then(response => response.json())
     ])
     .then(([oldJson, newJson]) => {
         originalOldData = oldJson.ranked_records;

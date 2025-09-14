@@ -7,8 +7,8 @@ let originalNewData = []; // 원본 데이터 저장
 
 function loadAndCompareRankings() {
     Promise.all([
-        fetch('../data/pvp_data/2025년9월/pvp.json').then(r => r.json()),
-        fetch('../data/pvp_data/2025년9월/pvp2.json').then(r => r.json())
+        fetch('../data/pvp_data/2025년8월/pvp.json').then(r => r.json()),
+        fetch('../data/pvp_data/2025년9월/pvp.json').then(r => r.json())
     ]).then(([oldJson, newJson]) => {
         originalNewData = newJson.ranking_datas;
         displayResults(oldJson.ranking_datas, originalNewData);

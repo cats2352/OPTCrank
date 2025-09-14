@@ -10,7 +10,7 @@ document.getElementById('searchInput').addEventListener('input', filterByNicknam
 function loadAndCompareRankings() {
     Promise.all([
         fetch('../data/tm_data/2025년8월/tm.json').then(response => response.json()),
-        fetch('../data/tm_data/2025년8월/tm2.json').then(response => response.json())
+        fetch('../data/tm_data/2025년9월/tm.json').then(response => response.json())
     ])
     .then(([oldJson, newJson]) => {
         const oldData = oldJson.rank_data;
