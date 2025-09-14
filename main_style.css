@@ -26,16 +26,13 @@ body {
 h1 {
     color: #00f5d4;
     margin-bottom: 15px;
+    font-size: 2.2em; /* 기본 폰트 크기 조정 */
 }
 
 p {
     color: #a7a9be;
     margin-bottom: 40px;
     font-size: 1.1em;
-}
-
-p.subtitle {
-    margin-bottom: 1px; /* 아래쪽 여백을 5px로 크게 줄입니다. */
 }
 
 .button-grid {
@@ -68,4 +65,28 @@ p.subtitle {
 
 .hub-button.disabled:hover {
     transform: none;
+}
+
+/* --- 반응형 처리 --- */
+@media (max-width: 600px) {
+    .hub-container {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 1.8em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+
+    .button-grid {
+        grid-template-columns: 1fr; /* 모바일에서는 버튼을 한 줄에 하나씩 표시 */
+    }
+
+    .hub-button {
+        padding: 15px;
+        font-size: 1.1em;
+    }
 }

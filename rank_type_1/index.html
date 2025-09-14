@@ -5,20 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>랭킹 비교 시스템</title>
     <link rel="stylesheet" href="style.css">
-
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
 </head>
 <body>
     <div class="container">
-        <h1>🏆9월 1주차 트크런 랭킹</h1>
-        <p>9월1주차의 랭킹입니다.<br></p>
+        <h1>🏆9월 2주차 트크런 랭킹</h1>
+        <p>9월2주차의 랭킹입니다.<br></p>
         
         <div class="controls">
+            <div class="view-mode-container">
+                <input type="checkbox" id="singleViewCheckbox">
+                <label for="singleViewCheckbox">단일 데이터 보기</label>
+            </div>
             <div class="selection-container">
-                <label for="yearSelector">연도:</label>
-                <select id="yearSelector"></select>
-                <label for="monthWeekSelector">비교 시점:</label>
-                <select id="monthWeekSelector"></select>
+                <div id="comparisonSelection">
+                    <div class="selection-item">
+                        <label for="yearSelector">연도:</label>
+                        <select id="yearSelector"></select>
+                    </div>
+                    <div class="selection-item">
+                        <label for="monthWeekSelector">비교 시점:</label>
+                        <select id="monthWeekSelector"></select>
+                    </div>
+                </div>
+                <div id="singleSelection" style="display: none;">
+                    <div class="selection-item">
+                        <label for="dataSelector">데이터 선택:</label>
+                        <select id="dataSelector"></select>
+                    </div>
+                </div>
             </div>
             <div class="search-container">
                 <input type="text" id="searchInput" placeholder="닉네임을 검색하세요...">
@@ -26,24 +41,25 @@
             <button id="saveAsImageBtn">이미지로 저장</button>
         </div>
 
-<div class="table-container">
-    <table id="resultsTable">
-        <thead>
-            <tr>
-                <th>순위</th>
-                <th>닉네임</th>
-                <th>레벨</th>
-                <th>점수</th>
-                <th>순위 변화</th>
-            </tr>
-        </thead>
-        <tbody>
-                <div id="noResultsMessage" class="no-results" style="display: none;">
-                    검색 결과가 없습니다.
+        <div class="table-container">
+            <table id="resultsTable">
+                <thead>
+                    <tr>
+                        <th>순위</th>
+                        <th>닉네임</th>
+                        <th>레벨</th>
+                        <th>점수</th>
+                        <th class="rank-change">순위 변화</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+            <div id="noResultsMessage" class="no-results" style="display: none;">
+                검색 결과가 없습니다.
             </div>
-            </tbody>
-    </table>
-</div>
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>

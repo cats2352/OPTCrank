@@ -13,12 +13,28 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
         
         <div class="controls">
+             <div class="view-mode-container">
+                <input type="checkbox" id="singleViewCheckbox">
+                <label for="singleViewCheckbox">단일 데이터 보기</label>
+            </div>
             <div class="selection-container">
-                <label for="yearSelector">연도:</label>
-                <select id="yearSelector"></select>
-                <label for="monthWeekSelector">비교 시점:</label>
-                <select id="monthWeekSelector"></select>
-            </div>         
+                <div id="comparisonSelection">
+                    <div class="selection-item">
+                        <label for="yearSelector">연도:</label>
+                        <select id="yearSelector"></select>
+                    </div>
+                    <div class="selection-item">
+                        <label for="monthWeekSelector">비교 시점:</label>
+                        <select id="monthWeekSelector"></select>
+                    </div>
+                </div>
+                <div id="singleSelection" style="display: none;">
+                    <div class="selection-item">
+                        <label for="dataSelector">데이터 선택:</label>
+                        <select id="dataSelector"></select>
+                    </div>
+                </div>
+            </div>      
             <div class="search-container">
                 <input type="text" id="searchInput" placeholder="닉네임을 검색하세요...">
             </div>
@@ -35,15 +51,15 @@
                         <th>max 점수</th>
                         <th>토벌 레벨</th>
                         <th>승리 횟수</th>
-                        <th>순위 변화</th>
+                        <th class="rank-change">순위 변화</th>
                     </tr>
                 </thead>
                 <tbody>
-                <div id="noResultsMessage" class="no-results" style="display: none;">
+                </tbody>
+            </table>
+             <div id="noResultsMessage" class="no-results" style="display: none;">
                     검색 결과가 없습니다.
             </div>
-                    </tbody>
-            </table>
         </div>
     </div>
 

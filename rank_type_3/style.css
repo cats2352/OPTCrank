@@ -22,11 +22,11 @@ body {
 h1 { text-align: center; color: #00f5d4; margin-bottom: 10px; }
 p { text-align: center; color: #a7a9be; margin-bottom: 30px; }
 
-/* 컨트롤 박스 전체 스타일 */
 .controls {
     display: grid;
     grid-template-areas:
-        "selection search"
+        "view-mode search"
+        "selection selection"
         "sort sort"
         "functions functions";
     grid-template-columns: auto 1fr;
@@ -35,31 +35,44 @@ p { text-align: center; color: #a7a9be; margin-bottom: 30px; }
     padding: 20px;
     background-color: #1a1a2e;
     border-radius: 8px;
+    align-items: center;
 }
 
-/* 날짜 선택 드롭다운 영역 */
-.selection-container {
-    grid-area: selection;
+.view-mode-container {
+    grid-area: view-mode;
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 5px;
 }
 
-.selection-container label {
+.selection-container {
+    grid-area: selection;
+}
+#comparisonSelection, #singleSelection {
+    display: flex;
+    gap: 15px;
+    width: 100%;
+}
+.selection-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex: 1;
+}
+.selection-item label {
     font-weight: bold;
     white-space: nowrap;
 }
-
-#yearSelector, #monthWeekSelector {
+#yearSelector, #monthWeekSelector, #dataSelector {
     padding: 10px;
     border: 1px solid #3a476a;
     background-color: #1a1a2e;
     color: #e0e0e0;
     border-radius: 5px;
     font-size: 14px;
+    width: 100%;
 }
 
-/* 정렬 버튼 영역 */
 .sort-controls {
     grid-area: sort;
     display: flex;
@@ -73,41 +86,39 @@ p { text-align: center; color: #a7a9be; margin-bottom: 30px; }
 .sort-btn { border: 1px solid #3a476a; background-color: transparent; color: #e0e0e0; padding: 8px 12px; border-radius: 5px; font-size: 14px; font-weight: bold; cursor: pointer; transition: background-color 0.3s ease; }
 .sort-btn.active { background-color: #00f5d4; color: #16213e; border-color: #00f5d4; }
 
-/* 검색창 영역 */
 .search-container { grid-area: search; }
 #searchInput { width: 90%; padding: 10px; border: 1px solid #3a476a; background-color: #1a1a2e; color: #e0e0e0; border-radius: 5px; font-size: 14px; }
 #searchInput::placeholder { color: #7a7f9a; }
 
-/* 기능 버튼 영역 */
 .function-buttons { grid-area: functions; display: flex; gap: 15px; }
-#saveAsImageBtn { flex-grow: 1; border: none; padding: 10px 20px; border-radius: 5px; font-size: 15px; font-weight: bold; cursor: pointer; transition: background-color 0.3s ease; }
-#saveAsImageBtn { background-color: #00b894; color: white; }
+#saveAsImageBtn { flex-grow: 1; border: none; padding: 10px 20px; border-radius: 5px; font-size: 15px; font-weight: bold; cursor: pointer; transition: background-color 0.3s ease; background-color: #00b894; color: white; }
 
-/* 테이블 및 기타 스타일 */
 .table-container { overflow-x: auto; }
 #resultsTable { width: 100%; border-collapse: collapse; margin-top: 20px; }
 #resultsTable th, #resultsTable td { padding: 12px 15px; text-align: center; border-bottom: 1px solid #3a476a; vertical-align: middle; }
 #resultsTable th { background-color: #0f3a60; color: #e0e0e0; font-weight: bold; }
 #resultsTable tbody tr:nth-child(even):not(.rank-up):not(.rank-down) { background-color: #1a2a4a; }
 
-/* 랭킹 변화 그라데이션 스타일 */
 tr.rank-up { background: linear-gradient(to right, rgba(76, 175, 80, 0.5), transparent) !important; }
 tr.rank-down { background: linear-gradient(to right, rgba(244, 67, 54, 0.5), transparent) !important; }
 td.rank-same { color: #9e9e9e; }
 td.rank-new { color: #2196f3; font-weight: bold; }
 .no-results { color: #a7a9be; font-weight: bold; padding: 30px 0; text-align: center; font-size: 1.1em; }
 
-/* 반응형 스타일 */
+.table-container.single-view .rank-change { display: none; }
+
 @media (max-width: 700px) {
     .controls {
         grid-template-areas:
-            "selection"
+            "view-mode"
             "search"
+            "selection"
             "sort"
             "functions";
         grid-template-columns: 1fr;
     }
-    .selection-container { flex-direction: column; align-items: stretch; }
-    .selection-container label { margin-bottom: 5px; }
-    .sort-controls { justify-content: center; }
+    #comparisonSelection {
+        flex-direction: column;
+        align-items: stretch;
+    }
 }

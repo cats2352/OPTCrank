@@ -5,10 +5,21 @@ const DATA_FILE_NAME = 'run.json';
 // 전역 변수
 let configData = {};
 
+// --- DOM 요소 ---
+const yearSelector = document.getElementById('yearSelector');
+const monthWeekSelector = document.getElementById('monthWeekSelector');
+const dataSelector = document.getElementById('dataSelector');
+const singleViewCheckbox = document.getElementById('singleViewCheckbox');
+const comparisonSelection = document.getElementById('comparisonSelection');
+const singleSelection = document.getElementById('singleSelection');
+const tableContainer = document.querySelector('.table-container');
+
 // 이벤트 리스너
 document.addEventListener('DOMContentLoaded', initializeApp);
-document.getElementById('yearSelector').addEventListener('change', updateMonthWeekSelector);
-document.getElementById('monthWeekSelector').addEventListener('change', loadAndCompareRankings);
+yearSelector.addEventListener('change', updateMonthWeekSelector);
+monthWeekSelector.addEventListener('change', loadAndCompareRankings);
+dataSelector.addEventListener('change', loadAndCompareRankings);
+singleViewCheckbox.addEventListener('change', toggleViewMode);
 document.getElementById('saveAsImageBtn').addEventListener('click', saveTableAsImage);
 document.getElementById('searchInput').addEventListener('input', filterByNickname);
 
@@ -17,18 +28,23 @@ async function initializeApp() {
     try {
         const response = await fetch('../config.json');
         configData = await response.json();
-        populateYearSelector();
-        updateMonthWeekSelector(); // 초기 월/주차 목록 생성
+        populateSelectors();
+        loadAndCompareRankings();
     } catch (error) {
         console.error("초기화 오류:", error);
         alert("config.json 파일을 불러오는 데 실패했습니다.");
     }
 }
 
+/** 모든 선택 메뉴 채우기 */
+function populateSelectors() {
+    populateYearSelector();
+    updateMonthWeekSelector();
+}
+
 /** 연도 선택 메뉴 채우기 */
 function populateYearSelector() {
     const directories = configData[RANKING_TYPE];
-    const yearSelector = document.getElementById('yearSelector');
     const years = [...new Set(directories.map(dir => parseDateString(dir).year))].sort((a, b) => b - a);
     
     yearSelector.innerHTML = '';
@@ -40,9 +56,8 @@ function populateYearSelector() {
     });
 }
 
-/** 월/주차 선택 메뉴 업데이트 */
+/** 월/주차 및 단일 데이터 선택 메뉴 업데이트 */
 function updateMonthWeekSelector() {
-    const yearSelector = document.getElementById('yearSelector');
     const selectedYear = yearSelector.value;
     const directories = configData[RANKING_TYPE]
         .map(dir => ({ original: dir, parsed: parseDateString(dir) }))
@@ -50,62 +65,99 @@ function updateMonthWeekSelector() {
         .sort((a, b) => sortDirectories(a.original, b.original))
         .reverse();
 
-    const monthWeekSelector = document.getElementById('monthWeekSelector');
     monthWeekSelector.innerHTML = '';
+    dataSelector.innerHTML = '';
     
-    const latestDir = directories[0].original;
+    directories.forEach((dir, index) => {
+        // 단일 데이터 선택 메뉴 채우기
+        const dataOption = document.createElement('option');
+        dataOption.value = dir.original;
+        dataOption.textContent = dir.original; // 수정된 부분
+        dataSelector.appendChild(dataOption);
 
-    for (let i = 1; i < directories.length; i++) {
-        const dir = directories[i].original;
-        const option = document.createElement('option');
-        option.value = dir;
-        option.textContent = dir.replace(`${selectedYear}년`, '').trim();
-        monthWeekSelector.appendChild(option);
-    }
-    loadAndCompareRankings(); // 연도 변경 시 자동으로 첫 항목으로 비교 실행
+        // 비교 시점 선택 메뉴 채우기 (최신 데이터 제외)
+        if (index > 0) {
+            const comparisonOption = document.createElement('option');
+            comparisonOption.value = dir.original;
+            comparisonOption.textContent = dir.original; // 수정된 부분
+            monthWeekSelector.appendChild(comparisonOption);
+        }
+    });
+    
+    loadAndCompareRankings();
 }
 
-/** 랭킹 데이터 불러오기 및 비교 */
+
+/** 보기 모드 전환 (단일/비교) */
+function toggleViewMode() {
+    const isSingleView = singleViewCheckbox.checked;
+    comparisonSelection.style.display = isSingleView ? 'none' : '';
+    singleSelection.style.display = isSingleView ? '' : 'none';
+    tableContainer.classList.toggle('single-view', isSingleView);
+    loadAndCompareRankings();
+}
+
+/** 랭킹 데이터 불러오기 및 비교/표시 */
 async function loadAndCompareRankings() {
-    const selectedComparisonDir = document.getElementById('monthWeekSelector').value;
-    if (!selectedComparisonDir) return;
+    const isSingleView = singleViewCheckbox.checked;
 
-    const allDirectories = configData[RANKING_TYPE].sort(sortDirectories).reverse();
-    const latestDir = allDirectories[0];
+    if (isSingleView) {
+        // 단일 데이터 보기 모드
+        const selectedDir = dataSelector.value;
+        if (!selectedDir) return;
+        const path = `../data/${RANKING_TYPE}/${selectedDir}/${DATA_FILE_NAME}`;
+        try {
+            const data = await fetch(path).then(res => res.json());
+            displayResults(null, data.ranking_datas);
+        } catch (error) {
+            console.error("랭킹 파일 로딩 오류:", error);
+            alert("랭킹 파일을 불러오는 데 실패했습니다.");
+        }
+    } else {
+        // 비교 모드
+        const selectedComparisonDir = monthWeekSelector.value;
+        if (!selectedComparisonDir) return;
 
-    const latestPath = `../data/${RANKING_TYPE}/${latestDir}/${DATA_FILE_NAME}`;
-    const comparisonPath = `../data/${RANKING_TYPE}/${selectedComparisonDir}/${DATA_FILE_NAME}`;
+        const allDirectories = configData[RANKING_TYPE].sort(sortDirectories).reverse();
+        const latestDir = allDirectories[0];
 
-    try {
-        const [oldJson, newJson] = await Promise.all([
-            fetch(comparisonPath).then(res => res.json()),
-            fetch(latestPath).then(res => res.json())
-        ]);
-        displayResults(oldJson.ranking_datas, newJson.ranking_datas);
-    } catch (error) {
-        console.error("랭킹 파일 로딩 오류:", error);
-        alert("랭킹 파일을 불러오는 데 실패했습니다.");
+        const latestPath = `../data/${RANKING_TYPE}/${latestDir}/${DATA_FILE_NAME}`;
+        const comparisonPath = `../data/${RANKING_TYPE}/${selectedComparisonDir}/${DATA_FILE_NAME}`;
+
+        try {
+            const [oldJson, newJson] = await Promise.all([
+                fetch(comparisonPath).then(res => res.json()),
+                fetch(latestPath).then(res => res.json())
+            ]);
+            displayResults(oldJson.ranking_datas, newJson.ranking_datas);
+        } catch (error) {
+            console.error("랭킹 파일 로딩 오류:", error);
+            alert("랭킹 파일을 불러오는 데 실패했습니다.");
+        }
     }
 }
 
 /** 결과 표시 */
 function displayResults(oldData, newData) {
+    const isSingleView = singleViewCheckbox.checked;
     const tableBody = document.querySelector('#resultsTable tbody');
     tableBody.innerHTML = '';
-    const oldRanksMap = new Map(oldData.map(user => [user.nickname, user.rank]));
+    const oldRanksMap = !isSingleView ? new Map(oldData.map(user => [user.nickname, user.rank])) : null;
 
     newData.forEach(newUser => {
-        const oldRank = oldRanksMap.get(newUser.nickname);
-        let rankChangeText = '';
+        let rankChangeText = '-';
         let rankChangeClass = '';
 
-        if (oldRank !== undefined) {
-            const change = oldRank - newUser.rank;
-            if (change > 0) { rankChangeText = `▲ ${change}`; rankChangeClass = 'rank-up'; }
-            else if (change < 0) { rankChangeText = `▼ ${Math.abs(change)}`; rankChangeClass = 'rank-down'; }
-            else { rankChangeText = '-'; rankChangeClass = 'rank-same'; }
-        } else {
-            rankChangeText = 'New'; rankChangeClass = 'rank-new';
+        if (!isSingleView && oldRanksMap) {
+            const oldRank = oldRanksMap.get(newUser.nickname);
+            if (oldRank !== undefined) {
+                const change = oldRank - newUser.rank;
+                if (change > 0) { rankChangeText = `▲ ${change}`; rankChangeClass = 'rank-up'; }
+                else if (change < 0) { rankChangeText = `▼ ${Math.abs(change)}`; rankChangeClass = 'rank-down'; }
+                else { rankChangeText = '-'; rankChangeClass = 'rank-same'; }
+            } else {
+                rankChangeText = 'New'; rankChangeClass = 'rank-new';
+            }
         }
 
         const row = document.createElement('tr');
@@ -115,7 +167,7 @@ function displayResults(oldData, newData) {
             <td class="nickname">${newUser.nickname}</td>
             <td>${newUser.level}</td>
             <td>${newUser.score.toLocaleString()}</td>
-            <td>${rankChangeText}</td>
+            <td class="rank-change">${rankChangeText}</td>
         `;
         tableBody.appendChild(row);
     });
@@ -140,17 +192,33 @@ function filterByNickname() {
         }
     });
 
-    if (visibleCount === 0 && searchTerm) {
-        table.style.display = 'none';
-        noResultsMessage.style.display = 'block';
-    } else {
-        table.style.display = '';
-        noResultsMessage.style.display = 'none';
-    }
+    noResultsMessage.style.display = (visibleCount === 0 && searchTerm) ? 'block' : 'none';
 }
 
 /** 이미지 저장 */
-function saveTableAsImage() { /* ... 기존과 동일 ... */ }
+function saveTableAsImage() {
+    const target = document.querySelector(".table-container");
+    const button = document.getElementById('saveAsImageBtn');
+    button.textContent = '저장 중...';
+    button.disabled = true;
+
+    html2canvas(target, { backgroundColor: '#16213e', scale: 2 })
+    .then(canvas => {
+        const link = document.createElement("a");
+        const date = new Date();
+        const formattedDate = `${date.getFullYear()}-${(date.getMonth() + 1).toString().padStart(2, '0')}-${date.getDate().toString().padStart(2, '0')}`;
+        link.href = canvas.toDataURL("image/png", 1.0);
+        link.download = `ranking-${formattedDate}.png`;
+        link.click();
+        button.textContent = '이미지로 저장';
+        button.disabled = false;
+    }).catch(err => {
+        console.error("이미지 캡처 오류:", err);
+        alert("이미지 저장에 실패했습니다.");
+        button.textContent = '이미지로 저장';
+        button.disabled = false;
+    });
+}
 
 /** 날짜 문자열 파싱 유틸리티 */
 function parseDateString(dir) {

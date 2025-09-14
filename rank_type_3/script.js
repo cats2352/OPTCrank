@@ -7,23 +7,30 @@ let configData = {};
 let originalOldData = [];
 let originalNewData = [];
 
+// --- DOM 요소 ---
+const yearSelector = document.getElementById('yearSelector');
+const monthWeekSelector = document.getElementById('monthWeekSelector');
+const dataSelector = document.getElementById('dataSelector');
+const singleViewCheckbox = document.getElementById('singleViewCheckbox');
+const comparisonSelection = document.getElementById('comparisonSelection');
+const singleSelection = document.getElementById('singleSelection');
+const tableContainer = document.querySelector('.table-container');
+
 // --- 이벤트 리스너 ---
-document.addEventListener('DOMContentLoaded', () => {
-    initializeApp();
-    // 정렬 버튼에 이벤트 리스너 추가
-    document.querySelectorAll('.sort-btn').forEach(button => {
-        button.addEventListener('click', () => {
-            document.querySelectorAll('.sort-btn').forEach(btn => btn.classList.remove('active'));
-            button.classList.add('active');
-            sortTable(button.dataset.sortBy);
-        });
+document.addEventListener('DOMContentLoaded', initializeApp);
+document.querySelectorAll('.sort-btn').forEach(button => {
+    button.addEventListener('click', () => {
+        document.querySelectorAll('.sort-btn').forEach(btn => btn.classList.remove('active'));
+        button.classList.add('active');
+        sortTable(button.dataset.sortBy);
     });
 });
 document.getElementById('saveAsImageBtn').addEventListener('click', saveTableAsImage);
 document.getElementById('searchInput').addEventListener('input', filterByNickname);
-document.getElementById('yearSelector').addEventListener('change', updateMonthWeekSelector);
-document.getElementById('monthWeekSelector').addEventListener('change', loadAndCompareRankings);
-
+yearSelector.addEventListener('change', updateMonthWeekSelector);
+monthWeekSelector.addEventListener('change', loadAndCompareRankings);
+dataSelector.addEventListener('change', loadAndCompareRankings);
+singleViewCheckbox.addEventListener('change', toggleViewMode);
 
 /**
  * 페이지 초기화 함수
@@ -38,12 +45,18 @@ async function initializeApp() {
             alert('비교할 데이터가 2개 이상 필요합니다. config.json을 확인해주세요.');
             return;
         }
-        populateYearSelector();
-        updateMonthWeekSelector();
+        populateSelectors();
+        loadAndCompareRankings();
     } catch (error) {
         console.error("초기화 오류:", error);
         alert("config.json 파일을 불러오거나 처리하는 데 실패했습니다.");
     }
+}
+
+/** 모든 선택 메뉴 채우기 */
+function populateSelectors() {
+    populateYearSelector();
+    updateMonthWeekSelector();
 }
 
 /**
@@ -51,7 +64,6 @@ async function initializeApp() {
  */
 function populateYearSelector() {
     const directories = configData[RANKING_TYPE];
-    const yearSelector = document.getElementById('yearSelector');
     const years = [...new Set(directories.map(dir => parseDateString(dir).year))].sort((a, b) => b - a);
     
     yearSelector.innerHTML = '';
@@ -64,10 +76,9 @@ function populateYearSelector() {
 }
 
 /**
- * 월/주차 선택 메뉴 업데이트
+ * 월/주차 및 단일 데이터 선택 메뉴 업데이트
  */
 function updateMonthWeekSelector() {
-    const yearSelector = document.getElementById('yearSelector');
     const selectedYear = yearSelector.value;
     const directories = configData[RANKING_TYPE]
         .map(dir => ({ original: dir, parsed: parseDateString(dir) }))
@@ -75,19 +86,34 @@ function updateMonthWeekSelector() {
         .sort((a, b) => sortDirectories(a.original, b.original))
         .reverse();
 
-    const monthWeekSelector = document.getElementById('monthWeekSelector');
     monthWeekSelector.innerHTML = '';
+    dataSelector.innerHTML = '';
     
-    if (directories.length > 0) {
-        const latestDir = directories[0].original;
-        for (let i = 1; i < directories.length; i++) {
-            const dir = directories[i].original;
-            const option = document.createElement('option');
-            option.value = dir;
-            option.textContent = dir.replace(`${selectedYear}년`, '').trim();
-            monthWeekSelector.appendChild(option);
+    directories.forEach((dir, index) => {
+        // 단일 데이터 선택 메뉴 채우기
+        const dataOption = document.createElement('option');
+        dataOption.value = dir.original;
+        dataOption.textContent = dir.original; // 연도 포함
+        dataSelector.appendChild(dataOption);
+
+        // 비교 시점 선택 메뉴 채우기 (최신 데이터 제외)
+        if (index > 0) {
+            const comparisonOption = document.createElement('option');
+            comparisonOption.value = dir.original;
+            comparisonOption.textContent = dir.original; // 연도 포함
+            monthWeekSelector.appendChild(comparisonOption);
         }
-    }
+    });
+    
+    loadAndCompareRankings();
+}
+
+/** 보기 모드 전환 (단일/비교) */
+function toggleViewMode() {
+    const isSingleView = singleViewCheckbox.checked;
+    comparisonSelection.style.display = isSingleView ? 'none' : '';
+    singleSelection.style.display = isSingleView ? '' : 'none';
+    tableContainer.classList.toggle('single-view', isSingleView);
     loadAndCompareRankings();
 }
 
@@ -95,34 +121,49 @@ function updateMonthWeekSelector() {
  * 랭킹 데이터 불러오기 및 비교
  */
 async function loadAndCompareRankings() {
-    const selectedComparisonDir = document.getElementById('monthWeekSelector').value;
-    if (!selectedComparisonDir) return;
+    const isSingleView = singleViewCheckbox.checked;
 
-    const allDirectories = configData[RANKING_TYPE].sort(sortDirectories).reverse();
-    const latestDir = allDirectories[0];
+    if (isSingleView) {
+        const selectedDir = dataSelector.value;
+        if (!selectedDir) return;
+        const path = `../data/${RANKING_TYPE}/${selectedDir}/${DATA_FILE_NAME}`;
+        try {
+            const data = await fetch(path).then(res => res.json());
+            originalNewData = data.ranked_records;
+            displayResults(null, originalNewData);
+        } catch (error) {
+            console.error("랭킹 파일 로딩 오류:", error);
+            alert("랭킹 파일을 불러오는 데 실패했습니다.");
+        }
+    } else {
+        const selectedComparisonDir = monthWeekSelector.value;
+        if (!selectedComparisonDir) return;
 
-    const latestPath = `../data/${RANKING_TYPE}/${latestDir}/${DATA_FILE_NAME}`;
-    const comparisonPath = `../data/${RANKING_TYPE}/${selectedComparisonDir}/${DATA_FILE_NAME}`;
-    
-    try {
-        const [oldJson, newJson] = await Promise.all([
-            fetch(comparisonPath).then(res => res.json()),
-            fetch(latestPath).then(res => res.json())
-        ]);
+        const allDirectories = configData[RANKING_TYPE].sort(sortDirectories).reverse();
+        const latestDir = allDirectories[0];
+
+        const latestPath = `../data/${RANKING_TYPE}/${latestDir}/${DATA_FILE_NAME}`;
+        const comparisonPath = `../data/${RANKING_TYPE}/${selectedComparisonDir}/${DATA_FILE_NAME}`;
         
-        originalOldData = oldJson.ranked_records;
-        originalNewData = newJson.ranked_records;
-        
-        // 현재 활성화된 정렬 버튼 기준으로 정렬
-        const activeSortButton = document.querySelector('.sort-btn.active');
-        const sortBy = activeSortButton ? activeSortButton.dataset.sortBy : 'kizuna_battle_point';
-        sortTable(sortBy);
-
-    } catch (error) {
-        console.error("랭킹 파일 로딩 오류:", error);
-        alert("랭킹 파일을 불러오는 데 실패했습니다.");
+        try {
+            const [oldJson, newJson] = await Promise.all([
+                fetch(comparisonPath).then(res => res.json()),
+                fetch(latestPath).then(res => res.json())
+            ]);
+            
+            originalOldData = oldJson.ranked_records;
+            originalNewData = newJson.ranked_records;
+            
+            const activeSortButton = document.querySelector('.sort-btn.active');
+            const sortBy = activeSortButton ? activeSortButton.dataset.sortBy : 'kizuna_battle_point';
+            sortTable(sortBy);
+        } catch (error) {
+            console.error("랭킹 파일 로딩 오류:", error);
+            alert("랭킹 파일을 불러오는 데 실패했습니다.");
+        }
     }
 }
+
 
 /**
  * 선택된 기준으로 데이터를 정렬하는 함수
@@ -130,29 +171,32 @@ async function loadAndCompareRankings() {
 function sortTable(sortBy) {
     const sortedData = [...originalNewData];
     sortedData.sort((a, b) => b[sortBy] - a[sortBy]);
-    displayResults(sortedData);
+    displayResults(originalOldData, sortedData);
 }
 
 /**
  * 랭킹 데이터를 화면 테이블에 표시하는 함수
  */
-function displayResults(newData) {
+function displayResults(oldData, newData) {
+    const isSingleView = singleViewCheckbox.checked;
     const tableBody = document.querySelector('#resultsTable tbody');
     tableBody.innerHTML = '';
-    const oldRanksMap = new Map(originalOldData.map(user => [user.nickname, user.rank]));
+    const oldRanksMap = !isSingleView && oldData ? new Map(oldData.map(user => [user.nickname, user.rank])) : null;
 
     newData.forEach((newUser, index) => {
-        const oldRank = oldRanksMap.get(newUser.nickname);
-        let rankChangeText = '';
+        let rankChangeText = '-';
         let rankChangeClass = '';
 
-        if (oldRank !== undefined) {
-            const change = oldRank - newUser.rank;
-            if (change > 0) { rankChangeText = `▲ ${change}`; rankChangeClass = 'rank-up'; }
-            else if (change < 0) { rankChangeText = `▼ ${Math.abs(change)}`; rankChangeClass = 'rank-down'; }
-            else { rankChangeText = '-'; rankChangeClass = 'rank-same'; }
-        } else {
-            rankChangeText = 'New'; rankChangeClass = 'rank-new';
+        if (!isSingleView && oldRanksMap) {
+            const oldRank = oldRanksMap.get(newUser.nickname);
+            if (oldRank !== undefined) {
+                const change = oldRank - newUser.rank;
+                if (change > 0) { rankChangeText = `▲ ${change}`; rankChangeClass = 'rank-up'; }
+                else if (change < 0) { rankChangeText = `▼ ${Math.abs(change)}`; rankChangeClass = 'rank-down'; }
+                else { rankChangeText = '-'; rankChangeClass = 'rank-same'; }
+            } else {
+                rankChangeText = 'New'; rankChangeClass = 'rank-new';
+            }
         }
 
         const row = document.createElement('tr');
@@ -164,12 +208,13 @@ function displayResults(newData) {
             <td>${newUser.rescue_count}</td>
             <td>${newUser.battle_count}</td>
             <td>${newUser.kizuna_battle_point.toLocaleString()}</td>
-            <td>${rankChangeText}</td>
+            <td class="rank-change">${rankChangeText}</td>
         `;
         tableBody.appendChild(row);
     });
     filterByNickname();
 }
+
 
 /**
  * 입력된 닉네임으로 테이블 결과를 필터링하는 함수
@@ -192,10 +237,8 @@ function filterByNickname() {
     });
 
     if (visibleCount === 0 && searchTerm) {
-        table.style.display = 'none';
         noResultsMessage.style.display = 'block';
     } else {
-        table.style.display = '';
         noResultsMessage.style.display = 'none';
     }
 }
