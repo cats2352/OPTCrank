@@ -1,6 +1,5 @@
 // 이벤트 리스너 설정
 document.addEventListener('DOMContentLoaded', loadAndCompareRankings);
-document.getElementById('reloadBtn').addEventListener('click', loadAndCompareRankings);
 document.getElementById('saveAsImageBtn').addEventListener('click', saveTableAsImage);
 document.getElementById('searchInput').addEventListener('input', filterByNickname);
 
