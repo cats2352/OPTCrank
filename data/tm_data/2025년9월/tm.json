@@ -2,18 +2,1602 @@
   "rank_data": [
     {
       "rank": 1,
-      "rank_rate": null,
-      "treasure_point": 0,
-      "leader_character_id": 13358,
+      "rank_rate": "0.01",
+      "treasure_point": 29146812723,
+      "leader_character_id": 13701,
+      "user": {
+        "id": 1756780,
+        "nickname": "[ΛF] b00ndesn00b",
+        "achievement": "Mystery <icon=common_font_garp.png> Hero",
+        "level": 1931
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 1
+      }
+    },
+    {
+      "rank": 2,
+      "rank_rate": "0.03",
+      "treasure_point": 22007250601,
+      "leader_character_id": 13472,
+      "user": {
+        "id": 38696709,
+        "nickname": "조이조이",
+        "achievement": "",
+        "level": 1729
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 2
+      }
+    },
+    {
+      "rank": 3,
+      "rank_rate": "0.05",
+      "treasure_point": 19695525495,
+      "leader_character_id": 14370,
+      "user": {
+        "id": 31408717,
+        "nickname": "【SUS】 ZO - ゾラ ⚓",
+        "achievement": "<icon=common_font_doflamingo.png> Champion of Evil",
+        "level": 1571
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 3
+      }
+    },
+    {
+      "rank": 4,
+      "rank_rate": "0.07",
+      "treasure_point": 18744684865,
+      "leader_character_id": 14551,
+      "user": {
+        "id": 38756250,
+        "nickname": "초오전박살",
+        "achievement": "피해자 모임",
+        "level": 1671
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 4
+      }
+    },
+    {
+      "rank": 5,
+      "rank_rate": "0.08",
+      "treasure_point": 15558422156,
+      "leader_character_id": 13361,
+      "user": {
+        "id": 38669808,
+        "nickname": "벨",
+        "achievement": "<icon=common_font_world_cruise2024_0053_robin_6.png>",
+        "level": 1648
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 5
+      }
+    },
+    {
+      "rank": 6,
+      "rank_rate": "0.1",
+      "treasure_point": 14910527419,
+      "leader_character_id": 14551,
+      "user": {
+        "id": 4211066,
+        "nickname": "TRA - Procamich",
+        "achievement": "<icon=common_font_kaizokudoumeidairansen_0083_vs_strongest_3_14307.png>",
+        "level": 1872
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 6
+      }
+    },
+    {
+      "rank": 7,
+      "rank_rate": "0.12",
+      "treasure_point": 14018369993,
+      "leader_character_id": 14551,
+      "user": {
+        "id": 15291919,
+        "nickname": "[P☠️⚡️N] ɘ✗.Ɲ๏ɱ ☂️",
+        "achievement": "Chill-Chill",
+        "level": 1409
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 7
+      }
+    },
+    {
+      "rank": 8,
+      "rank_rate": "0.14",
+      "treasure_point": 13937949081,
+      "leader_character_id": 14551,
       "user": {
         "id": 11279,
         "nickname": "[ΛF] Puzzy",
         "achievement": "<icon=common_font_world_cruise2024_0053_sanji_2.png>",
-        "level": 1768
+        "level": 1766
       },
       "map_game_result": {
         "league_number": 3,
         "rank": 8
+      }
+    },
+    {
+      "rank": 9,
+      "rank_rate": "0.15",
+      "treasure_point": 12475055985,
+      "leader_character_id": 14551,
+      "user": {
+        "id": 32099185,
+        "nickname": "【SUS】 Scratchy",
+        "achievement": "Panties at Christmas Tree",
+        "level": 1207
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 9
+      }
+    },
+    {
+      "rank": 10,
+      "rank_rate": "0.17",
+      "treasure_point": 12326642193,
+      "leader_character_id": 13472,
+      "user": {
+        "id": 38661682,
+        "nickname": "샬롯_Kakao♦️",
+        "achievement": "",
+        "level": 2005
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 10
+      }
+    },
+    {
+      "rank": 11,
+      "rank_rate": "0.19",
+      "treasure_point": 12043217659,
+      "leader_character_id": 14551,
+      "user": {
+        "id": 57309682,
+        "nickname": "ƬƦƛ | ꜱᴀꜱᴏʀɪ",
+        "achievement": "Rogue Ninja",
+        "level": 1286
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 11
+      }
+    },
+    {
+      "rank": 12,
+      "rank_rate": "0.21",
+      "treasure_point": 10640005467,
+      "leader_character_id": 13472,
+      "user": {
+        "id": 38665349,
+        "nickname": "샬롯_Hwaniz♦️",
+        "achievement": "",
+        "level": 2255
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 12
+      }
+    },
+    {
+      "rank": 13,
+      "rank_rate": "0.22",
+      "treasure_point": 7346907725,
+      "leader_character_id": 13472,
+      "user": {
+        "id": 17529716,
+        "nickname": " GreG.",
+        "achievement": "3e anniversaire",
+        "level": 1307
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 13
+      }
+    },
+    {
+      "rank": 14,
+      "rank_rate": "0.24",
+      "treasure_point": 7272004656,
+      "leader_character_id": 14551,
+      "user": {
+        "id": 2496140,
+        "nickname": "[ΛF] ズのｷﾉ",
+        "achievement": "<icon=common_font_world_cruise2025_0084_zoro_2.png>",
+        "level": 1626
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 14
+      }
+    },
+    {
+      "rank": 15,
+      "rank_rate": "0.26",
+      "treasure_point": 6258643519,
+      "leader_character_id": 14552,
+      "user": {
+        "id": 38662723,
+        "nickname": "⚡제우스⚡️",
+        "achievement": "",
+        "level": 1654
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 15
+      }
+    },
+    {
+      "rank": 16,
+      "rank_rate": "0.28",
+      "treasure_point": 6066210247,
+      "leader_character_id": 14551,
+      "user": {
+        "id": 51214124,
+        "nickname": "[TRA] Haldir",
+        "achievement": "<icon=common_font_world_cruise2024_0053_nami_nyusho.png>",
+        "level": 1280
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 16
+      }
+    },
+    {
+      "rank": 17,
+      "rank_rate": "0.29",
+      "treasure_point": 6033053351,
+      "leader_character_id": 14511,
+      "user": {
+        "id": 51297311,
+        "nickname": "TRA 壊れた忘れた ꧁꧂",
+        "achievement": "Traitor",
+        "level": 1025
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 17
+      }
+    },
+    {
+      "rank": 18,
+      "rank_rate": "0.31",
+      "treasure_point": 5706780669,
+      "leader_character_id": 14551,
+      "user": {
+        "id": 19125,
+        "nickname": "[P☠️⚡️N]₴corpio₦ ❦",
+        "achievement": "Bro Chill-Chill",
+        "level": 1451
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 18
+      }
+    },
+    {
+      "rank": 19,
+      "rank_rate": "0.33",
+      "treasure_point": 5569862351,
+      "leader_character_id": 13472,
+      "user": {
+        "id": 46596119,
+        "nickname": "[TRA] over9000",
+        "achievement": "Rough inside Adoptive Brother",
+        "level": 1275
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 19
+      }
+    },
+    {
+      "rank": 20,
+      "rank_rate": "0.35",
+      "treasure_point": 5283797192,
+      "leader_character_id": 14551,
+      "user": {
+        "id": 39526499,
+        "nickname": "Gure",
+        "achievement": "푸푸풋!! 히끅!!",
+        "level": 1426
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 20
+      }
+    },
+    {
+      "rank": 21,
+      "rank_rate": "0.36",
+      "treasure_point": 4664617781,
+      "leader_character_id": 13701,
+      "user": {
+        "id": 38676603,
+        "nickname": "비런드ʕ •ᴥ•ʔ",
+        "achievement": "토끼 의 해적왕",
+        "level": 1665
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 21
+      }
+    },
+    {
+      "rank": 22,
+      "rank_rate": "0.38",
+      "treasure_point": 4637460523,
+      "leader_character_id": 14370,
+      "user": {
+        "id": 16993555,
+        "nickname": "[P☠️⚡N]Crown Clown",
+        "achievement": "<icon=common_font_10th.png>",
+        "level": 1769
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 22
+      }
+    },
+    {
+      "rank": 23,
+      "rank_rate": "0.4",
+      "treasure_point": 4594863620,
+      "leader_character_id": 13465,
+      "user": {
+        "id": 42709542,
+        "nickname": "☠《⚡КiDĐ⚡》☠",
+        "achievement": "<icon=common_font_grandparty_0098_garling_garp_14512_14513.png> <icon=common_font_grandparty_0096_nami_yamato_otama_14301_14422.png>",
+        "level": 1374
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 23
+      }
+    },
+    {
+      "rank": 24,
+      "rank_rate": "0.42",
+      "treasure_point": 4136384750,
+      "leader_character_id": 14552,
+      "user": {
+        "id": 20607463,
+        "nickname": "GCR ☠️ Sheppo ❤️",
+        "achievement": "Soul King with Lazy Justice",
+        "level": 1433
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 24
+      }
+    },
+    {
+      "rank": 25,
+      "rank_rate": "0.44",
+      "treasure_point": 4134161925,
+      "leader_character_id": 13701,
+      "user": {
+        "id": 38815963,
+        "nickname": "마파",
+        "achievement": "피에로",
+        "level": 1475
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 25
+      }
+    },
+    {
+      "rank": 26,
+      "rank_rate": "0.45",
+      "treasure_point": 4130771392,
+      "leader_character_id": 13701,
+      "user": {
+        "id": 60294290,
+        "nickname": "[N͟͞G͟͞P͟͞]Łɪαɴσ₅₆",
+        "achievement": "<icon=common_font_super_pirate_rumble_0095_sabo_koara_nyusyo_10915.png> <icon=common_font_grandparty_0098_garling_garp_14512_14513.png>",
+        "level": 621
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 26
+      }
+    },
+    {
+      "rank": 27,
+      "rank_rate": "0.47",
+      "treasure_point": 4103260641,
+      "leader_character_id": 14552,
+      "user": {
+        "id": 38701707,
+        "nickname": "™Bro☠털즈⚓°•*⁀➷",
+        "achievement": "나 의 아저씨",
+        "level": 1881
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 27
+      }
+    },
+    {
+      "rank": 28,
+      "rank_rate": "0.49",
+      "treasure_point": 4076026390,
+      "leader_character_id": 13701,
+      "user": {
+        "id": 38664892,
+        "nickname": "[ΛF] Bmil",
+        "achievement": "갓 파더",
+        "level": 2144
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 28
+      }
+    },
+    {
+      "rank": 29,
+      "rank_rate": "0.51",
+      "treasure_point": 4071271501,
+      "leader_character_id": 14370,
+      "user": {
+        "id": 38759953,
+        "nickname": "J",
+        "achievement": "",
+        "level": 1354
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 29
+      }
+    },
+    {
+      "rank": 30,
+      "rank_rate": "0.52",
+      "treasure_point": 3917163089,
+      "leader_character_id": 14551,
+      "user": {
+        "id": 18679690,
+        "nickname": "[P☠️⚡️N]⚡️Phinks⚡️",
+        "achievement": "<icon=common_font_world_cruise2025_0084_nami_1.png>",
+        "level": 1338
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 30
+      }
+    },
+    {
+      "rank": 31,
+      "rank_rate": "0.54",
+      "treasure_point": 3732044497,
+      "leader_character_id": 13703,
+      "user": {
+        "id": 43565640,
+        "nickname": "[P☠️⚡N] tryangel",
+        "achievement": "",
+        "level": 600
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 31
+      }
+    },
+    {
+      "rank": 32,
+      "rank_rate": "0.56",
+      "treasure_point": 3723828742,
+      "leader_character_id": 13472,
+      "user": {
+        "id": 12248155,
+        "nickname": "[MPW] Superjumal",
+        "achievement": "Flying while Aye Aye",
+        "level": 1349
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 32
+      }
+    },
+    {
+      "rank": 33,
+      "rank_rate": "0.58",
+      "treasure_point": 3703097089,
+      "leader_character_id": 14016,
+      "user": {
+        "id": 38675248,
+        "nickname": "SᴋʏPɪᴇᴀ-Siaᴰᴮ",
+        "achievement": "5번대 대장 의 동료",
+        "level": 1704
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 33
+      }
+    },
+    {
+      "rank": 34,
+      "rank_rate": "0.59",
+      "treasure_point": 3628158651,
+      "leader_character_id": 14016,
+      "user": {
+        "id": 46456045,
+        "nickname": "돌고돌아순정",
+        "achievement": "기대 루키",
+        "level": 914
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 34
+      }
+    },
+    {
+      "rank": 35,
+      "rank_rate": "0.61",
+      "treasure_point": 3594867989,
+      "leader_character_id": 13361,
+      "user": {
+        "id": 12719350,
+        "nickname": "[STG]Ufoprogresivo",
+        "achievement": "Warlord of the Sea and Warrior",
+        "level": 1668
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 35
+      }
+    },
+    {
+      "rank": 36,
+      "rank_rate": "0.63",
+      "treasure_point": 3584462561,
+      "leader_character_id": 13472,
+      "user": {
+        "id": 35354516,
+        "nickname": "[ΛF] ☕ ndayu",
+        "achievement": "Promising Doofus",
+        "level": 1587
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 36
+      }
+    },
+    {
+      "rank": 37,
+      "rank_rate": "0.65",
+      "treasure_point": 3525126110,
+      "leader_character_id": 13701,
+      "user": {
+        "id": 38665622,
+        "nickname": "Voyage In Vain",
+        "achievement": "<icon=common_font_kizuna_moria_ranking_02.png> <icon=common_font_kizuna_luffi_hancock_ranking_s.png>",
+        "level": 1791
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 37
+      }
+    },
+    {
+      "rank": 38,
+      "rank_rate": "0.66",
+      "treasure_point": 3501976346,
+      "leader_character_id": 13704,
+      "user": {
+        "id": 38663963,
+        "nickname": "SᴋʏPɪᴇᴀ-컨버스오리",
+        "achievement": "꿈의 결말 제2장",
+        "level": 1655
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 38
+      }
+    },
+    {
+      "rank": 39,
+      "rank_rate": "0.68",
+      "treasure_point": 3372477871,
+      "leader_character_id": 13704,
+      "user": {
+        "id": 15744498,
+        "nickname": "[LPG] • VoODkA",
+        "achievement": "<icon=common_font_kizuna_battle_uta_1.png>",
+        "level": 1253
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 39
+      }
+    },
+    {
+      "rank": 40,
+      "rank_rate": "0.7",
+      "treasure_point": 3367290922,
+      "leader_character_id": 13472,
+      "user": {
+        "id": 57049258,
+        "nickname": "[⚡︎⚡︎] Plozion.",
+        "achievement": "<icon=common_font_kaizokudoumeidairansen_0069_kuzan_nyusyo.png>",
+        "level": 782
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 40
+      }
+    },
+    {
+      "rank": 41,
+      "rank_rate": "0.72",
+      "treasure_point": 3350744845,
+      "leader_character_id": 13358,
+      "user": {
+        "id": 46236713,
+        "nickname": "「IDR」 ELDUGONG",
+        "achievement": "Promising Rookie",
+        "level": 1428
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 41
+      }
+    },
+    {
+      "rank": 42,
+      "rank_rate": "0.73",
+      "treasure_point": 3337952447,
+      "leader_character_id": 13906,
+      "user": {
+        "id": 12142162,
+        "nickname": "TRA - ❤️ ヤマト ❤️",
+        "achievement": "<icon=common_font_world_cruise2025_0084_sanji_3.png> <icon=common_font_grandparty_0096_nami_yamato_otama_14301_14422.png>",
+        "level": 1385
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 42
+      }
+    },
+    {
+      "rank": 43,
+      "rank_rate": "0.75",
+      "treasure_point": 3280323114,
+      "leader_character_id": 14016,
+      "user": {
+        "id": 8612353,
+        "nickname": "[ΛF] The Hound",
+        "achievement": "<icon=common_font_zoro.png> Master Swordsman of <icon=common_font_waokuni.png>",
+        "level": 1553
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 43
+      }
+    },
+    {
+      "rank": 44,
+      "rank_rate": "0.77",
+      "treasure_point": 3277697172,
+      "leader_character_id": 13472,
+      "user": {
+        "id": 43500919,
+        "nickname": "ขี้แซะ&เด็กข้างไข่",
+        "achievement": "<icon=common_font_super_pirate_rumble_0095_sabo_koara_nyusyo_10915.png> <icon=common_font_grandparty_0094_saturn_bonny_14452_14457.png>",
+        "level": 613
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 44
+      }
+    },
+    {
+      "rank": 45,
+      "rank_rate": "0.79",
+      "treasure_point": 3222067894,
+      "leader_character_id": 14551,
+      "user": {
+        "id": 22262680,
+        "nickname": "[ΛF]⚡️TruGOAT⚡️",
+        "achievement": "<icon=common_font_world_cruise2025_0084_luffy_3.png> <icon=common_font_world_cruise2024_0053_nami_9.png>",
+        "level": 1474
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 45
+      }
+    },
+    {
+      "rank": 46,
+      "rank_rate": "0.81",
+      "treasure_point": 3152857023,
+      "leader_character_id": 14551,
+      "user": {
+        "id": 5500503,
+        "nickname": "[P☠️⚡N] PAP CHIAP",
+        "achievement": "Extra-Large Moby Dick",
+        "level": 1468
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 46
+      }
+    },
+    {
+      "rank": 47,
+      "rank_rate": "0.82",
+      "treasure_point": 3105201839,
+      "leader_character_id": 13906,
+      "user": {
+        "id": 25381405,
+        "nickname": "ⓉⓇⓈ一笑丶",
+        "achievement": "<icon=common_font_10th.png> <icon=common_font_pirate_rumble_grandparty_sp_0081_luffy_sabo_ace.png>",
+        "level": 1027
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 47
+      }
+    },
+    {
+      "rank": 48,
+      "rank_rate": "0.84",
+      "treasure_point": 3080290099,
+      "leader_character_id": 13472,
+      "user": {
+        "id": 38759537,
+        "nickname": "[ΛF] Ace",
+        "achievement": "<icon=common_font_world_cruise2025_0084_zoro_3.png> <icon=common_font_world_cruise2024_0053_robin_8.png>",
+        "level": 2028
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 48
+      }
+    },
+    {
+      "rank": 49,
+      "rank_rate": "0.86",
+      "treasure_point": 3078963033,
+      "leader_character_id": 13472,
+      "user": {
+        "id": 38753839,
+        "nickname": "DeukDo",
+        "achievement": "",
+        "level": 1734
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 49
+      }
+    },
+    {
+      "rank": 50,
+      "rank_rate": "0.88",
+      "treasure_point": 2901857864,
+      "leader_character_id": 14551,
+      "user": {
+        "id": 23094089,
+        "nickname": "【SUS】 Dr. P.",
+        "achievement": "<icon=common_font_kaizokudoumeidairansen_0079_vs_navy_nyusyo.png> <icon=common_font_pirate_rumble_grandparty_0035_luffy_gear5.png>",
+        "level": 1288
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 50
+      }
+    },
+    {
+      "rank": 51,
+      "rank_rate": "0.89",
+      "treasure_point": 2820766921,
+      "leader_character_id": 13704,
+      "user": {
+        "id": 38663646,
+        "nickname": "형제덮밥",
+        "achievement": "펄럭펄럭",
+        "level": 1613
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 51
+      }
+    },
+    {
+      "rank": 52,
+      "rank_rate": "0.91",
+      "treasure_point": 2683337992,
+      "leader_character_id": 14370,
+      "user": {
+        "id": 38666863,
+        "nickname": "샬롯_이솜아빠♦️",
+        "achievement": "고마워",
+        "level": 1448
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 52
+      }
+    },
+    {
+      "rank": 53,
+      "rank_rate": "0.93",
+      "treasure_point": 2635446414,
+      "leader_character_id": 13701,
+      "user": {
+        "id": 2177965,
+        "nickname": "[GT] Baba",
+        "achievement": "Don't Get in My Way Bro",
+        "level": 1358
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 53
+      }
+    },
+    {
+      "rank": 54,
+      "rank_rate": "0.95",
+      "treasure_point": 2471818861,
+      "leader_character_id": 13701,
+      "user": {
+        "id": 11030203,
+        "nickname": "[TRA] ✞Antiℂristo✞",
+        "achievement": "Useless but <icon=common_font_10th.png>",
+        "level": 1495
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 54
+      }
+    },
+    {
+      "rank": 55,
+      "rank_rate": "0.96",
+      "treasure_point": 2457801734,
+      "leader_character_id": 14016,
+      "user": {
+        "id": 38888286,
+        "nickname": "장어초밥",
+        "achievement": "펄럭펄럭",
+        "level": 1336
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 55
+      }
+    },
+    {
+      "rank": 56,
+      "rank_rate": "0.98",
+      "treasure_point": 2314078666,
+      "leader_character_id": 14122,
+      "user": {
+        "id": 43684803,
+        "nickname": "ST12 - Putri iklan",
+        "achievement": "Promising Rookie",
+        "level": 597
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 56
+      }
+    },
+    {
+      "rank": 57,
+      "rank_rate": "1",
+      "treasure_point": 2209457993,
+      "leader_character_id": 14551,
+      "user": {
+        "id": 38770324,
+        "nickname": "SᴋʏPɪᴇᴀ-남매둥이",
+        "achievement": "선장 그리고 5번대 대장",
+        "level": 1680
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 57
+      }
+    },
+    {
+      "rank": 58,
+      "rank_rate": "1.02",
+      "treasure_point": 2077791819,
+      "leader_character_id": 13704,
+      "user": {
+        "id": 20091596,
+        "nickname": "ⓈⒼⒻ NocturnesNova",
+        "achievement": "Miracle Maker Cream Monster",
+        "level": 1123
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 58
+      }
+    },
+    {
+      "rank": 59,
+      "rank_rate": "1.03",
+      "treasure_point": 1788020089,
+      "leader_character_id": 13701,
+      "user": {
+        "id": 38756018,
+        "nickname": "JUSTICE⚔기억",
+        "achievement": "기대 루키",
+        "level": 2390
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 59
+      }
+    },
+    {
+      "rank": 60,
+      "rank_rate": "1.05",
+      "treasure_point": 1719627904,
+      "leader_character_id": 13701,
+      "user": {
+        "id": 53625348,
+        "nickname": "[TRA] HiM",
+        "achievement": "Kuja Empress",
+        "level": 1567
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 60
+      }
+    },
+    {
+      "rank": 61,
+      "rank_rate": "1.07",
+      "treasure_point": 1710880753,
+      "leader_character_id": 14551,
+      "user": {
+        "id": 43579440,
+        "nickname": "N.조이 보이",
+        "achievement": "성 인 용",
+        "level": 1278
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 61
+      }
+    },
+    {
+      "rank": 62,
+      "rank_rate": "1.09",
+      "treasure_point": 1681290956,
+      "leader_character_id": 13701,
+      "user": {
+        "id": 38659647,
+        "nickname": "컵라면돼지",
+        "achievement": "XL 사이즈 뚱보",
+        "level": 1382
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 62
+      }
+    },
+    {
+      "rank": 63,
+      "rank_rate": "1.1",
+      "treasure_point": 1565561912,
+      "leader_character_id": 14467,
+      "user": {
+        "id": 45307092,
+        "nickname": "【HWꓨ】 Λᴅᴅɪsᴏɴ ༄",
+        "achievement": "Ze Ha Ha",
+        "level": 1484
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 63
+      }
+    },
+    {
+      "rank": 64,
+      "rank_rate": "1.12",
+      "treasure_point": 1504090279,
+      "leader_character_id": 13704,
+      "user": {
+        "id": 31741754,
+        "nickname": "【TRA】 AGĆÕŔAŹON",
+        "achievement": "Promising Rookie",
+        "level": 1414
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 64
+      }
+    },
+    {
+      "rank": 65,
+      "rank_rate": "1.14",
+      "treasure_point": 1457177583,
+      "leader_character_id": 13701,
+      "user": {
+        "id": 38768523,
+        "nickname": "오다센세아리가또",
+        "achievement": "1주년 부터 <icon=common_font_11th_0091.png>",
+        "level": 1503
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 65
+      }
+    },
+    {
+      "rank": 66,
+      "rank_rate": "1.16",
+      "treasure_point": 1453447293,
+      "leader_character_id": 10153,
+      "user": {
+        "id": 38680394,
+        "nickname": "SᴋʏPɪᴇᴀ-BaRoNi",
+        "achievement": "<icon=common_font_11th_0091.png>",
+        "level": 1710
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 66
+      }
+    },
+    {
+      "rank": 67,
+      "rank_rate": "1.18",
+      "treasure_point": 1419555684,
+      "leader_character_id": 13704,
+      "user": {
+        "id": 39653801,
+        "nickname": "알Get다☠️사황☠️",
+        "achievement": "<icon=common_font_10th.png> 할짜락♪",
+        "level": 1585
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 67
+      }
+    },
+    {
+      "rank": 68,
+      "rank_rate": "1.19",
+      "treasure_point": 1411713744,
+      "leader_character_id": 13465,
+      "user": {
+        "id": 47237468,
+        "nickname": "แมวน้อย",
+        "achievement": "<icon=common_font_world_cruise2025_0084_sanji_kantou.png> <icon=common_font_11th_0091.png>",
+        "level": 917
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 68
+      }
+    },
+    {
+      "rank": 69,
+      "rank_rate": "1.21",
+      "treasure_point": 1380939748,
+      "leader_character_id": 13361,
+      "user": {
+        "id": 45961213,
+        "nickname": "TRA ✨LS✨",
+        "achievement": "Le jeune plein d'avenir  Le talentueux débutant",
+        "level": 1709
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 69
+      }
+    },
+    {
+      "rank": 70,
+      "rank_rate": "1.23",
+      "treasure_point": 1368581002,
+      "leader_character_id": 14525,
+      "user": {
+        "id": 38736307,
+        "nickname": "가다마사자카",
+        "achievement": "히끅!! 히끅!!",
+        "level": 622
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 70
+      }
+    },
+    {
+      "rank": 71,
+      "rank_rate": "1.25",
+      "treasure_point": 1333972345,
+      "leader_character_id": 13472,
+      "user": {
+        "id": 39753343,
+        "nickname": "체나",
+        "achievement": "기대 루키",
+        "level": 622
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 71
+      }
+    },
+    {
+      "rank": 72,
+      "rank_rate": "1.26",
+      "treasure_point": 1283657990,
+      "leader_character_id": 12760,
+      "user": {
+        "id": 38873449,
+        "nickname": "그루팔로",
+        "achievement": "명왕 <icon=common_font_world_cruise2025_0084_robin_3.png>",
+        "level": 1448
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 72
+      }
+    },
+    {
+      "rank": 73,
+      "rank_rate": "1.28",
+      "treasure_point": 1258418142,
+      "leader_character_id": 14552,
+      "user": {
+        "id": 39371911,
+        "nickname": "(라프텔)모찌",
+        "achievement": "<icon=common_font_kizuna_battle_0097_mihawk_perona_1_14511.png> 그리고 <icon=common_font_grandparty_0098_garling_garp_14512_14513.png>",
+        "level": 719
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 73
+      }
+    },
+    {
+      "rank": 74,
+      "rank_rate": "1.3",
+      "treasure_point": 1244772953,
+      "leader_character_id": 13358,
+      "user": {
+        "id": 46732374,
+        "nickname": "Radical Pirates",
+        "achievement": "",
+        "level": 732
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 74
+      }
+    },
+    {
+      "rank": 75,
+      "rank_rate": "1.32",
+      "treasure_point": 1232809600,
+      "leader_character_id": 13358,
+      "user": {
+        "id": 21370676,
+        "nickname": "[OPH] j a t",
+        "achievement": "Heavenly Demon",
+        "level": 1311
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 75
+      }
+    },
+    {
+      "rank": 76,
+      "rank_rate": "1.33",
+      "treasure_point": 1216666062,
+      "leader_character_id": 13358,
+      "user": {
+        "id": 31075339,
+        "nickname": "Eleven's",
+        "achievement": "Ladylike Sexy",
+        "level": 1393
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 76
+      }
+    },
+    {
+      "rank": 77,
+      "rank_rate": "1.35",
+      "treasure_point": 1169141001,
+      "leader_character_id": 14525,
+      "user": {
+        "id": 21094719,
+        "nickname": "Monkey D. Chokez",
+        "achievement": "<icon=common_font_grandparty_0098_garling_garp_14512_14513.png> among <icon=common_font_dairansen_0090_kizaru_nyusyo_14411.png>",
+        "level": 1058
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 77
+      }
+    },
+    {
+      "rank": 78,
+      "rank_rate": "1.37",
+      "treasure_point": 1167841430,
+      "leader_character_id": 14370,
+      "user": {
+        "id": 33299756,
+        "nickname": "[LPG] • ʂƙ⭐ɓ૨ơơƙ ♬",
+        "achievement": "Laboon",
+        "level": 1360
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 78
+      }
+    },
+    {
+      "rank": 79,
+      "rank_rate": "1.39",
+      "treasure_point": 1164696563,
+      "leader_character_id": 14551,
+      "user": {
+        "id": 28497694,
+        "nickname": "【SUS】 DayDreamer",
+        "achievement": "Promising Rookie",
+        "level": 1409
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 79
+      }
+    },
+    {
+      "rank": 80,
+      "rank_rate": "1.4",
+      "treasure_point": 1157425100,
+      "leader_character_id": 14552,
+      "user": {
+        "id": 13063651,
+        "nickname": "[GT] Espen223",
+        "achievement": "<icon=common_font_kaizokudoumeidairansen_0028_kaido_nyusyo.png> <icon=common_font_world_cruise2023_0025_luffy_nyusyo.png>",
+        "level": 863
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 80
+      }
+    },
+    {
+      "rank": 81,
+      "rank_rate": "1.42",
+      "treasure_point": 1156106290,
+      "leader_character_id": 14551,
+      "user": {
+        "id": 11566393,
+        "nickname": "Mugy D Djew ⭐️ 345",
+        "achievement": "<icon=common_font_grandparty_0098_garling_garp_14512_14513.png>",
+        "level": 846
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 81
+      }
+    },
+    {
+      "rank": 82,
+      "rank_rate": "1.44",
+      "treasure_point": 1152315116,
+      "leader_character_id": 14551,
+      "user": {
+        "id": 18937189,
+        "nickname": "[TRA] Hermit",
+        "achievement": "<icon=common_font_pirate_rumble_grandparty_0088_pica_dfla_14359_14351.png> <icon=common_font_grandparty_0094_saturn_bonny_14452_14457.png>",
+        "level": 1293
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 82
+      }
+    },
+    {
+      "rank": 83,
+      "rank_rate": "1.46",
+      "treasure_point": 1143865112,
+      "leader_character_id": 13358,
+      "user": {
+        "id": 61410615,
+        "nickname": "[HWꓨ] LAByR!ntH✨༻",
+        "achievement": "<icon=common_font_pirate_rumble_grandparty_0085_luffy_lucch_14304.png> <icon=common_font_kaizokudoumeidairansen_0083_vs_strongest_kantou_14307.png>",
+        "level": 1235
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 83
+      }
+    },
+    {
+      "rank": 84,
+      "rank_rate": "1.47",
+      "treasure_point": 1138703203,
+      "leader_character_id": 13358,
+      "user": {
+        "id": 50902450,
+        "nickname": "SᴋʏPɪᴇᴀ-@_@",
+        "achievement": "세계의 여가수 은(는) 빨간 머리의 딸",
+        "level": 1208
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 84
+      }
+    },
+    {
+      "rank": 85,
+      "rank_rate": "1.49",
+      "treasure_point": 1133764310,
+      "leader_character_id": 14411,
+      "user": {
+        "id": 43678247,
+        "nickname": "무어",
+        "achievement": "<icon=common_font_11th_0091.png> 그리고 <icon=common_font_dairansen_0090_kizaru_kantou_14411.png>",
+        "level": 435
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 85
+      }
+    },
+    {
+      "rank": 86,
+      "rank_rate": "1.51",
+      "treasure_point": 1123243301,
+      "leader_character_id": 13472,
+      "user": {
+        "id": 38754811,
+        "nickname": "SᴋʏPɪᴇᴀ-콜스고",
+        "achievement": "기대 루키",
+        "level": 1672
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 86
+      }
+    },
+    {
+      "rank": 87,
+      "rank_rate": "1.53",
+      "treasure_point": 1116798752,
+      "leader_character_id": 14016,
+      "user": {
+        "id": 29675456,
+        "nickname": "[TGF] Bdx_Max",
+        "achievement": "Le jeune plein d'avenir  Le talentueux débutant",
+        "level": 1017
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 87
+      }
+    },
+    {
+      "rank": 88,
+      "rank_rate": "1.55",
+      "treasure_point": 1114089568,
+      "leader_character_id": 14551,
+      "user": {
+        "id": 35977974,
+        "nickname": "[P☠️⚡N]NewTheJesus",
+        "achievement": "Enjoying the Sea",
+        "level": 1142
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 88
+      }
+    },
+    {
+      "rank": 89,
+      "rank_rate": "1.56",
+      "treasure_point": 1108980114,
+      "leader_character_id": 13701,
+      "user": {
+        "id": 51878257,
+        "nickname": "-_Darkbolts_-",
+        "achievement": "Pikkyalala before Chop Chop",
+        "level": 1300
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 89
+      }
+    },
+    {
+      "rank": 90,
+      "rank_rate": "1.58",
+      "treasure_point": 1107735872,
+      "leader_character_id": 13358,
+      "user": {
+        "id": 39769640,
+        "nickname": "흥선대원군",
+        "achievement": "아가씨 에게 서비스",
+        "level": 1155
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 90
+      }
+    },
+    {
+      "rank": 91,
+      "rank_rate": "1.6",
+      "treasure_point": 1107093119,
+      "leader_character_id": 13472,
+      "user": {
+        "id": 38756642,
+        "nickname": "☠️P✘M☠️-아므기",
+        "achievement": "밤 의 요정",
+        "level": 1542
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 91
+      }
+    },
+    {
+      "rank": 92,
+      "rank_rate": "1.62",
+      "treasure_point": 1100917356,
+      "leader_character_id": 13701,
+      "user": {
+        "id": 35947351,
+        "nickname": "ⓉⓇⓈ Monkey D. Wise",
+        "achievement": "Captain of Old Fart",
+        "level": 1311
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 92
+      }
+    },
+    {
+      "rank": 93,
+      "rank_rate": "1.63",
+      "treasure_point": 1098006418,
+      "leader_character_id": 13472,
+      "user": {
+        "id": 40473775,
+        "nickname": "스콜",
+        "achievement": "기대 루키",
+        "level": 904
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 93
+      }
+    },
+    {
+      "rank": 94,
+      "rank_rate": "1.65",
+      "treasure_point": 1096506428,
+      "leader_character_id": 13358,
+      "user": {
+        "id": 24834094,
+        "nickname": "<SGF>kevinoptc24/7",
+        "achievement": "Promising Rookie",
+        "level": 1291
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 94
+      }
+    },
+    {
+      "rank": 95,
+      "rank_rate": "1.67",
+      "treasure_point": 1095122153,
+      "leader_character_id": 14016,
+      "user": {
+        "id": 47362918,
+        "nickname": "소말리아 해적단",
+        "achievement": "",
+        "level": 640
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 95
+      }
+    },
+    {
+      "rank": 96,
+      "rank_rate": "1.69",
+      "treasure_point": 1092191029,
+      "leader_character_id": 12760,
+      "user": {
+        "id": 51690341,
+        "nickname": "T4T4NG",
+        "achievement": "Promising Rookie",
+        "level": 1177
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 96
+      }
+    },
+    {
+      "rank": 97,
+      "rank_rate": "1.7",
+      "treasure_point": 1090685038,
+      "leader_character_id": 13472,
+      "user": {
+        "id": 35565332,
+        "nickname": "Kubrick 云",
+        "achievement": "Promising Rookie",
+        "level": 830
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 97
+      }
+    },
+    {
+      "rank": 98,
+      "rank_rate": "1.72",
+      "treasure_point": 1089354133,
+      "leader_character_id": 10153,
+      "user": {
+        "id": 39849456,
+        "nickname": "영자이",
+        "achievement": "기대 루키",
+        "level": 993
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 98
+      }
+    },
+    {
+      "rank": 99,
+      "rank_rate": "1.74",
+      "treasure_point": 1086240143,
+      "leader_character_id": 14552,
+      "user": {
+        "id": 29827153,
+        "nickname": "Vincenzoo",
+        "achievement": "<icon=common_font_zoro.png> Master Swordsman",
+        "level": 1196
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 99
+      }
+    },
+    {
+      "rank": 100,
+      "rank_rate": "1.76",
+      "treasure_point": 1084083830,
+      "leader_character_id": 14552,
+      "user": {
+        "id": 24240843,
+        "nickname": "Samugi ",
+        "achievement": "",
+        "level": 1294
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 100
       }
     }
   ],

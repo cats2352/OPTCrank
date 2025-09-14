@@ -10,8 +10,14 @@
 <body>
     <div class="container">
         <h1>🏆 현상금 랭킹</h1>
-        <p>전달과 이번 달의 랭킹 비교를 보여줍니다.</p>
+        <p>9월 현상금 랭킹입니다. 비교시점을 선택하여 비교해주세요.</p>
         <div class="controls">
+            <div class="selection-container">
+                <label for="yearSelector">연도:</label>
+                <select id="yearSelector"></select>
+                <label for="monthWeekSelector">비교 시점:</label>
+                <select id="monthWeekSelector"></select>
+            </div>  
             <div class="search-container">
                 <input type="text" id="searchInput" placeholder="닉네임 및 소속을 검색하세요...">
             </div>

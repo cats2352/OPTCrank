@@ -10,9 +10,15 @@
 <body>
     <div class="container">
         <h1>🏆9월 유대결전 랭킹</h1>
-        <p>전달과 이번 달의 랭킹비교를 보여줍니다.<br>현재는 9월13일 기준 랭킹입니다.</p>
+        <p>9월 유대결전 랭킹입니다.<br>비교시점을 선택하여 비교해주세요.</p>
 
         <div class="controls">
+            <div class="selection-container">
+                <label for="yearSelector">연도:</label>
+                <select id="yearSelector"></select>
+                <label for="monthWeekSelector">비교 시점:</label>
+                <select id="monthWeekSelector"></select>
+            </div>     
             <div class="sort-controls">
                 <span>정렬:</span>
                 <button class="sort-btn active" data-sort-by="kizuna_battle_point">포인트 순</button>

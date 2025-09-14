@@ -1,92 +1,162 @@
+// --- 설정 변수 ---
+const RANKING_TYPE = 'kizuna_data';
+const DATA_FILE_NAME = 'kizuna.json';
+
+// --- 전역 변수 ---
+let configData = {};
 let originalOldData = [];
 let originalNewData = [];
 
-// 이벤트 리스너 설정
+// --- 이벤트 리스너 ---
 document.addEventListener('DOMContentLoaded', () => {
-    loadAndCompareRankings();
-
+    initializeApp();
     // 정렬 버튼에 이벤트 리스너 추가
     document.querySelectorAll('.sort-btn').forEach(button => {
         button.addEventListener('click', () => {
-            // 모든 버튼에서 'active' 클래스 제거
             document.querySelectorAll('.sort-btn').forEach(btn => btn.classList.remove('active'));
-            // 클릭된 버튼에 'active' 클래스 추가
             button.classList.add('active');
-            
-            const sortBy = button.dataset.sortBy;
-            sortTable(sortBy);
+            sortTable(button.dataset.sortBy);
         });
     });
 });
-
 document.getElementById('saveAsImageBtn').addEventListener('click', saveTableAsImage);
 document.getElementById('searchInput').addEventListener('input', filterByNickname);
+document.getElementById('yearSelector').addEventListener('change', updateMonthWeekSelector);
+document.getElementById('monthWeekSelector').addEventListener('change', loadAndCompareRankings);
+
 
 /**
- * 랭킹 파일을 불러오고 비교하는 메인 함수
+ * 페이지 초기화 함수
  */
-function loadAndCompareRankings() {
-    Promise.all([
-        fetch('../data/kizuna_data/2025년8월/kizuna.json').then(response => response.json()),
-        fetch('../data/kizuna_data/2025년9월/kizuna.json').then(response => response.json())
-    ])
-    .then(([oldJson, newJson]) => {
+async function initializeApp() {
+    try {
+        const response = await fetch('../config.json');
+        configData = await response.json();
+        const directories = configData[RANKING_TYPE];
+
+        if (!directories || directories.length < 2) {
+            alert('비교할 데이터가 2개 이상 필요합니다. config.json을 확인해주세요.');
+            return;
+        }
+        populateYearSelector();
+        updateMonthWeekSelector();
+    } catch (error) {
+        console.error("초기화 오류:", error);
+        alert("config.json 파일을 불러오거나 처리하는 데 실패했습니다.");
+    }
+}
+
+/**
+ * 연도 선택 메뉴 채우기
+ */
+function populateYearSelector() {
+    const directories = configData[RANKING_TYPE];
+    const yearSelector = document.getElementById('yearSelector');
+    const years = [...new Set(directories.map(dir => parseDateString(dir).year))].sort((a, b) => b - a);
+    
+    yearSelector.innerHTML = '';
+    years.forEach(year => {
+        const option = document.createElement('option');
+        option.value = year;
+        option.textContent = `${year}년`;
+        yearSelector.appendChild(option);
+    });
+}
+
+/**
+ * 월/주차 선택 메뉴 업데이트
+ */
+function updateMonthWeekSelector() {
+    const yearSelector = document.getElementById('yearSelector');
+    const selectedYear = yearSelector.value;
+    const directories = configData[RANKING_TYPE]
+        .map(dir => ({ original: dir, parsed: parseDateString(dir) }))
+        .filter(item => item.parsed.year == selectedYear)
+        .sort((a, b) => sortDirectories(a.original, b.original))
+        .reverse();
+
+    const monthWeekSelector = document.getElementById('monthWeekSelector');
+    monthWeekSelector.innerHTML = '';
+    
+    if (directories.length > 0) {
+        const latestDir = directories[0].original;
+        for (let i = 1; i < directories.length; i++) {
+            const dir = directories[i].original;
+            const option = document.createElement('option');
+            option.value = dir;
+            option.textContent = dir.replace(`${selectedYear}년`, '').trim();
+            monthWeekSelector.appendChild(option);
+        }
+    }
+    loadAndCompareRankings();
+}
+
+/**
+ * 랭킹 데이터 불러오기 및 비교
+ */
+async function loadAndCompareRankings() {
+    const selectedComparisonDir = document.getElementById('monthWeekSelector').value;
+    if (!selectedComparisonDir) return;
+
+    const allDirectories = configData[RANKING_TYPE].sort(sortDirectories).reverse();
+    const latestDir = allDirectories[0];
+
+    const latestPath = `../data/${RANKING_TYPE}/${latestDir}/${DATA_FILE_NAME}`;
+    const comparisonPath = `../data/${RANKING_TYPE}/${selectedComparisonDir}/${DATA_FILE_NAME}`;
+    
+    try {
+        const [oldJson, newJson] = await Promise.all([
+            fetch(comparisonPath).then(res => res.json()),
+            fetch(latestPath).then(res => res.json())
+        ]);
+        
         originalOldData = oldJson.ranked_records;
         originalNewData = newJson.ranked_records;
         
-        // 페이지 로드 시 기본 정렬(유대 포인트) 실행
-        sortTable('kizuna_battle_point');
-    })
-    .catch(error => {
+        // 현재 활성화된 정렬 버튼 기준으로 정렬
+        const activeSortButton = document.querySelector('.sort-btn.active');
+        const sortBy = activeSortButton ? activeSortButton.dataset.sortBy : 'kizuna_battle_point';
+        sortTable(sortBy);
+
+    } catch (error) {
         console.error("랭킹 파일 로딩 오류:", error);
-        alert("랭킹 파일을 불러오는 데 실패했습니다. 'data/kizuna_data/' 폴더에 파일이 있는지 확인해주세요.");
-    });
+        alert("랭킹 파일을 불러오는 데 실패했습니다.");
+    }
 }
 
 /**
  * 선택된 기준으로 데이터를 정렬하는 함수
- * @param {string} sortBy - 정렬 기준이 될 키 이름
  */
 function sortTable(sortBy) {
-    // 원본 데이터의 복사본을 만들어 정렬 (원본 훼손 방지)
     const sortedData = [...originalNewData];
-
-    sortedData.sort((a, b) => {
-        // b - a : 내림차순 (높은 값이 위로)
-        return b[sortBy] - a[sortBy];
-    });
-    
-    // 정렬된 데이터로 테이블 다시 표시
+    sortedData.sort((a, b) => b[sortBy] - a[sortBy]);
     displayResults(sortedData);
 }
 
 /**
- * 랭킹 데이터를 화면 테이블에 표시하는 함수 (✅ 수정 완료된 함수)
+ * 랭킹 데이터를 화면 테이블에 표시하는 함수
  */
 function displayResults(newData) {
     const tableBody = document.querySelector('#resultsTable tbody');
     tableBody.innerHTML = '';
-
-    // '순위 변화' 계산을 위해 이전 데이터의 원본 랭킹 정보를 사용합니다. (이 부분은 올바르게 동작하고 있었습니다)
     const oldRanksMap = new Map(originalOldData.map(user => [user.nickname, user.rank]));
 
-    // ✅ forEach 루프에 'index'를 추가하여 현재 행 번호를 가져옵니다.
     newData.forEach((newUser, index) => {
         const oldRank = oldRanksMap.get(newUser.nickname);
         let rankChangeText = '';
         let rankChangeClass = '';
 
-        // '순위 변화'는 여전히 원본 랭킹(newUser.rank)을 기준으로 계산합니다.
         if (oldRank !== undefined) {
             const change = oldRank - newUser.rank;
-            if (change > 0) rankChangeText = `▲ ${change}`, rankChangeClass = 'rank-up';
-            else if (change < 0) rankChangeText = `▼ ${Math.abs(change)}`, rankChangeClass = 'rank-down';
-            else rankChangeText = '-', rankChangeClass = 'rank-same';
+            if (change > 0) { rankChangeText = `▲ ${change}`; rankChangeClass = 'rank-up'; }
+            else if (change < 0) { rankChangeText = `▼ ${Math.abs(change)}`; rankChangeClass = 'rank-down'; }
+            else { rankChangeText = '-'; rankChangeClass = 'rank-same'; }
         } else {
-            rankChangeText = 'New', rankChangeClass = 'rank-new';
+            rankChangeText = 'New'; rankChangeClass = 'rank-new';
         }
 
         const row = document.createElement('tr');
+        row.className = rankChangeClass;
         row.innerHTML = `
             <td>${index + 1}</td>
             <td class="nickname">${newUser.nickname}</td>
@@ -94,12 +164,10 @@ function displayResults(newData) {
             <td>${newUser.rescue_count}</td>
             <td>${newUser.battle_count}</td>
             <td>${newUser.kizuna_battle_point.toLocaleString()}</td>
-            <td class="${rankChangeClass}">${rankChangeText}</td>
+            <td>${rankChangeText}</td>
         `;
         tableBody.appendChild(row);
     });
-    
-    // 테이블을 다시 그린 후, 현재 검색어에 맞게 필터링을 다시 적용
     filterByNickname();
 }
 
@@ -115,14 +183,11 @@ function filterByNickname() {
 
     rows.forEach(row => {
         const nicknameCell = row.querySelector('.nickname');
-        if (nicknameCell) {
-            const nickname = nicknameCell.textContent.toLowerCase();
-            if (nickname.includes(searchTerm)) {
-                row.style.display = '';
-                visibleCount++;
-            } else {
-                row.style.display = 'none';
-            }
+        if (nicknameCell && nicknameCell.textContent.toLowerCase().includes(searchTerm)) {
+            row.style.display = '';
+            visibleCount++;
+        } else if(nicknameCell) {
+            row.style.display = 'none';
         }
     });
 
@@ -141,27 +206,43 @@ function filterByNickname() {
 function saveTableAsImage() {
     const target = document.querySelector(".table-container");
     const button = document.getElementById('saveAsImageBtn');
-    const originalText = button.textContent;
     button.textContent = '저장 중...';
     button.disabled = true;
 
-    html2canvas(target, {
-        backgroundColor: '#16213e',
-        scale: 2
-    }).then(canvas => {
-        const image = canvas.toDataURL("image/png", 1.0);
+    html2canvas(target, { backgroundColor: '#16213e', scale: 2 })
+    .then(canvas => {
         const link = document.createElement("a");
         const date = new Date();
         const formattedDate = `${date.getFullYear()}-${(date.getMonth() + 1).toString().padStart(2, '0')}-${date.getDate().toString().padStart(2, '0')}`;
-        link.href = image;
+        link.href = canvas.toDataURL("image/png", 1.0);
         link.download = `ranking-${formattedDate}.png`;
         link.click();
-        button.textContent = originalText;
+        button.textContent = '이미지로 저장';
         button.disabled = false;
     }).catch(err => {
         console.error("이미지 캡처 오류:", err);
         alert("이미지 저장에 실패했습니다.");
-        button.textContent = originalText;
+        button.textContent = '이미지로 저장';
         button.disabled = false;
     });
+}
+
+// --- 유틸리티 함수 ---
+function parseDateString(dir) {
+    const yearMatch = dir.match(/(\d{4})년/);
+    const monthMatch = dir.match(/(\d{1,2})월/);
+    const weekMatch = dir.match(/(\d{1,2})주차/);
+    return {
+        year: yearMatch ? parseInt(yearMatch[1]) : 0,
+        month: monthMatch ? parseInt(monthMatch[1]) : 0,
+        week: weekMatch ? parseInt(weekMatch[1]) : 0,
+    };
+}
+
+function sortDirectories(a, b) {
+    const dateA = parseDateString(a);
+    const dateB = parseDateString(b);
+    if (dateA.year !== dateB.year) return dateA.year - dateB.year;
+    if (dateA.month !== dateB.month) return dateA.month - dateB.month;
+    return dateA.week - dateB.week;
 }
