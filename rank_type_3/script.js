@@ -19,7 +19,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
-document.getElementById('reloadBtn').addEventListener('click', loadAndCompareRankings);
 document.getElementById('saveAsImageBtn').addEventListener('click', saveTableAsImage);
 document.getElementById('searchInput').addEventListener('input', filterByNickname);
 
