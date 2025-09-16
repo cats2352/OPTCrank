@@ -176,9 +176,7 @@ function sortTable(sortBy) {
     displayResults(originalOldData, sortedData);
 }
 
-/**
- * 랭킹 데이터를 화면 테이블에 표시하는 함수
- */
+// 기존 displayResults 함수를 아래 코드로 교체하세요.
 function displayResults(oldData, newData) {
     const isSingleView = singleViewCheckbox.checked;
     const tableBody = document.querySelector('#resultsTable tbody');
@@ -201,11 +199,14 @@ function displayResults(oldData, newData) {
             }
         }
 
+        const isSpecial = specialUsers.includes(newUser.code);
+        const nicknameHtml = `${newUser.nickname}${isSpecial ? '<span class="tgall-icon">트갤</span>' : ''}`;
+
         const row = document.createElement('tr');
         row.className = rankChangeClass;
         row.innerHTML = `
             <td>${index + 1}</td>
-            <td class="nickname">${newUser.nickname}</td>
+            <td class="nickname">${nicknameHtml}</td>
             <td>${newUser.level}</td>
             <td>${newUser.rescue_count}</td>
             <td>${newUser.battle_count}</td>
@@ -216,7 +217,6 @@ function displayResults(oldData, newData) {
     });
     filterByNickname();
 }
-
 
 /**
  * 입력된 닉네임으로 테이블 결과를 필터링하는 함수

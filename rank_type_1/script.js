@@ -139,7 +139,7 @@ async function loadAndCompareRankings() {
     }
 }
 
-/** 결과 표시 */
+// 기존 displayResults 함수를 아래 코드로 교체하세요.
 function displayResults(oldData, newData) {
     const isSingleView = singleViewCheckbox.checked;
     const tableBody = document.querySelector('#resultsTable tbody');
@@ -161,12 +161,15 @@ function displayResults(oldData, newData) {
                 rankChangeText = 'New'; rankChangeClass = 'rank-new';
             }
         }
+        
+        const isSpecial = specialUsers.includes(newUser.code);
+        const nicknameHtml = `${newUser.nickname}${isSpecial ? '<span class="tgall-icon">트갤</span>' : ''}`;
 
         const row = document.createElement('tr');
         row.className = rankChangeClass;
         row.innerHTML = `
             <td>${newUser.rank}</td>
-            <td class="nickname">${newUser.nickname}</td>
+            <td class="nickname">${nicknameHtml}</td>
             <td>${newUser.level}</td>
             <td>${newUser.score.toLocaleString()}</td>
             <td class="rank-change">${rankChangeText}</td>

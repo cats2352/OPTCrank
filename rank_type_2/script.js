@@ -162,9 +162,7 @@ async function loadAndCompareRankings() {
 }
 
 
-/**
- * 랭킹 데이터를 화면 테이블에 표시하는 함수
- */
+// 기존 displayResults 함수를 아래 코드로 교체하세요.
 function displayResults(oldData, newData) {
     const isSingleView = singleViewCheckbox.checked;
     const tableBody = document.querySelector('#resultsTable tbody');
@@ -186,12 +184,15 @@ function displayResults(oldData, newData) {
                 rankChangeText = 'New'; rankChangeClass = 'rank-new';
             }
         }
+        
+        const isSpecial = specialUsers.includes(newRecord.user.code);
+        const nicknameHtml = `${newRecord.user.nickname}${isSpecial ? '<span class="tgall-icon">트갤</span>' : ''}`;
 
         const row = document.createElement('tr');
         row.className = rankChangeClass;
         row.innerHTML = `
             <td>${newRecord.rank}</td>
-            <td class="nickname">${newRecord.user.nickname}</td>
+            <td class="nickname">${nicknameHtml}</td>
             <td>${newRecord.user.level}</td>
             <td>${newRecord.user_assault_rumble_event.total_max_score.toLocaleString()}</td>
             <td>${newRecord.user_assault_rumble_event.level}</td>

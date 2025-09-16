@@ -137,6 +137,7 @@ async function loadAndCompareRankings() {
     }
 }
 
+// 기존 displayResults 함수를 아래 코드로 교체하세요.
 function displayResults(oldData, newData) {
     const isSingleView = singleViewCheckbox.checked;
     const tableBody = document.querySelector('#resultsTable tbody');
@@ -156,12 +157,15 @@ function displayResults(oldData, newData) {
                 rankChangeText = 'New'; rankChangeClass = 'rank-new';
             }
         }
+        
+        const isSpecial = specialUsers.includes(newUser.user.id);
+        const nicknameHtml = `${newUser.user.nickname}${isSpecial ? '<span class="tgall-icon">트갤</span>' : ''}`;
 
         const row = document.createElement('tr');
         row.className = rankChangeClass;
         row.innerHTML = `
             <td>${newUser.ranking}</td>
-            <td class="nickname">${newUser.user.nickname}</td>
+            <td class="nickname">${nicknameHtml}</td>
             <td>${newUser.ranking_point.toLocaleString()}</td>
             <td><button class="view-deck-btn">보기</button></td>
             <td class="rank-change">${rankChangeText}</td>
