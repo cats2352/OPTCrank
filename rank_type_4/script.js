@@ -1,3 +1,5 @@
+// rank_type_4/script.js
+
 // --- 설정 변수 ---
 const RANKING_TYPE = 'tm_data';
 const DATA_FILE_NAME = 'tm.json';
@@ -140,14 +142,14 @@ function displayResults(oldData, newData) {
     const isSingleView = singleViewCheckbox.checked;
     const tableBody = document.querySelector('#resultsTable tbody');
     tableBody.innerHTML = '';
-    const oldRanksMap = !isSingleView && oldData ? new Map(oldData.map(record => [record.user.nickname, record.rank])) : null;
+    const oldRanksMap = !isSingleView && oldData ? new Map(oldData.map(record => [record.user.id, record.rank])) : null;
 
     newData.forEach(newRecord => {
         let rankChangeText = '-';
         let rankChangeClass = '';
 
         if (!isSingleView && oldRanksMap) {
-            const oldRank = oldRanksMap.get(newRecord.user.nickname);
+            const oldRank = oldRanksMap.get(newRecord.user.id);
             if (oldRank !== undefined) {
                 const change = oldRank - newRecord.rank;
                 if (change > 0) { rankChangeText = `▲ ${change}`; rankChangeClass = 'rank-up'; }

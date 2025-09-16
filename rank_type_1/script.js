@@ -1,3 +1,5 @@
+// rank_type_1/script.js
+
 // 설정 변수
 const RANKING_TYPE = 'run_data';
 const DATA_FILE_NAME = 'run.json';
@@ -142,14 +144,14 @@ function displayResults(oldData, newData) {
     const isSingleView = singleViewCheckbox.checked;
     const tableBody = document.querySelector('#resultsTable tbody');
     tableBody.innerHTML = '';
-    const oldRanksMap = !isSingleView ? new Map(oldData.map(user => [user.nickname, user.rank])) : null;
+    const oldRanksMap = !isSingleView ? new Map(oldData.map(user => [user.code, user.rank])) : null;
 
     newData.forEach(newUser => {
         let rankChangeText = '-';
         let rankChangeClass = '';
 
         if (!isSingleView && oldRanksMap) {
-            const oldRank = oldRanksMap.get(newUser.nickname);
+            const oldRank = oldRanksMap.get(newUser.code);
             if (oldRank !== undefined) {
                 const change = oldRank - newUser.rank;
                 if (change > 0) { rankChangeText = `▲ ${change}`; rankChangeClass = 'rank-up'; }

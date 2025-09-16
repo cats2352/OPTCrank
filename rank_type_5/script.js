@@ -1,6 +1,8 @@
+// rank_type_6/script.js
+
 // --- 설정 변수 ---
-const RANKING_TYPE = 'bounty_data';
-const DATA_FILE_NAME = 'bounty.json';
+const RANKING_TYPE = 'pvp_data';
+const DATA_FILE_NAME = 'pvp.json';
 
 // --- 전역 변수 ---
 let configData = {};
@@ -15,6 +17,7 @@ const singleViewCheckbox = document.getElementById('singleViewCheckbox');
 const comparisonSelection = document.getElementById('comparisonSelection');
 const singleSelection = document.getElementById('singleSelection');
 const tableContainer = document.querySelector('.table-container');
+
 
 // --- 이벤트 리스너 ---
 document.addEventListener('DOMContentLoaded', initializeApp);
@@ -105,7 +108,7 @@ async function loadAndCompareRankings() {
         const path = `../data/${RANKING_TYPE}/${selectedDir}/${DATA_FILE_NAME}`;
         try {
             const data = await fetch(path).then(res => res.json());
-            displayResults(null, data.rankings);
+            displayResults(null, data.ranking_datas);
         } catch (error) {
             console.error("랭킹 파일 로딩 오류:", error);
             alert("랭킹 파일을 불러오는 데 실패했습니다.");
@@ -126,8 +129,8 @@ async function loadAndCompareRankings() {
                 fetch(latestPath).then(res => res.json())
             ]);
             
-            originalOldData = oldJson.rankings;
-            originalNewData = newJson.rankings;
+            originalOldData = oldJson.ranking_datas;
+            originalNewData = newJson.ranking_datas;
             displayResults(originalOldData, originalNewData);
         } catch (error) {
             console.error("랭킹 파일 로딩 오류:", error);
@@ -140,16 +143,15 @@ function displayResults(oldData, newData) {
     const isSingleView = singleViewCheckbox.checked;
     const tableBody = document.querySelector('#resultsTable tbody');
     tableBody.innerHTML = '';
-    const oldRanksMap = !isSingleView && oldData ? new Map(oldData.map(d => [d.nickname, d.rank])) : null;
+    const oldRanksMap = !isSingleView && oldData ? new Map(oldData.map(d => [d.user.id, d.ranking])) : null;
 
     newData.forEach(newUser => {
-        let rankChangeText = '-';
-        let rankChangeClass = '';
+        let rankChangeText = '-', rankChangeClass = '';
 
         if (!isSingleView && oldRanksMap) {
-            const oldRank = oldRanksMap.get(newUser.nickname);
+            const oldRank = oldRanksMap.get(newUser.user.id);
             if (oldRank !== undefined) {
-                const change = oldRank - newUser.rank;
+                const change = oldRank - newUser.ranking;
                 if (change > 0) { rankChangeText = `▲ ${change}`; rankChangeClass = 'rank-up'; }
                 else if (change < 0) { rankChangeText = `▼ ${Math.abs(change)}`; rankChangeClass = 'rank-down'; }
             } else {
@@ -159,19 +161,36 @@ function displayResults(oldData, newData) {
 
         const row = document.createElement('tr');
         row.className = rankChangeClass;
-        const bountyNumber = parseInt(newUser.bounty, 10);
-
         row.innerHTML = `
-            <td>${newUser.rank}</td>
-            <td class="nickname">${newUser.nickname}</td>
-            <td class="alliance-name">${newUser.alliance_name || '없음'}</td>
-            <td>${newUser.level}</td>
-            <td>${bountyNumber.toLocaleString()}</td>
+            <td>${newUser.ranking}</td>
+            <td class="nickname">${newUser.user.nickname}</td>
+            <td>${newUser.ranking_point.toLocaleString()}</td>
+            <td><button class="view-deck-btn">보기</button></td>
             <td class="rank-change">${rankChangeText}</td>
         `;
+        
+        const deckButton = row.querySelector('.view-deck-btn');
+        deckButton.addEventListener('click', () => {
+            showDeckModal(newUser.pirates_arena_deck);
+        });
+        
         tableBody.appendChild(row);
     });
     filterByNickname();
+}
+
+
+function showDeckModal(deckData) {
+    const modal = document.getElementById('deckModal');
+    const deckInfoDiv = document.getElementById('deckInfo');
+    const deckHtml = deckData.map(id => `<p>${id || ' '}</p>`).join('');
+    deckInfoDiv.innerHTML = deckHtml;
+    modal.style.display = 'block';
+    const closeButton = modal.querySelector('.close-button');
+    closeButton.onclick = () => { modal.style.display = 'none'; };
+    window.onclick = (event) => {
+        if (event.target == modal) { modal.style.display = 'none'; }
+    };
 }
 
 function filterByNickname() {
@@ -183,12 +202,7 @@ function filterByNickname() {
 
     rows.forEach(row => {
         const nicknameCell = row.querySelector('.nickname');
-        const allianceCell = row.querySelector('.alliance-name');
-        
-        const nicknameMatch = nicknameCell && nicknameCell.textContent.toLowerCase().includes(searchTerm);
-        const allianceMatch = allianceCell && allianceCell.textContent.toLowerCase().includes(searchTerm);
-
-        if (nicknameMatch || allianceMatch) {
+        if (nicknameCell && nicknameCell.textContent.toLowerCase().includes(searchTerm)) {
             row.style.display = '';
             visibleCount++;
         } else if(nicknameCell) {
