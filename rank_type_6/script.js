@@ -1,3 +1,5 @@
+// rank_type_6/script.js
+
 // --- 설정 변수 ---
 const RANKING_TYPE = 'pvp_data';
 const DATA_FILE_NAME = 'pvp.json';
@@ -141,13 +143,13 @@ function displayResults(oldData, newData) {
     const isSingleView = singleViewCheckbox.checked;
     const tableBody = document.querySelector('#resultsTable tbody');
     tableBody.innerHTML = '';
-    const oldRanksMap = !isSingleView && oldData ? new Map(oldData.map(d => [d.user.nickname, d.ranking])) : null;
+    const oldRanksMap = !isSingleView && oldData ? new Map(oldData.map(d => [d.user.id, d.ranking])) : null;
 
     newData.forEach(newUser => {
         let rankChangeText = '-', rankChangeClass = '';
 
         if (!isSingleView && oldRanksMap) {
-            const oldRank = oldRanksMap.get(newUser.user.nickname);
+            const oldRank = oldRanksMap.get(newUser.user.id);
             if (oldRank !== undefined) {
                 const change = oldRank - newUser.ranking;
                 if (change > 0) { rankChangeText = `▲ ${change}`; rankChangeClass = 'rank-up'; }
