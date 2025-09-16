@@ -1,5 +1,3 @@
-// rank_type_6/script.js
-
 // --- 설정 변수 ---
 const RANKING_TYPE = 'pvp_data';
 const DATA_FILE_NAME = 'pvp.json';
@@ -240,9 +238,12 @@ function saveTableAsImage() {
 function parseDateString(dir) {
     const yearMatch = dir.match(/(\d{4})년/);
     const monthMatch = dir.match(/(\d{1,2})월/);
+    const subVersionMatch = dir.match(/월(\d+)/);
+
     return {
-        year: yearMatch ? parseInt(yearMatch[1]) : 0,
-        month: monthMatch ? parseInt(monthMatch[1]) : 0,
+        year: yearMatch ? parseInt(yearMatch[1], 10) : 0,
+        month: monthMatch ? parseInt(monthMatch[1], 10) : 0,
+        subVersion: subVersionMatch ? parseInt(subVersionMatch[1], 10) : 0,
     };
 }
 
@@ -250,5 +251,6 @@ function sortDirectories(a, b) {
     const dateA = parseDateString(a);
     const dateB = parseDateString(b);
     if (dateA.year !== dateB.year) return dateA.year - dateB.year;
-    return dateA.month - dateB.month;
+    if (dateA.month !== dateB.month) return dateA.month - dateB.month;
+    return dateA.subVersion - dateB.subVersion;
 }
