@@ -6,14 +6,16 @@ const DATA_FILE_NAME = 'gp.json';
 
 // --- 전역 변수 ---
 let configData = {};
-let originalNewData = [];
-let originalOldData = [];
+let currentNewData = [];
+let currentOldData = [];
+
 
 // --- DOM 요소 ---
 const yearSelector = document.getElementById('yearSelector');
 const monthWeekSelector = document.getElementById('monthWeekSelector');
 const dataSelector = document.getElementById('dataSelector');
 const singleViewCheckbox = document.getElementById('singleViewCheckbox');
+const tgallCheckbox = document.getElementById('tgallCheckbox');
 const comparisonSelection = document.getElementById('comparisonSelection');
 const singleSelection = document.getElementById('singleSelection');
 const tableContainer = document.querySelector('.table-container');
@@ -27,6 +29,7 @@ yearSelector.addEventListener('change', updateMonthWeekSelector);
 monthWeekSelector.addEventListener('change', loadAndCompareRankings);
 dataSelector.addEventListener('change', loadAndCompareRankings);
 singleViewCheckbox.addEventListener('change', toggleViewMode);
+tgallCheckbox.addEventListener('change', filterByTgall);
 
 /**
  * 페이지 초기화 함수
@@ -115,6 +118,10 @@ function toggleViewMode() {
     loadAndCompareRankings();
 }
 
+function filterByTgall() {
+    displayResults(currentOldData, currentNewData);
+}
+
 
 /**
  * 랭킹 데이터 불러오기 및 비교
@@ -128,8 +135,9 @@ async function loadAndCompareRankings() {
         const path = `../data/${RANKING_TYPE}/${selectedDir}/${DATA_FILE_NAME}`;
         try {
             const data = await fetch(path).then(res => res.json());
-            originalNewData = data.ranked_records;
-            displayResults(null, originalNewData);
+            currentNewData = data.ranked_records;
+            currentOldData = null;
+            displayResults(null, currentNewData);
         } catch (error) {
             console.error("랭킹 파일 로딩 오류:", error);
             alert("랭킹 파일을 불러오는 데 실패했습니다.");
@@ -150,9 +158,9 @@ async function loadAndCompareRankings() {
                 fetch(latestPath).then(res => res.json())
             ]);
             
-            originalOldData = oldJson.ranked_records;
-            originalNewData = newJson.ranked_records;
-            displayResults(originalOldData, originalNewData);
+            currentOldData = oldJson.ranked_records;
+            currentNewData = newJson.ranked_records;
+            displayResults(currentOldData, currentNewData);
 
         } catch (error) {
             console.error("랭킹 파일 로딩 오류:", error);
@@ -165,11 +173,18 @@ async function loadAndCompareRankings() {
 // 기존 displayResults 함수를 아래 코드로 교체하세요.
 function displayResults(oldData, newData) {
     const isSingleView = singleViewCheckbox.checked;
+    const showTgallOnly = tgallCheckbox.checked;
+
+    let filteredData = newData;
+    if (showTgallOnly) {
+        filteredData = newData.filter(record => specialUsers.includes(record.user.code) || specialUsers.includes(record.user.id));
+    }
+
     const tableBody = document.querySelector('#resultsTable tbody');
     tableBody.innerHTML = '';
-    const oldRanksMap = !isSingleView ? new Map(oldData.map(record => [record.user.code, record.rank])) : null;
+    const oldRanksMap = !isSingleView && oldData ? new Map(oldData.map(record => [record.user.code, record.rank])) : null;
 
-    newData.forEach(newRecord => {
+    filteredData.forEach(newRecord => {
         let rankChangeText = '-';
         let rankChangeClass = '';
 
@@ -185,7 +200,7 @@ function displayResults(oldData, newData) {
             }
         }
         
-        const isSpecial = specialUsers.includes(newRecord.user.code);
+        const isSpecial = specialUsers.includes(newRecord.user.code) || specialUsers.includes(newRecord.user.id);
         const nicknameHtml = `${newRecord.user.nickname}${isSpecial ? '<span class="tgall-icon">트갤</span>' : ''}`;
 
         const row = document.createElement('tr');

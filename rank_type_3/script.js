@@ -6,14 +6,15 @@ const DATA_FILE_NAME = 'kizuna.json';
 
 // --- 전역 변수 ---
 let configData = {};
-let originalOldData = [];
-let originalNewData = [];
+let currentOldData = [];
+let currentNewData = [];
 
 // --- DOM 요소 ---
 const yearSelector = document.getElementById('yearSelector');
 const monthWeekSelector = document.getElementById('monthWeekSelector');
 const dataSelector = document.getElementById('dataSelector');
 const singleViewCheckbox = document.getElementById('singleViewCheckbox');
+const tgallCheckbox = document.getElementById('tgallCheckbox');
 const comparisonSelection = document.getElementById('comparisonSelection');
 const singleSelection = document.getElementById('singleSelection');
 const tableContainer = document.querySelector('.table-container');
@@ -33,6 +34,7 @@ yearSelector.addEventListener('change', updateMonthWeekSelector);
 monthWeekSelector.addEventListener('change', loadAndCompareRankings);
 dataSelector.addEventListener('change', loadAndCompareRankings);
 singleViewCheckbox.addEventListener('change', toggleViewMode);
+tgallCheckbox.addEventListener('change', filterByTgall);
 
 /**
  * 페이지 초기화 함수
@@ -85,7 +87,7 @@ function updateMonthWeekSelector() {
     const directories = configData[RANKING_TYPE]
         .map(dir => ({ original: dir, parsed: parseDateString(dir) }))
         .filter(item => item.parsed.year == selectedYear)
-        .sort((a, b) => sortDirectories(a.original, b.original))
+        .sort((a, b) => sortDirectories(a.original, b.original)) // 오류 수정
         .reverse();
 
     monthWeekSelector.innerHTML = '';
@@ -119,6 +121,12 @@ function toggleViewMode() {
     loadAndCompareRankings();
 }
 
+function filterByTgall() {
+    const activeSortButton = document.querySelector('.sort-btn.active');
+    const sortBy = activeSortButton ? activeSortButton.dataset.sortBy : 'kizuna_battle_point';
+    sortTable(sortBy);
+}
+
 /**
  * 랭킹 데이터 불러오기 및 비교
  */
@@ -131,8 +139,9 @@ async function loadAndCompareRankings() {
         const path = `../data/${RANKING_TYPE}/${selectedDir}/${DATA_FILE_NAME}`;
         try {
             const data = await fetch(path).then(res => res.json());
-            originalNewData = data.ranked_records;
-            displayResults(null, originalNewData);
+            currentNewData = data.ranked_records;
+            currentOldData = null;
+            displayResults(null, currentNewData);
         } catch (error) {
             console.error("랭킹 파일 로딩 오류:", error);
             alert("랭킹 파일을 불러오는 데 실패했습니다.");
@@ -153,8 +162,8 @@ async function loadAndCompareRankings() {
                 fetch(latestPath).then(res => res.json())
             ]);
             
-            originalOldData = oldJson.ranked_records;
-            originalNewData = newJson.ranked_records;
+            currentOldData = oldJson.ranked_records;
+            currentNewData = newJson.ranked_records;
             
             const activeSortButton = document.querySelector('.sort-btn.active');
             const sortBy = activeSortButton ? activeSortButton.dataset.sortBy : 'kizuna_battle_point';
@@ -171,19 +180,26 @@ async function loadAndCompareRankings() {
  * 선택된 기준으로 데이터를 정렬하는 함수
  */
 function sortTable(sortBy) {
-    const sortedData = [...originalNewData];
+    const sortedData = [...currentNewData];
     sortedData.sort((a, b) => b[sortBy] - a[sortBy]);
-    displayResults(originalOldData, sortedData);
+    displayResults(currentOldData, sortedData);
 }
 
 // 기존 displayResults 함수를 아래 코드로 교체하세요.
 function displayResults(oldData, newData) {
     const isSingleView = singleViewCheckbox.checked;
+    const showTgallOnly = tgallCheckbox.checked;
+
+    let filteredData = newData;
+    if (showTgallOnly) {
+        filteredData = newData.filter(user => specialUsers.includes(user.code) || specialUsers.includes(user.id));
+    }
+
     const tableBody = document.querySelector('#resultsTable tbody');
     tableBody.innerHTML = '';
     const oldRanksMap = !isSingleView && oldData ? new Map(oldData.map(user => [user.code, user.rank])) : null;
 
-    newData.forEach((newUser, index) => {
+    filteredData.forEach((newUser, index) => {
         let rankChangeText = '-';
         let rankChangeClass = '';
 
@@ -199,7 +215,7 @@ function displayResults(oldData, newData) {
             }
         }
 
-        const isSpecial = specialUsers.includes(newUser.code);
+        const isSpecial = specialUsers.includes(newUser.code) || specialUsers.includes(newUser.id);
         const nicknameHtml = `${newUser.nickname}${isSpecial ? '<span class="tgall-icon">트갤</span>' : ''}`;
 
         const row = document.createElement('tr');
@@ -217,6 +233,7 @@ function displayResults(oldData, newData) {
     });
     filterByNickname();
 }
+
 
 /**
  * 입력된 닉네임으로 테이블 결과를 필터링하는 함수

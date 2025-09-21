@@ -6,12 +6,15 @@ const DATA_FILE_NAME = 'run.json';
 
 // 전역 변수
 let configData = {};
+let currentNewData = [];
+let currentOldData = [];
 
 // --- DOM 요소 ---
 const yearSelector = document.getElementById('yearSelector');
 const monthWeekSelector = document.getElementById('monthWeekSelector');
 const dataSelector = document.getElementById('dataSelector');
 const singleViewCheckbox = document.getElementById('singleViewCheckbox');
+const tgallCheckbox = document.getElementById('tgallCheckbox');
 const comparisonSelection = document.getElementById('comparisonSelection');
 const singleSelection = document.getElementById('singleSelection');
 const tableContainer = document.querySelector('.table-container');
@@ -22,6 +25,7 @@ yearSelector.addEventListener('change', updateMonthWeekSelector);
 monthWeekSelector.addEventListener('change', loadAndCompareRankings);
 dataSelector.addEventListener('change', loadAndCompareRankings);
 singleViewCheckbox.addEventListener('change', toggleViewMode);
+tgallCheckbox.addEventListener('change', filterByTgall);
 document.getElementById('saveAsImageBtn').addEventListener('click', saveTableAsImage);
 document.getElementById('searchInput').addEventListener('input', filterByNickname);
 
@@ -110,7 +114,9 @@ async function loadAndCompareRankings() {
         const path = `../data/${RANKING_TYPE}/${selectedDir}/${DATA_FILE_NAME}`;
         try {
             const data = await fetch(path).then(res => res.json());
-            displayResults(null, data.ranking_datas);
+            currentNewData = data.ranking_datas;
+            currentOldData = null;
+            displayResults(null, currentNewData);
         } catch (error) {
             console.error("랭킹 파일 로딩 오류:", error);
             alert("랭킹 파일을 불러오는 데 실패했습니다.");
@@ -131,7 +137,9 @@ async function loadAndCompareRankings() {
                 fetch(comparisonPath).then(res => res.json()),
                 fetch(latestPath).then(res => res.json())
             ]);
-            displayResults(oldJson.ranking_datas, newJson.ranking_datas);
+            currentOldData = oldJson.ranking_datas;
+            currentNewData = newJson.ranking_datas;
+            displayResults(currentOldData, currentNewData);
         } catch (error) {
             console.error("랭킹 파일 로딩 오류:", error);
             alert("랭킹 파일을 불러오는 데 실패했습니다.");
@@ -139,14 +147,25 @@ async function loadAndCompareRankings() {
     }
 }
 
+function filterByTgall() {
+    displayResults(currentOldData, currentNewData);
+}
+
 // 기존 displayResults 함수를 아래 코드로 교체하세요.
 function displayResults(oldData, newData) {
     const isSingleView = singleViewCheckbox.checked;
+    const showTgallOnly = tgallCheckbox.checked;
+    
+    let filteredData = newData;
+    if (showTgallOnly) {
+        filteredData = newData.filter(user => specialUsers.includes(user.code) || specialUsers.includes(user.id));
+    }
+
     const tableBody = document.querySelector('#resultsTable tbody');
     tableBody.innerHTML = '';
-    const oldRanksMap = !isSingleView ? new Map(oldData.map(user => [user.code, user.rank])) : null;
+    const oldRanksMap = !isSingleView && oldData ? new Map(oldData.map(user => [user.code, user.rank])) : null;
 
-    newData.forEach(newUser => {
+    filteredData.forEach(newUser => {
         let rankChangeText = '-';
         let rankChangeClass = '';
 
@@ -162,7 +181,7 @@ function displayResults(oldData, newData) {
             }
         }
         
-        const isSpecial = specialUsers.includes(newUser.code);
+        const isSpecial = specialUsers.includes(newUser.code) || specialUsers.includes(newUser.id);
         const nicknameHtml = `${newUser.nickname}${isSpecial ? '<span class="tgall-icon">트갤</span>' : ''}`;
 
         const row = document.createElement('tr');
@@ -178,6 +197,7 @@ function displayResults(oldData, newData) {
     });
     filterByNickname();
 }
+
 
 /** 닉네임 필터링 */
 function filterByNickname() {
