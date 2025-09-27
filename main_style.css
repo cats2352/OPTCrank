@@ -33,6 +33,7 @@ p {
     color: #6c757d; /* 회색 텍스트 */
     margin-bottom: 40px;
     font-size: 1.1em;
+    line-height: 1.6;
 }
 
 .button-grid {
@@ -58,13 +59,12 @@ p {
     transform: translateY(-5px);
 }
 
-.hub-button.disabled {
-    background-color: #adb5bd; /* 비활성화된 버튼은 회색 */
-    cursor: not-allowed;
+.hub-button.stats-button {
+    background-color: #28a745; /* 통계 버튼은 초록색 */
 }
 
-.hub-button.disabled:hover {
-    transform: none;
+.hub-button.stats-button:hover {
+    background-color: #218838;
 }
 
 .hub-button.history-button {
@@ -77,17 +77,13 @@ p {
 }
 
 /* --- 반응형 처리 --- */
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     .hub-container {
-        padding: 20px;
+        padding: 25px;
     }
 
     h1 {
-        font-size: 1.8em;
-    }
-
-    p {
-        font-size: 1em;
+        font-size: 2em;
     }
 
     .button-grid {
@@ -95,7 +91,7 @@ p {
     }
 
     .hub-button {
-        padding: 15px;
+        padding: 18px;
         font-size: 1.1em;
     }
 }

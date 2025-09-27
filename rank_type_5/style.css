@@ -20,7 +20,7 @@ body {
 }
 
 h1 { text-align: center; color: #007bff; margin-bottom: 10px; }
-p { text-align: center; color: #6c757d; margin-bottom: 30px; }
+p { text-align: center; color: #6c757d; margin-bottom: 30px; line-height: 1.6; }
 
 .controls {
     display: grid;
@@ -42,6 +42,7 @@ p { text-align: center; color: #6c757d; margin-bottom: 30px; }
     display: flex;
     align-items: center;
     gap: 5px;
+    flex-wrap: wrap;
 }
 
 .selection-container {
@@ -73,11 +74,16 @@ p { text-align: center; color: #6c757d; margin-bottom: 30px; }
 }
 
 .search-container { grid-area: search; }
-#searchInput { width: 90%; padding: 10px; border: 1px solid #ced4da; background-color: #ffffff; color: #495057; border-radius: 5px; font-size: 14px; }
+#searchInput { width: 100%; box-sizing: border-box; padding: 10px; border: 1px solid #ced4da; background-color: #ffffff; color: #495057; border-radius: 5px; font-size: 14px; }
 #searchInput::placeholder { color: #6c757d; }
 
-.function-buttons { grid-area: functions; display: flex; gap: 15px; }
-#saveAsImageBtn { flex-grow: 1; border: none; padding: 10px 20px; border-radius: 5px; font-size: 15px; font-weight: bold; cursor: pointer; transition: background-color 0.3s ease; background-color: #28a745; color: white; }
+.function-buttons, #saveAsImageBtn {
+    grid-area: functions;
+    border: none; padding: 10px 20px; border-radius: 5px; font-size: 15px; font-weight: bold; cursor: pointer; transition: background-color 0.3s ease;
+    background-color: #28a745; color: white;
+    width: 100%;
+    box-sizing: border-box;
+}
 
 .table-container { overflow-x: auto; }
 #resultsTable { width: 100%; border-collapse: collapse; margin-top: 20px; }
@@ -87,40 +93,15 @@ p { text-align: center; color: #6c757d; margin-bottom: 30px; }
 
 tr.rank-up { background: linear-gradient(to right, rgb(240, 161, 161), transparent) !important; }
 tr.rank-down { background: linear-gradient(to right, rgb(160, 205, 241), transparent) !important; }
-td.rank-same { color: #6c757d; }
-td.rank-new { color: #007bff; font-weight: bold; }
+
+tr.rank-up .rank-change { color: red; }
+tr.rank-down .rank-change { color: rgb(0, 140, 255); }
+tr.rank-same .rank-change { color: #6c757d; }
+tr.rank-new .rank-change { color: #629b41; font-weight: bold; }
+
 .no-results { color: #6c757d; font-weight: bold; padding: 30px 0; text-align: center; font-size: 1.1em; }
 
 .table-container.single-view .rank-change { display: none; }
-
-tr.rank-up .rank-change {
-    color: red;
-}
-tr.rank-down .rank-change {
-    color: rgb(0, 140, 255);
-}
-tr.rank-same .rank-change {
-    color: #6c757d;
-}
-tr.rank-new .rank-change {
-    color: #629b41;
-    font-weight: bold;
-}
-
-@media (max-width: 700px) {
-    .controls {
-        grid-template-areas:
-            "view-mode"
-            "search"
-            "selection"
-            "functions";
-        grid-template-columns: 1fr;
-    }
-    #comparisonSelection {
-        flex-direction: column;
-        align-items: stretch;
-    }
-}
 
 .tgall-icon {
     background-color: #ffc107;
@@ -131,4 +112,56 @@ tr.rank-new .rank-change {
     font-weight: bold;
     margin-left: 8px;
     display: inline-block;
+}
+
+/* 해적제 페이지용 추가 스타일 */
+.view-deck-btn { background-color: #007bff; color: #ffffff; border: none; padding: 8px 12px; border-radius: 5px; cursor: pointer; transition: background-color 0.3s; }
+.view-deck-btn:hover { background-color: #0056b3; }
+
+.modal { display: none; position: fixed; z-index: 100; left: 0; top: 0; width: 100%; height: 100%; overflow: auto; background-color: rgba(0,0,0,0.6); }
+.modal-content { background-color: #ffffff; margin: 15% auto; padding: 25px; border: 1px solid #888; width: 80%; max-width: 500px; border-radius: 10px; position: relative; }
+.close-button { color: #aaa; float: right; font-size: 28px; font-weight: bold; cursor: pointer; }
+#deckInfo p { margin: 5px 0; font-size: 1.2em; text-align: center; }
+
+/* 유대결전 페이지용 추가 스타일 */
+.sort-controls {
+    grid-area: functions; /* functions 영역 재활용 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+.sort-controls span { font-weight: bold; color: #6c757d; }
+.sort-btn { border: 1px solid #ced4da; background-color: transparent; color: #495057; padding: 8px 12px; border-radius: 5px; font-size: 14px; font-weight: bold; cursor: pointer; transition: background-color 0.3s ease; }
+.sort-btn.active { background-color: #007bff; color: #ffffff; border-color: #007bff; }
+
+
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+    .container {
+        padding: 15px;
+    }
+    h1 {
+        font-size: 1.8em;
+    }
+    .controls {
+        grid-template-areas:
+            "view-mode"
+            "search"
+            "selection"
+            "functions";
+        grid-template-columns: 1fr;
+    }
+    #comparisonSelection, #singleSelection {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    #resultsTable th, #resultsTable td {
+        padding: 8px 10px;
+        font-size: 0.9em;
+    }
 }
