@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const resultsContainer = document.getElementById('results-container');
     const loadingIndicator = document.getElementById('loading-indicator');
     const saveBtn = document.getElementById('saveAsImageBtn');
+    const summaryContainer = document.getElementById('summary-container');
     let allDataCache = null;
     let uniqueNicknames = new Set();
 
@@ -87,7 +88,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
         loadingIndicator.style.display = 'block';
         resultsContainer.innerHTML = '';
-        saveBtn.style.display = 'none'; // 검색 시작 시 버튼 숨기기
+        summaryContainer.innerHTML = '';
+        saveBtn.style.display = 'none';
 
         if (!allDataCache) {
             allDataCache = await loadAllData();
@@ -177,7 +179,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function displayHistory(history) {
         resultsContainer.innerHTML = '';
+        summaryContainer.innerHTML = '';
         let hasResults = false;
+        
+        const summary = calculateSummary(history);
+        if(summary.totalRecords > 0) {
+            displaySummary(summary);
+        }
 
         for (const rankType in history) {
             const records = history[rankType];
@@ -229,6 +237,66 @@ document.addEventListener('DOMContentLoaded', () => {
             saveBtn.style.display = 'block';
         }
     }
+    
+    /** 종합 요약 데이터 계산 */
+    function calculateSummary(history) {
+        let bestRank = Infinity;
+        let top100Count = 0;
+        let totalRecords = 0;
+        const participation = {};
+
+        for (const rankType in history) {
+            const records = history[rankType];
+            if (records.length > 0) {
+                participation[rankType] = records.length;
+            }
+            records.forEach(record => {
+                totalRecords++;
+                if (record.rank < bestRank) {
+                    bestRank = record.rank;
+                }
+                if (record.rank <= 100) {
+                    top100Count++;
+                }
+            });
+        }
+        
+        const mostFrequentRankType = Object.keys(participation).length > 0
+            ? Object.entries(participation).sort((a, b) => b[1] - a[1])[0][0]
+            : null;
+
+        return {
+            bestRank: bestRank === Infinity ? '-' : bestRank,
+            top100Count,
+            mostFrequentRank: mostFrequentRankType ? getRankTypeName(mostFrequentRankType) : '-',
+            totalRecords
+        };
+    }
+
+    /** 종합 요약 카드 표시 */
+    function displaySummary(summary) {
+        const summaryHtml = `
+            <div class="summary-card">
+                <h2>🏆 커리어 하이라이트</h2>
+                <div class="summary-items">
+                    <div class="summary-item">
+                        <div class="label">최고 순위</div>
+                        <div class="value">#${summary.bestRank}</div>
+                    </div>
+                    <div class="summary-item">
+                        <div class="label">TOP 100 달성</div>
+                        <div class="value">${summary.top100Count}회</div>
+                    </div>
+                    <div class="summary-item">
+                        <div class="label">주력 컨텐츠</div>
+                        <div class="value">${summary.mostFrequentRank}</div>
+                    </div>
+                </div>
+            </div>
+        `;
+        summaryContainer.innerHTML = summaryHtml;
+    }
+
 
     function createChart(canvas, records) {
         const labels = records.map(r => r.period);

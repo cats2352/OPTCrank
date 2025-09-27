@@ -100,6 +100,44 @@ p {
     padding: 40px 0;
 }
 
+/* --- 종합 요약 카드 스타일 시작 --- */
+#summary-container {
+    margin-bottom: 30px;
+}
+.summary-card {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 20px;
+    border: 1px solid #e9ecef;
+}
+.summary-card h2 {
+    margin-top: 0;
+    color: #0056b3;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.summary-items {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.summary-item {
+    flex-basis: 200px;
+}
+.summary-item .label {
+    font-size: 1em;
+    color: #6c757d;
+    margin-bottom: 5px;
+}
+.summary-item .value {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #343a40;
+}
+/* --- 종합 요약 카드 스타일 끝 --- */
+
 .result-category {
     margin-bottom: 30px;
 }
