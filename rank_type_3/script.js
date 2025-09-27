@@ -262,16 +262,23 @@ function filterByNickname() {
     }
 }
 
-/**
- * 현재 보이는 랭킹 테이블을 이미지(PNG)로 저장하는 함수
- */
+/** 이미지 저장 */
 function saveTableAsImage() {
     const target = document.querySelector(".table-container");
     const button = document.getElementById('saveAsImageBtn');
+    
+    // 원래 스타일 저장
+    const originalStyle = {
+        boxShadow: target.style.boxShadow,
+    };
+
+    // 이미지 캡처를 위한 스타일 변경
+    target.style.boxShadow = 'none';
+
     button.textContent = '저장 중...';
     button.disabled = true;
 
-    html2canvas(target, { backgroundColor: '#16213e', scale: 2 })
+    html2canvas(target, { backgroundColor: '#ffffff', scale: 2 }) // 배경색을 흰색으로 변경
     .then(canvas => {
         const link = document.createElement("a");
         const date = new Date();
@@ -279,11 +286,15 @@ function saveTableAsImage() {
         link.href = canvas.toDataURL("image/png", 1.0);
         link.download = `ranking-${formattedDate}.png`;
         link.click();
-        button.textContent = '이미지로 저장';
-        button.disabled = false;
-    }).catch(err => {
+    })
+    .catch(err => {
         console.error("이미지 캡처 오류:", err);
         alert("이미지 저장에 실패했습니다.");
+    })
+    .finally(() => {
+        // 원래 스타일로 복원
+        target.style.boxShadow = originalStyle.boxShadow;
+
         button.textContent = '이미지로 저장';
         button.disabled = false;
     });
