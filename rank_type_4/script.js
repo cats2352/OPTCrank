@@ -220,18 +220,26 @@ function saveTableAsImage() {
     const target = document.querySelector(".table-container");
     const button = document.getElementById('saveAsImageBtn');
     
-    // 원래 스타일 저장
-    const originalStyle = {
-        boxShadow: target.style.boxShadow,
-    };
-
-    // 이미지 캡처를 위한 스타일 변경
-    target.style.boxShadow = 'none';
-
     button.textContent = '저장 중...';
     button.disabled = true;
 
-    html2canvas(target, { backgroundColor: '#ffffff', scale: 2 }) // 배경색을 흰색으로 변경
+    html2canvas(target, { 
+        backgroundColor: '#ffffff', // 캡처의 기본 배경색을 흰색으로 지정
+        scale: 2,
+        onclone: (clonedDoc) => {
+            // html2canvas가 복제한 문서 내에서만 스타일을 수정합니다.
+            
+            // rank-up 행의 배경 그라데이션 끝 색상을 'transparent' 대신 흰색으로 명시
+            clonedDoc.querySelectorAll('tr.rank-up').forEach(row => {
+                row.style.background = 'linear-gradient(to right, rgb(240, 161, 161), #ffffff)';
+            });
+
+            // rank-down 행의 배경 그라데이션 끝 색상을 'transparent' 대신 흰색으로 명시
+            clonedDoc.querySelectorAll('tr.rank-down').forEach(row => {
+                row.style.background = 'linear-gradient(to right, rgb(160, 205, 241), #ffffff)';
+            });
+        }
+    })
     .then(canvas => {
         const link = document.createElement("a");
         const date = new Date();
@@ -245,9 +253,6 @@ function saveTableAsImage() {
         alert("이미지 저장에 실패했습니다.");
     })
     .finally(() => {
-        // 원래 스타일로 복원
-        target.style.boxShadow = originalStyle.boxShadow;
-
         button.textContent = '이미지로 저장';
         button.disabled = false;
     });
