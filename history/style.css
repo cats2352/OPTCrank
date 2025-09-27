@@ -149,6 +149,58 @@ th {
     background-color: #5a6268;
 }
 
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.function-buttons {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+#saveAsImageBtn {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    background-color: #28a745;
+    color: white;
+}
+#saveAsImageBtn:hover {
+    background-color: #218838;
+}
+
+#capture-area {
+    padding-top: 20px;
+}
+
+@media (max-width: 768px) {
+    
+    .search-container {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+    #search-btn {
+        width: 100%;
+    }
+    .function-buttons {
+        margin: 15px 0;
+    }
+    #saveAsImageBtn {
+        width: 100%;
+    }
+    
+}
+
+
 @media (max-width: 768px) {
     .container {
         padding: 15px;

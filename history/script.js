@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const nicknameInput = document.getElementById('nickname-input');
     const resultsContainer = document.getElementById('results-container');
     const loadingIndicator = document.getElementById('loading-indicator');
+    const saveBtn = document.getElementById('saveAsImageBtn');
     let allDataCache = null;
     let uniqueNicknames = new Set();
 
@@ -12,6 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
             performSearch();
         }
     });
+    saveBtn.addEventListener('click', saveAsImage);
 
     // --- 자동완성 기능 초기화 ---
     initializeAutocomplete();
@@ -85,6 +87,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         loadingIndicator.style.display = 'block';
         resultsContainer.innerHTML = '';
+        saveBtn.style.display = 'none'; // 검색 시작 시 버튼 숨기기
 
         if (!allDataCache) {
             allDataCache = await loadAllData();
@@ -221,6 +224,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
         if (!hasResults) {
             resultsContainer.innerHTML = '<p>해당 닉네임에 대한 랭킹 기록을 찾을 수 없습니다.</p>';
+            saveBtn.style.display = 'none';
+        } else {
+            saveBtn.style.display = 'block';
         }
     }
 
@@ -294,6 +300,41 @@ document.addEventListener('DOMContentLoaded', () => {
             'tm_data': '트맵 랭킹', 'bounty_data': '현상금 랭킹', 'pvp_data': '해적제 랭킹'
         };
         return names[rankType] || rankType;
+    }
+    
+    /** 이미지 저장 */
+    function saveAsImage() {
+        const nickname = nicknameInput.value.trim();
+        const target = document.getElementById("capture-area");
+        
+        saveBtn.textContent = '저장 중...';
+        saveBtn.disabled = true;
+
+        html2canvas(target, { 
+            backgroundColor: '#ffffff', 
+            scale: 2,
+            onclone: (document) => {
+                const container = document.getElementById('capture-area');
+                container.style.backgroundColor = '#ffffff';
+                container.style.padding = '20px';
+            }
+        })
+        .then(canvas => {
+            const link = document.createElement("a");
+            const date = new Date();
+            const formattedDate = `${date.getFullYear()}-${(date.getMonth() + 1).toString().padStart(2, '0')}-${date.getDate().toString().padStart(2, '0')}`;
+            link.href = canvas.toDataURL("image/png", 1.0);
+            link.download = `${nickname}_history-${formattedDate}.png`;
+            link.click();
+        })
+        .catch(err => {
+            console.error("이미지 캡처 오류:", err);
+            alert("이미지 저장에 실패했습니다.");
+        })
+        .finally(() => {
+            saveBtn.textContent = '결과 이미지로 저장';
+            saveBtn.disabled = false;
+        });
     }
 
 });

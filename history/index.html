@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>개인 랭킹 히스토리</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
 </head>
 <body>
     <div class="container">
@@ -18,14 +19,19 @@
             </div>
             <button id="search-btn">검색</button>
         </div>
-
-
-        <div id="loading-indicator" style="display: none;">
-            <div class="loader">데이터를 불러오는 중...</div>
+        
+        <div class="function-buttons">
+            <button id="saveAsImageBtn" style="display: none;">결과 이미지로 저장</button>
         </div>
 
-        <div id="results-container">
+        <div id="capture-area">
+            <div id="loading-indicator" style="display: none;">
+                <div class="loader">데이터를 불러오는 중...</div>
             </div>
+
+            <div id="results-container">
+                </div>
+        </div>
 
         <a href="../index.html" class="back-button">메인으로 돌아가기</a>
     </div>
