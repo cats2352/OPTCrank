@@ -85,8 +85,8 @@ p { text-align: center; color: #6c757d; margin-bottom: 30px; }
 #resultsTable th { background-color: #007bff; color: #ffffff; font-weight: bold; }
 #resultsTable tbody tr:nth-child(even) { background-color: #f8f9fa; }
 
-tr.rank-up { background: linear-gradient(to right, rgba(40, 167, 69, 0.3), transparent) !important; }
-tr.rank-down { background: linear-gradient(to right, rgba(220, 53, 69, 0.3), transparent) !important; }
+tr.rank-up { background: linear-gradient(to right, rgb(240, 161, 161), transparent) !important; }
+tr.rank-down { background: linear-gradient(to right, rgb(160, 205, 241), transparent) !important; }
 .rank-same td { color: #6c757d; }
 .rank-new td { color: #007bff; font-weight: bold; }
 .no-results { color: #6c757d; font-weight: bold; padding: 30px 0; text-align: center; font-size: 1.1em; }
@@ -100,6 +100,20 @@ tr.rank-down { background: linear-gradient(to right, rgba(220, 53, 69, 0.3), tra
 #deckInfo p { margin: 5px 0; font-size: 1.2em; text-align: center; }
 
 .table-container.single-view .rank-change { display: none; }
+
+tr.rank-up .rank-change {
+    color: red;
+}
+tr.rank-down .rank-change {
+    color: rgb(0, 140, 255);
+}
+tr.rank-same td { 
+    color: #6c757d; 
+}
+tr.rank-new td { 
+    color: #629b41; 
+    font-weight: bold; 
+}
 
 @media (max-width: 700px) {
     .controls {
