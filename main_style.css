@@ -67,6 +67,15 @@ p {
     transform: none;
 }
 
+.hub-button.history-button {
+    background-color: #ffc107; /* 개인 랭킹 조회 버튼은 노란색 */
+    color: #212529;
+}
+
+.hub-button.history-button:hover {
+    background-color: #e0a800;
+}
+
 /* --- 반응형 처리 --- */
 @media (max-width: 600px) {
     .hub-container {

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>개인 랭킹 히스토리</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🔍 개인 랭킹 히스토리</h1>
+        <p>닉네임을 입력하여 모든 랭킹 기록을 조회하세요.</p>
+
+        <div class="search-container">
+            <div class="autocomplete-wrapper">
+                <input type="text" id="nickname-input" placeholder="닉네임을 입력하세요..." autocomplete="off">
+                <div id="autocomplete-list" class="autocomplete-items"></div>
+            </div>
+            <button id="search-btn">검색</button>
+        </div>
+
+
+        <div id="loading-indicator" style="display: none;">
+            <div class="loader">데이터를 불러오는 중...</div>
+        </div>
+
+        <div id="results-container">
+            </div>
+
+        <a href="../index.html" class="back-button">메인으로 돌아가기</a>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

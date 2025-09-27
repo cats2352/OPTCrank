@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap');
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+p {
+    text-align: center;
+    color: #6c757d;
+    margin-bottom: 30px;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    gap: 10px;
+}
+
+#nickname-input {
+    width: 60%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    font-size: 1em;
+}
+
+#search-btn {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+#search-btn:hover {
+    background-color: #0056b3;
+}
+
+.loader {
+    text-align: center;
+    font-size: 1.2em;
+    color: #6c757d;
+    padding: 40px 0;
+}
+
+.result-category {
+    margin-bottom: 30px;
+}
+
+.result-category h2 {
+    color: #0056b3;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.chart-container {
+    width: 100%;
+    margin: 20px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #dee2e6;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.back-button {
+    display: block;
+    width: fit-content;
+    margin: 40px auto 0;
+    background-color: #6c757d;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #5a6268;
+}
+
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    gap: 10px;
+    position: relative;
+}
+
+/* 자동완성을 위한 wrapper */
+.autocomplete-wrapper {
+    position: relative;
+    width: 60%;
+}
+
+#nickname-input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box; /* 패딩이 너비에 포함되도록 설정 */
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    font-size: 1em;
+}
+
+/* 자동완성 목록 컨테이너 */
+.autocomplete-items {
+    position: absolute;
+    border: 1px solid #d4d4d4;
+    border-bottom: none;
+    border-top: none;
+    z-index: 99;
+    top: 100%;
+    left: 0;
+    right: 0;
+}
+
+/* 자동완성 아이템 */
+.autocomplete-items div {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #fff;
+    border-bottom: 1px solid #d4d4d4;
+}
+
+/* 아이템에 마우스 올렸을 때 */
+.autocomplete-items div:hover {
+    background-color: #e9e9e9;
+}
+
+/* 활성화된(선택된) 아이템 */
+.autocomplete-active {
+    background-color: DodgerBlue !important;
+    color: #ffffff;
+}
