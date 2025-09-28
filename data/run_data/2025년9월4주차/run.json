@@ -1,0 +1,1037 @@
+{
+  "current_ranking": -1,
+  "current_rank_id": -1,
+  "current_rank_rate": null,
+  "ranking_datas": [
+    {
+      "id": 38679005,
+      "code": "903836578",
+      "nickname": "상자@EB",
+      "level": 1159,
+      "score": 214917,
+      "achievement": "<icon=common_font_pirate_rumble_grandparty_0024_killer.png>",
+      "character_id": 14564,
+      "rank": 1
+    },
+    {
+      "id": 72734621,
+      "code": "375241057",
+      "nickname": "악동일당",
+      "level": 219,
+      "score": 210839,
+      "achievement": "기대 루키",
+      "character_id": 14513,
+      "rank": 2
+    },
+    {
+      "id": 38686619,
+      "code": "263833706",
+      "nickname": "☠️P✘M☠️-동료",
+      "level": 1638,
+      "score": 209255,
+      "achievement": "동료",
+      "character_id": 14525,
+      "rank": 3
+    },
+    {
+      "id": 72316485,
+      "code": "735263820",
+      "nickname": "Kilkenny Pirates",
+      "level": 249,
+      "score": 207072,
+      "achievement": "Worst Generation Nightmare",
+      "character_id": 12575,
+      "rank": 4
+    },
+    {
+      "id": 38676206,
+      "code": "806352300",
+      "nickname": "【S】 Ver2",
+      "level": 1137,
+      "score": 204295,
+      "achievement": "수련",
+      "character_id": 14558,
+      "rank": 5
+    },
+    {
+      "id": 57087114,
+      "code": "641389213",
+      "nickname": "ⓁⒼⒸ Rocco ⚡",
+      "level": 871,
+      "score": 202000,
+      "achievement": "<icon=common_font_garp.png> Fist Helpful Monster",
+      "character_id": 14551,
+      "rank": 6
+    },
+    {
+      "id": 72654591,
+      "code": "525467328",
+      "nickname": "Mayfair D. Marines",
+      "level": 257,
+      "score": 200586,
+      "achievement": "Promising Rookie",
+      "character_id": 14202,
+      "rank": 7
+    },
+    {
+      "id": 43767009,
+      "code": "169090813",
+      "nickname": "Oswald",
+      "level": 576,
+      "score": 200159,
+      "achievement": "해적왕 의 피해자 모임",
+      "character_id": 14251,
+      "rank": 8
+    },
+    {
+      "id": 1069497,
+      "code": "347862336",
+      "nickname": "Nabijemte na kurac",
+      "level": 615,
+      "score": 199879,
+      "achievement": "Great Staff of Woman",
+      "character_id": 13704,
+      "rank": 9
+    },
+    {
+      "id": 72817933,
+      "code": "921657363",
+      "nickname": "Maxou",
+      "level": 367,
+      "score": 199185,
+      "achievement": "",
+      "character_id": 13704,
+      "rank": 10
+    },
+    {
+      "id": 38739369,
+      "code": "606873131",
+      "nickname": "척",
+      "level": 1838,
+      "score": 198652,
+      "achievement": "<icon=common_font_world_cruise2024_0053_luffy_2.png>",
+      "character_id": 14558,
+      "rank": 11
+    },
+    {
+      "id": 38659647,
+      "code": "783836473",
+      "nickname": "컵",
+      "level": 1386,
+      "score": 197592,
+      "achievement": "XL 사이즈 뚱보",
+      "character_id": 14111,
+      "rank": 12
+    },
+    {
+      "id": 39193752,
+      "code": "547416139",
+      "nickname": "อิมางาวะแลนด์",
+      "level": 1098,
+      "score": 195655,
+      "achievement": "<icon=common_font_pirate_rumble_grandparty_0059_luffy_roger.png> <icon=common_font_kaizokudoumeidairansen_0058_10th_anniv_kantou.png>",
+      "character_id": 14606,
+      "rank": 13
+    },
+    {
+      "id": 5007159,
+      "code": "891436671",
+      "nickname": "•°•°•GREENY•°•°•",
+      "level": 1163,
+      "score": 194372,
+      "achievement": "Promising Rookie",
+      "character_id": 12969,
+      "rank": 14
+    },
+    {
+      "id": 38669808,
+      "code": "788046330",
+      "nickname": "벨",
+      "level": 1650,
+      "score": 194210,
+      "achievement": "저널리스트 입니다",
+      "character_id": 14564,
+      "rank": 15
+    },
+    {
+      "id": 62905251,
+      "code": "772503959",
+      "nickname": "[ÉCP] Luffyto33",
+      "level": 402,
+      "score": 193815,
+      "achievement": "<icon=common_font_pirate_rumble_grandparty_sp_0081_luffy_sabo_ace.png>",
+      "character_id": 14558,
+      "rank": 16
+    },
+    {
+      "id": 32233101,
+      "code": "700143506",
+      "nickname": "zMoe",
+      "level": 732,
+      "score": 192260,
+      "achievement": "Promising Rookie",
+      "character_id": 13472,
+      "rank": 17
+    },
+    {
+      "id": 38686658,
+      "code": "263893700",
+      "nickname": "몽키D민이",
+      "level": 1102,
+      "score": 192110,
+      "achievement": "<icon=common_font_grandparty_sp_0093_luffy_zoro_sanji_14251.png> <icon=common_font_grandparty_0094_saturn_bonny_14452_14457.png>",
+      "character_id": 14608,
+      "rank": 18
+    },
+    {
+      "id": 16119175,
+      "code": "178440637",
+      "nickname": " Culurgiones",
+      "level": 1845,
+      "score": 191608,
+      "achievement": "Promising Rookie",
+      "character_id": 14558,
+      "rank": 19
+    },
+    {
+      "id": 38980760,
+      "code": "263913581",
+      "nickname": "에이스",
+      "level": 997,
+      "score": 190415,
+      "achievement": "<icon=common_font_pirate_rumble_grandparty_0043_shanks_luffy.png>",
+      "character_id": 13951,
+      "rank": 20
+    },
+    {
+      "id": 38758542,
+      "code": "172863433",
+      "nickname": "₊✧₊ઇWingઉ₊✧₊",
+      "level": 1357,
+      "score": 190154,
+      "achievement": "슈퍼 마리오",
+      "character_id": 14558,
+      "rank": 21
+    },
+    {
+      "id": 43243860,
+      "code": "144003919",
+      "nickname": "armaster",
+      "level": 206,
+      "score": 190005,
+      "achievement": "기대 루키",
+      "character_id": 14564,
+      "rank": 22
+    },
+    {
+      "id": 59802239,
+      "code": "637608315",
+      "nickname": "Linkinlui",
+      "level": 776,
+      "score": 188955,
+      "achievement": "<icon=common_font_grandparty_0098_garling_garp_14512_14513.png> and <icon=common_font_grandparty_0101_franky_brook_14551_14552.png>",
+      "character_id": 13704,
+      "rank": 23
+    },
+    {
+      "id": 43738452,
+      "code": "907330931",
+      "nickname": "위버멘쉬KR",
+      "level": 382,
+      "score": 188809,
+      "achievement": "해적왕",
+      "character_id": 13701,
+      "rank": 24
+    },
+    {
+      "id": 65416793,
+      "code": "502583669",
+      "nickname": "Blanc",
+      "level": 873,
+      "score": 188735,
+      "achievement": "Promising Rookie",
+      "character_id": 14558,
+      "rank": 25
+    },
+    {
+      "id": 7255915,
+      "code": "204864393",
+      "nickname": "[20th]Shogun_Occho",
+      "level": 1126,
+      "score": 188732,
+      "achievement": "<icon=common_font_pirate_rumble_grandparty_0032_zoro.png> <icon=common_font_pirate_rumble_grandparty_0051_lilith.png>",
+      "character_id": 13256,
+      "rank": 26
+    },
+    {
+      "id": 38664691,
+      "code": "533856687",
+      "nickname": "™Bro☠캡틴얄개",
+      "level": 1256,
+      "score": 187839,
+      "achievement": "<icon=common_font_pirate_rumble_grandparty_sp_0068_luffy_kaidou.png> 그리고 <icon=common_font_pirate_rumble_grandparty_0064_robin.png>",
+      "character_id": 13472,
+      "rank": 27
+    },
+    {
+      "id": 39526499,
+      "code": "636301637",
+      "nickname": "Gure",
+      "level": 1431,
+      "score": 186025,
+      "achievement": "푸푸풋!! 히끅!!",
+      "character_id": 14558,
+      "rank": 28
+    },
+    {
+      "id": 43937836,
+      "code": "230199504",
+      "nickname": "Airplane Pirates",
+      "level": 776,
+      "score": 184246,
+      "achievement": "<icon=common_font_grandparty_0101_franky_brook_14551_14552.png>",
+      "character_id": 13472,
+      "rank": 29
+    },
+    {
+      "id": 43600048,
+      "code": "378009889",
+      "nickname": "시켜봐비켜볼게있어",
+      "level": 390,
+      "score": 183622,
+      "achievement": "",
+      "character_id": 14606,
+      "rank": 30
+    },
+    {
+      "id": 38662415,
+      "code": "688336338",
+      "nickname": "양피",
+      "level": 1539,
+      "score": 183410,
+      "achievement": "기대 루키",
+      "character_id": 14319,
+      "rank": 31
+    },
+    {
+      "id": 65753822,
+      "code": "447185434",
+      "nickname": "—•Omega~Crew•—",
+      "level": 833,
+      "score": 182301,
+      "achievement": "Celui qui vise le top",
+      "character_id": 13702,
+      "rank": 32
+    },
+    {
+      "id": 38869842,
+      "code": "483336877",
+      "nickname": "⋆₊☽D. 잉어맨",
+      "level": 1251,
+      "score": 182070,
+      "achievement": "기대 루키",
+      "character_id": 14370,
+      "rank": 33
+    },
+    {
+      "id": 30588279,
+      "code": "372606357",
+      "nickname": "ⓈⒼⒻ 0mae",
+      "level": 1380,
+      "score": 182065,
+      "achievement": "Promising Rookie",
+      "character_id": 12969,
+      "rank": 34
+    },
+    {
+      "id": 36343717,
+      "code": "364934355",
+      "nickname": "The Rowdy Crew",
+      "level": 267,
+      "score": 179634,
+      "achievement": "Smiley with 3-Sword Style",
+      "character_id": 13358,
+      "rank": 35
+    },
+    {
+      "id": 72610551,
+      "code": "938527682",
+      "nickname": "밀짚모자 일당 ",
+      "level": 186,
+      "score": 179350,
+      "achievement": "<icon=common_font_garp.png> 주먹 <icon=common_font_super_pirate_rumble_0095_sabo_koara_kantou_10915.png>",
+      "character_id": 12608,
+      "rank": 36
+    },
+    {
+      "id": 38269966,
+      "code": "360683217",
+      "nickname": "LegendaryS",
+      "level": 323,
+      "score": 179327,
+      "achievement": "<icon=common_font_pirate_rumble_grandparty_0059_luffy_roger.png> for <icon=common_font_pirate_rumble_grandparty_0059_luffy_roger.png>",
+      "character_id": 14206,
+      "rank": 37
+    },
+    {
+      "id": 39294023,
+      "code": "163041959",
+      "nickname": "전진한다",
+      "level": 1097,
+      "score": 178665,
+      "achievement": "기대 루키",
+      "character_id": 14558,
+      "rank": 38
+    },
+    {
+      "id": 57452775,
+      "code": "342898675",
+      "nickname": "yeray402",
+      "level": 481,
+      "score": 178597,
+      "achievement": "<icon=common_font_grandparty_0098_garling_garp_14512_14513.png> <icon=common_font_grandparty_0098_garling_garp_14512_14513.png>",
+      "character_id": 13358,
+      "rank": 39
+    },
+    {
+      "id": 49305324,
+      "code": "354921784",
+      "nickname": "셤셤",
+      "level": 1100,
+      "score": 178555,
+      "achievement": "",
+      "character_id": 13472,
+      "rank": 40
+    },
+    {
+      "id": 40026066,
+      "code": "393615902",
+      "nickname": "의리",
+      "level": 1172,
+      "score": 178010,
+      "achievement": "<icon=common_font_grandparty_0096_nami_yamato_otama_14301_14422.png> <icon=common_font_grandparty_0098_garling_garp_14512_14513.png>",
+      "character_id": 14525,
+      "rank": 41
+    },
+    {
+      "id": 20699847,
+      "code": "337185348",
+      "nickname": "Egolifting Machine",
+      "level": 462,
+      "score": 177879,
+      "achievement": "Promising Rookie",
+      "character_id": 13827,
+      "rank": 42
+    },
+    {
+      "id": 64526932,
+      "code": "750356367",
+      "nickname": "돈 클리크",
+      "level": 551,
+      "score": 177410,
+      "achievement": "기대 루키",
+      "character_id": 13358,
+      "rank": 43
+    },
+    {
+      "id": 38679991,
+      "code": "663836575",
+      "nickname": "해랑",
+      "level": 311,
+      "score": 176980,
+      "achievement": "기대 루키",
+      "character_id": 14365,
+      "rank": 44
+    },
+    {
+      "id": 37961372,
+      "code": "873897699",
+      "nickname": "[Fr.C] Aysore",
+      "level": 1044,
+      "score": 175607,
+      "achievement": "Le jeune plein d'avenir  Le talentueux débutant",
+      "character_id": 13472,
+      "rank": 45
+    },
+    {
+      "id": 71547653,
+      "code": "792732919",
+      "nickname": "루기와라",
+      "level": 367,
+      "score": 175170,
+      "achievement": "해적왕 의 밀짚모자",
+      "character_id": 14463,
+      "rank": 46
+    },
+    {
+      "id": 71262152,
+      "code": "823092167",
+      "nickname": "Bang",
+      "level": 514,
+      "score": 174978,
+      "achievement": "<icon=common_font_grandparty_0101_franky_brook_14551_14552.png> during <icon=common_font_grandparty_0101_franky_brook_14551_14552.png>",
+      "character_id": 13472,
+      "rank": 47
+    },
+    {
+      "id": 38695809,
+      "code": "633268014",
+      "nickname": "목수 일당",
+      "level": 319,
+      "score": 174725,
+      "achievement": "기대 루키",
+      "character_id": 13903,
+      "rank": 48
+    },
+    {
+      "id": 12854093,
+      "code": "330967495",
+      "nickname": "Triple_X - AUT",
+      "level": 677,
+      "score": 174450,
+      "achievement": "Promising Rookie",
+      "character_id": 13602,
+      "rank": 49
+    },
+    {
+      "id": 61777519,
+      "code": "561353122",
+      "nickname": "™Bro☠오뎅",
+      "level": 1184,
+      "score": 173899,
+      "achievement": "사무라이 의 영웅",
+      "character_id": 13701,
+      "rank": 50
+    },
+    {
+      "id": 3276686,
+      "code": "270403205",
+      "nickname": "adcamsiu",
+      "level": 961,
+      "score": 173869,
+      "achievement": "",
+      "character_id": 13704,
+      "rank": 51
+    },
+    {
+      "id": 1036826,
+      "code": "420342046",
+      "nickname": "Tela Marchosa",
+      "level": 1235,
+      "score": 173742,
+      "achievement": "Promising Rookie",
+      "character_id": 12008,
+      "rank": 52
+    },
+    {
+      "id": 54959926,
+      "code": "646938472",
+      "nickname": "수능특강민철",
+      "level": 473,
+      "score": 173401,
+      "achievement": "할짜락♪",
+      "character_id": 13358,
+      "rank": 53
+    },
+    {
+      "id": 38666002,
+      "code": "608933087",
+      "nickname": "네임리스 앤드 밀짚모자",
+      "level": 764,
+      "score": 173270,
+      "achievement": "기대 루키",
+      "character_id": 11822,
+      "rank": 54
+    },
+    {
+      "id": 38681446,
+      "code": "698333822",
+      "nickname": "D.104",
+      "level": 1592,
+      "score": 172554,
+      "achievement": "영웅 본색",
+      "character_id": 14564,
+      "rank": 55
+    },
+    {
+      "id": 38664742,
+      "code": "658833578",
+      "nickname": "Zephyros",
+      "level": 1417,
+      "score": 172435,
+      "achievement": "",
+      "character_id": 14558,
+      "rank": 56
+    },
+    {
+      "id": 21881148,
+      "code": "891323203",
+      "nickname": "SUNTOOY PIRATES",
+      "level": 880,
+      "score": 171550,
+      "achievement": "Promising Rookie",
+      "character_id": 13703,
+      "rank": 57
+    },
+    {
+      "id": 38756657,
+      "code": "371643390",
+      "nickname": "HD Hyundai",
+      "level": 688,
+      "score": 170440,
+      "achievement": "<icon=common_font_pirate_rumble_grandparty_0059_luffy_roger.png> <icon=common_font_10th.png>",
+      "character_id": 10153,
+      "rank": 58
+    },
+    {
+      "id": 38695432,
+      "code": "163853327",
+      "nickname": "쩡꾸리",
+      "level": 427,
+      "score": 168811,
+      "achievement": "기대 루키",
+      "character_id": 12969,
+      "rank": 59
+    },
+    {
+      "id": 25796678,
+      "code": "718003371",
+      "nickname": "Kick D. Yace",
+      "level": 298,
+      "score": 167952,
+      "achievement": "Le roi des Pirates",
+      "character_id": 14558,
+      "rank": 60
+    },
+    {
+      "id": 39224826,
+      "code": "325463014",
+      "nickname": "BLITZ",
+      "level": 1103,
+      "score": 167775,
+      "achievement": "왕의 자질 할짜락♪",
+      "character_id": 14551,
+      "rank": 61
+    },
+    {
+      "id": 33807906,
+      "code": "721063306",
+      "nickname": "willuffy05",
+      "level": 532,
+      "score": 167622,
+      "achievement": "Le combattant déloyal",
+      "character_id": 14611,
+      "rank": 62
+    },
+    {
+      "id": 38755834,
+      "code": "544613243",
+      "nickname": "루조나우상 로쵸프브 징베",
+      "level": 1312,
+      "score": 167269,
+      "achievement": "<icon=common_font_11th_0091.png> <icon=common_font_doflamingo.png> 악의 카리스마",
+      "character_id": 12760,
+      "rank": 63
+    },
+    {
+      "id": 55328385,
+      "code": "338288385",
+      "nickname": "사계절쌈짱",
+      "level": 967,
+      "score": 167262,
+      "achievement": "살고 싶어 기어",
+      "character_id": 14558,
+      "rank": 64
+    },
+    {
+      "id": 72330319,
+      "code": "628037385",
+      "nickname": "HermesGoldenGun",
+      "level": 343,
+      "score": 166829,
+      "achievement": "<icon=common_font_11th_0091.png>",
+      "character_id": 14564,
+      "rank": 65
+    },
+    {
+      "id": 43605624,
+      "code": "928703474",
+      "nickname": "MassPsykos",
+      "level": 534,
+      "score": 166684,
+      "achievement": "<icon=common_font_grandparty_0101_franky_brook_14551_14552.png> <icon=common_font_grandparty_0098_garling_garp_14512_14513.png>",
+      "character_id": 13472,
+      "rank": 66
+    },
+    {
+      "id": 45913684,
+      "code": "369489427",
+      "nickname": "•",
+      "level": 594,
+      "score": 166494,
+      "achievement": "",
+      "character_id": 13358,
+      "rank": 67
+    },
+    {
+      "id": 63340339,
+      "code": "850535986",
+      "nickname": "ThodsaTar",
+      "level": 488,
+      "score": 166000,
+      "achievement": "Boss Rookie",
+      "character_id": 13472,
+      "rank": 68
+    },
+    {
+      "id": 38668905,
+      "code": "306638883",
+      "nickname": "마술사",
+      "level": 2011,
+      "score": 165130,
+      "achievement": "<icon=common_font_world_cruise2023_0025_robin_nyusyo.png> <icon=common_font_world_cruise2024_0053_sanji_nyusho.png>",
+      "character_id": 14558,
+      "rank": 69
+    },
+    {
+      "id": 66379939,
+      "code": "535654567",
+      "nickname": "樓宇",
+      "level": 708,
+      "score": 164985,
+      "achievement": "<icon=common_font_kizuna_battle_0087_osoba_mask_1_14319.png> <icon=common_font_kizuna_battle_0089_zorojuro_1_14421.png>",
+      "character_id": 14609,
+      "rank": 70
+    },
+    {
+      "id": 21505218,
+      "code": "703270323",
+      "nickname": "♧-K.D.SparkzZ-♤",
+      "level": 694,
+      "score": 164902,
+      "achievement": "Pirate King of True Nature",
+      "character_id": 13702,
+      "rank": 71
+    },
+    {
+      "id": 43581480,
+      "code": "037923129",
+      "nickname": "밀짚모자 일당",
+      "level": 10,
+      "score": 164524,
+      "achievement": "기대 루키",
+      "character_id": 11134,
+      "rank": 72
+    },
+    {
+      "id": 72684361,
+      "code": "157328582",
+      "nickname": "Cumm Pirates",
+      "level": 230,
+      "score": 162999,
+      "achievement": "Gold Emperor of Glint-Glint",
+      "character_id": 14558,
+      "rank": 73
+    },
+    {
+      "id": 38678626,
+      "code": "423368375",
+      "nickname": "Hoya777",
+      "level": 754,
+      "score": 161609,
+      "achievement": "<icon=common_font_pirate_rumble_grandparty_0073_shanks_kid.png> <icon=common_font_kizuna_battle_0072_hawkins_1.png>",
+      "character_id": 14558,
+      "rank": 74
+    },
+    {
+      "id": 25806203,
+      "code": "938033070",
+      "nickname": "[G1] Mugiwara-ya",
+      "level": 896,
+      "score": 160489,
+      "achievement": "Useless <icon=common_font_garp.png> Devil",
+      "character_id": 14206,
+      "rank": 75
+    },
+    {
+      "id": 59665342,
+      "code": "888831278",
+      "nickname": "완숭이",
+      "level": 455,
+      "score": 159275,
+      "achievement": "기대 루키",
+      "character_id": 14206,
+      "rank": 76
+    },
+    {
+      "id": 44874083,
+      "code": "963559239",
+      "nickname": "Chri",
+      "level": 578,
+      "score": 158570,
+      "achievement": "Promising Rookie",
+      "character_id": 13358,
+      "rank": 77
+    },
+    {
+      "id": 22322648,
+      "code": "036387375",
+      "nickname": "FURANX [OPH]",
+      "level": 1149,
+      "score": 158396,
+      "achievement": "Empress Panties",
+      "character_id": 14558,
+      "rank": 78
+    },
+    {
+      "id": 46456045,
+      "code": "440993882",
+      "nickname": "돌고돌아순정",
+      "level": 929,
+      "score": 156561,
+      "achievement": "기대 루키",
+      "character_id": 13602,
+      "rank": 79
+    },
+    {
+      "id": 46780718,
+      "code": "920584331",
+      "nickname": "Lokalmatadore ",
+      "level": 989,
+      "score": 156098,
+      "achievement": "Promising Rookie",
+      "character_id": 12969,
+      "rank": 80
+    },
+    {
+      "id": 1490570,
+      "code": "222183471",
+      "nickname": "Senju",
+      "level": 927,
+      "score": 155425,
+      "achievement": "<icon=common_font_garp.png> Fist from Cow-Gorilla",
+      "character_id": 14558,
+      "rank": 81
+    },
+    {
+      "id": 55541822,
+      "code": "483498977",
+      "nickname": "Iñaki D. Nika",
+      "level": 478,
+      "score": 155297,
+      "achievement": "<icon=common_font_pirate_rumble_grandparty_0059_luffy_roger.png> <icon=common_font_pirate_rumble_grandparty_sp_0081_luffy_sabo_ace.png>",
+      "character_id": 13602,
+      "rank": 82
+    },
+    {
+      "id": 43432724,
+      "code": "430692405",
+      "nickname": "애몽스크루",
+      "level": 479,
+      "score": 154917,
+      "achievement": "기대 루키",
+      "character_id": 14370,
+      "rank": 83
+    },
+    {
+      "id": 39759439,
+      "code": "131643657",
+      "nickname": "【S】707",
+      "level": 1099,
+      "score": 154834,
+      "achievement": "명왕",
+      "character_id": 12760,
+      "rank": 84
+    },
+    {
+      "id": 36413736,
+      "code": "225564643",
+      "nickname": "Eren Jaeger",
+      "level": 280,
+      "score": 154471,
+      "achievement": "Promising Rookie",
+      "character_id": 14122,
+      "rank": 85
+    },
+    {
+      "id": 71609175,
+      "code": "271238877",
+      "nickname": "해적왕",
+      "level": 372,
+      "score": 154462,
+      "achievement": "<icon=common_font_kizuna_battle_0097_mihawk_perona_2_14511.png> 그리고 <icon=common_font_grandparty_0101_franky_brook_14551_14552.png>",
+      "character_id": 13358,
+      "rank": 86
+    },
+    {
+      "id": 56182070,
+      "code": "864943721",
+      "nickname": "Prirats*420",
+      "level": 391,
+      "score": 154225,
+      "achievement": "<icon=common_font_10th.png> <icon=common_font_pirate_rumble_grandparty_0059_luffy_roger.png>",
+      "character_id": 13358,
+      "rank": 87
+    },
+    {
+      "id": 43611090,
+      "code": "103699689",
+      "nickname": "수지문",
+      "level": 500,
+      "score": 152809,
+      "achievement": "기대 루키",
+      "character_id": 14564,
+      "rank": 88
+    },
+    {
+      "id": 47609662,
+      "code": "777919837",
+      "nickname": "PoweredbySVT",
+      "level": 1047,
+      "score": 152075,
+      "achievement": "<icon=common_font_pirate_rumble_grandparty_0033_blackmaria_ulti.png> Pirate King",
+      "character_id": 14558,
+      "rank": 89
+    },
+    {
+      "id": 7100061,
+      "code": "138599744",
+      "nickname": "Suupeeer Pirates",
+      "level": 981,
+      "score": 151685,
+      "achievement": "Promising Rookie",
+      "character_id": 14558,
+      "rank": 90
+    },
+    {
+      "id": 73307220,
+      "code": "101253407",
+      "nickname": "Keelaa",
+      "level": 155,
+      "score": 151294,
+      "achievement": "Promising Rookie",
+      "character_id": 13704,
+      "rank": 91
+    },
+    {
+      "id": 72944051,
+      "code": "955792939",
+      "nickname": "BigStinkyButt",
+      "level": 158,
+      "score": 150795,
+      "achievement": "Useless Young Mistress",
+      "character_id": 14558,
+      "rank": 92
+    },
+    {
+      "id": 72923289,
+      "code": "709233624",
+      "nickname": "Mohametrix",
+      "level": 141,
+      "score": 150572,
+      "achievement": "Le jeune plein d'avenir  Le talentueux débutant",
+      "character_id": 14606,
+      "rank": 93
+    },
+    {
+      "id": 38769075,
+      "code": "381836779",
+      "nickname": "선잇",
+      "level": 866,
+      "score": 149439,
+      "achievement": "VIP",
+      "character_id": 14558,
+      "rank": 94
+    },
+    {
+      "id": 72611990,
+      "code": "961672368",
+      "nickname": "CHUPA",
+      "level": 313,
+      "score": 149360,
+      "achievement": "기대 루키",
+      "character_id": 14463,
+      "rank": 95
+    },
+    {
+      "id": 1158389,
+      "code": "284443623",
+      "nickname": "Zombek",
+      "level": 1076,
+      "score": 149355,
+      "achievement": "Promising Rookie",
+      "character_id": 14463,
+      "rank": 96
+    },
+    {
+      "id": 22875705,
+      "code": "753353802",
+      "nickname": "[EPD] Alec ",
+      "level": 1299,
+      "score": 149325,
+      "achievement": "Reinforcement inside ChoBro",
+      "character_id": 13703,
+      "rank": 97
+    },
+    {
+      "id": 47372311,
+      "code": "983539655",
+      "nickname": "Xel'Naga",
+      "level": 482,
+      "score": 149102,
+      "achievement": "I Don't Need a Title",
+      "character_id": 13472,
+      "rank": 98
+    },
+    {
+      "id": 38674669,
+      "code": "658733156",
+      "nickname": "【S】 호잇",
+      "level": 889,
+      "score": 148300,
+      "achievement": "박치기 그리고 허리케인",
+      "character_id": 13358,
+      "rank": 99
+    },
+    {
+      "id": 38671022,
+      "code": "376398495",
+      "nickname": "다이기@EB",
+      "level": 1220,
+      "score": 147840,
+      "achievement": "기대 루키",
+      "character_id": 13472,
+      "rank": 100
+    }
+  ],
+  "rank_border_scores": [
+    {
+      "rank_id": 1,
+      "score": 166829
+    },
+    {
+      "rank_id": 2,
+      "score": 133893
+    },
+    {
+      "rank_id": 3,
+      "score": 109874
+    },
+    {
+      "rank_id": 4,
+      "score": 83487
+    },
+    {
+      "rank_id": 5,
+      "score": 61060
+    },
+    {
+      "rank_id": 6,
+      "score": 37515
+    },
+    {
+      "rank_id": 7,
+      "score": 1200
+    }
+  ]
+}
