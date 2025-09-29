@@ -35,7 +35,6 @@ async function initializeApp() {
         const response = await fetch('../config.json');
         configData = await response.json();
         populateSelectors();
-        loadAndCompareRankings();
     } catch (error) {
         console.error("초기화 오류:", error);
         alert("config.json 파일을 불러오는 데 실패했습니다.");
@@ -78,18 +77,34 @@ function updateMonthWeekSelector() {
         // 단일 데이터 선택 메뉴 채우기
         const dataOption = document.createElement('option');
         dataOption.value = dir.original;
-        dataOption.textContent = dir.original; // 수정된 부분
+        dataOption.textContent = dir.original;
         dataSelector.appendChild(dataOption);
 
         // 비교 시점 선택 메뉴 채우기 (최신 데이터 제외)
         if (index > 0) {
             const comparisonOption = document.createElement('option');
             comparisonOption.value = dir.original;
-            comparisonOption.textContent = dir.original; // 수정된 부분
+            comparisonOption.textContent = dir.original;
             monthWeekSelector.appendChild(comparisonOption);
         }
     });
     
+    // 데이터가 1개만 있을 경우 단일 보기 모드로 강제 전환
+    if (directories.length <= 1) {
+        singleViewCheckbox.checked = true;
+        singleViewCheckbox.disabled = true;
+        comparisonSelection.style.display = 'none';
+        singleSelection.style.display = '';
+        tableContainer.classList.add('single-view');
+    } else {
+        singleViewCheckbox.disabled = false;
+        if (!singleViewCheckbox.checked) {
+            comparisonSelection.style.display = '';
+            singleSelection.style.display = 'none';
+        }
+        tableContainer.classList.remove('single-view');
+    }
+
     loadAndCompareRankings();
 }
 
@@ -110,7 +125,10 @@ async function loadAndCompareRankings() {
     if (isSingleView) {
         // 단일 데이터 보기 모드
         const selectedDir = dataSelector.value;
-        if (!selectedDir) return;
+        if (!selectedDir) {
+            document.querySelector('#resultsTable tbody').innerHTML = '';
+            return;
+        }
         const path = `../data/${RANKING_TYPE}/${selectedDir}/${DATA_FILE_NAME}`;
         try {
             const data = await fetch(path).then(res => res.json());
@@ -124,7 +142,10 @@ async function loadAndCompareRankings() {
     } else {
         // 비교 모드
         const selectedComparisonDir = monthWeekSelector.value;
-        if (!selectedComparisonDir) return;
+        if (!selectedComparisonDir) {
+            document.querySelector('#resultsTable tbody').innerHTML = '';
+            return;
+        }
 
         const allDirectories = configData[RANKING_TYPE].sort(sortDirectories).reverse();
         const latestDir = allDirectories[0];

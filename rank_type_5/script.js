@@ -35,12 +35,7 @@ async function initializeApp() {
         const response = await fetch('../config.json');
         configData = await response.json();
         const directories = configData[RANKING_TYPE];
-        if (!directories || directories.length < 2) {
-            alert('비교할 데이터가 2개 이상 필요합니다. config.json을 확인해주세요.');
-            return;
-        }
         populateSelectors();
-        loadAndCompareRankings();
     } catch (error) {
         console.error("초기화 오류:", error);
         alert("config.json 파일을 불러오거나 처리하는 데 실패했습니다.");
@@ -90,6 +85,22 @@ function updateMonthWeekSelector() {
         }
     });
     
+    // 데이터가 1개만 있을 경우 단일 보기 모드로 강제 전환
+    if (directories.length <= 1) {
+        singleViewCheckbox.checked = true;
+        singleViewCheckbox.disabled = true;
+        comparisonSelection.style.display = 'none';
+        singleSelection.style.display = '';
+        tableContainer.classList.add('single-view');
+    } else {
+        singleViewCheckbox.disabled = false;
+        if (!singleViewCheckbox.checked) {
+            comparisonSelection.style.display = '';
+            singleSelection.style.display = 'none';
+        }
+        tableContainer.classList.remove('single-view');
+    }
+
     loadAndCompareRankings();
 }
 
@@ -110,23 +121,29 @@ async function loadAndCompareRankings() {
 
     if (isSingleView) {
         const selectedDir = dataSelector.value;
-        if (!selectedDir) return;
+        if (!selectedDir) {
+            document.querySelector('#resultsTable tbody').innerHTML = '';
+            return;
+        }
         const path = `../data/${RANKING_TYPE}/${selectedDir}/${DATA_FILE_NAME}`;
         try {
             const data = await fetch(path).then(res => res.json());
             currentNewData = data.rankings;
             currentOldData = null;
-            displayResults(null, currentNewData);
+            displayResults(null, currentNewData, selectedDir);
         } catch (error) {
             console.error("랭킹 파일 로딩 오류:", error);
             alert("랭킹 파일을 불러오는 데 실패했습니다.");
         }
     } else {
         const selectedComparisonDir = monthWeekSelector.value;
-        if (!selectedComparisonDir) return;
-
         const allDirectories = configData[RANKING_TYPE].sort((a,b) => sortDirectories(a,b)).reverse();
         const latestDir = allDirectories[0];
+        
+        if (!selectedComparisonDir || !latestDir) {
+             document.querySelector('#resultsTable tbody').innerHTML = '';
+             return;
+        }
 
         const latestPath = `../data/${RANKING_TYPE}/${latestDir}/${DATA_FILE_NAME}`;
         const comparisonPath = `../data/${RANKING_TYPE}/${selectedComparisonDir}/${DATA_FILE_NAME}`;
@@ -139,7 +156,7 @@ async function loadAndCompareRankings() {
             
             currentOldData = oldJson.rankings;
             currentNewData = newJson.rankings;
-            displayResults(currentOldData, currentNewData);
+            displayResults(currentOldData, currentNewData, `${latestDir} vs ${selectedComparisonDir}`);
         } catch (error) {
             console.error("랭킹 파일 로딩 오류:", error);
             alert("랭킹 파일을 불러오는 데 실패했습니다.");
@@ -148,7 +165,7 @@ async function loadAndCompareRankings() {
 }
 
 // 기존 displayResults 함수를 아래 코드로 교체하세요.
-function displayResults(oldData, newData) {
+function displayResults(oldData, newData, title) {
     const isSingleView = singleViewCheckbox.checked;
     const showTgallOnly = tgallCheckbox.checked;
 
@@ -156,6 +173,9 @@ function displayResults(oldData, newData) {
     if (showTgallOnly) {
         filteredData = newData.filter(user => specialUsers.includes(user.id) || specialUsers.includes(user.code));
     }
+
+    // 제목 업데이트
+    document.querySelector('h1').textContent = `🏆 ${title} 현상금 랭킹`;
 
     const tableBody = document.querySelector('#resultsTable tbody');
     tableBody.innerHTML = '';
@@ -171,6 +191,7 @@ function displayResults(oldData, newData) {
                 const change = oldRank - newUser.rank;
                 if (change > 0) { rankChangeText = `▲ ${change}`; rankChangeClass = 'rank-up'; }
                 else if (change < 0) { rankChangeText = `▼ ${Math.abs(change)}`; rankChangeClass = 'rank-down'; }
+                else { rankChangeText = '-'; rankChangeClass = 'rank-same'; }
             } else {
                 rankChangeText = 'New'; rankChangeClass = 'rank-new';
             }
