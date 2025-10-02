@@ -23,6 +23,13 @@ const tableContainer = document.querySelector('.table-container');
 
 // --- 이벤트 리스너 ---
 document.addEventListener('DOMContentLoaded', initializeApp);
+document.querySelectorAll('.sort-btn').forEach(button => {
+    button.addEventListener('click', () => {
+        document.querySelectorAll('.sort-btn').forEach(btn => btn.classList.remove('active'));
+        button.classList.add('active');
+        sortTable(button.dataset.sortBy);
+    });
+});
 document.getElementById('saveAsImageBtn').addEventListener('click', saveTableAsImage);
 document.getElementById('searchInput').addEventListener('input', filterByNickname);
 yearSelector.addEventListener('change', updateMonthWeekSelector);
@@ -127,7 +134,9 @@ function toggleViewMode() {
 }
 
 function filterByTgall() {
-    displayResults(currentOldData, currentNewData);
+    const activeSortButton = document.querySelector('.sort-btn.active');
+    const sortBy = activeSortButton ? activeSortButton.dataset.sortBy : 'total_max_score';
+    sortTable(sortBy);
 }
 
 
@@ -148,10 +157,11 @@ async function loadAndCompareRankings() {
             const data = await fetch(path).then(res => res.json());
             currentNewData = data.ranked_records;
             currentOldData = null;
-            displayResults(null, currentNewData);
         } catch (error) {
             console.error("랭킹 파일 로딩 오류:", error);
             alert("랭킹 파일을 불러오는 데 실패했습니다.");
+            currentNewData = [];
+            currentOldData = null;
         }
     } else {
         const selectedComparisonDir = monthWeekSelector.value;
@@ -174,17 +184,28 @@ async function loadAndCompareRankings() {
             
             currentOldData = oldJson.ranked_records;
             currentNewData = newJson.ranked_records;
-            displayResults(currentOldData, currentNewData);
 
         } catch (error) {
             console.error("랭킹 파일 로딩 오류:", error);
             alert("랭킹 파일을 불러오는 데 실패했습니다.");
+            currentNewData = [];
+            currentOldData = [];
         }
     }
+    const activeSortButton = document.querySelector('.sort-btn.active');
+    const sortBy = activeSortButton ? activeSortButton.dataset.sortBy : 'total_max_score';
+    sortTable(sortBy);
 }
 
+function sortTable(sortBy) {
+    const sortedData = [...currentNewData].sort((a, b) => {
+        const valueA = a.user_assault_rumble_event[sortBy];
+        const valueB = b.user_assault_rumble_event[sortBy];
+        return valueB - valueA;
+    });
+    displayResults(currentOldData, sortedData);
+}
 
-// 기존 displayResults 함수를 아래 코드로 교체하세요.
 function displayResults(oldData, newData) {
     const isSingleView = singleViewCheckbox.checked;
     const showTgallOnly = tgallCheckbox.checked;
@@ -198,7 +219,7 @@ function displayResults(oldData, newData) {
     tableBody.innerHTML = '';
     const oldRanksMap = !isSingleView && oldData ? new Map(oldData.map(record => [record.user.code, record.rank])) : null;
 
-    filteredData.forEach(newRecord => {
+    filteredData.forEach((newRecord, index) => { // 'index' 추가
         let rankChangeText = '-';
         let rankChangeClass = '';
 
@@ -220,7 +241,7 @@ function displayResults(oldData, newData) {
         const row = document.createElement('tr');
         row.className = rankChangeClass;
         row.innerHTML = `
-            <td>${newRecord.rank}</td>
+            <td>${index + 1}</td> 
             <td class="nickname">${nicknameHtml}</td>
             <td>${newRecord.user.level}</td>
             <td>${newRecord.user_assault_rumble_event.total_max_score.toLocaleString()}</td>
