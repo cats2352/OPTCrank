@@ -139,20 +139,42 @@ function filterByTgall() {
     sortTable(sortBy);
 }
 
+/** 데이터 마지막 수정 시간 표시 */
+async function displayLastUpdated(filePath, fallbackText) {
+    const lastUpdatedElement = document.getElementById('last-updated');
+    try {
+        const response = await fetch(filePath, { method: 'HEAD' });
+        const lastModified = response.headers.get('Last-Modified');
+        if (lastModified) {
+            const date = new Date(lastModified);
+            const formattedDate = `${date.getFullYear()}년 ${(date.getMonth() + 1).toString().padStart(2, '0')}월 ${date.getDate().toString().padStart(2, '0')}일 ${date.getHours().toString().padStart(2, '0')}시 ${date.getMinutes().toString().padStart(2, '0')}분`;
+            lastUpdatedElement.textContent = formattedDate;
+        } else {
+            lastUpdatedElement.textContent = fallbackText;
+        }
+    } catch (error) {
+        console.warn('Last-Modified 헤더를 가져올 수 없습니다.', error);
+        lastUpdatedElement.textContent = fallbackText;
+    }
+}
 
 /**
  * 랭킹 데이터 불러오기 및 비교
  */
 async function loadAndCompareRankings() {
     const isSingleView = singleViewCheckbox.checked;
+    const titleElement = document.getElementById('main-title');
 
     if (isSingleView) {
         const selectedDir = dataSelector.value;
+        if(titleElement) titleElement.textContent = `🏆 ${selectedDir} 토벌페스티벌 랭킹`;
+
         if (!selectedDir) {
             document.querySelector('#resultsTable tbody').innerHTML = '';
             return;
         }
         const path = `../data/${RANKING_TYPE}/${selectedDir}/${DATA_FILE_NAME}`;
+        await displayLastUpdated(path, selectedDir);
         try {
             const data = await fetch(path).then(res => res.json());
             currentNewData = data.ranked_records;
@@ -173,7 +195,10 @@ async function loadAndCompareRankings() {
         const allDirectories = configData[RANKING_TYPE].sort(sortDirectories).reverse();
         const latestDir = allDirectories[0];
 
+        if(titleElement) titleElement.textContent = `🏆 ${latestDir} 토벌페스티벌 랭킹`;
+        
         const latestPath = `../data/${RANKING_TYPE}/${latestDir}/${DATA_FILE_NAME}`;
+        await displayLastUpdated(latestPath, latestDir);
         const comparisonPath = `../data/${RANKING_TYPE}/${selectedComparisonDir}/${DATA_FILE_NAME}`;
         
         try {
@@ -219,7 +244,7 @@ function displayResults(oldData, newData) {
     tableBody.innerHTML = '';
     const oldRanksMap = !isSingleView && oldData ? new Map(oldData.map(record => [record.user.code, record.rank])) : null;
 
-    filteredData.forEach((newRecord, index) => { // 'index' 추가
+    filteredData.forEach((newRecord, index) => {
         let rankChangeText = '-';
         let rankChangeClass = '';
 
@@ -241,7 +266,7 @@ function displayResults(oldData, newData) {
         const row = document.createElement('tr');
         row.className = rankChangeClass;
         row.innerHTML = `
-            <td>${index + 1}</td> 
+            <td>${index + 1}</td>
             <td class="nickname">${nicknameHtml}</td>
             <td>${newRecord.user.level}</td>
             <td>${newRecord.user_assault_rumble_event.total_max_score.toLocaleString()}</td>
@@ -291,17 +316,16 @@ function saveTableAsImage() {
     button.disabled = true;
 
     html2canvas(target, { 
-        backgroundColor: '#ffffff', // 캡처의 기본 배경색을 흰색으로 지정
-        scale: 2,
+        backgroundColor: '#ffffff',
+        scale: window.devicePixelRatio || 2,
+        useCORS: true,
         onclone: (clonedDoc) => {
-            // html2canvas가 복제한 문서 내에서만 스타일을 수정합니다.
+            const clonedTarget = clonedDoc.querySelector(".table-container");
+            clonedTarget.style.overflow = 'visible';
             
-            // rank-up 행의 배경 그라데이션 끝 색상을 'transparent' 대신 흰색으로 명시
             clonedDoc.querySelectorAll('tr.rank-up').forEach(row => {
                 row.style.background = 'linear-gradient(to right, rgb(240, 161, 161), #ffffff)';
             });
-
-            // rank-down 행의 배경 그라데이션 끝 색상을 'transparent' 대신 흰색으로 명시
             clonedDoc.querySelectorAll('tr.rank-down').forEach(row => {
                 row.style.background = 'linear-gradient(to right, rgb(160, 205, 241), #ffffff)';
             });

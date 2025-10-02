@@ -116,16 +116,37 @@ function filterByTgall() {
     displayResults(currentOldData, currentNewData);
 }
 
+async function displayLastUpdated(filePath, fallbackText) {
+    const lastUpdatedElement = document.getElementById('last-updated');
+    try {
+        const response = await fetch(filePath, { method: 'HEAD' });
+        const lastModified = response.headers.get('Last-Modified');
+        if (lastModified) {
+            const date = new Date(lastModified);
+            const formattedDate = `${date.getFullYear()}년 ${(date.getMonth() + 1).toString().padStart(2, '0')}월 ${date.getDate().toString().padStart(2, '0')}일 ${date.getHours().toString().padStart(2, '0')}시 ${date.getMinutes().toString().padStart(2, '0')}분`;
+            lastUpdatedElement.textContent = formattedDate;
+        } else {
+            lastUpdatedElement.textContent = fallbackText;
+        }
+    } catch (error) {
+        console.warn('Last-Modified 헤더를 가져올 수 없습니다.', error);
+        lastUpdatedElement.textContent = fallbackText;
+    }
+}
+
 async function loadAndCompareRankings() {
     const isSingleView = singleViewCheckbox.checked;
+    const titleElement = document.getElementById('main-title');
 
     if (isSingleView) {
         const selectedDir = dataSelector.value;
+        if(titleElement) titleElement.textContent = `🏆 ${selectedDir} 해적제 랭킹(결승전)`;
         if (!selectedDir) {
             document.querySelector('#resultsTable tbody').innerHTML = '';
             return;
         }
         const path = `../data/${RANKING_TYPE}/${selectedDir}/${DATA_FILE_NAME}`;
+        await displayLastUpdated(path, selectedDir);
         try {
             const data = await fetch(path).then(res => res.json());
             currentNewData = data.ranking_datas;
@@ -144,8 +165,11 @@ async function loadAndCompareRankings() {
 
         const allDirectories = configData[RANKING_TYPE].sort((a,b) => sortDirectories(a,b)).reverse();
         const latestDir = allDirectories[0];
+        
+        if(titleElement) titleElement.textContent = `🏆 ${latestDir} 해적제 랭킹(결승전)`;
 
         const latestPath = `../data/${RANKING_TYPE}/${latestDir}/${DATA_FILE_NAME}`;
+        await displayLastUpdated(latestPath, latestDir);
         const comparisonPath = `../data/${RANKING_TYPE}/${selectedComparisonDir}/${DATA_FILE_NAME}`;
         
         try {
@@ -164,7 +188,6 @@ async function loadAndCompareRankings() {
     }
 }
 
-// 기존 displayResults 함수를 아래 코드로 교체하세요.
 function displayResults(oldData, newData) {
     const isSingleView = singleViewCheckbox.checked;
     const showTgallOnly = tgallCheckbox.checked;
@@ -259,17 +282,17 @@ function saveTableAsImage() {
     button.disabled = true;
 
     html2canvas(target, { 
-        backgroundColor: '#ffffff', // 캡처의 기본 배경색을 흰색으로 지정
-        scale: 2,
+        backgroundColor: '#ffffff',
+        scale: window.devicePixelRatio || 2,
+        useCORS: true,
         onclone: (clonedDoc) => {
-            // html2canvas가 복제한 문서 내에서만 스타일을 수정합니다.
-            
-            // rank-up 행의 배경 그라데이션 끝 색상을 'transparent' 대신 흰색으로 명시
+            const clonedTarget = clonedDoc.querySelector(".table-container");
+            clonedTarget.style.overflow = 'visible';
+
             clonedDoc.querySelectorAll('tr.rank-up').forEach(row => {
                 row.style.background = 'linear-gradient(to right, rgb(240, 161, 161), #ffffff)';
             });
 
-            // rank-down 행의 배경 그라데이션 끝 색상을 'transparent' 대신 흰색으로 명시
             clonedDoc.querySelectorAll('tr.rank-down').forEach(row => {
                 row.style.background = 'linear-gradient(to right, rgb(160, 205, 241), #ffffff)';
             });
