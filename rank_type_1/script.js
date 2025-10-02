@@ -37,7 +37,7 @@ async function initializeApp() {
         populateSelectors();
     } catch (error) {
         console.error("초기화 오류:", error);
-        alert("config.json 파일을 불러오는 데 실패했습니다.");
+        alert("config.json 파일을 불러오거나 처리하는 데 실패했습니다.");
     }
 }
 
@@ -198,7 +198,6 @@ function filterByTgall() {
     displayResults(currentOldData, currentNewData);
 }
 
-// 기존 displayResults 함수를 아래 코드로 교체하세요.
 function displayResults(oldData, newData) {
     const isSingleView = singleViewCheckbox.checked;
     const showTgallOnly = tgallCheckbox.checked;
@@ -229,7 +228,9 @@ function displayResults(oldData, newData) {
         }
         
         const isSpecial = specialUsers.includes(newUser.code) || specialUsers.includes(newUser.id);
-        const nicknameHtml = `${newUser.nickname}${isSpecial ? '<span class="tgall-icon">트갤</span>' : ''}`;
+        const nickname = newUser.nickname;
+        const encodedNickname = encodeURIComponent(nickname);
+        const nicknameHtml = `<a href="../history/index.html?nickname=${encodedNickname}" class="history-link">${nickname}</a>${isSpecial ? '<span class="tgall-icon">트갤</span>' : ''}`;
 
         const row = document.createElement('tr');
         row.className = rankChangeClass;
@@ -276,20 +277,17 @@ function saveTableAsImage() {
     button.disabled = true;
 
     html2canvas(target, { 
-        backgroundColor: '#ffffff', // 캡처의 기본 배경색을 지정
-        scale: window.devicePixelRatio || 2, // 기기 해상도에 맞춰 선명도 자동 조절
-        useCORS: true, // 외부 폰트나 이미지를 로드할 수 있도록 허용
+        backgroundColor: '#ffffff',
+        scale: Math.max(2, window.devicePixelRatio || 1), // 화질 개선
+        useCORS: true,
         onclone: (clonedDoc) => {
             const clonedTarget = clonedDoc.querySelector(".table-container");
-            // 스크롤 영역을 모두 캡처하기 위해 overflow 스타일을 일시적으로 변경
             clonedTarget.style.overflow = 'visible';
 
-            // rank-up 행의 배경 그라데이션 끝 색상을 'transparent' 대신 흰색으로 명시
             clonedDoc.querySelectorAll('tr.rank-up').forEach(row => {
                 row.style.background = 'linear-gradient(to right, rgb(240, 161, 161), #ffffff)';
             });
 
-            // rank-down 행의 배경 그라데이션 끝 색상을 'transparent' 대신 흰색으로 명시
             clonedDoc.querySelectorAll('tr.rank-down').forEach(row => {
                 row.style.background = 'linear-gradient(to right, rgb(160, 205, 241), #ffffff)';
             });

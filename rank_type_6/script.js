@@ -217,7 +217,9 @@ function displayResults(oldData, newData) {
         }
         
         const isSpecial = specialUsers.includes(newUser.user.id);
-        const nicknameHtml = `${newUser.user.nickname}${isSpecial ? '<span class="tgall-icon">트갤</span>' : ''}`;
+        const nickname = newUser.user.nickname;
+        const encodedNickname = encodeURIComponent(nickname);
+        const nicknameHtml = `<a href="../history/index.html?nickname=${encodedNickname}" class="history-link">${nickname}</a>${isSpecial ? '<span class="tgall-icon">트갤</span>' : ''}`;
 
         const row = document.createElement('tr');
         row.className = rankChangeClass;
@@ -283,7 +285,7 @@ function saveTableAsImage() {
 
     html2canvas(target, { 
         backgroundColor: '#ffffff',
-        scale: window.devicePixelRatio || 2,
+        scale: Math.max(2, window.devicePixelRatio || 1), // 화질 개선
         useCORS: true,
         onclone: (clonedDoc) => {
             const clonedTarget = clonedDoc.querySelector(".table-container");

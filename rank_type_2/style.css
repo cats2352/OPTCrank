@@ -127,6 +127,15 @@ tr.rank-new .rank-change { color: #629b41; font-weight: bold; }
 .sort-btn { border: 1px solid #ced4da; background-color: transparent; color: #495057; padding: 8px 12px; border-radius: 5px; font-size: 14px; font-weight: bold; cursor: pointer; transition: background-color 0.3s ease; }
 .sort-btn.active { background-color: #007bff; color: #ffffff; border-color: #007bff; }
 
+.history-link {
+    color: inherit; /* 부모 요소의 색상을 상속받음 */
+    text-decoration: none; /* 밑줄 제거 */
+}
+
+.history-link:hover {
+    text-decoration: underline; /* 마우스를 올리면 밑줄 표시 */
+}
+
 @media (max-width: 768px) {
     body {
         padding: 10px;

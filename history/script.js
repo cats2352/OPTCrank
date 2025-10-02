@@ -19,6 +19,15 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- 자동완성 기능 초기화 ---
     initializeAutocomplete();
 
+    // --- URL 파라미터를 이용한 자동 검색 기능 (추가된 부분) ---
+    const urlParams = new URLSearchParams(window.location.search);
+    const nicknameFromUrl = urlParams.get('nickname');
+    if (nicknameFromUrl) {
+        nicknameInput.value = nicknameFromUrl; // URL 파라미터로 받은 닉네임을 입력창에 설정
+        performSearch(); // 자동으로 검색 실행
+    }
+    // --- 여기까지 추가 ---
+
     async function initializeAutocomplete() {
         if (!allDataCache) {
             allDataCache = await loadAllData();
