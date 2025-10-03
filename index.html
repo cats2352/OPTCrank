@@ -3,22 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OPTC 랭킹 비교 사이트</title>
+    <title>OPTC 랭킹 허브</title>
     <link rel="stylesheet" href="main_style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
     <div class="hub-container">
-        <h1>🏆 OPTC 랭킹 비교 🏆</h1>
-        <p>확인하고 싶은 랭킹 종류를 선택하세요.<br>년도가 다를시 데이터를 비교하는 모드가 off됩니다.</p>
-        <nav class="button-grid">
-            <a href="rank_type_1/index.html" class="hub-button">트크런 랭킹</a>
-            <a href="rank_type_2/index.html" class="hub-button">토벌페스티벌 랭킹</a>
-            <a href="rank_type_3/index.html" class="hub-button">유대결전 랭킹</a>
-            <a href="rank_type_4/index.html" class="hub-button">트맵 랭킹</a>
-            <a href="rank_type_5/index.html" class="hub-button">현상금 랭킹</a>
-            <a href="rank_type_6/index.html" class="hub-button">해적제 랭킹</a>
-            <a href="history/index.html" class="hub-button history-button">개인 랭킹 조회</a>
-        </nav>
+        <header class="hub-header">
+            <h1>🏆 OPTC 랭킹 허브 🏆</h1>
+            <p>원피스 트레저 크루즈의 모든 랭킹 정보를 한눈에 확인하세요.</p>
+        </header>
+        
+        <main class="card-grid">
+            <a href="rank_type_1/index.html" class="card">
+                <div class="card-icon"><i class="fa-solid fa-person-running"></i></div>
+                <div class="card-body">
+                    <h3>트크런</h3>
+                    <p>9월 4주차 랭킹을 확인합니다.</p>
+                </div>
+            </a>
+            <a href="rank_type_2/index.html" class="card">
+                <div class="card-icon"><i class="fa-solid fa-shield-halved"></i></div>
+                <div class="card-body">
+                    <h3>토벌 페스티벌</h3>
+                    <p>토벌전의 점수와 승리 횟수 랭킹입니다.</p>
+                </div>
+            </a>
+            <a href="rank_type_3/index.html" class="card">
+                <div class="card-icon"><i class="fa-solid fa-users"></i></div>
+                <div class="card-body">
+                    <h3>유대결전</h3>
+                    <p>유대 결전의 포인트,헬프, 격파 횟수 랭킹입니다.</p>
+                </div>
+            </a>
+            <a href="rank_type_4/index.html" class="card">
+                <div class="card-icon"><i class="fa-solid fa-map-location-dot"></i></div>
+                <div class="card-body">
+                    <h3>트레저맵</h3>
+                    <p>트레저맵의 포인트 랭킹을 확인합니다.</p>
+                </div>
+            </a>
+            <a href="rank_type_5/index.html" class="card">
+                <div class="card-icon"><i class="fa-solid fa-skull-crossbones"></i></div>
+                <div class="card-body">
+                    <h3>현상금</h3>
+                    <p>유저들의 현상금 순위를 비교합니다.</p>
+                </div>
+            </a>
+            <a href="rank_type_6/index.html" class="card">
+                <div class="card-icon"><i class="fa-solid fa-trophy"></i></div>
+                <div class="card-body">
+                    <h3>해적제(결승전)</h3>
+                    <p>해적제 결승전의 랭킹과 덱 정보를 봅니다.</p>
+                </div>
+            </a>
+            <a href="history/index.html" class="card card-special">
+                <div class="card-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+                <div class="card-body">
+                    <h3>개인 랭킹 조회</h3>
+                    <p>닉네임을 검색하여 모든 랭킹 기록을 봅니다.</p>
+                </div>
+            </a>
+        </main>
+        
+        <footer class="hub-footer">
+            <p>&copy; 2025 OPTC Rank. All rights reserved.</p>
+        </footer>
     </div>
 </body>
 </html>
