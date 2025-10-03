@@ -5,14 +5,14 @@
       "user": {
         "code": "242053141",
         "nickname": "[ΛF] b00ndesn00b",
-        "character_id": 13701,
+        "character_id": 14606,
         "level": 1940,
         "bounty": "1392950000"
       },
       "user_assault_rumble_event": {
         "total_max_score": 123117506,
         "level": 10,
-        "win_count": 66
+        "win_count": 68
       }
     },
     {
@@ -20,14 +20,14 @@
       "user": {
         "code": "287436378",
         "nickname": "샬롯_VV♦️",
-        "character_id": 14512,
+        "character_id": 14606,
         "level": 1798,
         "bounty": "1227675000"
       },
       "user_assault_rumble_event": {
-        "total_max_score": 122366258,
+        "total_max_score": 122656219,
         "level": 10,
-        "win_count": 862
+        "win_count": 916
       }
     },
     {
@@ -36,13 +36,13 @@
         "code": "214711308",
         "nickname": "[ΛF] ズのｷﾉ",
         "character_id": 14606,
-        "level": 1636,
-        "bounty": "1240100000"
+        "level": 1637,
+        "bounty": "1240850000"
       },
       "user_assault_rumble_event": {
         "total_max_score": 121716619,
         "level": 10,
-        "win_count": 31
+        "win_count": 34
       }
     },
     {
@@ -50,33 +50,78 @@
       "user": {
         "code": "634075669",
         "nickname": "[ΛF] Puzzy",
-        "character_id": 14608,
+        "character_id": 14606,
         "level": 1771,
         "bounty": "1389500000"
       },
       "user_assault_rumble_event": {
-        "total_max_score": 120216565,
+        "total_max_score": 120402178,
         "level": 10,
-        "win_count": 404
+        "win_count": 407
       }
     },
     {
       "rank": 5,
       "user": {
-        "code": "635743886",
-        "nickname": "[ΛF] Bmil",
-        "character_id": 12760,
-        "level": 2148,
-        "bounty": "1371600000"
+        "code": "823794792",
+        "nickname": "ⓉⓇⓈ De4n",
+        "character_id": 14606,
+        "level": 1723,
+        "bounty": "1225650000"
       },
       "user_assault_rumble_event": {
-        "total_max_score": 119595286,
+        "total_max_score": 120002839,
         "level": 10,
-        "win_count": 38
+        "win_count": 340
       }
     },
     {
       "rank": 6,
+      "user": {
+        "code": "635743886",
+        "nickname": "[ΛF] Bmil",
+        "character_id": 14608,
+        "level": 2148,
+        "bounty": "1371600000"
+      },
+      "user_assault_rumble_event": {
+        "total_max_score": 119747379,
+        "level": 10,
+        "win_count": 41
+      }
+    },
+    {
+      "rank": 7,
+      "user": {
+        "code": "370854700",
+        "nickname": "[LPG] •❄️ExoDiA❄️",
+        "character_id": 14608,
+        "level": 1146,
+        "bounty": "995600000"
+      },
+      "user_assault_rumble_event": {
+        "total_max_score": 118945952,
+        "level": 10,
+        "win_count": 286
+      }
+    },
+    {
+      "rank": 8,
+      "user": {
+        "code": "337651432",
+        "nickname": "[ΛF] Ace",
+        "character_id": 14606,
+        "level": 2029,
+        "bounty": "1335230000"
+      },
+      "user_assault_rumble_event": {
+        "total_max_score": 118868559,
+        "level": 10,
+        "win_count": 50
+      }
+    },
+    {
+      "rank": 9,
       "user": {
         "code": "553325423",
         "nickname": "[ΛF] Waldo",
@@ -91,63 +136,18 @@
       }
     },
     {
-      "rank": 7,
-      "user": {
-        "code": "337651432",
-        "nickname": "[ΛF] Ace",
-        "character_id": 13472,
-        "level": 2029,
-        "bounty": "1335230000"
-      },
-      "user_assault_rumble_event": {
-        "total_max_score": 118622076,
-        "level": 10,
-        "win_count": 49
-      }
-    },
-    {
-      "rank": 8,
+      "rank": 10,
       "user": {
         "code": "840043172",
         "nickname": "[ΛF] Stussy <3",
         "character_id": 14606,
         "level": 1707,
-        "bounty": "1271900000"
+        "bounty": "1274900000"
       },
       "user_assault_rumble_event": {
         "total_max_score": 118513578,
         "level": 10,
-        "win_count": 66
-      }
-    },
-    {
-      "rank": 9,
-      "user": {
-        "code": "370854700",
-        "nickname": "[LPG] •❄️ExoDiA❄️",
-        "character_id": 14608,
-        "level": 1146,
-        "bounty": "995600000"
-      },
-      "user_assault_rumble_event": {
-        "total_max_score": 118418726,
-        "level": 10,
-        "win_count": 284
-      }
-    },
-    {
-      "rank": 10,
-      "user": {
-        "code": "823794792",
-        "nickname": "ⓉⓇⓈ De4n",
-        "character_id": 14606,
-        "level": 1723,
-        "bounty": "1225650000"
-      },
-      "user_assault_rumble_event": {
-        "total_max_score": 117806881,
-        "level": 10,
-        "win_count": 323
+        "win_count": 74
       }
     },
     {
@@ -155,14 +155,14 @@
       "user": {
         "code": "379002886",
         "nickname": "[LPG]MugyDDjew✨352",
-        "character_id": 14606,
+        "character_id": 13472,
         "level": 854,
         "bounty": "833565000"
       },
       "user_assault_rumble_event": {
         "total_max_score": 116435323,
         "level": 10,
-        "win_count": 178
+        "win_count": 206
       }
     },
     {
@@ -177,7 +177,7 @@
       "user_assault_rumble_event": {
         "total_max_score": 116195085,
         "level": 10,
-        "win_count": 1576
+        "win_count": 1692
       }
     },
     {
@@ -200,7 +200,7 @@
       "user": {
         "code": "587773927",
         "nickname": "ᴍᴀᴇʟ",
-        "character_id": 14608,
+        "character_id": 14606,
         "level": 1298,
         "bounty": "619210000"
       },
@@ -232,7 +232,7 @@
         "nickname": "[P☠️⚡️N]₴corpio₦ ❦",
         "character_id": 14606,
         "level": 1458,
-        "bounty": "1197900000"
+        "bounty": "1198900000"
       },
       "user_assault_rumble_event": {
         "total_max_score": 112125935,
@@ -245,9 +245,9 @@
       "user": {
         "code": "903417167",
         "nickname": "TRA - ❤️ ヤマト ❤️",
-        "character_id": 14608,
-        "level": 1388,
-        "bounty": "1275350000"
+        "character_id": 14606,
+        "level": 1389,
+        "bounty": "1275600000"
       },
       "user_assault_rumble_event": {
         "total_max_score": 109783681,
@@ -275,9 +275,9 @@
       "user": {
         "code": "579393776",
         "nickname": "[TRA]Duke_Omar",
-        "character_id": 14608,
-        "level": 1050,
-        "bounty": "972625000"
+        "character_id": 14606,
+        "level": 1051,
+        "bounty": "973125000"
       },
       "user_assault_rumble_event": {
         "total_max_score": 109125352,
@@ -290,22 +290,52 @@
       "user": {
         "code": "254836831",
         "nickname": "척",
-        "character_id": 14608,
+        "character_id": 14606,
         "level": 1704,
         "bounty": "1229900000"
       },
       "user_assault_rumble_event": {
         "total_max_score": 107385653,
         "level": 10,
-        "win_count": 68
+        "win_count": 71
       }
     },
     {
       "rank": 21,
       "user": {
+        "code": "848142523",
+        "nickname": "[ΛF] Twonce",
+        "character_id": 14606,
+        "level": 1062,
+        "bounty": "1009750000"
+      },
+      "user_assault_rumble_event": {
+        "total_max_score": 107356927,
+        "level": 10,
+        "win_count": 119
+      }
+    },
+    {
+      "rank": 22,
+      "user": {
+        "code": "065138563",
+        "nickname": "ⓉⓇⓈ Soobak",
+        "character_id": 12969,
+        "level": 1126,
+        "bounty": "463220000"
+      },
+      "user_assault_rumble_event": {
+        "total_max_score": 106031752,
+        "level": 10,
+        "win_count": 47
+      }
+    },
+    {
+      "rank": 23,
+      "user": {
         "code": "612939986",
         "nickname": "TRA | V3NOM",
-        "character_id": 14608,
+        "character_id": 14606,
         "level": 1393,
         "bounty": "1111550000"
       },
@@ -316,12 +346,12 @@
       }
     },
     {
-      "rank": 22,
+      "rank": 24,
       "user": {
         "code": "201293084",
         "nickname": "[P☠️⚡️N] ϻʀ.ᴄʜɪʟʟ",
-        "character_id": 14608,
-        "level": 1620,
+        "character_id": 14606,
+        "level": 1621,
         "bounty": "1275350000"
       },
       "user_assault_rumble_event": {
@@ -331,11 +361,11 @@
       }
     },
     {
-      "rank": 23,
+      "rank": 25,
       "user": {
         "code": "672833978",
         "nickname": "샬롯_Kakao♦️",
-        "character_id": 13472,
+        "character_id": 13701,
         "level": 2014,
         "bounty": "1328700000"
       },
@@ -346,7 +376,7 @@
       }
     },
     {
-      "rank": 24,
+      "rank": 26,
       "user": {
         "code": "574363283",
         "nickname": "뉴특",
@@ -357,17 +387,17 @@
       "user_assault_rumble_event": {
         "total_max_score": 103598216,
         "level": 10,
-        "win_count": 386
+        "win_count": 452
       }
     },
     {
-      "rank": 25,
+      "rank": 27,
       "user": {
         "code": "098003620",
         "nickname": "[TRA] ✞Antiℂristo✞",
         "character_id": 14606,
         "level": 1501,
-        "bounty": "1329650000"
+        "bounty": "1330650000"
       },
       "user_assault_rumble_event": {
         "total_max_score": 102368118,
@@ -376,11 +406,11 @@
       }
     },
     {
-      "rank": 26,
+      "rank": 28,
       "user": {
         "code": "300683453",
         "nickname": "☠️P✘M☠️-윤아",
-        "character_id": 13701,
+        "character_id": 14606,
         "level": 4077,
         "bounty": "1115475000"
       },
@@ -391,12 +421,12 @@
       }
     },
     {
-      "rank": 27,
+      "rank": 29,
       "user": {
         "code": "678936514",
         "nickname": "[P☠️⚡N]NewTheJesus",
-        "character_id": 14608,
-        "level": 1146,
+        "character_id": 14606,
+        "level": 1147,
         "bounty": "882795000"
       },
       "user_assault_rumble_event": {
@@ -406,7 +436,7 @@
       }
     },
     {
-      "rank": 28,
+      "rank": 30,
       "user": {
         "code": "771830536",
         "nickname": "[P☠️⚡️N]⚡️Phinks⚡️",
@@ -421,7 +451,7 @@
       }
     },
     {
-      "rank": 29,
+      "rank": 31,
       "user": {
         "code": "316950236",
         "nickname": "【SUS】 Dr. P.",
@@ -436,13 +466,13 @@
       }
     },
     {
-      "rank": 30,
+      "rank": 32,
       "user": {
         "code": "355691563",
         "nickname": "(라프텔)모찌",
         "character_id": 14608,
         "level": 746,
-        "bounty": "541550000"
+        "bounty": "543550000"
       },
       "user_assault_rumble_event": {
         "total_max_score": 99649007,
@@ -451,13 +481,13 @@
       }
     },
     {
-      "rank": 31,
+      "rank": 33,
       "user": {
         "code": "411703635",
         "nickname": "흐드미",
         "character_id": 14608,
         "level": 948,
-        "bounty": "842400000"
+        "bounty": "843300000"
       },
       "user_assault_rumble_event": {
         "total_max_score": 99539687,
@@ -466,11 +496,11 @@
       }
     },
     {
-      "rank": 32,
+      "rank": 34,
       "user": {
         "code": "489136368",
         "nickname": "SᴋʏPɪᴇᴀ-컨버스오리",
-        "character_id": 14606,
+        "character_id": 14608,
         "level": 1664,
         "bounty": "1255950000"
       },
@@ -481,13 +511,28 @@
       }
     },
     {
-      "rank": 33,
+      "rank": 35,
+      "user": {
+        "code": "698333822",
+        "nickname": "D.104",
+        "character_id": 14606,
+        "level": 1592,
+        "bounty": "1231900000"
+      },
+      "user_assault_rumble_event": {
+        "total_max_score": 97804004,
+        "level": 10,
+        "win_count": 33
+      }
+    },
+    {
+      "rank": 36,
       "user": {
         "code": "827003152",
         "nickname": "[P☠️⚡️N] Loki",
         "character_id": 14606,
         "level": 1327,
-        "bounty": "664490000"
+        "bounty": "664740000"
       },
       "user_assault_rumble_event": {
         "total_max_score": 97802516,
@@ -496,11 +541,11 @@
       }
     },
     {
-      "rank": 34,
+      "rank": 37,
       "user": {
         "code": "919327130",
         "nickname": "[TRA] 2Shankz",
-        "character_id": 13701,
+        "character_id": 14606,
         "level": 1981,
         "bounty": "1272700000"
       },
@@ -511,28 +556,28 @@
       }
     },
     {
-      "rank": 35,
+      "rank": 38,
       "user": {
         "code": "323632735",
         "nickname": "【SUS】 ZO - ゾラ ⚓",
-        "character_id": 14606,
+        "character_id": 14608,
         "level": 1575,
-        "bounty": "1203300000"
+        "bounty": "1204300000"
       },
       "user_assault_rumble_event": {
         "total_max_score": 96586559,
         "level": 10,
-        "win_count": 126
+        "win_count": 129
       }
     },
     {
-      "rank": 36,
+      "rank": 39,
       "user": {
         "code": "358336897",
         "nickname": "갓핑거",
-        "character_id": 14606,
+        "character_id": 14608,
         "level": 1637,
-        "bounty": "1231200000"
+        "bounty": "1231450000"
       },
       "user_assault_rumble_event": {
         "total_max_score": 96394705,
@@ -541,12 +586,12 @@
       }
     },
     {
-      "rank": 37,
+      "rank": 40,
       "user": {
         "code": "992064631",
         "nickname": "TRA - Procamich",
-        "character_id": 13701,
-        "level": 1891,
+        "character_id": 14606,
+        "level": 1892,
         "bounty": "1317200000"
       },
       "user_assault_rumble_event": {
@@ -556,28 +601,13 @@
       }
     },
     {
-      "rank": 38,
-      "user": {
-        "code": "848142523",
-        "nickname": "[ΛF] Twonce",
-        "character_id": 14606,
-        "level": 1062,
-        "bounty": "1008750000"
-      },
-      "user_assault_rumble_event": {
-        "total_max_score": 96223862,
-        "level": 10,
-        "win_count": 110
-      }
-    },
-    {
-      "rank": 39,
+      "rank": 41,
       "user": {
         "code": "860013639",
         "nickname": "[P☠️⚡️N] ɘ✗.Ɲ๏ɱ ☂️",
-        "character_id": 14606,
+        "character_id": 14608,
         "level": 1416,
-        "bounty": "1267300000"
+        "bounty": "1268300000"
       },
       "user_assault_rumble_event": {
         "total_max_score": 95834915,
@@ -586,7 +616,7 @@
       }
     },
     {
-      "rank": 40,
+      "rank": 42,
       "user": {
         "code": "106341309",
         "nickname": "초오전박살",
@@ -601,13 +631,13 @@
       }
     },
     {
-      "rank": 41,
+      "rank": 43,
       "user": {
         "code": "363439550",
         "nickname": "Fast D. Jack",
         "character_id": 14606,
         "level": 806,
-        "bounty": "989775000"
+        "bounty": "990775000"
       },
       "user_assault_rumble_event": {
         "total_max_score": 94300626,
@@ -616,11 +646,11 @@
       }
     },
     {
-      "rank": 42,
+      "rank": 44,
       "user": {
         "code": "056683013",
         "nickname": "조이조이",
-        "character_id": 14608,
+        "character_id": 14606,
         "level": 1735,
         "bounty": "1168500000"
       },
@@ -631,11 +661,41 @@
       }
     },
     {
-      "rank": 43,
+      "rank": 45,
+      "user": {
+        "code": "422393030",
+        "nickname": "ⓉⓇⓈHirsi",
+        "character_id": 10153,
+        "level": 1525,
+        "bounty": "1263000000"
+      },
+      "user_assault_rumble_event": {
+        "total_max_score": 93914810,
+        "level": 10,
+        "win_count": 50
+      }
+    },
+    {
+      "rank": 46,
+      "user": {
+        "code": "290836831",
+        "nickname": "SᴋʏPɪᴇᴀ-고쿠하쿠",
+        "character_id": 14608,
+        "level": 1062,
+        "bounty": "1055850000"
+      },
+      "user_assault_rumble_event": {
+        "total_max_score": 93578457,
+        "level": 10,
+        "win_count": 82
+      }
+    },
+    {
+      "rank": 47,
       "user": {
         "code": "548801263",
         "nickname": "ⓈⒼⒻ Stump.D",
-        "character_id": 14606,
+        "character_id": 14452,
         "level": 1077,
         "bounty": "1154475000"
       },
@@ -646,13 +706,13 @@
       }
     },
     {
-      "rank": 44,
+      "rank": 48,
       "user": {
         "code": "843936277",
         "nickname": "☠️P✘M☠️-레간자",
         "character_id": 14606,
         "level": 1072,
-        "bounty": "1215150000"
+        "bounty": "1215650000"
       },
       "user_assault_rumble_event": {
         "total_max_score": 93145591,
@@ -661,7 +721,7 @@
       }
     },
     {
-      "rank": 45,
+      "rank": 49,
       "user": {
         "code": "851896939",
         "nickname": "ⓉⓇⓈ Monkey D. Wise",
@@ -676,11 +736,11 @@
       }
     },
     {
-      "rank": 46,
+      "rank": 50,
       "user": {
         "code": "319853731",
         "nickname": "GCR ☠️ Sheppo ❤️",
-        "character_id": 13361,
+        "character_id": 14606,
         "level": 1438,
         "bounty": "1165350000"
       },
@@ -691,13 +751,13 @@
       }
     },
     {
-      "rank": 47,
+      "rank": 51,
       "user": {
         "code": "630739786",
         "nickname": "[P☠️⚡N] BeeBright",
-        "character_id": 14370,
-        "level": 637,
-        "bounty": "499000000"
+        "character_id": 14608,
+        "level": 639,
+        "bounty": "500000000"
       },
       "user_assault_rumble_event": {
         "total_max_score": 92331863,
@@ -706,11 +766,26 @@
       }
     },
     {
-      "rank": 48,
+      "rank": 52,
+      "user": {
+        "code": "633596289",
+        "nickname": "미친존재감",
+        "character_id": 14606,
+        "level": 1413,
+        "bounty": "1134550000"
+      },
+      "user_assault_rumble_event": {
+        "total_max_score": 92252239,
+        "level": 10,
+        "win_count": 86
+      }
+    },
+    {
+      "rank": 53,
       "user": {
         "code": "723413361",
         "nickname": "【SUS】 DayDreamer",
-        "character_id": 10153,
+        "character_id": 14606,
         "level": 1412,
         "bounty": "1243950000"
       },
@@ -721,11 +796,11 @@
       }
     },
     {
-      "rank": 49,
+      "rank": 54,
       "user": {
         "code": "236966331",
         "nickname": "마파",
-        "character_id": 14608,
+        "character_id": 14606,
         "level": 1481,
         "bounty": "1133775000"
       },
@@ -736,11 +811,11 @@
       }
     },
     {
-      "rank": 50,
+      "rank": 55,
       "user": {
         "code": "742113146",
         "nickname": "ⓉⓇⓈ Teragon",
-        "character_id": 13472,
+        "character_id": 12760,
         "level": 1030,
         "bounty": "938350000"
       },
@@ -751,7 +826,37 @@
       }
     },
     {
-      "rank": 51,
+      "rank": 56,
+      "user": {
+        "code": "090358631",
+        "nickname": "[LPG] • VoODkA",
+        "character_id": 14608,
+        "level": 1256,
+        "bounty": "851150000"
+      },
+      "user_assault_rumble_event": {
+        "total_max_score": 91404792,
+        "level": 10,
+        "win_count": 177
+      }
+    },
+    {
+      "rank": 57,
+      "user": {
+        "code": "045733025",
+        "nickname": "ⓉⓇⓈ Bellagio",
+        "character_id": 14006,
+        "level": 898,
+        "bounty": "578880000"
+      },
+      "user_assault_rumble_event": {
+        "total_max_score": 90988595,
+        "level": 10,
+        "win_count": 87
+      }
+    },
+    {
+      "rank": 58,
       "user": {
         "code": "383542136",
         "nickname": "[LRS] Forest",
@@ -766,12 +871,12 @@
       }
     },
     {
-      "rank": 52,
+      "rank": 59,
       "user": {
         "code": "087937182",
         "nickname": "[P☠️⚡N] tryangel",
-        "character_id": 14558,
-        "level": 658,
+        "character_id": 14606,
+        "level": 659,
         "bounty": "374250000"
       },
       "user_assault_rumble_event": {
@@ -781,11 +886,11 @@
       }
     },
     {
-      "rank": 53,
+      "rank": 60,
       "user": {
         "code": "233261808",
         "nickname": "☠️P✘M☠️-뷁",
-        "character_id": 14608,
+        "character_id": 14606,
         "level": 1767,
         "bounty": "1192050000"
       },
@@ -796,11 +901,41 @@
       }
     },
     {
-      "rank": 54,
+      "rank": 61,
+      "user": {
+        "code": "145864371",
+        "nickname": "[GT] Baba",
+        "character_id": 14606,
+        "level": 1364,
+        "bounty": "1225500000"
+      },
+      "user_assault_rumble_event": {
+        "total_max_score": 90726411,
+        "level": 10,
+        "win_count": 81
+      }
+    },
+    {
+      "rank": 62,
+      "user": {
+        "code": "824636388",
+        "nickname": "SᴋʏPɪᴇᴀ-BaRoNi",
+        "character_id": 14606,
+        "level": 1724,
+        "bounty": "1230000000"
+      },
+      "user_assault_rumble_event": {
+        "total_max_score": 90376830,
+        "level": 10,
+        "win_count": 36
+      }
+    },
+    {
+      "rank": 63,
       "user": {
         "code": "263893700",
         "nickname": "몽키D민이",
-        "character_id": 14608,
+        "character_id": 14606,
         "level": 1102,
         "bounty": "1107500000"
       },
@@ -811,7 +946,22 @@
       }
     },
     {
-      "rank": 55,
+      "rank": 64,
+      "user": {
+        "code": "900634377",
+        "nickname": "R@ver Pirates D€",
+        "character_id": 14606,
+        "level": 921,
+        "bounty": "582260000"
+      },
+      "user_assault_rumble_event": {
+        "total_max_score": 90077246,
+        "level": 10,
+        "win_count": 190
+      }
+    },
+    {
+      "rank": 65,
       "user": {
         "code": "432580461",
         "nickname": "[TRA] Haldir",
@@ -826,11 +976,11 @@
       }
     },
     {
-      "rank": 56,
+      "rank": 66,
       "user": {
         "code": "135063793",
         "nickname": "™Bro☠털즈⚓°•*⁀➷",
-        "character_id": 13701,
+        "character_id": 14606,
         "level": 1883,
         "bounty": "1240100000"
       },
@@ -841,11 +991,11 @@
       }
     },
     {
-      "rank": 57,
+      "rank": 67,
       "user": {
         "code": "798343231",
         "nickname": "[LRS⚡️]SungJinwoo✨",
-        "character_id": 14608,
+        "character_id": 14606,
         "level": 1372,
         "bounty": "1237800000"
       },
@@ -856,12 +1006,12 @@
       }
     },
     {
-      "rank": 58,
+      "rank": 68,
       "user": {
         "code": "495623304",
         "nickname": "【SUS】CC6",
         "character_id": 14606,
-        "level": 1352,
+        "level": 1353,
         "bounty": "1226500000"
       },
       "user_assault_rumble_event": {
@@ -871,41 +1021,26 @@
       }
     },
     {
-      "rank": 59,
+      "rank": 69,
       "user": {
-        "code": "824636388",
-        "nickname": "SᴋʏPɪᴇᴀ-BaRoNi",
-        "character_id": 14606,
-        "level": 1724,
-        "bounty": "1230000000"
+        "code": "788046330",
+        "nickname": "벨",
+        "character_id": 14608,
+        "level": 1650,
+        "bounty": "1090755000"
       },
       "user_assault_rumble_event": {
-        "total_max_score": 89604644,
+        "total_max_score": 89680967,
         "level": 10,
-        "win_count": 27
+        "win_count": 211
       }
     },
     {
-      "rank": 60,
-      "user": {
-        "code": "900634377",
-        "nickname": "R@ver Pirates D€",
-        "character_id": 12969,
-        "level": 920,
-        "bounty": "582260000"
-      },
-      "user_assault_rumble_event": {
-        "total_max_score": 88904849,
-        "level": 10,
-        "win_count": 146
-      }
-    },
-    {
-      "rank": 61,
+      "rank": 70,
       "user": {
         "code": "188706333",
         "nickname": "또우〽️",
-        "character_id": 14608,
+        "character_id": 14606,
         "level": 1256,
         "bounty": "1189250000"
       },
@@ -916,11 +1051,26 @@
       }
     },
     {
-      "rank": 62,
+      "rank": 71,
+      "user": {
+        "code": "933520628",
+        "nickname": "[GT]⚡️⚡️Drey⚡️⚡️",
+        "character_id": 13472,
+        "level": 1097,
+        "bounty": "1122475000"
+      },
+      "user_assault_rumble_event": {
+        "total_max_score": 88303850,
+        "level": 10,
+        "win_count": 51
+      }
+    },
+    {
+      "rank": 72,
       "user": {
         "code": "340937161",
         "nickname": "[TRA] over9000",
-        "character_id": 12969,
+        "character_id": 14608,
         "level": 1279,
         "bounty": "969300000"
       },
@@ -931,22 +1081,7 @@
       }
     },
     {
-      "rank": 63,
-      "user": {
-        "code": "633596289",
-        "nickname": "미친존재감",
-        "character_id": 14606,
-        "level": 1413,
-        "bounty": "1134550000"
-      },
-      "user_assault_rumble_event": {
-        "total_max_score": 87963911,
-        "level": 10,
-        "win_count": 83
-      }
-    },
-    {
-      "rank": 64,
+      "rank": 73,
       "user": {
         "code": "030326119",
         "nickname": "[TRA] Hermit",
@@ -961,13 +1096,28 @@
       }
     },
     {
-      "rank": 65,
+      "rank": 74,
+      "user": {
+        "code": "340233905",
+        "nickname": "ⓉⓇⓈ Zibility",
+        "character_id": 14608,
+        "level": 1388,
+        "bounty": "1219800000"
+      },
+      "user_assault_rumble_event": {
+        "total_max_score": 87888233,
+        "level": 10,
+        "win_count": 36
+      }
+    },
+    {
+      "rank": 75,
       "user": {
         "code": "107697381",
         "nickname": "[STG]Ufoprogresivo",
         "character_id": 14608,
         "level": 1674,
-        "bounty": "1199400000"
+        "bounty": "1201400000"
       },
       "user_assault_rumble_event": {
         "total_max_score": 87511303,
@@ -976,7 +1126,22 @@
       }
     },
     {
-      "rank": 66,
+      "rank": 76,
+      "user": {
+        "code": "316309568",
+        "nickname": "[RD] OneArmPirates",
+        "character_id": 14606,
+        "level": 869,
+        "bounty": "904400000"
+      },
+      "user_assault_rumble_event": {
+        "total_max_score": 87407451,
+        "level": 10,
+        "win_count": 56
+      }
+    },
+    {
+      "rank": 77,
       "user": {
         "code": "560853348",
         "nickname": "™Bro☠호랭⚓",
@@ -991,12 +1156,27 @@
       }
     },
     {
-      "rank": 67,
+      "rank": 78,
+      "user": {
+        "code": "879938401",
+        "nickname": "핫바나나",
+        "character_id": 14606,
+        "level": 552,
+        "bounty": "386565000"
+      },
+      "user_assault_rumble_event": {
+        "total_max_score": 87267690,
+        "level": 10,
+        "win_count": 40
+      }
+    },
+    {
+      "rank": 79,
       "user": {
         "code": "037636813",
         "nickname": "Djimmy",
-        "character_id": 14606,
-        "level": 1068,
+        "character_id": 14608,
+        "level": 1069,
         "bounty": "980650000"
       },
       "user_assault_rumble_event": {
@@ -1006,12 +1186,12 @@
       }
     },
     {
-      "rank": 68,
+      "rank": 80,
       "user": {
         "code": "635163450",
         "nickname": "[LRS⚡️]AKandi14",
-        "character_id": 12760,
-        "level": 1180,
+        "character_id": 14606,
+        "level": 1181,
         "bounty": "1064325000"
       },
       "user_assault_rumble_event": {
@@ -1021,11 +1201,26 @@
       }
     },
     {
-      "rank": 69,
+      "rank": 81,
+      "user": {
+        "code": "606873131",
+        "nickname": "Supreme",
+        "character_id": 14606,
+        "level": 1838,
+        "bounty": "1232700000"
+      },
+      "user_assault_rumble_event": {
+        "total_max_score": 86774700,
+        "level": 10,
+        "win_count": 58
+      }
+    },
+    {
+      "rank": 82,
       "user": {
         "code": "248940139",
         "nickname": "[P☠️⚡N]Crown Clown",
-        "character_id": 14608,
+        "character_id": 14606,
         "level": 1777,
         "bounty": "1288850000"
       },
@@ -1036,13 +1231,13 @@
       }
     },
     {
-      "rank": 70,
+      "rank": 83,
       "user": {
         "code": "905842243",
         "nickname": "[TRA] Worst Member",
-        "character_id": 13701,
+        "character_id": 14606,
         "level": 1925,
-        "bounty": "1247850000"
+        "bounty": "1248850000"
       },
       "user_assault_rumble_event": {
         "total_max_score": 86703140,
@@ -1051,22 +1246,22 @@
       }
     },
     {
-      "rank": 71,
+      "rank": 84,
       "user": {
         "code": "086606355",
         "nickname": "[EPD] ᴜʟᴛɪᴍᴀ ⛩️ ",
-        "character_id": 13701,
+        "character_id": 14606,
         "level": 1829,
         "bounty": "1251650000"
       },
       "user_assault_rumble_event": {
         "total_max_score": 86641617,
         "level": 10,
-        "win_count": 22
+        "win_count": 23
       }
     },
     {
-      "rank": 72,
+      "rank": 85,
       "user": {
         "code": "157349633",
         "nickname": "[SGF] Itachi-89",
@@ -1077,30 +1272,15 @@
       "user_assault_rumble_event": {
         "total_max_score": 86601812,
         "level": 10,
-        "win_count": 78
+        "win_count": 82
       }
     },
     {
-      "rank": 73,
-      "user": {
-        "code": "065138563",
-        "nickname": "ⓉⓇⓈ Soobak",
-        "character_id": 14606,
-        "level": 1126,
-        "bounty": "461720000"
-      },
-      "user_assault_rumble_event": {
-        "total_max_score": 86295210,
-        "level": 10,
-        "win_count": 36
-      }
-    },
-    {
-      "rank": 74,
+      "rank": 86,
       "user": {
         "code": "468543381",
         "nickname": "SᴋʏPɪᴇᴀ-남매둥이",
-        "character_id": 14606,
+        "character_id": 12575,
         "level": 1683,
         "bounty": "1127540000"
       },
@@ -1111,22 +1291,22 @@
       }
     },
     {
-      "rank": 75,
+      "rank": 87,
       "user": {
         "code": "014776338",
         "nickname": "☠️P✘M☠️-아므기",
-        "character_id": 14606,
+        "character_id": 14608,
         "level": 1544,
         "bounty": "1171715000"
       },
       "user_assault_rumble_event": {
         "total_max_score": 86212950,
         "level": 10,
-        "win_count": 40
+        "win_count": 41
       }
     },
     {
-      "rank": 76,
+      "rank": 88,
       "user": {
         "code": "452143046",
         "nickname": "GGGori",
@@ -1141,11 +1321,71 @@
       }
     },
     {
-      "rank": 77,
+      "rank": 89,
+      "user": {
+        "code": "263833706",
+        "nickname": "☠️P✘M☠️-동료",
+        "character_id": 14606,
+        "level": 1638,
+        "bounty": "1260000000"
+      },
+      "user_assault_rumble_event": {
+        "total_max_score": 86147609,
+        "level": 10,
+        "win_count": 77
+      }
+    },
+    {
+      "rank": 90,
+      "user": {
+        "code": "764983622",
+        "nickname": "[LPG] •⚜️Shady⚜️",
+        "character_id": 14608,
+        "level": 824,
+        "bounty": "963050000"
+      },
+      "user_assault_rumble_event": {
+        "total_max_score": 86112752,
+        "level": 10,
+        "win_count": 40
+      }
+    },
+    {
+      "rank": 91,
+      "user": {
+        "code": "248493060",
+        "nickname": "JCAS Pirates",
+        "character_id": 14606,
+        "level": 583,
+        "bounty": "367860000"
+      },
+      "user_assault_rumble_event": {
+        "total_max_score": 86070691,
+        "level": 10,
+        "win_count": 138
+      }
+    },
+    {
+      "rank": 92,
+      "user": {
+        "code": "441773367",
+        "nickname": "[GT] קรץςђ๏",
+        "character_id": 14606,
+        "level": 920,
+        "bounty": "1037925000"
+      },
+      "user_assault_rumble_event": {
+        "total_max_score": 85746424,
+        "level": 10,
+        "win_count": 51
+      }
+    },
+    {
+      "rank": 93,
       "user": {
         "code": "648013931",
         "nickname": "[⍤Slowly⍤] ☠진지안서스☠",
-        "character_id": 12575,
+        "character_id": 14251,
         "level": 1582,
         "bounty": "1175725000"
       },
@@ -1156,13 +1396,13 @@
       }
     },
     {
-      "rank": 78,
+      "rank": 94,
       "user": {
         "code": "375733574",
         "nickname": "D.H.C",
         "character_id": 14606,
-        "level": 1088,
-        "bounty": "1103995000"
+        "level": 1089,
+        "bounty": "1104995000"
       },
       "user_assault_rumble_event": {
         "total_max_score": 85381989,
@@ -1171,28 +1411,28 @@
       }
     },
     {
-      "rank": 79,
+      "rank": 95,
       "user": {
-        "code": "045733025",
-        "nickname": "ⓉⓇⓈ Bellagio",
-        "character_id": 14006,
-        "level": 898,
-        "bounty": "578880000"
+        "code": "688436328",
+        "nickname": "™Bro☠ 놀자파두목",
+        "character_id": 14606,
+        "level": 992,
+        "bounty": "948975000"
       },
       "user_assault_rumble_event": {
-        "total_max_score": 85377285,
+        "total_max_score": 85331135,
         "level": 10,
-        "win_count": 69
+        "win_count": 30
       }
     },
     {
-      "rank": 80,
+      "rank": 96,
       "user": {
         "code": "288016338",
         "nickname": "SᴋʏPɪᴇᴀ-채리",
-        "character_id": 14606,
+        "character_id": 14608,
         "level": 1583,
-        "bounty": "1051390000"
+        "bounty": "1051890000"
       },
       "user_assault_rumble_event": {
         "total_max_score": 85319829,
@@ -1201,13 +1441,13 @@
       }
     },
     {
-      "rank": 81,
+      "rank": 97,
       "user": {
         "code": "591973867",
         "nickname": "【HWꓨ】 Λᴅᴅɪsᴏɴ ༄",
-        "character_id": 14608,
-        "level": 1487,
-        "bounty": "1176300000"
+        "character_id": 14606,
+        "level": 1488,
+        "bounty": "1178300000"
       },
       "user_assault_rumble_event": {
         "total_max_score": 85318656,
@@ -1216,97 +1456,37 @@
       }
     },
     {
-      "rank": 82,
+      "rank": 98,
       "user": {
-        "code": "145864371",
-        "nickname": "[GT] Baba",
-        "character_id": 14606,
-        "level": 1364,
-        "bounty": "1225500000"
-      },
-      "user_assault_rumble_event": {
-        "total_max_score": 85121310,
-        "level": 10,
-        "win_count": 64
-      }
-    },
-    {
-      "rank": 83,
-      "user": {
-        "code": "788046330",
-        "nickname": "벨",
+        "code": "743136889",
+        "nickname": "lakiss ☆☆",
         "character_id": 14608,
-        "level": 1650,
-        "bounty": "1090755000"
+        "level": 1603,
+        "bounty": "1084800000"
       },
       "user_assault_rumble_event": {
-        "total_max_score": 84994693,
+        "total_max_score": 85266398,
         "level": 10,
-        "win_count": 179
+        "win_count": 46
       }
     },
     {
-      "rank": 84,
+      "rank": 99,
       "user": {
-        "code": "698333822",
-        "nickname": "D.104",
-        "character_id": 14606,
-        "level": 1592,
-        "bounty": "1231900000"
-      },
-      "user_assault_rumble_event": {
-        "total_max_score": 84806953,
-        "level": 10,
-        "win_count": 30
-      }
-    },
-    {
-      "rank": 85,
-      "user": {
-        "code": "511163830",
-        "nickname": "☠️P✘M☠️- 고등어",
-        "character_id": 12969,
-        "level": 1974,
-        "bounty": "1211350000"
-      },
-      "user_assault_rumble_event": {
-        "total_max_score": 84756509,
-        "level": 10,
-        "win_count": 66
-      }
-    },
-    {
-      "rank": 86,
-      "user": {
-        "code": "879938401",
-        "nickname": "핫바나나",
+        "code": "960813348",
+        "nickname": "샬롯_이솜아빠♦️",
         "character_id": 14608,
-        "level": 552,
-        "bounty": "386565000"
+        "level": 1453,
+        "bounty": "1219325000"
       },
       "user_assault_rumble_event": {
-        "total_max_score": 84735039,
+        "total_max_score": 85164880,
         "level": 10,
-        "win_count": 28
+        "win_count": 52
       }
     },
     {
-      "rank": 87,
-      "user": {
-        "code": "606873131",
-        "nickname": "Supreme",
-        "character_id": 14608,
-        "level": 1838,
-        "bounty": "1232700000"
-      },
-      "user_assault_rumble_event": {
-        "total_max_score": 84687760,
-        "level": 10,
-        "win_count": 43
-      }
-    },
-    {
-      "rank": 88,
+      "rank": 100,
       "user": {
         "code": "017237863",
         "nickname": "[ΛF]⚡️TruGOAT⚡️",
@@ -1315,189 +1495,9 @@
         "bounty": "1227150000"
       },
       "user_assault_rumble_event": {
-        "total_max_score": 84225505,
+        "total_max_score": 85102317,
         "level": 10,
-        "win_count": 64
-      }
-    },
-    {
-      "rank": 89,
-      "user": {
-        "code": "090358631",
-        "nickname": "[LPG] • VoODkA",
-        "character_id": 12760,
-        "level": 1255,
-        "bounty": "851150000"
-      },
-      "user_assault_rumble_event": {
-        "total_max_score": 84207795,
-        "level": 10,
-        "win_count": 104
-      }
-    },
-    {
-      "rank": 90,
-      "user": {
-        "code": "263833706",
-        "nickname": "☠️P✘M☠️-동료",
-        "character_id": 13472,
-        "level": 1638,
-        "bounty": "1260000000"
-      },
-      "user_assault_rumble_event": {
-        "total_max_score": 84056417,
-        "level": 10,
-        "win_count": 70
-      }
-    },
-    {
-      "rank": 91,
-      "user": {
-        "code": "960813348",
-        "nickname": "샬롯_이솜아빠♦️",
-        "character_id": 14370,
-        "level": 1452,
-        "bounty": "1219325000"
-      },
-      "user_assault_rumble_event": {
-        "total_max_score": 83405723,
-        "level": 10,
-        "win_count": 40
-      }
-    },
-    {
-      "rank": 92,
-      "user": {
-        "code": "316309568",
-        "nickname": "[RD] OneArmPirates",
-        "character_id": 14606,
-        "level": 869,
-        "bounty": "904400000"
-      },
-      "user_assault_rumble_event": {
-        "total_max_score": 83147787,
-        "level": 10,
-        "win_count": 50
-      }
-    },
-    {
-      "rank": 93,
-      "user": {
-        "code": "764983622",
-        "nickname": "[LPG] •⚜️Shady⚜️",
-        "character_id": 12969,
-        "level": 823,
-        "bounty": "963050000"
-      },
-      "user_assault_rumble_event": {
-        "total_max_score": 82990661,
-        "level": 10,
-        "win_count": 31
-      }
-    },
-    {
-      "rank": 94,
-      "user": {
-        "code": "050833246",
-        "nickname": "이리릭",
-        "character_id": 12969,
-        "level": 853,
-        "bounty": "720525000"
-      },
-      "user_assault_rumble_event": {
-        "total_max_score": 82654796,
-        "level": 10,
-        "win_count": 48
-      }
-    },
-    {
-      "rank": 95,
-      "user": {
-        "code": "688436328",
-        "nickname": "™Bro☠ 놀자파두목",
-        "character_id": 14608,
-        "level": 992,
-        "bounty": "948975000"
-      },
-      "user_assault_rumble_event": {
-        "total_max_score": 82363324,
-        "level": 10,
-        "win_count": 27
-      }
-    },
-    {
-      "rank": 96,
-      "user": {
-        "code": "948643661",
-        "nickname": "[P☠️⚡️N] Inganno",
-        "character_id": 14606,
-        "level": 1253,
-        "bounty": "1018250000"
-      },
-      "user_assault_rumble_event": {
-        "total_max_score": 81996047,
-        "level": 10,
-        "win_count": 85
-      }
-    },
-    {
-      "rank": 97,
-      "user": {
-        "code": "773250393",
-        "nickname": "Greg.",
-        "character_id": 14608,
-        "level": 1318,
-        "bounty": "1061050000"
-      },
-      "user_assault_rumble_event": {
-        "total_max_score": 81938291,
-        "level": 10,
-        "win_count": 75
-      }
-    },
-    {
-      "rank": 98,
-      "user": {
-        "code": "565883596",
-        "nickname": " MR RNG [TRA]",
-        "character_id": 14608,
-        "level": 1520,
-        "bounty": "1104375000"
-      },
-      "user_assault_rumble_event": {
-        "total_max_score": 81921065,
-        "level": 10,
-        "win_count": 34
-      }
-    },
-    {
-      "rank": 99,
-      "user": {
-        "code": "482634976",
-        "nickname": "[P☠️⚡️N] ¿Ðomingø?",
-        "character_id": 14370,
-        "level": 1354,
-        "bounty": "1211350000"
-      },
-      "user_assault_rumble_event": {
-        "total_max_score": 81661643,
-        "level": 10,
-        "win_count": 77
-      }
-    },
-    {
-      "rank": 100,
-      "user": {
-        "code": "743136889",
-        "nickname": "lakiss ☆☆",
-        "character_id": 12969,
-        "level": 1603,
-        "bounty": "1084800000"
-      },
-      "user_assault_rumble_event": {
-        "total_max_score": 81283626,
-        "level": 10,
-        "win_count": 34
+        "win_count": 65
       }
     }
   ]
