@@ -273,6 +273,7 @@ function displayResults(oldData, newData) {
             <td>${newRecord.user.level}</td>
             <td>${newRecord.user_assault_rumble_event.total_max_score.toLocaleString()}</td>
             <td>${newRecord.user_assault_rumble_event.level}</td>
+            <td>${newRecord.user_assault_rumble_event.win_count}</td>
             <td class="rank-change">${rankChangeText}</td>
         `;
         tableBody.appendChild(row);
@@ -323,6 +324,23 @@ function saveTableAsImage() {
         onclone: (clonedDoc) => {
             const clonedTarget = clonedDoc.querySelector(".table-container");
             clonedTarget.style.overflow = 'visible';
+
+            // '승리 횟수' 헤더를 찾아 인덱스를 확인합니다.
+            const headers = Array.from(clonedDoc.querySelectorAll('#resultsTable th'));
+            let winCountIndex = -1;
+            headers.forEach((header, index) => {
+                if (header.textContent === '승리 횟수') {
+                    winCountIndex = index;
+                }
+            });
+
+            // '승리 횟수' 열을 숨깁니다.
+            if (winCountIndex !== -1) {
+                clonedDoc.querySelector('#resultsTable th:nth-child(' + (winCountIndex + 1) + ')').style.display = 'none';
+                clonedDoc.querySelectorAll('#resultsTable tbody tr').forEach(row => {
+                    row.querySelector('td:nth-child(' + (winCountIndex + 1) + ')').style.display = 'none';
+                });
+            }
             
             clonedDoc.querySelectorAll('tr.rank-up').forEach(row => {
                 row.style.background = 'linear-gradient(to right, rgb(240, 161, 161), #ffffff)';
