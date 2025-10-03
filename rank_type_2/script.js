@@ -273,7 +273,6 @@ function displayResults(oldData, newData) {
             <td>${newRecord.user.level}</td>
             <td>${newRecord.user_assault_rumble_event.total_max_score.toLocaleString()}</td>
             <td>${newRecord.user_assault_rumble_event.level}</td>
-            <td>${newRecord.user_assault_rumble_event.win_count}</td>
             <td class="rank-change">${rankChangeText}</td>
         `;
         tableBody.appendChild(row);
