@@ -118,32 +118,12 @@ function toggleViewMode() {
     loadAndCompareRankings();
 }
 
-/** 데이터 마지막 수정 시간 표시 */
-async function displayLastUpdated(filePath, fallbackText) {
-    const lastUpdatedElement = document.getElementById('last-updated');
-    try {
-        const response = await fetch(filePath, { method: 'HEAD' });
-        const lastModified = response.headers.get('Last-Modified');
-        if (lastModified) {
-            const date = new Date(lastModified);
-            const formattedDate = `${date.getFullYear()}년 ${(date.getMonth() + 1).toString().padStart(2, '0')}월 ${date.getDate().toString().padStart(2, '0')}일 ${date.getHours().toString().padStart(2, '0')}시 ${date.getMinutes().toString().padStart(2, '0')}분`;
-            lastUpdatedElement.textContent = formattedDate;
-        } else {
-            lastUpdatedElement.textContent = fallbackText;
-        }
-    } catch (error) {
-        console.warn('Last-Modified 헤더를 가져올 수 없습니다.', error);
-        lastUpdatedElement.textContent = fallbackText;
-    }
-}
-
-/** 랭킹 데이터 불러오기 및 비교/표시 */
 async function loadAndCompareRankings() {
     const isSingleView = singleViewCheckbox.checked;
     const titleElement = document.getElementById('main-title');
+    const lastUpdatedElement = document.getElementById('last-updated');
 
     if (isSingleView) {
-        // 단일 데이터 보기 모드
         const selectedDir = dataSelector.value;
         if (titleElement) titleElement.textContent = `🏆 ${selectedDir} 트크런 랭킹`;
         
@@ -152,9 +132,15 @@ async function loadAndCompareRankings() {
             return;
         }
         const path = `../data/${RANKING_TYPE}/${selectedDir}/${DATA_FILE_NAME}`;
-        await displayLastUpdated(path, selectedDir);
         try {
             const data = await fetch(path).then(res => res.json());
+            if (data.last_updated) {
+                const date = new Date(data.last_updated);
+                const formattedDate = `${date.getFullYear()}년 ${(date.getMonth() + 1).toString().padStart(2, '0')}월 ${date.getDate().toString().padStart(2, '0')}일 ${date.getHours().toString().padStart(2, '0')}시 ${date.getMinutes().toString().padStart(2, '0')}분`;
+                lastUpdatedElement.textContent = formattedDate;
+            } else {
+                lastUpdatedElement.textContent = "해당 업데이트 시간 정보가 없습니다.";
+            }
             currentNewData = data.ranking_datas;
             currentOldData = null;
             displayResults(null, currentNewData);
@@ -163,7 +149,6 @@ async function loadAndCompareRankings() {
             alert("랭킹 파일을 불러오는 데 실패했습니다.");
         }
     } else {
-        // 비교 모드
         const selectedComparisonDir = monthWeekSelector.value;
         if (!selectedComparisonDir) {
             document.querySelector('#resultsTable tbody').innerHTML = '';
@@ -176,7 +161,6 @@ async function loadAndCompareRankings() {
         if (titleElement) titleElement.textContent = `🏆 ${latestDir} 트크런 랭킹`;
 
         const latestPath = `../data/${RANKING_TYPE}/${latestDir}/${DATA_FILE_NAME}`;
-        await displayLastUpdated(latestPath, latestDir);
         const comparisonPath = `../data/${RANKING_TYPE}/${selectedComparisonDir}/${DATA_FILE_NAME}`;
 
         try {
@@ -184,6 +168,13 @@ async function loadAndCompareRankings() {
                 fetch(comparisonPath).then(res => res.json()),
                 fetch(latestPath).then(res => res.json())
             ]);
+            if (newJson.last_updated) {
+                const date = new Date(newJson.last_updated);
+                const formattedDate = `${date.getFullYear()}년 ${(date.getMonth() + 1).toString().padStart(2, '0')}월 ${date.getDate().toString().padStart(2, '0')}일 ${date.getHours().toString().padStart(2, '0')}시 ${date.getMinutes().toString().padStart(2, '0')}분`;
+                lastUpdatedElement.textContent = formattedDate;
+            } else {
+                lastUpdatedElement.textContent = "해당 업데이트 시간 정보가 없습니다.";
+            }
             currentOldData = oldJson.ranking_datas;
             currentNewData = newJson.ranking_datas;
             displayResults(currentOldData, currentNewData);

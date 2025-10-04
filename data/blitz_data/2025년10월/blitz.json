@@ -1,3002 +1,3005 @@
-[
-  {
-    "rank": 1,
-    "alliance_name": "DC2",
-    "nickname": "ꜱᴠᴇɴ",
-    "bounty": 872726
-  },
-  {
-    "rank": 2,
-    "alliance_name": "Passione",
-    "nickname": "[P☠️⚡N]NewTheJesus",
-    "bounty": 856953
-  },
-  {
-    "rank": 3,
-    "alliance_name": "샬롯_Creme♦️",
-    "nickname": "샬롯_VV♦️",
-    "bounty": 848969
-  },
-  {
-    "rank": 4,
-    "alliance_name": "Passione",
-    "nickname": "[P☠️⚡️N]⚡️Phinks⚡️",
-    "bounty": 819958
-  },
-  {
-    "rank": 5,
-    "alliance_name": "ΛＳＳΛＵＬＴ ＦＯＲＣΣ",
-    "nickname": "[ΛF] Stussy <3",
-    "bounty": 808591
-  },
-  {
-    "rank": 6,
-    "alliance_name": "Passione",
-    "nickname": "[P☠️⚡️N] Inganno",
-    "bounty": 801058
-  },
-  {
-    "rank": 7,
-    "alliance_name": "ΛＳＳΛＵＬＴ ＦＯＲＣΣ",
-    "nickname": "[ΛF] b00ndesn00b",
-    "bounty": 789185
-  },
-  {
-    "rank": 8,
-    "alliance_name": "팀트갤",
-    "nickname": "조이조이",
-    "bounty": 785117
-  },
-  {
-    "rank": 9,
-    "alliance_name": "ΛＳＳΛＵＬＴ ＦＯＲＣΣ",
-    "nickname": "[ΛF] Puzzy",
-    "bounty": 776203
-  },
-  {
-    "rank": 10,
-    "alliance_name": "SᴋʏPɪᴇᴀ-1조/have fun",
-    "nickname": "SᴋʏPɪᴇᴀ-멜빛",
-    "bounty": 773112
-  },
-  {
-    "rank": 11,
-    "alliance_name": "팀트갤 6대대",
-    "nickname": "메이루",
-    "bounty": 767337
-  },
-  {
-    "rank": 12,
-    "alliance_name": "DC2",
-    "nickname": "혁귤",
-    "bounty": 761527
-  },
-  {
-    "rank": 13,
-    "alliance_name": "The Revolutionary Army [TRA]",
-    "nickname": "TRA - ❤️ ヤマト ❤️",
-    "bounty": 751205
-  },
-  {
-    "rank": 14,
-    "alliance_name": "팀트갤",
-    "nickname": "초오전박살",
-    "bounty": 745159
-  },
-  {
-    "rank": 15,
-    "alliance_name": "ΛＳＳΛＵＬＴ ＦＯＲＣΣ",
-    "nickname": "[ΛF] ズのｷﾉ",
-    "bounty": 740088
-  },
-  {
-    "rank": 16,
-    "alliance_name": "팀트갤",
-    "nickname": "DeukDo",
-    "bounty": 734164
-  },
-  {
-    "rank": 17,
-    "alliance_name": "팀트갤 공수대대",
-    "nickname": "좁",
-    "bounty": 721018
-  },
-  {
-    "rank": 18,
-    "alliance_name": "Passione",
-    "nickname": "[P☠️⚡N]Crown Clown",
-    "bounty": 695059
-  },
-  {
-    "rank": 19,
-    "alliance_name": "ΛＳＳΛＵＬＴ ＦＯＲＣΣ",
-    "nickname": "[ΛF]⚡️TruGOAT⚡️",
-    "bounty": 688757
-  },
-  {
-    "rank": 20,
-    "alliance_name": "The Revolutionary Army [TRA]",
-    "nickname": "ᴍᴀᴇʟ",
-    "bounty": 682833
-  },
-  {
-    "rank": 21,
-    "alliance_name": "The Revolutionary Army [TRA]",
-    "nickname": "[TRA] 2Shankz",
-    "bounty": 671105
-  },
-  {
-    "rank": 22,
-    "alliance_name": "☠️P✘M☠️-1조",
-    "nickname": "☠️P✘M☠️-구와구와",
-    "bounty": 658477
-  },
-  {
-    "rank": 23,
-    "alliance_name": "Passione",
-    "nickname": "[P☠️⚡️N] ϻʀ.ᴄʜɪʟʟ",
-    "bounty": 653961
-  },
-  {
-    "rank": 24,
-    "alliance_name": "The Revolutionary Army [TRA]",
-    "nickname": "[TRA] Worst Member",
-    "bounty": 649181
-  },
-  {
-    "rank": 25,
-    "alliance_name": "팀트갤 7대대",
-    "nickname": "리더체인지!leaderchange",
-    "bounty": 640154
-  },
-  {
-    "rank": 26,
-    "alliance_name": "Marines",
-    "nickname": "53Piraten",
-    "bounty": 634873
-  },
-  {
-    "rank": 27,
-    "alliance_name": "<SGF> Spoon Titans",
-    "nickname": "Snuffy",
-    "bounty": 623763
-  },
-  {
-    "rank": 28,
-    "alliance_name": "Unusual Suspects (SUS)",
-    "nickname": "【SUS】 ZO - ゾラ ⚓",
-    "bounty": 620929
-  },
-  {
-    "rank": 29,
-    "alliance_name": "Passione",
-    "nickname": "[P☠️⚡️N] ɘ✗.Ɲ๏ɱ ☂️",
-    "bounty": 612978
-  },
-  {
-    "rank": 30,
-    "alliance_name": "SᴋʏPɪᴇᴀ-2조",
-    "nickname": "SᴋʏPɪᴇᴀ-컨버스오리",
-    "bounty": 612857
-  },
-  {
-    "rank": 31,
-    "alliance_name": "❄️ⓉⓇⓈ②❄️",
-    "nickname": "ⓉⓇⓈ adnsalas",
-    "bounty": 611758
-  },
-  {
-    "rank": 32,
-    "alliance_name": "팀트갤 공수대대",
-    "nickname": "척",
-    "bounty": 610907
-  },
-  {
-    "rank": 33,
-    "alliance_name": "Genei ☠︎︎ Ryodan",
-    "nickname": "[P☠️⚡N] BeeBright",
-    "bounty": 602877
-  },
-  {
-    "rank": 34,
-    "alliance_name": "꧁༺тнє  w̶нαℓєѕ༻꧂",
-    "nickname": "Ja⚡️Had",
-    "bounty": 600891
-  },
-  {
-    "rank": 35,
-    "alliance_name": "팀트갤",
-    "nickname": "마파",
-    "bounty": 598097
-  },
-  {
-    "rank": 36,
-    "alliance_name": "The Revolutionary Army [TRA]",
-    "nickname": "[TRA] ⚡️RaZr⚡️",
-    "bounty": 596667
-  },
-  {
-    "rank": 37,
-    "alliance_name": "The Revolutionary Army [TRA]",
-    "nickname": "[TRA] ✞Antiℂristo✞",
-    "bounty": 592945
-  },
-  {
-    "rank": 38,
-    "alliance_name": "SᴋʏPɪᴇᴀ-2조",
-    "nickname": "SᴋʏPɪᴇᴀ-BaRoNi",
-    "bounty": 589349
-  },
-  {
-    "rank": 39,
-    "alliance_name": "오후10시",
-    "nickname": "카이",
-    "bounty": 582622
-  },
-  {
-    "rank": 40,
-    "alliance_name": "⚔️ⒺⓈⓅⒶⒹⒶ⚔️",
-    "nickname": "[EPD] ᴜʟᴛɪᴍᴀ ⛩️",
-    "bounty": 573497
-  },
-  {
-    "rank": 41,
-    "alliance_name": "The Revolutionary Army [TRA]",
-    "nickname": "[TRA]Duke_Omar",
-    "bounty": 572649
-  },
-  {
-    "rank": 42,
-    "alliance_name": "Der Superbekanntenkreis",
-    "nickname": "||MCM||",
-    "bounty": 571954
-  },
-  {
-    "rank": 43,
-    "alliance_name": "중고",
-    "nickname": "넘디 일당",
-    "bounty": 564233
-  },
-  {
-    "rank": 44,
-    "alliance_name": "The Revolutionary Army [TRA-2]",
-    "nickname": "[TRA] over9000",
-    "bounty": 562459
-  },
-  {
-    "rank": 45,
-    "alliance_name": "☠️P✘M☠️-1조",
-    "nickname": "☠️P✘M☠️-동료",
-    "bounty": 551339
-  },
-  {
-    "rank": 46,
-    "alliance_name": "The Revolutionary Army [TRA]",
-    "nickname": "TRA - Procamich",
-    "bounty": 546767
-  },
-  {
-    "rank": 47,
-    "alliance_name": "LA PIRE GÉNÉRATION",
-    "nickname": "[LPG] •⚜️Shady⚜️",
-    "bounty": 533410
-  },
-  {
-    "rank": 48,
-    "alliance_name": "「K2」The King Of Darkness",
-    "nickname": "《》$0$《》",
-    "bounty": 532175
-  },
-  {
-    "rank": 49,
-    "alliance_name": "ZeeN Discord",
-    "nickname": "ashercrasher",
-    "bounty": 507654
-  },
-  {
-    "rank": 50,
-    "alliance_name": "Alliance",
-    "nickname": "Samugi",
-    "bounty": 503012
-  },
-  {
-    "rank": 51,
-    "alliance_name": "우간다",
-    "nickname": "밀가루 일당",
-    "bounty": 502812
-  },
-  {
-    "rank": 52,
-    "alliance_name": "Legendary Crew TH",
-    "nickname": "KolannnTH",
-    "bounty": 499308
-  },
-  {
-    "rank": 53,
-    "alliance_name": "팀트갤 공수대대",
-    "nickname": "컵",
-    "bounty": 495524
-  },
-  {
-    "rank": 54,
-    "alliance_name": "ΛＳＳΛＵＬＴ ＦＯＲＣΣ",
-    "nickname": "[ΛF] Sung Jin-Woo",
-    "bounty": 494708
-  },
-  {
-    "rank": 55,
-    "alliance_name": "فارس اسياد التنانين",
-    "nickname": "تشارلوت@كاتاكوري",
-    "bounty": 494548
-  },
-  {
-    "rank": 56,
-    "alliance_name": "대한민국",
-    "nickname": "J",
-    "bounty": 492228
-  },
-  {
-    "rank": 57,
-    "alliance_name": "팀트갤",
-    "nickname": "그루팔로",
-    "bounty": 491849
-  },
-  {
-    "rank": 58,
-    "alliance_name": "팀트갤 6대대",
-    "nickname": "칸 다",
-    "bounty": 490828
-  },
-  {
-    "rank": 59,
-    "alliance_name": "[GT] Gurkentruppe 1",
-    "nickname": "[GT] Pain",
-    "bounty": 489184
-  },
-  {
-    "rank": 60,
-    "alliance_name": "The Revolutionary Army [TRA-2]",
-    "nickname": "[TRA] HiM",
-    "bounty": 487304
-  },
-  {
-    "rank": 61,
-    "alliance_name": "⛩️G͇O͇D͇ V͇A͇L͇L͇E͇Y͇⛩️",
-    "nickname": "ʕ•ᴥ•ʔɓυɷɓɭε♤",
-    "bounty": 487272
-  },
-  {
-    "rank": 62,
-    "alliance_name": "올블루ᴰᴮ_S3",
-    "nickname": "골드마운틴@DB대로행",
-    "bounty": 486710
-  },
-  {
-    "rank": 63,
-    "alliance_name": "Unusual Suspects (SUS)",
-    "nickname": "【SUS】 Scratchy",
-    "bounty": 474673
-  },
-  {
-    "rank": 64,
-    "alliance_name": "⭐ⓉⓇⓈ①⭐",
-    "nickname": "ⓉⓇⓈ Monkey D. Wise",
-    "bounty": 473235
-  },
-  {
-    "rank": 65,
-    "alliance_name": "YOKAI REBORN",
-    "nickname": "妖怪 | DieHard",
-    "bounty": 472951
-  },
-  {
-    "rank": 66,
-    "alliance_name": "즐거운해적질",
-    "nickname": "도피",
-    "bounty": 468212
-  },
-  {
-    "rank": 67,
-    "alliance_name": "즐거운해적질",
-    "nickname": "L2",
-    "bounty": 464065
-  },
-  {
-    "rank": 68,
-    "alliance_name": "",
-    "nickname": "Chopper Pirates",
-    "bounty": 459552
-  },
-  {
-    "rank": 69,
-    "alliance_name": "☠️P✘M☠️-1조",
-    "nickname": "☠️P✘M☠️-레간자",
-    "bounty": 457296
-  },
-  {
-    "rank": 70,
-    "alliance_name": "The Revolutionary Army [TRA-4]",
-    "nickname": "TRA-Piratiazzurri",
-    "bounty": 451645
-  },
-  {
-    "rank": 71,
-    "alliance_name": "Neo❌Gods❌Pirates",
-    "nickname": "[NGP] Fraimi",
-    "bounty": 435858
-  },
-  {
-    "rank": 72,
-    "alliance_name": "SPYCK Corp.",
-    "nickname": "G2Nunskoo",
-    "bounty": 435208
-  },
-  {
-    "rank": 73,
-    "alliance_name": "French D. CREW ❤️",
-    "nickname": "✨️luffy56✨️",
-    "bounty": 433910
-  },
-  {
-    "rank": 74,
-    "alliance_name": "Unusual Suspects (SUS)",
-    "nickname": "【SUS】 DayDreamer",
-    "bounty": 433192
-  },
-  {
-    "rank": 75,
-    "alliance_name": "⭐️ÆVENGERS⭐️",
-    "nickname": "Æ Niko Æ",
-    "bounty": 432189
-  },
-  {
-    "rank": 76,
-    "alliance_name": "<SGF> Spoon Titans",
-    "nickname": "Toadskii #OPTC",
-    "bounty": 427616
-  },
-  {
-    "rank": 77,
-    "alliance_name": "HUNGRY해적단",
-    "nickname": "율은아빠",
-    "bounty": 426257
-  },
-  {
-    "rank": 78,
-    "alliance_name": "同苦同樂",
-    "nickname": "태산강호꽃님",
-    "bounty": 424237
-  },
-  {
-    "rank": 79,
-    "alliance_name": "팀트갤 4대대",
-    "nickname": "엉덩행콕",
-    "bounty": 423307
-  },
-  {
-    "rank": 80,
-    "alliance_name": "Pirate Harem",
-    "nickname": "Persilion",
-    "bounty": 415728
-  },
-  {
-    "rank": 81,
-    "alliance_name": "MonkaD Crew",
-    "nickname": "edisonbre",
-    "bounty": 414126
-  },
-  {
-    "rank": 82,
-    "alliance_name": "신세계",
-    "nickname": "PUNK-02 「惡」",
-    "bounty": 413794
-  },
-  {
-    "rank": 83,
-    "alliance_name": "Unusual Suspects (SUS)",
-    "nickname": "【SUS】 Knoppy",
-    "bounty": 413159
-  },
-  {
-    "rank": 84,
-    "alliance_name": "☠️P✘M☠️-3조",
-    "nickname": "☠️P✘M☠️-즈니샤아저씨",
-    "bounty": 412941
-  },
-  {
-    "rank": 85,
-    "alliance_name": "ROMANCE DAWN",
-    "nickname": "Sunbreaker Pirates",
-    "bounty": 412356
-  },
-  {
-    "rank": 86,
-    "alliance_name": "⚔️ⒺⓈⓅⒶⒹⒶ⚔️",
-    "nickname": "[EPD] BossPL4Y3R",
-    "bounty": 411931
-  },
-  {
-    "rank": 87,
-    "alliance_name": "Here we go !!!",
-    "nickname": "【HWꓨ】 Λᴅᴅɪsᴏɴ ༄",
-    "bounty": 411846
-  },
-  {
-    "rank": 88,
-    "alliance_name": "Ras pirates",
-    "nickname": "lolo pirate",
-    "bounty": 411744
-  },
-  {
-    "rank": 89,
-    "alliance_name": "돈키호테 패밀리❤️",
-    "nickname": "석나간 윤열",
-    "bounty": 410025
-  },
-  {
-    "rank": 90,
-    "alliance_name": "French D. CREW ❤️",
-    "nickname": "[Fr.C] ZyKoX§x",
-    "bounty": 408502
-  },
-  {
-    "rank": 91,
-    "alliance_name": "Warriors of Liberation",
-    "nickname": "버그본 일당",
-    "bounty": 404020
-  },
-  {
-    "rank": 92,
-    "alliance_name": "[GT] Gurkentruppe 1",
-    "nickname": "[GT]Organisation13",
-    "bounty": 402413
-  },
-  {
-    "rank": 93,
-    "alliance_name": "Mythical Pirates",
-    "nickname": "[INA] D. Jones☠",
-    "bounty": 400555
-  },
-  {
-    "rank": 94,
-    "alliance_name": "☠️P✘M☠️-1조",
-    "nickname": "☠️P✘M☠️-능 구",
-    "bounty": 398055
-  },
-  {
-    "rank": 95,
-    "alliance_name": "몽키D❤️❤️",
-    "nickname": "6.5.31",
-    "bounty": 397139
-  },
-  {
-    "rank": 96,
-    "alliance_name": "⭐ⓉⓇⓈ①⭐",
-    "nickname": "ⓉⓇⓈ De4n",
-    "bounty": 394166
-  },
-  {
-    "rank": 97,
-    "alliance_name": "[GT] Gurkentruppe 1",
-    "nickname": "[GT] Cornholio",
-    "bounty": 389941
-  },
-  {
-    "rank": 98,
-    "alliance_name": "T.E.A.M",
-    "nickname": "❄️득근❄️",
-    "bounty": 389897
-  },
-  {
-    "rank": 99,
-    "alliance_name": "ΛSSΛULT FORCΣ T00",
-    "nickname": "[ΛF] Texx",
-    "bounty": 387534
-  },
-  {
-    "rank": 100,
-    "alliance_name": "❄️ⓉⓇⓈ②❄️",
-    "nickname": "ⓉⓇⓈ HappiDaze",
-    "bounty": 387319
-  },
-  {
-    "rank": 101,
-    "alliance_name": "팀트갤 5대대",
-    "nickname": "뉴특",
-    "bounty": 381653
-  },
-  {
-    "rank": 102,
-    "alliance_name": "Passione",
-    "nickname": "[P☠️⚡N] tryangel",
-    "bounty": 379793
-  },
-  {
-    "rank": 103,
-    "alliance_name": "SᴋʏPɪᴇᴀ-4조",
-    "nickname": "SᴋʏPɪᴇᴀ-원피스매냐",
-    "bounty": 377314
-  },
-  {
-    "rank": 104,
-    "alliance_name": "Here we go !!!",
-    "nickname": "[HWꓨ]《✨ᴇxᴏʀᴄɨꜱȶ✨》",
-    "bounty": 376657
-  },
-  {
-    "rank": 105,
-    "alliance_name": "Young Emperors #OPH",
-    "nickname": "QUADRO",
-    "bounty": 375306
-  },
-  {
-    "rank": 106,
-    "alliance_name": "팀트갤 4대대",
-    "nickname": "하야덴",
-    "bounty": 373748
-  },
-  {
-    "rank": 107,
-    "alliance_name": "★ FRΛNKY HOUSΣ ★",
-    "nickname": "zmart..",
-    "bounty": 373362
-  },
-  {
-    "rank": 108,
-    "alliance_name": "⚔️ⒺⓈⓅⒶⒹⒶ⚔️",
-    "nickname": "[EPD] Akainu86 F2P",
-    "bounty": 364832
-  },
-  {
-    "rank": 109,
-    "alliance_name": "⚜️ Divine Pirates ⚜️",
-    "nickname": "Ballistic Pirates",
-    "bounty": 364359
-  },
-  {
-    "rank": 110,
-    "alliance_name": "칠무해",
-    "nickname": "루조나우상 로쵸프브 징베",
-    "bounty": 362880
-  },
-  {
-    "rank": 111,
-    "alliance_name": "T.E.A.M",
-    "nickname": "슈퍼카카로트",
-    "bounty": 362343
-  },
-  {
-    "rank": 112,
-    "alliance_name": "╠ Elysium ╣",
-    "nickname": "Nutapp",
-    "bounty": 359580
-  },
-  {
-    "rank": 113,
-    "alliance_name": "팀트갤 8대대",
-    "nickname": "에푸씨",
-    "bounty": 359032
-  },
-  {
-    "rank": 114,
-    "alliance_name": "Unusual Suspects (SUS)",
-    "nickname": "【SUS】 Dr. P.",
-    "bounty": 357125
-  },
-  {
-    "rank": 115,
-    "alliance_name": "The Revolutionary Army [TRA-4]",
-    "nickname": "【TRA】 AGĆÕŔAŹON",
-    "bounty": 352729
-  },
-  {
-    "rank": 116,
-    "alliance_name": "[SSS] Shishisonson",
-    "nickname": "[SSS] El_kuzanoo",
-    "bounty": 349349
-  },
-  {
-    "rank": 117,
-    "alliance_name": "ΛＳＳΛＵＬＴ ＦＯＲＣΣ",
-    "nickname": "[ΛF] The Hound",
-    "bounty": 348583
-  },
-  {
-    "rank": 118,
-    "alliance_name": "【喝】 Fam",
-    "nickname": "【喝】 염",
-    "bounty": 347793
-  },
-  {
-    "rank": 119,
-    "alliance_name": "The Oasis ⛱️",
-    "nickname": "Bandaisuxxballz⛱️",
-    "bounty": 347445
-  },
-  {
-    "rank": 120,
-    "alliance_name": "【수련회】 패왕",
-    "nickname": "[S] 봉식이",
-    "bounty": 345578
-  },
-  {
-    "rank": 121,
-    "alliance_name": "Vinland",
-    "nickname": "Greg.",
-    "bounty": 341272
-  },
-  {
-    "rank": 122,
-    "alliance_name": "Relaxed Skibidi Sigmas",
-    "nickname": "Bb",
-    "bounty": 340172
-  },
-  {
-    "rank": 123,
-    "alliance_name": "북미원주민",
-    "nickname": "범희아빠@",
-    "bounty": 338228
-  },
-  {
-    "rank": 124,
-    "alliance_name": "팀트갤 수색대대",
-    "nickname": "보계충",
-    "bounty": 337597
-  },
-  {
-    "rank": 125,
-    "alliance_name": "T.E.A.M",
-    "nickname": "꧁༺ 覇王色 覇気 ༻꧂",
-    "bounty": 337254
-  },
-  {
-    "rank": 126,
-    "alliance_name": "JUSTICE⚔LEAGUE™",
-    "nickname": "JUSTICE⚔기억",
-    "bounty": 336454
-  },
-  {
-    "rank": 127,
-    "alliance_name": "LOS MAS PESADOS V2",
-    "nickname": "ADRYRODRY",
-    "bounty": 331312
-  },
-  {
-    "rank": 128,
-    "alliance_name": "팀트갤 공수대대",
-    "nickname": "벨",
-    "bounty": 330704
-  },
-  {
-    "rank": 129,
-    "alliance_name": "설렁설렁@EB",
-    "nickname": "[⍤Slowly⍤] ☠진지안서스☠",
-    "bounty": 326864
-  },
-  {
-    "rank": 130,
-    "alliance_name": "신세계",
-    "nickname": "방광포청천⚡️⚡️",
-    "bounty": 326805
-  },
-  {
-    "rank": 131,
-    "alliance_name": "King farm",
-    "nickname": "PITOUCH",
-    "bounty": 325539
-  },
-  {
-    "rank": 132,
-    "alliance_name": "그리스신화",
-    "nickname": "⚡제우스⚡️",
-    "bounty": 324609
-  },
-  {
-    "rank": 133,
-    "alliance_name": "The Revolutionary Army [TRA-2]",
-    "nickname": "[TRA] Sekai",
-    "bounty": 322496
-  },
-  {
-    "rank": 134,
-    "alliance_name": "대로행기동대",
-    "nickname": "테조로@DB_대로행",
-    "bounty": 321776
-  },
-  {
-    "rank": 135,
-    "alliance_name": "팀트갤 5대대",
-    "nickname": "Zephyros",
-    "bounty": 320851
-  },
-  {
-    "rank": 136,
-    "alliance_name": "팀트갤 4대대",
-    "nickname": "Soon",
-    "bounty": 318739
-  },
-  {
-    "rank": 137,
-    "alliance_name": "「IDR」Red Hawk",
-    "nickname": "「IDR」 Tᴏᴋʏᴏᴋʏᴏ",
-    "bounty": 318668
-  },
-  {
-    "rank": 138,
-    "alliance_name": "Neo❌Gods❌Pirates",
-    "nickname": "[N͟͞G͟͞P͟͞]Łɪαɴσ₅₆",
-    "bounty": 315943
-  },
-  {
-    "rank": 139,
-    "alliance_name": "☠️사황☠️",
-    "nickname": "개굴개굴개구리.",
-    "bounty": 313204
-  },
-  {
-    "rank": 140,
-    "alliance_name": "해적동맹",
-    "nickname": "밀짚모자 일당",
-    "bounty": 312523
-  },
-  {
-    "rank": 141,
-    "alliance_name": "German Emperors",
-    "nickname": "Sunshine Lord",
-    "bounty": 311666
-  },
-  {
-    "rank": 142,
-    "alliance_name": "Shisha-Bazar",
-    "nickname": "Belmonto",
-    "bounty": 311199
-  },
-  {
-    "rank": 143,
-    "alliance_name": "Waifu Lovers MX",
-    "nickname": "☠️ モンスター ☠️",
-    "bounty": 308497
-  },
-  {
-    "rank": 144,
-    "alliance_name": "[GT] Gurkentruppe 2",
-    "nickname": "[GT] Scoundrel",
-    "bounty": 306937
-  },
-  {
-    "rank": 145,
-    "alliance_name": "bel",
-    "nickname": "Van",
-    "bounty": 306728
-  },
-  {
-    "rank": 146,
-    "alliance_name": "EB잔바리",
-    "nickname": "똘맥",
-    "bounty": 304091
-  },
-  {
-    "rank": 147,
-    "alliance_name": "고잉메리호☠️",
-    "nickname": "릴",
-    "bounty": 303128
-  },
-  {
-    "rank": 148,
-    "alliance_name": "Passione",
-    "nickname": "[P☠️⚡️N]₴corpio₦ ❦",
-    "bounty": 302032
-  },
-  {
-    "rank": 149,
-    "alliance_name": "⛩️G͇O͇D͇ V͇A͇L͇L͇E͇Y͇⛩️",
-    "nickname": "D.H.C",
-    "bounty": 301022
-  },
-  {
-    "rank": 150,
-    "alliance_name": "Indonesia Line ⭐",
-    "nickname": "[IL] Panda Express",
-    "bounty": 300212
-  },
-  {
-    "rank": 151,
-    "alliance_name": "TÜRKİYE",
-    "nickname": "Cavesaa",
-    "bounty": 299790
-  },
-  {
-    "rank": 152,
-    "alliance_name": "<SGF> Spoon Titans",
-    "nickname": "<SGF>kevinoptc24/7",
-    "bounty": 299359
-  },
-  {
-    "rank": 153,
-    "alliance_name": "대로행기동대",
-    "nickname": "슈가@DB_대로행",
-    "bounty": 298353
-  },
-  {
-    "rank": 154,
-    "alliance_name": "⦿ꜰɪɴʟᴜᴋᴇʀ.ᖴᗰᒪ",
-    "nickname": "อิมางาวะแลนด์",
-    "bounty": 298270
-  },
-  {
-    "rank": 155,
-    "alliance_name": "[GT] Gurkentruppe 1",
-    "nickname": "[GT] Egozocker14",
-    "bounty": 298222
-  },
-  {
-    "rank": 156,
-    "alliance_name": "ITA Vaticani",
-    "nickname": "Aokiji",
-    "bounty": 295264
-  },
-  {
-    "rank": 157,
-    "alliance_name": "มือใหม่777",
-    "nickname": "FishoMan",
-    "bounty": 294899
-  },
-  {
-    "rank": 158,
-    "alliance_name": "팀트갤 공수대대",
-    "nickname": "SameBlue",
-    "bounty": 294425
-  },
-  {
-    "rank": 159,
-    "alliance_name": "YONKOS [OPH 1]",
-    "nickname": "FURANX [OPH]",
-    "bounty": 294039
-  },
-  {
-    "rank": 160,
-    "alliance_name": "Piratas Roubar ☠",
-    "nickname": "[P.R.] Sieghart",
-    "bounty": 292956
-  },
-  {
-    "rank": 161,
-    "alliance_name": "GERMAN KNIGHTS",
-    "nickname": "Goldcakez",
-    "bounty": 290913
-  },
-  {
-    "rank": 162,
-    "alliance_name": "팀트갤 9대대",
-    "nickname": "스콜",
-    "bounty": 290572
-  },
-  {
-    "rank": 163,
-    "alliance_name": "[CG] Neo~SWORD",
-    "nickname": "PTMEK",
-    "bounty": 289265
-  },
-  {
-    "rank": 164,
-    "alliance_name": "NBW Pirate Alliance",
-    "nickname": "[NBW] LETSGOSKY",
-    "bounty": 288174
-  },
-  {
-    "rank": 165,
-    "alliance_name": "HumbleGod",
-    "nickname": "AS3655",
-    "bounty": 287742
-  },
-  {
-    "rank": 166,
-    "alliance_name": "Passione",
-    "nickname": "[P☠️⚡️N] Loki",
-    "bounty": 287145
-  },
-  {
-    "rank": 167,
-    "alliance_name": "DB_대로행 [선장조]",
-    "nickname": "망사 무스탕",
-    "bounty": 283046
-  },
-  {
-    "rank": 168,
-    "alliance_name": "Krugs",
-    "nickname": "Straw Hat Pirates",
-    "bounty": 283007
-  },
-  {
-    "rank": 169,
-    "alliance_name": "⭐ⓉⓇⓈ①⭐",
-    "nickname": "ⓉⓇⓈ一笑丶",
-    "bounty": 281402
-  },
-  {
-    "rank": 170,
-    "alliance_name": "Zedka Krew",
-    "nickname": "col=8>Kaffalse",
-    "bounty": 281373
-  },
-  {
-    "rank": 171,
-    "alliance_name": "팀트갤 9대대",
-    "nickname": "동그리ㅇ",
-    "bounty": 278012
-  },
-  {
-    "rank": 172,
-    "alliance_name": "GERMAN KNIGHTS",
-    "nickname": "R@ver Pirates D€",
-    "bounty": 277337
-  },
-  {
-    "rank": 173,
-    "alliance_name": "HUEBR ☠️ Pirates",
-    "nickname": "☆¤☆¤☆[HUEBR]☆¤☆¤☆",
-    "bounty": 276555
-  },
-  {
-    "rank": 174,
-    "alliance_name": "CASTLEVANIA",
-    "nickname": "Adonis",
-    "bounty": 276536
-  },
-  {
-    "rank": 175,
-    "alliance_name": "Vinland",
-    "nickname": "Vinl❦nd Plozion.",
-    "bounty": 268338
-  },
-  {
-    "rank": 176,
-    "alliance_name": "Der Superbekanntenkreis",
-    "nickname": "[OPC]Rocks_D_Xebec",
-    "bounty": 268312
-  },
-  {
-    "rank": 177,
-    "alliance_name": "★Lunalight★",
-    "nickname": "♤♡♧◇",
-    "bounty": 268137
-  },
-  {
-    "rank": 178,
-    "alliance_name": "【LRS⚡️】 BALTIGO",
-    "nickname": "[LRS⚡] WESTEROS",
-    "bounty": 266684
-  },
-  {
-    "rank": 179,
-    "alliance_name": "[OPC] $ui©ide $quad",
-    "nickname": "DKaut",
-    "bounty": 265931
-  },
-  {
-    "rank": 180,
-    "alliance_name": "팀트갤",
-    "nickname": "갓핑거",
-    "bounty": 264991
-  },
-  {
-    "rank": 181,
-    "alliance_name": "팀트갤",
-    "nickname": "Supreme",
-    "bounty": 264438
-  },
-  {
-    "rank": 182,
-    "alliance_name": "SᴋʏPɪᴇᴀ-2조",
-    "nickname": "SᴋʏPɪᴇᴀ-주력",
-    "bounty": 262921
-  },
-  {
-    "rank": 183,
-    "alliance_name": "RED WARLORDS ITALIA",
-    "nickname": "☀️♠️SAM D.CROW♠☀️",
-    "bounty": 262755
-  },
-  {
-    "rank": 184,
-    "alliance_name": "팀트갤 9대대",
-    "nickname": "마술사",
-    "bounty": 261644
-  },
-  {
-    "rank": 185,
-    "alliance_name": "한국 사람 들어오세요",
-    "nickname": "무기와라",
-    "bounty": 261519
-  },
-  {
-    "rank": 186,
-    "alliance_name": "〆ᴅᴇᴠᴏᴜʀ ᴛʜᴇ ᴍᴏᴏɴϟ",
-    "nickname": "yamato",
-    "bounty": 261391
-  },
-  {
-    "rank": 187,
-    "alliance_name": "SantoCrew",
-    "nickname": "Smash",
-    "bounty": 260007
-  },
-  {
-    "rank": 188,
-    "alliance_name": "Here we go !!!",
-    "nickname": "[HWꓨ]ツsH!bΛtoz`",
-    "bounty": 259209
-  },
-  {
-    "rank": 189,
-    "alliance_name": "레일리해적단",
-    "nickname": "패왕색 상디",
-    "bounty": 258986
-  },
-  {
-    "rank": 190,
-    "alliance_name": "Lockdown",
-    "nickname": "Neon Joe",
-    "bounty": 258686
-  },
-  {
-    "rank": 191,
-    "alliance_name": "Unusual Suspects (SUS)",
-    "nickname": "【SUS】LordOtakuCrew",
-    "bounty": 257169
-  },
-  {
-    "rank": 192,
-    "alliance_name": "팀트갤",
-    "nickname": "비런드ʕ •ᴥ•ʔ",
-    "bounty": 256367
-  },
-  {
-    "rank": 193,
-    "alliance_name": "@_@",
-    "nickname": "윤슬",
-    "bounty": 254997
-  },
-  {
-    "rank": 194,
-    "alliance_name": "신세계",
-    "nickname": "쵸파",
-    "bounty": 254757
-  },
-  {
-    "rank": 195,
-    "alliance_name": "⋆₊☽D",
-    "nickname": "⋆₊☽D. 잉어맨",
-    "bounty": 254630
-  },
-  {
-    "rank": 196,
-    "alliance_name": "GLI ENS",
-    "nickname": "Ace",
-    "bounty": 252984
-  },
-  {
-    "rank": 197,
-    "alliance_name": "Nautical Gemlins",
-    "nickname": "[NG] Haki",
-    "bounty": 252812
-  },
-  {
-    "rank": 198,
-    "alliance_name": "꧁༺тнє  w̶нαℓєѕ༻꧂",
-    "nickname": "*☠turcomijas☠*",
-    "bounty": 250827
-  },
-  {
-    "rank": 199,
-    "alliance_name": "SᴋʏPɪᴇᴀ-5조/RE:BOOST!!!",
-    "nickname": "SᴋʏPɪᴇᴀ-Jin",
-    "bounty": 248759
-  },
-  {
-    "rank": 200,
-    "alliance_name": "Rocks Crew",
-    "nickname": "Germa1ne GR",
-    "bounty": 247105
-  },
-  {
-    "rank": 201,
-    "alliance_name": "[CG] Neo~SWORD",
-    "nickname": "[N-S] Pikachu",
-    "bounty": 247017
-  },
-  {
-    "rank": 202,
-    "alliance_name": "The Smart Greeks",
-    "nickname": "[TSG] Forcehead",
-    "bounty": 246558
-  },
-  {
-    "rank": 203,
-    "alliance_name": "Kizuna Enjoyers",
-    "nickname": "Red",
-    "bounty": 245711
-  },
-  {
-    "rank": 204,
-    "alliance_name": "팀트갤 7대대",
-    "nickname": "그냥저냥",
-    "bounty": 244903
-  },
-  {
-    "rank": 205,
-    "alliance_name": "샬롯_Creme♦️",
-    "nickname": "샬롯_말로하자♦️",
-    "bounty": 244691
-  },
-  {
-    "rank": 206,
-    "alliance_name": "자유",
-    "nickname": "혀니",
-    "bounty": 244190
-  },
-  {
-    "rank": 207,
-    "alliance_name": "CDR Aegis 0",
-    "nickname": "I N.V U",
-    "bounty": 243852
-  },
-  {
-    "rank": 208,
-    "alliance_name": "The Revolutionary Army [TRA-3]",
-    "nickname": "[TRA] eXesor",
-    "bounty": 240976
-  },
-  {
-    "rank": 209,
-    "alliance_name": "신세계",
-    "nickname": "BLITZ",
-    "bounty": 240763
-  },
-  {
-    "rank": 210,
-    "alliance_name": "MADS Renaissance",
-    "nickname": "Olian",
-    "bounty": 240762
-  },
-  {
-    "rank": 211,
-    "alliance_name": "Summertime",
-    "nickname": "Monkey D.durex",
-    "bounty": 240641
-  },
-  {
-    "rank": 212,
-    "alliance_name": "⚔️LIONHEART⚔️",
-    "nickname": "[LH] - Saieki",
-    "bounty": 239072
-  },
-  {
-    "rank": 213,
-    "alliance_name": "루조상",
-    "nickname": "초보",
-    "bounty": 235941
-  },
-  {
-    "rank": 214,
-    "alliance_name": "☠️사황☠️",
-    "nickname": "알Get다☠️사황☠️",
-    "bounty": 234208
-  },
-  {
-    "rank": 215,
-    "alliance_name": "딥블루 S3",
-    "nickname": "FeD@DB_大路行",
-    "bounty": 234168
-  },
-  {
-    "rank": 216,
-    "alliance_name": "ALLBLUE 4",
-    "nickname": "ALL ☀️ POWER OF D.",
-    "bounty": 233237
-  },
-  {
-    "rank": 217,
-    "alliance_name": "",
-    "nickname": "Karyudon [©]",
-    "bounty": 233224
-  },
-  {
-    "rank": 218,
-    "alliance_name": "스파르타",
-    "nickname": "Bonten",
-    "bounty": 232259
-  },
-  {
-    "rank": 219,
-    "alliance_name": "Blossom",
-    "nickname": "무어",
-    "bounty": 232012
-  },
-  {
-    "rank": 220,
-    "alliance_name": "☄Space Pirates☄",
-    "nickname": "Mato",
-    "bounty": 231798
-  },
-  {
-    "rank": 221,
-    "alliance_name": "⭐ⓉⓇⓈ①⭐",
-    "nickname": "ⓉⓇⓈ Zibility",
-    "bounty": 230363
-  },
-  {
-    "rank": 222,
-    "alliance_name": "올블루ᴰᴮ_S3",
-    "nickname": "루행콕@ᴰᴮ대로행",
-    "bounty": 229856
-  },
-  {
-    "rank": 223,
-    "alliance_name": "Blossom",
-    "nickname": "창하인",
-    "bounty": 229135
-  },
-  {
-    "rank": 224,
-    "alliance_name": "[CDR] 1a flotta",
-    "nickname": "Falling Stars Crew",
-    "bounty": 228013
-  },
-  {
-    "rank": 225,
-    "alliance_name": "Panda",
-    "nickname": "kimm",
-    "bounty": 227235
-  },
-  {
-    "rank": 226,
-    "alliance_name": "™Bro☠Grand Line",
-    "nickname": "™Bro☠밀.집모자",
-    "bounty": 226893
-  },
-  {
-    "rank": 227,
-    "alliance_name": "라프텔",
-    "nickname": "(라프텔)블루",
-    "bounty": 225921
-  },
-  {
-    "rank": 228,
-    "alliance_name": "☠️P✘M☠️-3조",
-    "nickname": "☠️P✘M☠️-N.J.M☄️",
-    "bounty": 225793
-  },
-  {
-    "rank": 229,
-    "alliance_name": "German new Generation",
-    "nickname": "Gygaes",
-    "bounty": 225438
-  },
-  {
-    "rank": 230,
-    "alliance_name": "iKON",
-    "nickname": "⚓ LaFleur ⚓",
-    "bounty": 225204
-  },
-  {
-    "rank": 231,
-    "alliance_name": "팀트갤 8대대",
-    "nickname": "만족",
-    "bounty": 224416
-  },
-  {
-    "rank": 232,
-    "alliance_name": "Unusual Suspects (SUS)",
-    "nickname": "【SUS】 Sabツ",
-    "bounty": 224150
-  },
-  {
-    "rank": 233,
-    "alliance_name": "필촉 크로스",
-    "nickname": "해적왕버기",
-    "bounty": 223930
-  },
-  {
-    "rank": 234,
-    "alliance_name": "Loopy",
-    "nickname": "Mazawa Backup",
-    "bounty": 223272
-  },
-  {
-    "rank": 235,
-    "alliance_name": "The Revolutionary Army [TRA]",
-    "nickname": "MR RNG [TRA]",
-    "bounty": 222832
-  },
-  {
-    "rank": 236,
-    "alliance_name": "LA PIRE GÉNÉRATION",
-    "nickname": "[LPG] •❄️ExoDiA❄️",
-    "bounty": 222749
-  },
-  {
-    "rank": 237,
-    "alliance_name": "12ª flotta [CDR]",
-    "nickname": "[SP] Mandrux",
-    "bounty": 220651
-  },
-  {
-    "rank": 238,
-    "alliance_name": "ICE KING ❄️",
-    "nickname": "Tito D. Mosca",
-    "bounty": 220044
-  },
-  {
-    "rank": 239,
-    "alliance_name": "⭐️ÆVENGERS⭐️",
-    "nickname": "[Æ] Burbukaneers",
-    "bounty": 220039
-  },
-  {
-    "rank": 240,
-    "alliance_name": "磨穿鐵硯",
-    "nickname": "tessie",
-    "bounty": 219834
-  },
-  {
-    "rank": 241,
-    "alliance_name": "북미원주민",
-    "nickname": "Netero",
-    "bounty": 218441
-  },
-  {
-    "rank": 242,
-    "alliance_name": "GLOBEST",
-    "nickname": "[BR] Rakano^⚡",
-    "bounty": 218014
-  },
-  {
-    "rank": 243,
-    "alliance_name": "DC2",
-    "nickname": "오다센세아리가또",
-    "bounty": 217426
-  },
-  {
-    "rank": 244,
-    "alliance_name": "Indonesia Line",
-    "nickname": "YT | Indo-Nomercy",
-    "bounty": 217250
-  },
-  {
-    "rank": 245,
-    "alliance_name": "Rookies of OPH",
-    "nickname": "Storm Returns",
-    "bounty": 216993
-  },
-  {
-    "rank": 246,
-    "alliance_name": "ΛＳＳΛＵＬＴ ＦＯＲＣΣ",
-    "nickname": "[ΛF] Bmil",
-    "bounty": 215221
-  },
-  {
-    "rank": 247,
-    "alliance_name": "Bomba alliance",
-    "nickname": "Leana",
-    "bounty": 214665
-  },
-  {
-    "rank": 248,
-    "alliance_name": "LA PIRE GÉNÉRATION",
-    "nickname": "[LPG]",
-    "bounty": 214370
-  },
-  {
-    "rank": 249,
-    "alliance_name": "【LRS❌】覇気 KENBUNSHOKU",
-    "nickname": "[LRS] ༒ ₭₳Ⱡ₲₳Ɽ₳ ༒",
-    "bounty": 214081
-  },
-  {
-    "rank": 250,
-    "alliance_name": "Waifu Lovers MX",
-    "nickname": "Djimmy",
-    "bounty": 213780
-  },
-  {
-    "rank": 251,
-    "alliance_name": "팀트갤 수색대대",
-    "nickname": "귀없는노이어",
-    "bounty": 212984
-  },
-  {
-    "rank": 252,
-    "alliance_name": "Funky Kong Pirates",
-    "nickname": "ScrimTimm #TreCru",
-    "bounty": 212897
-  },
-  {
-    "rank": 253,
-    "alliance_name": "Iron Crew [CDR]",
-    "nickname": "ilSempre",
-    "bounty": 212814
-  },
-  {
-    "rank": 254,
-    "alliance_name": "TBC",
-    "nickname": "Monkey Davy Chokez",
-    "bounty": 212261
-  },
-  {
-    "rank": 255,
-    "alliance_name": "신세계",
-    "nickname": "쵸파랜드",
-    "bounty": 211200
-  },
-  {
-    "rank": 256,
-    "alliance_name": "팀트갤 6대대",
-    "nickname": "하얀이우",
-    "bounty": 210949
-  },
-  {
-    "rank": 257,
-    "alliance_name": "DC2",
-    "nickname": "사계절쌈짱",
-    "bounty": 210769
-  },
-  {
-    "rank": 258,
-    "alliance_name": "™Bro☠Grand Line",
-    "nickname": "™Bro☠☠️☠️☠️",
-    "bounty": 208838
-  },
-  {
-    "rank": 259,
-    "alliance_name": "Ace D. Onut",
-    "nickname": "[AD.O] JayJay",
-    "bounty": 208585
-  },
-  {
-    "rank": 260,
-    "alliance_name": "한국사람",
-    "nickname": "KOR•☆TEA_3☆",
-    "bounty": 208543
-  },
-  {
-    "rank": 261,
-    "alliance_name": "Here we go !!!",
-    "nickname": "[HWꓨ]•SetsunaFzeA",
-    "bounty": 207433
-  },
-  {
-    "rank": 262,
-    "alliance_name": "Kizuna Alliance",
-    "nickname": "qwertydf",
-    "bounty": 206760
-  },
-  {
-    "rank": 263,
-    "alliance_name": "⚔️ⒺⓈⓅⒶⒹⒶ⚔️",
-    "nickname": "[EPD] Kaizoku-ô",
-    "bounty": 203764
-  },
-  {
-    "rank": 264,
-    "alliance_name": "World Class",
-    "nickname": "(OTF)❌YONKO❌",
-    "bounty": 203595
-  },
-  {
-    "rank": 265,
-    "alliance_name": "Unusual Suspects (SUS)",
-    "nickname": "【SUS】 BreaK0uT ⚡",
-    "bounty": 203511
-  },
-  {
-    "rank": 266,
-    "alliance_name": "TAVERNIARIDES.GR",
-    "nickname": "°GR° Gikos Pirates",
-    "bounty": 203429
-  },
-  {
-    "rank": 267,
-    "alliance_name": "☠️P✘M☠️-2조",
-    "nickname": "☠️P✘M☠️-세라핌",
-    "bounty": 202326
-  },
-  {
-    "rank": 268,
-    "alliance_name": "미르",
-    "nickname": "덥다",
-    "bounty": 201609
-  },
-  {
-    "rank": 269,
-    "alliance_name": "한국 호랑이의위엄",
-    "nickname": "JH2 FAMILY",
-    "bounty": 201607
-  },
-  {
-    "rank": 270,
-    "alliance_name": ".",
-    "nickname": "관세음보살",
-    "bounty": 201396
-  },
-  {
-    "rank": 271,
-    "alliance_name": "Rabbit Refugees",
-    "nickname": "Krose",
-    "bounty": 201345
-  },
-  {
-    "rank": 272,
-    "alliance_name": "磨穿鐵硯",
-    "nickname": "lakiss ☆☆",
-    "bounty": 200087
-  },
-  {
-    "rank": 273,
-    "alliance_name": "APHELION",
-    "nickname": "[APH] Solitär",
-    "bounty": 199730
-  },
-  {
-    "rank": 274,
-    "alliance_name": "ALLBLUE",
-    "nickname": "necroph",
-    "bounty": 199544
-  },
-  {
-    "rank": 275,
-    "alliance_name": "SILHOUETTE",
-    "nickname": "Cruiser",
-    "bounty": 199314
-  },
-  {
-    "rank": 276,
-    "alliance_name": "【수련회】 패왕",
-    "nickname": "【S】 Akagami",
-    "bounty": 198311
-  },
-  {
-    "rank": 277,
-    "alliance_name": "",
-    "nickname": "Emma",
-    "bounty": 197230
-  },
-  {
-    "rank": 278,
-    "alliance_name": "팀트갤 5대대",
-    "nickname": "로시",
-    "bounty": 196915
-  },
-  {
-    "rank": 279,
-    "alliance_name": "Pirate Kizuna Clasher",
-    "nickname": "^Jino^",
-    "bounty": 196488
-  },
-  {
-    "rank": 280,
-    "alliance_name": "그리스신화",
-    "nickname": "YungDD",
-    "bounty": 196239
-  },
-  {
-    "rank": 281,
-    "alliance_name": "사무라이 하트",
-    "nickname": "Velvet Tread [K]",
-    "bounty": 195224
-  },
-  {
-    "rank": 282,
-    "alliance_name": "NBW OFISĀ ĒJENTO",
-    "nickname": "[NBW] Macs83+",
-    "bounty": 194970
-  },
-  {
-    "rank": 283,
-    "alliance_name": "팀트갤 8대대",
-    "nickname": "아이스티",
-    "bounty": 194843
-  },
-  {
-    "rank": 284,
-    "alliance_name": "팀트갤",
-    "nickname": "장어덮밥",
-    "bounty": 194378
-  },
-  {
-    "rank": 285,
-    "alliance_name": "Dday CREW",
-    "nickname": "Tree",
-    "bounty": 194316
-  },
-  {
-    "rank": 286,
-    "alliance_name": "❄️ⓉⓇⓈ②❄️",
-    "nickname": "ⓉⓇⓈ Tsuntsun-zuna!",
-    "bounty": 192640
-  },
-  {
-    "rank": 287,
-    "alliance_name": "Piratas Roubar ☠",
-    "nickname": "€$1€",
-    "bounty": 191836
-  },
-  {
-    "rank": 288,
-    "alliance_name": "(SCA) BLACK SCABBARDS",
-    "nickname": "(SCA) MONNIMON",
-    "bounty": 191671
-  },
-  {
-    "rank": 289,
-    "alliance_name": "Nami789",
-    "nickname": "Cashmon9999",
-    "bounty": 191656
-  },
-  {
-    "rank": 290,
-    "alliance_name": "대한민국",
-    "nickname": "고니",
-    "bounty": 188497
-  },
-  {
-    "rank": 291,
-    "alliance_name": "북미원주민",
-    "nickname": "D.104",
-    "bounty": 188417
-  },
-  {
-    "rank": 292,
-    "alliance_name": "고잉메리호",
-    "nickname": "단죽!!",
-    "bounty": 187991
-  },
-  {
-    "rank": 293,
-    "alliance_name": "[CDR] 1a flotta",
-    "nickname": "☆CDR☆MoonlightCrew",
-    "bounty": 187399
-  },
-  {
-    "rank": 294,
-    "alliance_name": "LA PIRE GÉNÉRATION",
-    "nickname": "[LPG] • VoODkA",
-    "bounty": 187370
-  },
-  {
-    "rank": 295,
-    "alliance_name": "[GT] Gurkentruppe 1",
-    "nickname": "[GT] ꧁ℙ么ℕⅅ么꧂",
-    "bounty": 186978
-  },
-  {
-    "rank": 296,
-    "alliance_name": "Legacy of D. II",
-    "nickname": "[LoD.] Remixlol",
-    "bounty": 186892
-  },
-  {
-    "rank": 297,
-    "alliance_name": "[CDR] KAWAI TORTELLINI",
-    "nickname": "Nika Nika",
-    "bounty": 186300
-  },
-  {
-    "rank": 298,
-    "alliance_name": "World Class",
-    "nickname": "Light's Power",
-    "bounty": 186085
-  },
-  {
-    "rank": 299,
-    "alliance_name": "Duduk Manis",
-    "nickname": "T4T4NG",
-    "bounty": 185676
-  },
-  {
-    "rank": 300,
-    "alliance_name": "⭐️ÆVENGERS⭐️",
-    "nickname": "❤MyNaMeIsLuFfY Æ❤❤",
-    "bounty": 185498
-  },
-  {
-    "rank": 301,
-    "alliance_name": "GermUnit Inc.",
-    "nickname": "pirates293",
-    "bounty": 185118
-  },
-  {
-    "rank": 302,
-    "alliance_name": "SᴋʏPɪᴇᴀ-2조",
-    "nickname": "SᴋʏPɪᴇᴀ-콜스고",
-    "bounty": 185072
-  },
-  {
-    "rank": 303,
-    "alliance_name": "GoodHairSociety",
-    "nickname": "Red Arc",
-    "bounty": 184701
-  },
-  {
-    "rank": 304,
-    "alliance_name": "SOLO TOP di GAMMA",
-    "nickname": "[STG]Revolutionary",
-    "bounty": 184402
-  },
-  {
-    "rank": 305,
-    "alliance_name": "Perona a pecorona",
-    "nickname": "FuoriDaiCoglioni",
-    "bounty": 184290
-  },
-  {
-    "rank": 306,
-    "alliance_name": "NSFW",
-    "nickname": "R|M|R H3rzl0s",
-    "bounty": 183469
-  },
-  {
-    "rank": 307,
-    "alliance_name": "(SCA) BLACK SCABBARDS",
-    "nickname": "/u/TheACS",
-    "bounty": 183046
-  },
-  {
-    "rank": 308,
-    "alliance_name": "sons of JoyBoy㋡",
-    "nickname": "해적왕",
-    "bounty": 182627
-  },
-  {
-    "rank": 309,
-    "alliance_name": "One Piece Treasure Cruise",
-    "nickname": "Kanjuro",
-    "bounty": 181942
-  },
-  {
-    "rank": 310,
-    "alliance_name": "Play Smarter, Not Harder",
-    "nickname": "⭐ⓅⓈⓃⒽ⭐MDR",
-    "bounty": 180879
-  },
-  {
-    "rank": 311,
-    "alliance_name": "즐거운해적질",
-    "nickname": "고양이수사대",
-    "bounty": 180801
-  },
-  {
-    "rank": 312,
-    "alliance_name": "Here we go !!!",
-    "nickname": "[HWꓨ] LAByR!ntH✨༻",
-    "bounty": 180623
-  },
-  {
-    "rank": 313,
-    "alliance_name": "[CDR] BALDBARBECUE PIRATES",
-    "nickname": "jaws",
-    "bounty": 180087
-  },
-  {
-    "rank": 314,
-    "alliance_name": "KING NIKA",
-    "nickname": "Shinchaku",
-    "bounty": 178442
-  },
-  {
-    "rank": 315,
-    "alliance_name": "⚔️ⒺⓈⓅⒶⒹⒶ⚔️",
-    "nickname": "[EPD] Lucasme",
-    "bounty": 178394
-  },
-  {
-    "rank": 316,
-    "alliance_name": "♱YoRu♱",
-    "nickname": "☠️bystand",
-    "bounty": 177788
-  },
-  {
-    "rank": 317,
-    "alliance_name": "Legacy of D.",
-    "nickname": "Mad Pirates",
-    "bounty": 177131
-  },
-  {
-    "rank": 318,
-    "alliance_name": "Eyes of the Sea",
-    "nickname": "FaNG",
-    "bounty": 176421
-  },
-  {
-    "rank": 319,
-    "alliance_name": "Vietnam number1",
-    "nickname": "(◠‿◠)にん神様(◠‿◠)",
-    "bounty": 176194
-  },
-  {
-    "rank": 320,
-    "alliance_name": "No Pro No Re",
-    "nickname": "~PaoxTHAILAND~",
-    "bounty": 175393
-  },
-  {
-    "rank": 321,
-    "alliance_name": "G O A T s",
-    "nickname": "R4INBOW D SQUAD",
-    "bounty": 174840
-  },
-  {
-    "rank": 322,
-    "alliance_name": "The Smart Greeks",
-    "nickname": "[TSG] b0neman",
-    "bounty": 174761
-  },
-  {
-    "rank": 323,
-    "alliance_name": "몽키D❤️❤️",
-    "nickname": "몽키D민이",
-    "bounty": 174760
-  },
-  {
-    "rank": 324,
-    "alliance_name": "불의나라나뭇잎마을",
-    "nickname": "Onizuka",
-    "bounty": 174546
-  },
-  {
-    "rank": 325,
-    "alliance_name": "German Cruisers",
-    "nickname": "avgermany",
-    "bounty": 174179
-  },
-  {
-    "rank": 326,
-    "alliance_name": "Vinland",
-    "nickname": "DoDoAbriko",
-    "bounty": 173489
-  },
-  {
-    "rank": 327,
-    "alliance_name": "즐겜하자",
-    "nickname": "밀짚모자 일당",
-    "bounty": 173404
-  },
-  {
-    "rank": 328,
-    "alliance_name": "⭐ⓉⓇⓈ①⭐",
-    "nickname": "ⓉⓇⓈ Teragon",
-    "bounty": 171632
-  },
-  {
-    "rank": 329,
-    "alliance_name": "East Blue",
-    "nickname": "고구마팝니다",
-    "bounty": 171330
-  },
-  {
-    "rank": 330,
-    "alliance_name": "⚜️ Divine Pirates ⚜️",
-    "nickname": "D.Foxski #TreCru",
-    "bounty": 171207
-  },
-  {
-    "rank": 331,
-    "alliance_name": "Hammerhead Pirates",
-    "nickname": "[HP] ThisIsSarter",
-    "bounty": 170869
-  },
-  {
-    "rank": 332,
-    "alliance_name": "España",
-    "nickname": "GuAoRoSei",
-    "bounty": 169603
-  },
-  {
-    "rank": 332,
-    "alliance_name": "™Bro☠Grand Line",
-    "nickname": "™Bro☠털즈⚓°•*⁀➷",
-    "bounty": 169603
-  },
-  {
-    "rank": 334,
-    "alliance_name": "「IDR」 ᴍᴀꜱᴛᴇʀ ᴏꜰ ʜᴀᴋɪ",
-    "nickname": "「IDR」NewTrap✨",
-    "bounty": 169311
-  },
-  {
-    "rank": 335,
-    "alliance_name": "라프텔",
-    "nickname": "(라프텔)양념개장",
-    "bounty": 168416
-  },
-  {
-    "rank": 336,
-    "alliance_name": "[OPC]⚡The Hateful Eight⚡[NOVA]",
-    "nickname": "⚡️Flocki⚡️",
-    "bounty": 168400
-  },
-  {
-    "rank": 337,
-    "alliance_name": "⛩️G͇O͇D͇ V͇A͇L͇L͇E͇Y͇⛩️",
-    "nickname": "D.Huyy",
-    "bounty": 166879
-  },
-  {
-    "rank": 338,
-    "alliance_name": "[CG] Neo~SWORD",
-    "nickname": "[N-S] Owner of D",
-    "bounty": 166557
-  },
-  {
-    "rank": 339,
-    "alliance_name": "칠무해",
-    "nickname": "그리즐리",
-    "bounty": 166177
-  },
-  {
-    "rank": 340,
-    "alliance_name": "Ziggies",
-    "nickname": "원펀맨",
-    "bounty": 166133
-  },
-  {
-    "rank": 341,
-    "alliance_name": "라프텔",
-    "nickname": "(라프텔)루아",
-    "bounty": 165374
-  },
-  {
-    "rank": 342,
-    "alliance_name": "DIO CANCARO",
-    "nickname": "シ D.HOMER.DA y",
-    "bounty": 164865
-  },
-  {
-    "rank": 343,
-    "alliance_name": "ITALIA",
-    "nickname": "Re Dei Pirati | YT",
-    "bounty": 164753
-  },
-  {
-    "rank": 344,
-    "alliance_name": "East Blue",
-    "nickname": "마룬",
-    "bounty": 164498
-  },
-  {
-    "rank": 345,
-    "alliance_name": "Panda Man",
-    "nickname": "카리나윈터",
-    "bounty": 164482
-  },
-  {
-    "rank": 346,
-    "alliance_name": "몽키D❤️❤️",
-    "nickname": "Bamer",
-    "bounty": 164425
-  },
-  {
-    "rank": 347,
-    "alliance_name": "SᴋʏPɪᴇᴀ-1조/have fun",
-    "nickname": "SᴋʏPɪᴇᴀ-김겨울",
-    "bounty": 164310
-  },
-  {
-    "rank": 348,
-    "alliance_name": "즐거운해적질",
-    "nickname": "뱅+",
-    "bounty": 163894
-  },
-  {
-    "rank": 349,
-    "alliance_name": "[GT] Gurkentruppe 2",
-    "nickname": "⚡️⚡️Enel⚡️⚡️",
-    "bounty": 163649
-  },
-  {
-    "rank": 350,
-    "alliance_name": "사부작사부작",
-    "nickname": "종팔이@DB_대로행_",
-    "bounty": 163363
-  },
-  {
-    "rank": 351,
-    "alliance_name": "Indo Nomercy Alliance Div 4",
-    "nickname": "[INA]YamatoKaido",
-    "bounty": 163255
-  },
-  {
-    "rank": 352,
-    "alliance_name": "MugiCrew(FR)",
-    "nickname": "TT-Kaid0",
-    "bounty": 163169
-  },
-  {
-    "rank": 353,
-    "alliance_name": "통통배",
-    "nickname": "킴킴",
-    "bounty": 162457
-  },
-  {
-    "rank": 354,
-    "alliance_name": "SᴋʏPɪᴇᴀ-4조",
-    "nickname": "SᴋʏPɪᴇᴀ-니프",
-    "bounty": 161946
-  },
-  {
-    "rank": 355,
-    "alliance_name": "⚔️ⒺⓈⓅⒶⒹⒶ⚔️",
-    "nickname": "GameFreak",
-    "bounty": 160695
-  },
-  {
-    "rank": 356,
-    "alliance_name": "LEGACY™️ - Crossguild ⚔️",
-    "nickname": "ⓁⒼⒸ Durin ᛞ",
-    "bounty": 159747
-  },
-  {
-    "rank": 357,
-    "alliance_name": "Neo❌Gods❌Pirates",
-    "nickname": "『NSI』M!KΞ-182",
-    "bounty": 159665
-  },
-  {
-    "rank": 358,
-    "alliance_name": "Made in Thailand V2",
-    "nickname": "[MiTH]-me",
-    "bounty": 159620
-  },
-  {
-    "rank": 359,
-    "alliance_name": "☠️P✘M☠️-2조",
-    "nickname": "☠️P✘M☠️-ㅌIㅊI",
-    "bounty": 159368
-  },
-  {
-    "rank": 360,
-    "alliance_name": "⛩️G͇O͇D͇ V͇A͇L͇L͇E͇Y͇⛩️",
-    "nickname": "ttlam",
-    "bounty": 159072
-  },
-  {
-    "rank": 361,
-    "alliance_name": "신세계",
-    "nickname": "⭐펭수⭐",
-    "bounty": 158574
-  },
-  {
-    "rank": 362,
-    "alliance_name": "Pandas pirates",
-    "nickname": "Mocha+",
-    "bounty": 158225
-  },
-  {
-    "rank": 363,
-    "alliance_name": "팀트갤 9대대",
-    "nickname": "장어초밥",
-    "bounty": 157974
-  },
-  {
-    "rank": 364,
-    "alliance_name": "팀트갤 5대대",
-    "nickname": "글래셔로드",
-    "bounty": 157845
-  },
-  {
-    "rank": 365,
-    "alliance_name": "[OPC] The Flying10 Stars",
-    "nickname": "[OPC] Dirowe",
-    "bounty": 157692
-  },
-  {
-    "rank": 366,
-    "alliance_name": "Chusticieros España",
-    "nickname": "Linkinlui",
-    "bounty": 157638
-  },
-  {
-    "rank": 367,
-    "alliance_name": "AKAGAMIPIRATES",
-    "nickname": "Kaguyaaa",
-    "bounty": 157536
-  },
-  {
-    "rank": 368,
-    "alliance_name": "Walk Together",
-    "nickname": "SOS",
-    "bounty": 156760
-  },
-  {
-    "rank": 369,
-    "alliance_name": "Kizunaloids",
-    "nickname": "TT——RICK",
-    "bounty": 156110
-  },
-  {
-    "rank": 370,
-    "alliance_name": "직장인여가활동",
-    "nickname": "까부리까불",
-    "bounty": 156070
-  },
-  {
-    "rank": 371,
-    "alliance_name": "The Revolutionary Army [TRA-3]",
-    "nickname": "[TRA] Kaiser V.",
-    "bounty": 155524
-  },
-  {
-    "rank": 372,
-    "alliance_name": "The Smart Greeks",
-    "nickname": "[TSG] Ⓜⓤ©_ⓂⓐⓡⓚⓎ",
-    "bounty": 155180
-  },
-  {
-    "rank": 373,
-    "alliance_name": "The Revolutionary Army [TRA-4]",
-    "nickname": "【TRA】ParisiCrew",
-    "bounty": 154847
-  },
-  {
-    "rank": 374,
-    "alliance_name": "⚔️LIONHEART⚔️",
-    "nickname": "DieuDissident",
-    "bounty": 154602
-  },
-  {
-    "rank": 375,
-    "alliance_name": "SᴋʏPɪᴇᴀ-5조/RE:BOOST!!!",
-    "nickname": "SᴋʏPɪᴇᴀ-남매둥이",
-    "bounty": 153150
-  },
-  {
-    "rank": 376,
-    "alliance_name": "프리",
-    "nickname": "sol1",
-    "bounty": 152688
-  },
-  {
-    "rank": 377,
-    "alliance_name": "DB_대로행 [선장조]",
-    "nickname": "Lune❄️",
-    "bounty": 152473
-  },
-  {
-    "rank": 378,
-    "alliance_name": "OPTC GRIND SQUAD",
-    "nickname": "goncalvp",
-    "bounty": 152444
-  },
-  {
-    "rank": 379,
-    "alliance_name": "BIG TlTTY Waifu Pirates",
-    "nickname": "Strawhat Pirates",
-    "bounty": 152257
-  },
-  {
-    "rank": 380,
-    "alliance_name": "Optc FRANCE",
-    "nickname": "ノJΐҟū",
-    "bounty": 151694
-  },
-  {
-    "rank": 381,
-    "alliance_name": "【LRS⚡️】 BALTIGO",
-    "nickname": "【LRS⚡️】Alien360×赤達",
-    "bounty": 151027
-  },
-  {
-    "rank": 382,
-    "alliance_name": "【LRS⚡️】 BALTIGO",
-    "nickname": "[LRS⚡️]AKandi14",
-    "bounty": 149996
-  },
-  {
-    "rank": 383,
-    "alliance_name": "Pirate island alliance ♧♤",
-    "nickname": "Cross culture",
-    "bounty": 149292
-  },
-  {
-    "rank": 384,
-    "alliance_name": "샬롯_Creme♦️",
-    "nickname": "샬롯_보솜이♦️",
-    "bounty": 148248
-  },
-  {
-    "rank": 385,
-    "alliance_name": "❄️ⓉⓇⓈ②❄️",
-    "nickname": "ⓉⓇⓈ Chibi",
-    "bounty": 146961
-  },
-  {
-    "rank": 386,
-    "alliance_name": "⚔️ ⓁⒺⒼⒺⓃⒹⒶⓇⓎ ⓉⒺⒶⓂ ⑦ ⚔️",
-    "nickname": "m0le",
-    "bounty": 146713
-  },
-  {
-    "rank": 387,
-    "alliance_name": "스마일 패밀리",
-    "nickname": "✨️미엇",
-    "bounty": 146640
-  },
-  {
-    "rank": 388,
-    "alliance_name": "나홀로",
-    "nickname": "SᴋʏPɪᴇᴀ-채리",
-    "bounty": 146343
-  },
-  {
-    "rank": 389,
-    "alliance_name": "일당백",
-    "nickname": "충무동 마도로스",
-    "bounty": 146215
-  },
-  {
-    "rank": 390,
-    "alliance_name": "COREA",
-    "nickname": "몽",
-    "bounty": 145920
-  },
-  {
-    "rank": 391,
-    "alliance_name": "딸바보(ﾉﾟｰﾟ)ﾉ",
-    "nickname": "1꾸래핑1",
-    "bounty": 145880
-  },
-  {
-    "rank": 392,
-    "alliance_name": "❦︎The Silent Heart Pirates❦︎",
-    "nickname": "Suggon D. Snutz",
-    "bounty": 145791
-  },
-  {
-    "rank": 393,
-    "alliance_name": "Freedom Pirates",
-    "nickname": "Boubouille",
-    "bounty": 145667
-  },
-  {
-    "rank": 394,
-    "alliance_name": "The Oasis ⛱️",
-    "nickname": "GermanRocks",
-    "bounty": 145443
-  },
-  {
-    "rank": 395,
-    "alliance_name": "All Blue",
-    "nickname": "Achilles",
-    "bounty": 145370
-  },
-  {
-    "rank": 396,
-    "alliance_name": "Red-Hair Pirates",
-    "nickname": "NEWGAME+",
-    "bounty": 145242
-  },
-  {
-    "rank": 397,
-    "alliance_name": "<SGF> Spoon Titans",
-    "nickname": "Captain Papi",
-    "bounty": 145160
-  },
-  {
-    "rank": 398,
-    "alliance_name": "The Revolutionary Army [TRA-S]",
-    "nickname": "[TRA] Mellayn",
-    "bounty": 144819
-  },
-  {
-    "rank": 399,
-    "alliance_name": "팀트갤",
-    "nickname": "부시!",
-    "bounty": 144811
-  },
-  {
-    "rank": 400,
-    "alliance_name": "Merah Putih",
-    "nickname": "Papaperih",
-    "bounty": 144749
-  },
-  {
-    "rank": 401,
-    "alliance_name": "⚔️ Smokers Guild ⚔️",
-    "nickname": "BBNL is baаck",
-    "bounty": 144533
-  },
-  {
-    "rank": 402,
-    "alliance_name": "☠️P✘M☠️-1조",
-    "nickname": "☠️P✘M☠️- 고등어",
-    "bounty": 143935
-  },
-  {
-    "rank": 403,
-    "alliance_name": "Period",
-    "nickname": "기프티드",
-    "bounty": 143595
-  },
-  {
-    "rank": 404,
-    "alliance_name": "ITALIA",
-    "nickname": "SuperToni",
-    "bounty": 142888
-  },
-  {
-    "rank": 405,
-    "alliance_name": "팀트갤 8대대",
-    "nickname": "수능특강민철",
-    "bounty": 142577
-  },
-  {
-    "rank": 406,
-    "alliance_name": "TBC",
-    "nickname": "Redona",
-    "bounty": 142176
-  },
-  {
-    "rank": 407,
-    "alliance_name": "Rocks Pirates Reborn",
-    "nickname": "crazy apples",
-    "bounty": 141939
-  },
-  {
-    "rank": 408,
-    "alliance_name": "Bon Voyage",
-    "nickname": "Bleblelele Pirates",
-    "bounty": 141252
-  },
-  {
-    "rank": 409,
-    "alliance_name": "설렁설렁@EB",
-    "nickname": "IIYeonII",
-    "bounty": 141191
-  },
-  {
-    "rank": 410,
-    "alliance_name": "Cipher Pol",
-    "nickname": "aB",
-    "bounty": 140930
-  },
-  {
-    "rank": 411,
-    "alliance_name": "팀트갤 4대대",
-    "nickname": "0000O",
-    "bounty": 139706
-  },
-  {
-    "rank": 412,
-    "alliance_name": "SᴋʏPɪᴇᴀ-1조/have fun",
-    "nickname": "SᴋʏPɪᴇᴀ-바우",
-    "bounty": 139501
-  },
-  {
-    "rank": 413,
-    "alliance_name": "GLOBEST",
-    "nickname": "As3D",
-    "bounty": 139175
-  },
-  {
-    "rank": 414,
-    "alliance_name": "「IDR」 ᴍᴀꜱᴛᴇʀ ᴏꜰ ʜᴀᴋɪ",
-    "nickname": "「IDR」 wise009",
-    "bounty": 138731
-  },
-  {
-    "rank": 415,
-    "alliance_name": "Legendary Crew TH V.3",
-    "nickname": "Monkey D protae",
-    "bounty": 138543
-  },
-  {
-    "rank": 416,
-    "alliance_name": "팀트갤 7대대",
-    "nickname": "나리나좋아요",
-    "bounty": 138104
-  },
-  {
-    "rank": 417,
-    "alliance_name": "Hat tricks emperor",
-    "nickname": "WhiteHat",
-    "bounty": 137991
-  },
-  {
-    "rank": 418,
-    "alliance_name": "Shin Sekai Yonkou",
-    "nickname": "THE WALKING DEAD",
-    "bounty": 137984
-  },
-  {
-    "rank": 419,
-    "alliance_name": "G O A T s",
-    "nickname": "Straw Hat",
-    "bounty": 137772
-  },
-  {
-    "rank": 420,
-    "alliance_name": "【LRS⚡️】 BALTIGO",
-    "nickname": "[LRS] Forest",
-    "bounty": 137463
-  },
-  {
-    "rank": 421,
-    "alliance_name": "HUEBR ☠️ Pirates",
-    "nickname": "[HUEBR] Konicks",
-    "bounty": 137294
-  },
-  {
-    "rank": 422,
-    "alliance_name": "",
-    "nickname": "한글자",
-    "bounty": 137267
-  },
-  {
-    "rank": 423,
-    "alliance_name": "OPTC Refugees",
-    "nickname": "YAMATO",
-    "bounty": 137166
-  },
-  {
-    "rank": 424,
-    "alliance_name": "League of Extraordinary ☠",
-    "nickname": "Newgate D. Diego",
-    "bounty": 136820
-  },
-  {
-    "rank": 425,
-    "alliance_name": "GALAXY",
-    "nickname": "[GALAXY]선장",
-    "bounty": 136818
-  },
-  {
-    "rank": 426,
-    "alliance_name": "북미원주민",
-    "nickname": "제2대깐돌이",
-    "bounty": 136744
-  },
-  {
-    "rank": 427,
-    "alliance_name": "Iron Crew [CDR]",
-    "nickname": "Ainz Ooal Gown",
-    "bounty": 135171
-  },
-  {
-    "rank": 428,
-    "alliance_name": "ELITE 10",
-    "nickname": "Gooner",
-    "bounty": 134926
-  },
-  {
-    "rank": 429,
-    "alliance_name": "Re Re Pirates",
-    "nickname": "COCODRILO",
-    "bounty": 134735
-  },
-  {
-    "rank": 430,
-    "alliance_name": "Indo Nomercy Alliance Div 1",
-    "nickname": "yoichi",
-    "bounty": 134713
-  },
-  {
-    "rank": 431,
-    "alliance_name": "호잇",
-    "nickname": "마구니",
-    "bounty": 134628
-  },
-  {
-    "rank": 432,
-    "alliance_name": "철새out",
-    "nickname": "피타고라스+",
-    "bounty": 134488
-  },
-  {
-    "rank": 433,
-    "alliance_name": "이현이해적단",
-    "nickname": "2번",
-    "bounty": 133461
-  },
-  {
-    "rank": 434,
-    "alliance_name": "[PT] Chorões de Portugal",
-    "nickname": "PT/PedroBranco2000",
-    "bounty": 133055
-  },
-  {
-    "rank": 435,
-    "alliance_name": "GermanTurkishEnglish Alliance",
-    "nickname": "제르마",
-    "bounty": 133005
-  },
-  {
-    "rank": 436,
-    "alliance_name": "Joy ت Boys",
-    "nickname": "Zesack",
-    "bounty": 132504
-  },
-  {
-    "rank": 437,
-    "alliance_name": "☁️ⓉⓇⓈ④☁️",
-    "nickname": "ⓉⓇⓈ⚔️Byakugan",
-    "bounty": 132407
-  },
-  {
-    "rank": 438,
-    "alliance_name": "[swb] ꇙꅐꋬꇙꁝꃳ꒤ꉔꀘ꒒ꏂꋪꇙ",
-    "nickname": "[swb] kaibinho",
-    "bounty": 132289
-  },
-  {
-    "rank": 439,
-    "alliance_name": "스마일 패밀리",
-    "nickname": "판다롱",
-    "bounty": 132220
-  },
-  {
-    "rank": 440,
-    "alliance_name": "One Piece Treasure Cruise",
-    "nickname": "D4ngerM4nger",
-    "bounty": 131968
-  },
-  {
-    "rank": 441,
-    "alliance_name": "그리스신화",
-    "nickname": "밀짚모자 일당",
-    "bounty": 131964
-  },
-  {
-    "rank": 442,
-    "alliance_name": "ITALIAN PIRATES",
-    "nickname": "u/Overpawa",
-    "bounty": 131838
-  },
-  {
-    "rank": 443,
-    "alliance_name": "LA PIRE GÉNÉRATION",
-    "nickname": "[LPG]MugyDDjew✨352",
-    "bounty": 131629
-  },
-  {
-    "rank": 444,
-    "alliance_name": "복세편살",
-    "nickname": "엘도라도 吳짱",
-    "bounty": 131532
-  },
-  {
-    "rank": 445,
-    "alliance_name": "ONE FRUIT PIRATES",
-    "nickname": "Remdav",
-    "bounty": 131127
-  },
-  {
-    "rank": 446,
-    "alliance_name": "팀트갤 4대대",
-    "nickname": "냐리나",
-    "bounty": 131003
-  },
-  {
-    "rank": 447,
-    "alliance_name": "The Mad Monks",
-    "nickname": "[MM] Momo_D_Mibu",
-    "bounty": 130827
-  },
-  {
-    "rank": 448,
-    "alliance_name": "Duduk Manis",
-    "nickname": "⚔️ÊÇHØ⚔️™",
-    "bounty": 130125
-  },
-  {
-    "rank": 449,
-    "alliance_name": "Unusual Suspects (SUS)",
-    "nickname": "【SUS】CC6",
-    "bounty": 129934
-  },
-  {
-    "rank": 450,
-    "alliance_name": "CrimsonDawnPirates",
-    "nickname": "Pnutz313",
-    "bounty": 129638
-  },
-  {
-    "rank": 451,
-    "alliance_name": "DC2",
-    "nickname": "비주기✨",
-    "bounty": 129514
-  },
-  {
-    "rank": 452,
-    "alliance_name": "LEGACY™️ - Supernovas",
-    "nickname": "ⓁⒼⒸ Nirolox",
-    "bounty": 129511
-  },
-  {
-    "rank": 453,
-    "alliance_name": "Walk Together",
-    "nickname": "★cosmo☯︎ .",
-    "bounty": 129433
-  },
-  {
-    "rank": 454,
-    "alliance_name": "팀트갤 9대대",
-    "nickname": "우유맛:)",
-    "bounty": 129423
-  },
-  {
-    "rank": 455,
-    "alliance_name": "TEAM NEW DAWN",
-    "nickname": "[LBC]Xamycs(ノಠ益ಠ)ノ",
-    "bounty": 128981
-  },
-  {
-    "rank": 456,
-    "alliance_name": "<SGF> Spoon Titans",
-    "nickname": "[SGF] Itachi-89",
-    "bounty": 128925
-  },
-  {
-    "rank": 457,
-    "alliance_name": "สลัดนาเกลือ",
-    "nickname": "(βvˢ⚜️)-Bui",
-    "bounty": 128824
-  },
-  {
-    "rank": 458,
-    "alliance_name": "루키",
-    "nickname": "nice12",
-    "bounty": 128444
-  },
-  {
-    "rank": 459,
-    "alliance_name": "rose pirates",
-    "nickname": "Aizen",
-    "bounty": 128350
-  },
-  {
-    "rank": 460,
-    "alliance_name": "Genei ☠︎︎ Ryodan",
-    "nickname": "[P☠️⚡N] PAP CHIAP",
-    "bounty": 128250
-  },
-  {
-    "rank": 461,
-    "alliance_name": "프리",
-    "nickname": "Jamie",
-    "bounty": 128163
-  },
-  {
-    "rank": 461,
-    "alliance_name": "NBW Pirate Alliance",
-    "nickname": "Xehanort",
-    "bounty": 128163
-  },
-  {
-    "rank": 463,
-    "alliance_name": "™Bro☠Grand Line",
-    "nickname": "™Bro☠침착 คʕ•ﻌ•ʔค",
-    "bounty": 127232
-  },
-  {
-    "rank": 464,
-    "alliance_name": "NBW Pirate Alliance",
-    "nickname": "[NBW]⚡️Thunder⚡️",
-    "bounty": 127107
-  },
-  {
-    "rank": 465,
-    "alliance_name": "同苦同樂",
-    "nickname": "상고",
-    "bounty": 127022
-  },
-  {
-    "rank": 466,
-    "alliance_name": "Legacy of D. II",
-    "nickname": "[LoD.] ✨⛩️ ⒶⓉⒸ ⛩️✨",
-    "bounty": 126889
-  },
-  {
-    "rank": 467,
-    "alliance_name": "Indo Nomercy Alliance",
-    "nickname": "バンダイ　犬",
-    "bounty": 126885
-  },
-  {
-    "rank": 468,
-    "alliance_name": "Christo crew",
-    "nickname": "비니깐",
-    "bounty": 126582
-  },
-  {
-    "rank": 469,
-    "alliance_name": "미르",
-    "nickname": "Manbok",
-    "bounty": 126310
-  },
-  {
-    "rank": 470,
-    "alliance_name": "GLI ENS",
-    "nickname": "BubienS",
-    "bounty": 126067
-  },
-  {
-    "rank": 471,
-    "alliance_name": "OLD⚡️SUPERNOVA",
-    "nickname": "[P☠️⚡️N] brice09",
-    "bounty": 125667
-  },
-  {
-    "rank": 472,
-    "alliance_name": "칠무해",
-    "nickname": "balju",
-    "bounty": 125286
-  },
-  {
-    "rank": 473,
-    "alliance_name": "[LRS] BUSOSHOKU",
-    "nickname": "MERA MERA NO CREW",
-    "bounty": 125158
-  },
-  {
-    "rank": 474,
-    "alliance_name": "Aged D 大海賊團",
-    "nickname": "♦️Arshia_jf♦️",
-    "bounty": 125031
-  },
-  {
-    "rank": 475,
-    "alliance_name": "Loyalist Warhammer 40K",
-    "nickname": "kipli",
-    "bounty": 124815
-  },
-  {
-    "rank": 476,
-    "alliance_name": "LOS MAS PESADOS V2",
-    "nickname": "Xxjose2000xX",
-    "bounty": 124777
-  },
-  {
-    "rank": 477,
-    "alliance_name": "최강",
-    "nickname": "onepiece",
-    "bounty": 124538
-  },
-  {
-    "rank": 478,
-    "alliance_name": "Indo Nomercy Alliance",
-    "nickname": "ⒾⓃⒶ Gpheb®y™",
-    "bounty": 124117
-  },
-  {
-    "rank": 479,
-    "alliance_name": "팀트갤 6대대",
-    "nickname": "김첨지네설렁탕집",
-    "bounty": 123847
-  },
-  {
-    "rank": 480,
-    "alliance_name": "MugiCrew(FR)",
-    "nickname": "Mhk93",
-    "bounty": 123826
-  },
-  {
-    "rank": 481,
-    "alliance_name": "Period",
-    "nickname": "Umato",
-    "bounty": 123300
-  },
-  {
-    "rank": 482,
-    "alliance_name": "UkininaM",
-    "nickname": "Funky Monkeys",
-    "bounty": 123234
-  },
-  {
-    "rank": 483,
-    "alliance_name": "[GT] Gurkentruppe 2",
-    "nickname": "[GT] Fauli",
-    "bounty": 123151
-  },
-  {
-    "rank": 484,
-    "alliance_name": "ㄒ乇卂爪 卩卂卩ㄩ丂丨卂丂",
-    "nickname": "RENZOG",
-    "bounty": 123102
-  },
-  {
-    "rank": 485,
-    "alliance_name": "GLOBEST",
-    "nickname": "HamiD.000oo",
-    "bounty": 122962
-  },
-  {
-    "rank": 486,
-    "alliance_name": "Haki no Pirates",
-    "nickname": "LongSchlongPirates",
-    "bounty": 122824
-  },
-  {
-    "rank": 487,
-    "alliance_name": "GERMANY",
-    "nickname": "Aachen Esports",
-    "bounty": 122411
-  },
-  {
-    "rank": 488,
-    "alliance_name": "THE GALACTICOS",
-    "nickname": "용",
-    "bounty": 122273
-  },
-  {
-    "rank": 489,
-    "alliance_name": "Nautical Gemlins",
-    "nickname": "LetsSave4KUMA!!!!!",
-    "bounty": 122065
-  },
-  {
-    "rank": 490,
-    "alliance_name": "RAFTEL ALLIANCE",
-    "nickname": "嵐_JollyRoger",
-    "bounty": 121776
-  },
-  {
-    "rank": 491,
-    "alliance_name": "꿩TV",
-    "nickname": "XRP",
-    "bounty": 121691
-  },
-  {
-    "rank": 492,
-    "alliance_name": "⚡One Rule⚡",
-    "nickname": "+KOBA DESTINY+",
-    "bounty": 121684
-  },
-  {
-    "rank": 493,
-    "alliance_name": "Hindia Belanda",
-    "nickname": "⚔️ zoro",
-    "bounty": 121110
-  },
-  {
-    "rank": 494,
-    "alliance_name": "The Revolutionary Army [TRA-4]",
-    "nickname": "Culurgiones",
-    "bounty": 121022
-  },
-  {
-    "rank": 495,
-    "alliance_name": "SPYCK Corp.",
-    "nickname": "Re:Doggers",
-    "bounty": 120548
-  },
-  {
-    "rank": 496,
-    "alliance_name": "GodValley Pirates",
-    "nickname": "GodValleyPirates",
-    "bounty": 119710
-  },
-  {
-    "rank": 497,
-    "alliance_name": "SFB",
-    "nickname": "Zoans Pirates",
-    "bounty": 119575
-  },
-  {
-    "rank": 498,
-    "alliance_name": "팀트갤 8대대",
-    "nickname": "시요밍",
-    "bounty": 119464
-  },
-  {
-    "rank": 499,
-    "alliance_name": "Vinland",
-    "nickname": "HermesGoldenGun",
-    "bounty": 119452
-  },
-  {
-    "rank": 500,
-    "alliance_name": "유대n토벌",
-    "nickname": "밀일",
-    "bounty": 119115
-  }
-]
+{
+  "last_updated": "2025-10-04T01:51:03.105505+00:00",
+  "rankings": [
+    {
+      "rank": 1,
+      "alliance_name": "샬롯_Creme♦️",
+      "nickname": "샬롯_VV♦️",
+      "bounty": 2737400
+    },
+    {
+      "rank": 2,
+      "alliance_name": "DC2",
+      "nickname": "ꜱᴠᴇɴ",
+      "bounty": 2720686
+    },
+    {
+      "rank": 3,
+      "alliance_name": "팀트갤",
+      "nickname": "조이조이",
+      "bounty": 2643235
+    },
+    {
+      "rank": 4,
+      "alliance_name": "ΛＳＳΛＵＬＴ ＦＯＲＣΣ",
+      "nickname": "[ΛF] Stussy <3",
+      "bounty": 2627253
+    },
+    {
+      "rank": 5,
+      "alliance_name": "ΛＳＳΛＵＬＴ ＦＯＲＣΣ",
+      "nickname": "[ΛF] b00ndesn00b",
+      "bounty": 2596431
+    },
+    {
+      "rank": 6,
+      "alliance_name": "Passione",
+      "nickname": "[P☠️⚡️N] Inganno",
+      "bounty": 2529659
+    },
+    {
+      "rank": 7,
+      "alliance_name": "SᴋʏPɪᴇᴀ-1조/have fun",
+      "nickname": "SᴋʏPɪᴇᴀ-멜빛",
+      "bounty": 2506908
+    },
+    {
+      "rank": 8,
+      "alliance_name": "Passione",
+      "nickname": "[P☠️⚡️N]⚡️Phinks⚡️",
+      "bounty": 2391256
+    },
+    {
+      "rank": 9,
+      "alliance_name": "The Revolutionary Army [TRA]",
+      "nickname": "[TRA] JpPingUnfair",
+      "bounty": 2307009
+    },
+    {
+      "rank": 10,
+      "alliance_name": "ΛＳＳΛＵＬＴ ＦＯＲＣΣ",
+      "nickname": "[ΛF] ズのｷﾉ",
+      "bounty": 2302642
+    },
+    {
+      "rank": 11,
+      "alliance_name": "The Revolutionary Army [TRA]",
+      "nickname": "ᴍᴀᴇʟ",
+      "bounty": 2102421
+    },
+    {
+      "rank": 12,
+      "alliance_name": "Passione",
+      "nickname": "[P☠️⚡N]NewTheJesus",
+      "bounty": 2020687
+    },
+    {
+      "rank": 13,
+      "alliance_name": "팀트갤 공수대대",
+      "nickname": "척",
+      "bounty": 2016995
+    },
+    {
+      "rank": 14,
+      "alliance_name": "팀트갤 공수대대",
+      "nickname": "벨",
+      "bounty": 1993217
+    },
+    {
+      "rank": 15,
+      "alliance_name": "The Revolutionary Army [TRA]",
+      "nickname": "[TRA] ✞Antiℂristo✞",
+      "bounty": 1990593
+    },
+    {
+      "rank": 16,
+      "alliance_name": "팀트갤 6대대",
+      "nickname": "메이루",
+      "bounty": 1870058
+    },
+    {
+      "rank": 17,
+      "alliance_name": "Marines",
+      "nickname": "53Piraten",
+      "bounty": 1866541
+    },
+    {
+      "rank": 18,
+      "alliance_name": "The Revolutionary Army [TRA]",
+      "nickname": "TRA - ❤️ ヤマト ❤️",
+      "bounty": 1851892
+    },
+    {
+      "rank": 19,
+      "alliance_name": "ΛＳＳΛＵＬＴ ＦＯＲＣΣ",
+      "nickname": "[ΛF] Puzzy",
+      "bounty": 1849623
+    },
+    {
+      "rank": 20,
+      "alliance_name": "SᴋʏPɪᴇᴀ-2조",
+      "nickname": "SᴋʏPɪᴇᴀ-BaRoNi",
+      "bounty": 1841363
+    },
+    {
+      "rank": 21,
+      "alliance_name": "⚔️ⒺⓈⓅⒶⒹⒶ⚔️",
+      "nickname": "[EPD] ᴜʟᴛɪᴍᴀ ⛩️",
+      "bounty": 1810292
+    },
+    {
+      "rank": 22,
+      "alliance_name": "팀트갤",
+      "nickname": "초오전박살",
+      "bounty": 1771885
+    },
+    {
+      "rank": 23,
+      "alliance_name": "☠️P✘M☠️-1조",
+      "nickname": "☠️P✘M☠️-동료",
+      "bounty": 1741707
+    },
+    {
+      "rank": 24,
+      "alliance_name": "ΛＳＳΛＵＬＴ ＦＯＲＣΣ",
+      "nickname": "[ΛF] Sung Jin-Woo",
+      "bounty": 1730229
+    },
+    {
+      "rank": 25,
+      "alliance_name": "Passione",
+      "nickname": "[P☠️⚡N]Crown Clown",
+      "bounty": 1710118
+    },
+    {
+      "rank": 26,
+      "alliance_name": "The Revolutionary Army [TRA]",
+      "nickname": "TRA - Procamich",
+      "bounty": 1658236
+    },
+    {
+      "rank": 27,
+      "alliance_name": "DC2",
+      "nickname": "혁귤",
+      "bounty": 1652905
+    },
+    {
+      "rank": 28,
+      "alliance_name": "Unusual Suspects (SUS)",
+      "nickname": "【SUS】 ZO - ゾラ ⚓",
+      "bounty": 1637903
+    },
+    {
+      "rank": 29,
+      "alliance_name": "The Revolutionary Army [TRA]",
+      "nickname": "[TRA] 2Shankz",
+      "bounty": 1593062
+    },
+    {
+      "rank": 30,
+      "alliance_name": "팀트갤 공수대대",
+      "nickname": "좁",
+      "bounty": 1587286
+    },
+    {
+      "rank": 31,
+      "alliance_name": "Passione",
+      "nickname": "[P☠️⚡️N] ϻʀ.ᴄʜɪʟʟ",
+      "bounty": 1575405
+    },
+    {
+      "rank": 32,
+      "alliance_name": "<SGF> Spoon Titans",
+      "nickname": "Snuffy",
+      "bounty": 1509571
+    },
+    {
+      "rank": 33,
+      "alliance_name": "YOKAI REBORN",
+      "nickname": "妖怪 | DieHard",
+      "bounty": 1503997
+    },
+    {
+      "rank": 34,
+      "alliance_name": "French D. CREW ❤️",
+      "nickname": "✨️luffy56✨️",
+      "bounty": 1501113
+    },
+    {
+      "rank": 35,
+      "alliance_name": "The Revolutionary Army [TRA-2]",
+      "nickname": "[TRA] HiM",
+      "bounty": 1499574
+    },
+    {
+      "rank": 36,
+      "alliance_name": "팀트갤 7대대",
+      "nickname": "리더체인지!leaderchange",
+      "bounty": 1477894
+    },
+    {
+      "rank": 37,
+      "alliance_name": "팀트갤",
+      "nickname": "DeukDo",
+      "bounty": 1463051
+    },
+    {
+      "rank": 38,
+      "alliance_name": "꧁༺тнє  w̶нαℓєѕ༻꧂",
+      "nickname": "Ja⚡️Had",
+      "bounty": 1461875
+    },
+    {
+      "rank": 39,
+      "alliance_name": "Passione",
+      "nickname": "[P☠️⚡️N] ɘ✗.Ɲ๏ɱ ☂️",
+      "bounty": 1451217
+    },
+    {
+      "rank": 40,
+      "alliance_name": "팀트갤 4대대",
+      "nickname": "하야덴",
+      "bounty": 1432319
+    },
+    {
+      "rank": 41,
+      "alliance_name": "Unusual Suspects (SUS)",
+      "nickname": "【SUS】 Knoppy",
+      "bounty": 1398407
+    },
+    {
+      "rank": 42,
+      "alliance_name": "팀트갤",
+      "nickname": "Supreme",
+      "bounty": 1397473
+    },
+    {
+      "rank": 43,
+      "alliance_name": "❄️ⓉⓇⓈ②❄️",
+      "nickname": "ⓉⓇⓈ adnsalas",
+      "bounty": 1391558
+    },
+    {
+      "rank": 44,
+      "alliance_name": "Unusual Suspects (SUS)",
+      "nickname": "【SUS】 DayDreamer",
+      "bounty": 1389907
+    },
+    {
+      "rank": 45,
+      "alliance_name": "ΛＳＳΛＵＬＴ ＦＯＲＣΣ",
+      "nickname": "[ΛF]⚡️TruGOAT⚡️",
+      "bounty": 1375019
+    },
+    {
+      "rank": 46,
+      "alliance_name": "돈키호테 패밀리❤️",
+      "nickname": "석나간 윤열",
+      "bounty": 1370052
+    },
+    {
+      "rank": 47,
+      "alliance_name": "우간다",
+      "nickname": "밀가루 일당",
+      "bounty": 1362284
+    },
+    {
+      "rank": 48,
+      "alliance_name": "Alliance",
+      "nickname": "Samugi",
+      "bounty": 1301786
+    },
+    {
+      "rank": 49,
+      "alliance_name": "LA PIRE GÉNÉRATION",
+      "nickname": "[LPG] •⚜️Shady⚜️",
+      "bounty": 1276762
+    },
+    {
+      "rank": 50,
+      "alliance_name": "❄️ⓉⓇⓈ②❄️",
+      "nickname": "ⓉⓇⓈ HappiDaze",
+      "bounty": 1276291
+    },
+    {
+      "rank": 51,
+      "alliance_name": "Genei ☠︎︎ Ryodan",
+      "nickname": "[P☠️⚡N] BeeBright",
+      "bounty": 1269603
+    },
+    {
+      "rank": 52,
+      "alliance_name": "Passione",
+      "nickname": "[P☠️⚡N] tryangel",
+      "bounty": 1265978
+    },
+    {
+      "rank": 53,
+      "alliance_name": "⭐️ÆVENGERS⭐️",
+      "nickname": "Æ Niko Æ",
+      "bounty": 1258412
+    },
+    {
+      "rank": 54,
+      "alliance_name": "All Blue",
+      "nickname": "Achilles",
+      "bounty": 1254811
+    },
+    {
+      "rank": 55,
+      "alliance_name": "Unusual Suspects (SUS)",
+      "nickname": "【SUS】CC6",
+      "bounty": 1241144
+    },
+    {
+      "rank": 56,
+      "alliance_name": "신세계",
+      "nickname": "⭐펭수⭐",
+      "bounty": 1232374
+    },
+    {
+      "rank": 57,
+      "alliance_name": "팀트갤 6대대",
+      "nickname": "칸 다",
+      "bounty": 1230120
+    },
+    {
+      "rank": 58,
+      "alliance_name": "SPYCK Corp.",
+      "nickname": "G2Nunskoo",
+      "bounty": 1229252
+    },
+    {
+      "rank": 59,
+      "alliance_name": "Here we go !!!",
+      "nickname": "【HWꓨ】 Λᴅᴅɪsᴏɴ ༄",
+      "bounty": 1198450
+    },
+    {
+      "rank": 60,
+      "alliance_name": "Unusual Suspects (SUS)",
+      "nickname": "【SUS】 Scratchy",
+      "bounty": 1190233
+    },
+    {
+      "rank": 61,
+      "alliance_name": "The Revolutionary Army [TRA-2]",
+      "nickname": "[TRA] over9000",
+      "bounty": 1165254
+    },
+    {
+      "rank": 62,
+      "alliance_name": "Mythical Pirates",
+      "nickname": "[INA] D. Jones☠",
+      "bounty": 1158740
+    },
+    {
+      "rank": 63,
+      "alliance_name": "팀트갤 6대대",
+      "nickname": "하얀이우",
+      "bounty": 1150275
+    },
+    {
+      "rank": 64,
+      "alliance_name": "The Revolutionary Army [TRA]",
+      "nickname": "[TRA] ⚡️RaZr⚡️",
+      "bounty": 1147711
+    },
+    {
+      "rank": 65,
+      "alliance_name": "신세계",
+      "nickname": "PUNK-02 「惡」",
+      "bounty": 1141412
+    },
+    {
+      "rank": 66,
+      "alliance_name": "Unusual Suspects (SUS)",
+      "nickname": "【SUS】 BreaK0uT ⚡",
+      "bounty": 1116458
+    },
+    {
+      "rank": 67,
+      "alliance_name": "Der Superbekanntenkreis",
+      "nickname": "||MCM||",
+      "bounty": 1115757
+    },
+    {
+      "rank": 68,
+      "alliance_name": "The Revolutionary Army [TRA-4]",
+      "nickname": "TRA-Piratiazzurri",
+      "bounty": 1083779
+    },
+    {
+      "rank": 69,
+      "alliance_name": "Unusual Suspects (SUS)",
+      "nickname": "【SUS】 Sabツ",
+      "bounty": 1065807
+    },
+    {
+      "rank": 70,
+      "alliance_name": "팀트갤",
+      "nickname": "그루팔로",
+      "bounty": 1061788
+    },
+    {
+      "rank": 71,
+      "alliance_name": "「IDR」Red Hawk",
+      "nickname": "「IDR」 Tᴏᴋʏᴏᴋʏᴏ",
+      "bounty": 1049726
+    },
+    {
+      "rank": 72,
+      "alliance_name": "[OPC] $ui©ide $quad",
+      "nickname": "DKaut",
+      "bounty": 1043399
+    },
+    {
+      "rank": 73,
+      "alliance_name": "Passione",
+      "nickname": "[P☠️⚡️N] Loki",
+      "bounty": 1013239
+    },
+    {
+      "rank": 74,
+      "alliance_name": "팀트갤 4대대",
+      "nickname": "엉덩행콕",
+      "bounty": 997559
+    },
+    {
+      "rank": 75,
+      "alliance_name": "☠️P✘M☠️-1조",
+      "nickname": "☠️P✘M☠️-능 구",
+      "bounty": 988796
+    },
+    {
+      "rank": 76,
+      "alliance_name": "The Revolutionary Army [TRA]",
+      "nickname": "MR RNG [TRA]",
+      "bounty": 988419
+    },
+    {
+      "rank": 77,
+      "alliance_name": "팀트갤",
+      "nickname": "마파",
+      "bounty": 984481
+    },
+    {
+      "rank": 78,
+      "alliance_name": "Shisha-Bazar",
+      "nickname": "Belmonto",
+      "bounty": 967902
+    },
+    {
+      "rank": 79,
+      "alliance_name": "⭐ⓉⓇⓈ①⭐",
+      "nickname": "ⓉⓇⓈ Monkey D. Wise",
+      "bounty": 966302
+    },
+    {
+      "rank": 80,
+      "alliance_name": "The Revolutionary Army [TRA-4]",
+      "nickname": "【TRA】 AGĆÕŔAŹON",
+      "bounty": 961099
+    },
+    {
+      "rank": 81,
+      "alliance_name": "⚔️ⒺⓈⓅⒶⒹⒶ⚔️",
+      "nickname": "[EPD] Akainu86 F2P",
+      "bounty": 959941
+    },
+    {
+      "rank": 82,
+      "alliance_name": "오후10시",
+      "nickname": "카이",
+      "bounty": 954553
+    },
+    {
+      "rank": 83,
+      "alliance_name": "⛩️G͇O͇D͇ V͇A͇L͇L͇E͇Y͇⛩️",
+      "nickname": "ʕ•ᴥ•ʔɓυɷɓɭε♤",
+      "bounty": 953579
+    },
+    {
+      "rank": 84,
+      "alliance_name": "The Revolutionary Army [TRA]",
+      "nickname": "[TRA]Duke_Omar",
+      "bounty": 952824
+    },
+    {
+      "rank": 85,
+      "alliance_name": "<SGF> Spoon Titans",
+      "nickname": "Toadskii #OPTC",
+      "bounty": 932484
+    },
+    {
+      "rank": 86,
+      "alliance_name": "팀트갤 공수대대",
+      "nickname": "컵",
+      "bounty": 930584
+    },
+    {
+      "rank": 87,
+      "alliance_name": "팀트갤",
+      "nickname": "갓핑거",
+      "bounty": 918275
+    },
+    {
+      "rank": 88,
+      "alliance_name": "⭐ⓉⓇⓈ①⭐",
+      "nickname": "ⓉⓇⓈ Zibility",
+      "bounty": 911045
+    },
+    {
+      "rank": 89,
+      "alliance_name": "대한민국",
+      "nickname": "J",
+      "bounty": 901698
+    },
+    {
+      "rank": 90,
+      "alliance_name": "【LRS⚡️】 BALTIGO",
+      "nickname": "[LRS⚡️]SungJinwoo✨",
+      "bounty": 901201
+    },
+    {
+      "rank": 91,
+      "alliance_name": "The Revolutionary Army [TRA-2]",
+      "nickname": "[TRA] Sekai",
+      "bounty": 901186
+    },
+    {
+      "rank": 92,
+      "alliance_name": "「K2」The King Of Darkness",
+      "nickname": "《》$0$《》",
+      "bounty": 884697
+    },
+    {
+      "rank": 93,
+      "alliance_name": "World Class",
+      "nickname": "Light's Power",
+      "bounty": 883079
+    },
+    {
+      "rank": 94,
+      "alliance_name": "SᴋʏPɪᴇᴀ-2조",
+      "nickname": "SᴋʏPɪᴇᴀ-컨버스오리",
+      "bounty": 882036
+    },
+    {
+      "rank": 95,
+      "alliance_name": "칠무해",
+      "nickname": "루조나우상 로쵸프브 징베",
+      "bounty": 874849
+    },
+    {
+      "rank": 96,
+      "alliance_name": "Neo❌Gods❌Pirates",
+      "nickname": "[N͟͞G͟͞P͟͞]Łɪαɴσ₅₆",
+      "bounty": 865973
+    },
+    {
+      "rank": 97,
+      "alliance_name": "☠️P✘M☠️-1조",
+      "nickname": "☠️P✘M☠️-레간자",
+      "bounty": 860176
+    },
+    {
+      "rank": 98,
+      "alliance_name": "팀트갤 4대대",
+      "nickname": "RM",
+      "bounty": 859452
+    },
+    {
+      "rank": 99,
+      "alliance_name": "[GT] Gurkentruppe 1",
+      "nickname": "[GT]Organisation13",
+      "bounty": 855650
+    },
+    {
+      "rank": 100,
+      "alliance_name": "SILHOUETTE",
+      "nickname": "Hou",
+      "bounty": 846772
+    },
+    {
+      "rank": 101,
+      "alliance_name": "그리스신화",
+      "nickname": "⚡제우스⚡️",
+      "bounty": 845586
+    },
+    {
+      "rank": 102,
+      "alliance_name": "☠️P✘M☠️-1조",
+      "nickname": "☠️P✘M☠️-아므기",
+      "bounty": 823856
+    },
+    {
+      "rank": 103,
+      "alliance_name": "Jolly Pirates",
+      "nickname": "도피",
+      "bounty": 822889
+    },
+    {
+      "rank": 104,
+      "alliance_name": "[GT] Gurkentruppe 1",
+      "nickname": "[GT] Pain",
+      "bounty": 821744
+    },
+    {
+      "rank": 105,
+      "alliance_name": "Here we go !!!",
+      "nickname": "[HWꓨ]《✨ᴇxᴏʀᴄɨꜱȶ✨》",
+      "bounty": 820122
+    },
+    {
+      "rank": 106,
+      "alliance_name": "فارس اسياد التنانين",
+      "nickname": "تشارلوت@كاتاكوري",
+      "bounty": 814592
+    },
+    {
+      "rank": 107,
+      "alliance_name": "중고",
+      "nickname": "넘디 일당",
+      "bounty": 813622
+    },
+    {
+      "rank": 108,
+      "alliance_name": "Unusual Suspects (SUS)",
+      "nickname": "【SUS】LordOtakuCrew",
+      "bounty": 813034
+    },
+    {
+      "rank": 109,
+      "alliance_name": "⭐ⓉⓇⓈ①⭐",
+      "nickname": "ⓉⓇⓈ De4n",
+      "bounty": 809220
+    },
+    {
+      "rank": 110,
+      "alliance_name": "ROMANCE DAWN",
+      "nickname": "Sunbreaker Pirates",
+      "bounty": 804755
+    },
+    {
+      "rank": 111,
+      "alliance_name": "Warriors of Liberation",
+      "nickname": "버그본 일당",
+      "bounty": 793960
+    },
+    {
+      "rank": 112,
+      "alliance_name": "팀트갤 5대대",
+      "nickname": "로시",
+      "bounty": 792229
+    },
+    {
+      "rank": 113,
+      "alliance_name": "King farm",
+      "nickname": "PITOUCH",
+      "bounty": 790153
+    },
+    {
+      "rank": 114,
+      "alliance_name": "Golden Lovers",
+      "nickname": "Ice Demon Pirates",
+      "bounty": 787581
+    },
+    {
+      "rank": 115,
+      "alliance_name": "ΛＳＳΛＵＬＴ ＦＯＲＣΣ",
+      "nickname": "[ΛF] Bmil",
+      "bounty": 786816
+    },
+    {
+      "rank": 116,
+      "alliance_name": "同苦同樂",
+      "nickname": "태산강호꽃님",
+      "bounty": 785254
+    },
+    {
+      "rank": 117,
+      "alliance_name": "Egghead pirates",
+      "nickname": "chunsy",
+      "bounty": 778857
+    },
+    {
+      "rank": 118,
+      "alliance_name": "☠️P✘M☠️-1조",
+      "nickname": "☠️P✘M☠️-구와구와",
+      "bounty": 775816
+    },
+    {
+      "rank": 119,
+      "alliance_name": ".",
+      "nickname": "5대대 미안해",
+      "bounty": 761704
+    },
+    {
+      "rank": 120,
+      "alliance_name": "SantoCrew",
+      "nickname": "Smash",
+      "bounty": 758376
+    },
+    {
+      "rank": 121,
+      "alliance_name": "SᴋʏPɪᴇᴀ-4조",
+      "nickname": "SᴋʏPɪᴇᴀ-원피스매냐",
+      "bounty": 751906
+    },
+    {
+      "rank": 122,
+      "alliance_name": "Jolly Pirates",
+      "nickname": "L2",
+      "bounty": 751130
+    },
+    {
+      "rank": 123,
+      "alliance_name": "League of Extraordinary ☠",
+      "nickname": "Newgate D. Diego",
+      "bounty": 748247
+    },
+    {
+      "rank": 124,
+      "alliance_name": "[CG] Neo~SWORD",
+      "nickname": "[N-S] Pikachu",
+      "bounty": 746304
+    },
+    {
+      "rank": 125,
+      "alliance_name": "Vinland",
+      "nickname": "Vinl❦nd Plozion.",
+      "bounty": 722466
+    },
+    {
+      "rank": 126,
+      "alliance_name": "북미원주민",
+      "nickname": "범희아빠@",
+      "bounty": 710536
+    },
+    {
+      "rank": 127,
+      "alliance_name": "팀트갤 5대대",
+      "nickname": "Zephyros",
+      "bounty": 709648
+    },
+    {
+      "rank": 128,
+      "alliance_name": "Pirate Harem",
+      "nickname": "Persilion",
+      "bounty": 708882
+    },
+    {
+      "rank": 129,
+      "alliance_name": "딥블루 S3",
+      "nickname": "FeD@DB_大路行",
+      "bounty": 703771
+    },
+    {
+      "rank": 130,
+      "alliance_name": "Der Superbekanntenkreis",
+      "nickname": "[OPC]Rocks_D_Xebec",
+      "bounty": 702772
+    },
+    {
+      "rank": 131,
+      "alliance_name": "G O A T s",
+      "nickname": "NullBrain",
+      "bounty": 700488
+    },
+    {
+      "rank": 132,
+      "alliance_name": "Over World",
+      "nickname": "LaRixy",
+      "bounty": 699325
+    },
+    {
+      "rank": 133,
+      "alliance_name": "JUSTICE⚔LEAGUE™",
+      "nickname": "JUSTICE⚔기억",
+      "bounty": 695821
+    },
+    {
+      "rank": 134,
+      "alliance_name": "Indo Nomercy Alliance Div 3",
+      "nickname": "Room",
+      "bounty": 692978
+    },
+    {
+      "rank": 135,
+      "alliance_name": "Piratas Roubar ☠",
+      "nickname": "€$1€",
+      "bounty": 690360
+    },
+    {
+      "rank": 136,
+      "alliance_name": "올블루ᴰᴮ_S3",
+      "nickname": "골드마운틴@DB대로행",
+      "bounty": 689034
+    },
+    {
+      "rank": 137,
+      "alliance_name": "<SGF> Spoon Titans",
+      "nickname": "<SGF>kevinoptc24/7",
+      "bounty": 688151
+    },
+    {
+      "rank": 138,
+      "alliance_name": "⚜️ Divine Pirates ⚜️",
+      "nickname": "Ballistic Pirates",
+      "bounty": 683769
+    },
+    {
+      "rank": 139,
+      "alliance_name": "Legacy of D.",
+      "nickname": "Mad Pirates",
+      "bounty": 680080
+    },
+    {
+      "rank": 140,
+      "alliance_name": "Cipher Pol",
+      "nickname": "aB",
+      "bounty": 671422
+    },
+    {
+      "rank": 141,
+      "alliance_name": "팀트갤 9대대",
+      "nickname": "스콜",
+      "bounty": 670869
+    },
+    {
+      "rank": 142,
+      "alliance_name": "YONKOS [OPH 1]",
+      "nickname": "FURANX [OPH]",
+      "bounty": 670026
+    },
+    {
+      "rank": 143,
+      "alliance_name": "⭐ⓉⓇⓈ①⭐",
+      "nickname": "ⓉⓇⓈ一笑丶",
+      "bounty": 668048
+    },
+    {
+      "rank": 144,
+      "alliance_name": "ΛSSΛULT FORCΣ T00",
+      "nickname": "[ΛF] Texx",
+      "bounty": 663930
+    },
+    {
+      "rank": 145,
+      "alliance_name": "DIO CANCARO",
+      "nickname": "PorcaccioD",
+      "bounty": 659165
+    },
+    {
+      "rank": 146,
+      "alliance_name": "",
+      "nickname": "Chopper Pirates",
+      "bounty": 655159
+    },
+    {
+      "rank": 147,
+      "alliance_name": "팀트갤",
+      "nickname": "장어덮밥",
+      "bounty": 654725
+    },
+    {
+      "rank": 148,
+      "alliance_name": "팀트갤 4대대",
+      "nickname": "Soon",
+      "bounty": 652175
+    },
+    {
+      "rank": 149,
+      "alliance_name": "T.E.A.M",
+      "nickname": "꧁༺ 覇王色 覇気 ༻꧂",
+      "bounty": 649053
+    },
+    {
+      "rank": 150,
+      "alliance_name": "⚔️ⒺⓈⓅⒶⒹⒶ⚔️",
+      "nickname": "[EPD] BossPL4Y3R",
+      "bounty": 643562
+    },
+    {
+      "rank": 151,
+      "alliance_name": "고잉메리호☠️",
+      "nickname": "릴",
+      "bounty": 642706
+    },
+    {
+      "rank": 152,
+      "alliance_name": "EB잔바리",
+      "nickname": "똘맥",
+      "bounty": 634706
+    },
+    {
+      "rank": 153,
+      "alliance_name": "GERMAN KNIGHTS",
+      "nickname": "R@ver Pirates D€",
+      "bounty": 634170
+    },
+    {
+      "rank": 154,
+      "alliance_name": "☠️P✘M☠️-3조",
+      "nickname": "☠️P✘M☠️-즈니샤아저씨",
+      "bounty": 634046
+    },
+    {
+      "rank": 155,
+      "alliance_name": "[GT] Gurkentruppe 1",
+      "nickname": "[GT] Egozocker14",
+      "bounty": 633109
+    },
+    {
+      "rank": 156,
+      "alliance_name": "╠ Elysium ╣",
+      "nickname": "Nutapp",
+      "bounty": 628801
+    },
+    {
+      "rank": 157,
+      "alliance_name": "HUNGRY해적단",
+      "nickname": "율은아빠",
+      "bounty": 628459
+    },
+    {
+      "rank": 158,
+      "alliance_name": "ALLBLUE 4",
+      "nickname": "ALL ☀️ POWER OF D.",
+      "bounty": 627872
+    },
+    {
+      "rank": 159,
+      "alliance_name": "Ras pirates",
+      "nickname": "lolo pirate",
+      "bounty": 626415
+    },
+    {
+      "rank": 160,
+      "alliance_name": "팀트갤 수색대대",
+      "nickname": "보계충",
+      "bounty": 622672
+    },
+    {
+      "rank": 161,
+      "alliance_name": "Legacy of D. II",
+      "nickname": "[LoD.] Remixlol",
+      "bounty": 619281
+    },
+    {
+      "rank": 162,
+      "alliance_name": "KING OF PIRATE CREW",
+      "nickname": "⚡️A$CE⚡️",
+      "bounty": 619027
+    },
+    {
+      "rank": 163,
+      "alliance_name": "MonkaD Crew",
+      "nickname": "edisonbre",
+      "bounty": 618180
+    },
+    {
+      "rank": 164,
+      "alliance_name": "ZeeN Discord",
+      "nickname": "ashercrasher",
+      "bounty": 617893
+    },
+    {
+      "rank": 165,
+      "alliance_name": "SᴋʏPɪᴇᴀ-1조/have fun",
+      "nickname": "SᴋʏPɪᴇᴀ-은남매",
+      "bounty": 615526
+    },
+    {
+      "rank": 166,
+      "alliance_name": "TOBI DOBBLO",
+      "nickname": "▲ Nydato ▼",
+      "bounty": 613585
+    },
+    {
+      "rank": 167,
+      "alliance_name": "Rocks Crew",
+      "nickname": "Germa1ne GR",
+      "bounty": 610914
+    },
+    {
+      "rank": 168,
+      "alliance_name": "설렁설렁@EB",
+      "nickname": "[⍤Slowly⍤] ☠진지안서스☠",
+      "bounty": 610536
+    },
+    {
+      "rank": 169,
+      "alliance_name": "팀트갤 8대대",
+      "nickname": "에푸씨",
+      "bounty": 606643
+    },
+    {
+      "rank": 170,
+      "alliance_name": "[CDR] 1a flotta",
+      "nickname": "Falling Stars Crew",
+      "bounty": 606614
+    },
+    {
+      "rank": 171,
+      "alliance_name": "The Smart Greeks",
+      "nickname": "[TSG] Forcehead",
+      "bounty": 605041
+    },
+    {
+      "rank": 172,
+      "alliance_name": "ΛＳＳΛＵＬＴ ＦＯＲＣΣ",
+      "nickname": "[ΛF] The Hound",
+      "bounty": 601271
+    },
+    {
+      "rank": 173,
+      "alliance_name": "★ FRΛNKY HOUSΣ ★",
+      "nickname": "zmart..",
+      "bounty": 600679
+    },
+    {
+      "rank": 174,
+      "alliance_name": "GERMAN KNIGHTS",
+      "nickname": "Goldcakez",
+      "bounty": 599800
+    },
+    {
+      "rank": 175,
+      "alliance_name": "LOS MAS PESADOS V2",
+      "nickname": "⚡Ruba⚡",
+      "bounty": 596827
+    },
+    {
+      "rank": 176,
+      "alliance_name": "We are Pirate KingZ!",
+      "nickname": "saux",
+      "bounty": 596029
+    },
+    {
+      "rank": 177,
+      "alliance_name": "Vinland",
+      "nickname": "DoDoAbriko",
+      "bounty": 595269
+    },
+    {
+      "rank": 178,
+      "alliance_name": "@_@",
+      "nickname": "윤슬",
+      "bounty": 592497
+    },
+    {
+      "rank": 179,
+      "alliance_name": "The Revolutionary Army [TRA-S]",
+      "nickname": "[TRA] High_Ground",
+      "bounty": 587604
+    },
+    {
+      "rank": 180,
+      "alliance_name": "Sparkles",
+      "nickname": "Spark",
+      "bounty": 587287
+    },
+    {
+      "rank": 181,
+      "alliance_name": "HUEBR ☠️ Pirates",
+      "nickname": "☆¤☆¤☆[HUEBR]☆¤☆¤☆",
+      "bounty": 583070
+    },
+    {
+      "rank": 182,
+      "alliance_name": "신세계",
+      "nickname": "방광포청천⚡️⚡️",
+      "bounty": 582408
+    },
+    {
+      "rank": 183,
+      "alliance_name": "팀트갤 5대대",
+      "nickname": "뉴특",
+      "bounty": 580935
+    },
+    {
+      "rank": 184,
+      "alliance_name": "World Class",
+      "nickname": "(OTF)❌YONKO❌",
+      "bounty": 577865
+    },
+    {
+      "rank": 185,
+      "alliance_name": "Young Emperors #OPH",
+      "nickname": "QUADRO",
+      "bounty": 575602
+    },
+    {
+      "rank": 186,
+      "alliance_name": "Legendary Crew TH",
+      "nickname": "KolannnTH",
+      "bounty": 575033
+    },
+    {
+      "rank": 187,
+      "alliance_name": "팀트갤 4대대",
+      "nickname": "냐리나",
+      "bounty": 574511
+    },
+    {
+      "rank": 188,
+      "alliance_name": "™Bro☠Grand Line",
+      "nickname": "™Bro☠☠️☠️☠️",
+      "bounty": 570998
+    },
+    {
+      "rank": 189,
+      "alliance_name": "즐겜러입니다",
+      "nickname": "흥선대원군",
+      "bounty": 570067
+    },
+    {
+      "rank": 190,
+      "alliance_name": "☠️P✘M☠️-2조",
+      "nickname": "☠️P✘M☠️-ㅌIㅊI",
+      "bounty": 569895
+    },
+    {
+      "rank": 191,
+      "alliance_name": "【LRS❌】覇気 KENBUNSHOKU",
+      "nickname": "[LRS] ༒ ₭₳Ⱡ₲₳Ɽ₳ ༒",
+      "bounty": 565209
+    },
+    {
+      "rank": 192,
+      "alliance_name": "STRONG 600",
+      "nickname": "Whitebeard",
+      "bounty": 564367
+    },
+    {
+      "rank": 193,
+      "alliance_name": "French D. CREW ❤️",
+      "nickname": "[Fr.C] ZyKoX§x",
+      "bounty": 562627
+    },
+    {
+      "rank": 194,
+      "alliance_name": "Unusual Suspects (SUS)",
+      "nickname": "【SUS】 Dr. P.",
+      "bounty": 557800
+    },
+    {
+      "rank": 195,
+      "alliance_name": "[CDR] BALDBARBECUE PIRATES",
+      "nickname": "jaws",
+      "bounty": 557687
+    },
+    {
+      "rank": 196,
+      "alliance_name": "Legacy of D.",
+      "nickname": "+Quetzal+ ♧",
+      "bounty": 554512
+    },
+    {
+      "rank": 197,
+      "alliance_name": "Here we go !!!",
+      "nickname": "[HWꓨ]ツsH!bΛtoz`",
+      "bounty": 553629
+    },
+    {
+      "rank": 198,
+      "alliance_name": "⚔️ⒺⓈⓅⒶⒹⒶ⚔️",
+      "nickname": "[EPD] Lucasme",
+      "bounty": 549179
+    },
+    {
+      "rank": 199,
+      "alliance_name": "Jolly Pirates",
+      "nickname": "뱅+",
+      "bounty": 548674
+    },
+    {
+      "rank": 200,
+      "alliance_name": "Waifu Lovers MX",
+      "nickname": "☠️ モンスター ☠️",
+      "bounty": 548626
+    },
+    {
+      "rank": 201,
+      "alliance_name": "Perona a pecorona",
+      "nickname": "FuoriDaiCoglioni",
+      "bounty": 546417
+    },
+    {
+      "rank": 202,
+      "alliance_name": "LA PIRE GÉNÉRATION",
+      "nickname": "[LPG] •❄️ExoDiA❄️",
+      "bounty": 545962
+    },
+    {
+      "rank": 203,
+      "alliance_name": "몽키D❤️❤️",
+      "nickname": "6.5.31",
+      "bounty": 543781
+    },
+    {
+      "rank": 204,
+      "alliance_name": "SᴋʏPɪᴇᴀ-2조",
+      "nickname": "SᴋʏPɪᴇᴀ-주력",
+      "bounty": 543388
+    },
+    {
+      "rank": 205,
+      "alliance_name": "German Emperors",
+      "nickname": "Sunshine Lord",
+      "bounty": 542282
+    },
+    {
+      "rank": 206,
+      "alliance_name": "★Lunalight★",
+      "nickname": "♤♡♧◇",
+      "bounty": 538457
+    },
+    {
+      "rank": 207,
+      "alliance_name": "대로행기동대",
+      "nickname": "테조로@DB_대로행",
+      "bounty": 535011
+    },
+    {
+      "rank": 208,
+      "alliance_name": "Medium Fish",
+      "nickname": "TaekwondoCB",
+      "bounty": 534636
+    },
+    {
+      "rank": 209,
+      "alliance_name": "Jolly Pirates",
+      "nickname": "고양이수사대",
+      "bounty": 534085
+    },
+    {
+      "rank": 210,
+      "alliance_name": "LOS MAS PESADOS V2",
+      "nickname": "ADRYRODRY",
+      "bounty": 533154
+    },
+    {
+      "rank": 211,
+      "alliance_name": "〆ᴅᴇᴠᴏᴜʀ ᴛʜᴇ ᴍᴏᴏɴϟ",
+      "nickname": "yamato",
+      "bounty": 533079
+    },
+    {
+      "rank": 212,
+      "alliance_name": "【LRS⚡️】 BALTIGO",
+      "nickname": "[LRS⚡] WESTEROS",
+      "bounty": 532311
+    },
+    {
+      "rank": 213,
+      "alliance_name": "TÜRKİYE",
+      "nickname": "Cavesaa",
+      "bounty": 531549
+    },
+    {
+      "rank": 214,
+      "alliance_name": "[GT] Gurkentruppe 2",
+      "nickname": "[GT] Fauli",
+      "bounty": 531298
+    },
+    {
+      "rank": 215,
+      "alliance_name": "The Great Pirates",
+      "nickname": "D.",
+      "bounty": 530487
+    },
+    {
+      "rank": 216,
+      "alliance_name": "Relaxed Skibidi Sigmas",
+      "nickname": "Bb",
+      "bounty": 526135
+    },
+    {
+      "rank": 217,
+      "alliance_name": "❄️ⓉⓇⓈ②❄️",
+      "nickname": "ⓉⓇⓈ Miyabi✨️",
+      "bounty": 521063
+    },
+    {
+      "rank": 218,
+      "alliance_name": "Passione",
+      "nickname": "[P☠️⚡️N]₴corpio₦ ❦",
+      "bounty": 520847
+    },
+    {
+      "rank": 219,
+      "alliance_name": "KRRO",
+      "nickname": "Jc80",
+      "bounty": 519912
+    },
+    {
+      "rank": 220,
+      "alliance_name": "팀트갤 수색대대",
+      "nickname": "귀없는노이어",
+      "bounty": 518589
+    },
+    {
+      "rank": 221,
+      "alliance_name": "⭐ⓉⓇⓈ①⭐",
+      "nickname": "ⓉⓇⓈ Deepsilver",
+      "bounty": 517932
+    },
+    {
+      "rank": 222,
+      "alliance_name": "Der Superbekanntenkreis",
+      "nickname": "❤️Pirates",
+      "bounty": 514637
+    },
+    {
+      "rank": 223,
+      "alliance_name": "☠️사황☠️",
+      "nickname": "알Get다☠️사황☠️",
+      "bounty": 511508
+    },
+    {
+      "rank": 224,
+      "alliance_name": "☠️P✘M☠️-3조",
+      "nickname": "☠️P✘M☠️-N.J.M☄️",
+      "bounty": 510954
+    },
+    {
+      "rank": 225,
+      "alliance_name": "Pandas pirates",
+      "nickname": "Mocha+",
+      "bounty": 509986
+    },
+    {
+      "rank": 226,
+      "alliance_name": "♱YoRu♱",
+      "nickname": "☠️bystand",
+      "bounty": 509892
+    },
+    {
+      "rank": 227,
+      "alliance_name": "DC2",
+      "nickname": "비주기✨",
+      "bounty": 508923
+    },
+    {
+      "rank": 228,
+      "alliance_name": "Rookies of OPH",
+      "nickname": "Storm Returns",
+      "bounty": 506914
+    },
+    {
+      "rank": 229,
+      "alliance_name": "World Class",
+      "nickname": "MyLethe",
+      "bounty": 502877
+    },
+    {
+      "rank": 230,
+      "alliance_name": "MugiCrew(FR)",
+      "nickname": "Akagami no Shanks",
+      "bounty": 502083
+    },
+    {
+      "rank": 231,
+      "alliance_name": "⦿ꜰɪɴʟᴜᴋᴇʀ.ᖴᗰᒪ",
+      "nickname": "อิมางาวะแลนด์",
+      "bounty": 500217
+    },
+    {
+      "rank": 232,
+      "alliance_name": "[GT] Gurkentruppe 1",
+      "nickname": "[GT] Cornholio",
+      "bounty": 498778
+    },
+    {
+      "rank": 233,
+      "alliance_name": "HumbleGod",
+      "nickname": "AS3655",
+      "bounty": 497177
+    },
+    {
+      "rank": 234,
+      "alliance_name": "The Revolutionary Army [TRA-S]",
+      "nickname": "[TRA]Shanks",
+      "bounty": 496443
+    },
+    {
+      "rank": 235,
+      "alliance_name": "SᴋʏPɪᴇᴀ-4조",
+      "nickname": "SᴋʏPɪᴇᴀ-라운아빠",
+      "bounty": 495568
+    },
+    {
+      "rank": 236,
+      "alliance_name": "팀트갤",
+      "nickname": "비런드ʕ •ᴥ•ʔ",
+      "bounty": 489141
+    },
+    {
+      "rank": 237,
+      "alliance_name": "Ace D. Onut",
+      "nickname": "[AD.O] JayJay",
+      "bounty": 487783
+    },
+    {
+      "rank": 238,
+      "alliance_name": "팀트갤 9대대",
+      "nickname": "장어초밥",
+      "bounty": 486351
+    },
+    {
+      "rank": 239,
+      "alliance_name": "The Revolutionary Army [TRA-3]",
+      "nickname": "[TRA] Tritridu22",
+      "bounty": 485284
+    },
+    {
+      "rank": 240,
+      "alliance_name": "Here we go !!!",
+      "nickname": "[HWꓨ] LAByR!ntH✨༻",
+      "bounty": 484701
+    },
+    {
+      "rank": 241,
+      "alliance_name": "[GT] Gurkentruppe 1",
+      "nickname": "[GT] ꧁ℙ么ℕⅅ么꧂",
+      "bounty": 484188
+    },
+    {
+      "rank": 242,
+      "alliance_name": "Stap D. Cap",
+      "nickname": "[SDC] FiggerNaggot",
+      "bounty": 482326
+    },
+    {
+      "rank": 243,
+      "alliance_name": "OLD⚡️SUPERNOVA",
+      "nickname": "[P☠️⚡N] OuaNo",
+      "bounty": 480341
+    },
+    {
+      "rank": 244,
+      "alliance_name": "Blossom",
+      "nickname": "Maneskin",
+      "bounty": 479619
+    },
+    {
+      "rank": 245,
+      "alliance_name": "라프텔",
+      "nickname": "(라프텔)블루",
+      "bounty": 479475
+    },
+    {
+      "rank": 246,
+      "alliance_name": "The Oasis ⛱️",
+      "nickname": "Bandaisuxxballz⛱️",
+      "bounty": 478739
+    },
+    {
+      "rank": 247,
+      "alliance_name": "[GT] Gurkentruppe 2",
+      "nickname": "[GT] Scoundrel",
+      "bounty": 478110
+    },
+    {
+      "rank": 248,
+      "alliance_name": "",
+      "nickname": "한글자",
+      "bounty": 477484
+    },
+    {
+      "rank": 249,
+      "alliance_name": "그리스신화",
+      "nickname": "밀짚모자 일당",
+      "bounty": 474843
+    },
+    {
+      "rank": 250,
+      "alliance_name": "❄️ⓉⓇⓈ②❄️",
+      "nickname": "ⓉⓇⓈ Tsuntsun-zuna!",
+      "bounty": 472602
+    },
+    {
+      "rank": 251,
+      "alliance_name": "Chusticieros España",
+      "nickname": "Linkinlui",
+      "bounty": 470074
+    },
+    {
+      "rank": 252,
+      "alliance_name": "팀트갤 4대대",
+      "nickname": "Honeybee",
+      "bounty": 469262
+    },
+    {
+      "rank": 253,
+      "alliance_name": "Cipher Pol",
+      "nickname": "Weatherlight⚡Crew",
+      "bounty": 465626
+    },
+    {
+      "rank": 254,
+      "alliance_name": "Water",
+      "nickname": "Sephiroth__",
+      "bounty": 465424
+    },
+    {
+      "rank": 255,
+      "alliance_name": "Shisha-Bazar",
+      "nickname": "Fiberii",
+      "bounty": 464874
+    },
+    {
+      "rank": 256,
+      "alliance_name": "Vinland",
+      "nickname": "Greg.",
+      "bounty": 464827
+    },
+    {
+      "rank": 257,
+      "alliance_name": "The Revolutionary Army [TRA-3]",
+      "nickname": "[TRA] Kaiser V.",
+      "bounty": 464662
+    },
+    {
+      "rank": 258,
+      "alliance_name": "[SSS] Shishisonson",
+      "nickname": "[SSS] El_kuzanoo",
+      "bounty": 463641
+    },
+    {
+      "rank": 259,
+      "alliance_name": "LA PIRE GÉNÉRATION",
+      "nickname": "[LPG]MugyDDjew✨352",
+      "bounty": 463345
+    },
+    {
+      "rank": 260,
+      "alliance_name": "German Emperors",
+      "nickname": "FireFistAce",
+      "bounty": 462201
+    },
+    {
+      "rank": 261,
+      "alliance_name": "GLI ENS",
+      "nickname": "Ace",
+      "bounty": 462033
+    },
+    {
+      "rank": 262,
+      "alliance_name": "❄️ⓉⓇⓈ②❄️",
+      "nickname": "ⓉⓇⓈ☀️Mr.Koala☀️",
+      "bounty": 457200
+    },
+    {
+      "rank": 263,
+      "alliance_name": "Kizunaloids",
+      "nickname": "TT——RICK",
+      "bounty": 456748
+    },
+    {
+      "rank": 264,
+      "alliance_name": "[GT] Gurkentruppe 1",
+      "nickname": "[GT] Baba",
+      "bounty": 456035
+    },
+    {
+      "rank": 265,
+      "alliance_name": "East Blue",
+      "nickname": "작화",
+      "bounty": 451799
+    },
+    {
+      "rank": 266,
+      "alliance_name": "[CDR] KAWAI TORTELLINI",
+      "nickname": "Nika Nika",
+      "bounty": 451755
+    },
+    {
+      "rank": 267,
+      "alliance_name": "❄️ⓉⓇⓈ②❄️",
+      "nickname": "ⓉⓇⓈ Shynux",
+      "bounty": 449225
+    },
+    {
+      "rank": 268,
+      "alliance_name": "GoodHairSociety",
+      "nickname": "Red Arc",
+      "bounty": 449069
+    },
+    {
+      "rank": 269,
+      "alliance_name": "มือใหม่777",
+      "nickname": "FishoMan",
+      "bounty": 447936
+    },
+    {
+      "rank": 270,
+      "alliance_name": "The Revolutionary Army [TRA-3]",
+      "nickname": "[TRA] eXesor",
+      "bounty": 447488
+    },
+    {
+      "rank": 271,
+      "alliance_name": "bel",
+      "nickname": "Van",
+      "bounty": 446896
+    },
+    {
+      "rank": 272,
+      "alliance_name": "올블루ᴰᴮ_S3",
+      "nickname": "루행콕@ᴰᴮ대로행",
+      "bounty": 446009
+    },
+    {
+      "rank": 273,
+      "alliance_name": "ICE KING ❄️",
+      "nickname": "Tito D. Mosca",
+      "bounty": 445837
+    },
+    {
+      "rank": 274,
+      "alliance_name": "☠️사황☠️",
+      "nickname": "개굴개굴개구리.",
+      "bounty": 445763
+    },
+    {
+      "rank": 275,
+      "alliance_name": "대로행기동대",
+      "nickname": "슈가@DB_대로행",
+      "bounty": 445374
+    },
+    {
+      "rank": 276,
+      "alliance_name": "LA PIRE GÉNÉRATION",
+      "nickname": "[LPG]",
+      "bounty": 444793
+    },
+    {
+      "rank": 277,
+      "alliance_name": "신세계",
+      "nickname": "쵸파",
+      "bounty": 444275
+    },
+    {
+      "rank": 278,
+      "alliance_name": "Joy ت Boys",
+      "nickname": "Zesack",
+      "bounty": 443538
+    },
+    {
+      "rank": 279,
+      "alliance_name": "Indo Nomercy Alliance Div 4",
+      "nickname": "[INA]YamatoKaido",
+      "bounty": 442958
+    },
+    {
+      "rank": 280,
+      "alliance_name": "ELITE 10",
+      "nickname": "Gooner",
+      "bounty": 442850
+    },
+    {
+      "rank": 281,
+      "alliance_name": "German new Generation",
+      "nickname": "Gygaes",
+      "bounty": 442229
+    },
+    {
+      "rank": 282,
+      "alliance_name": "NBW Pirate Alliance",
+      "nickname": "[NBW] LETSGOSKY",
+      "bounty": 437665
+    },
+    {
+      "rank": 283,
+      "alliance_name": "스파르타",
+      "nickname": "Bonten",
+      "bounty": 436739
+    },
+    {
+      "rank": 284,
+      "alliance_name": "꧁༺тнє  w̶нαℓєѕ༻꧂",
+      "nickname": "*☠turcomijas☠*",
+      "bounty": 436661
+    },
+    {
+      "rank": 285,
+      "alliance_name": "Indonesia Line ⭐",
+      "nickname": "[IL] Panda Express",
+      "bounty": 436449
+    },
+    {
+      "rank": 286,
+      "alliance_name": "Neo❌Gods❌Pirates",
+      "nickname": "[NGP] Fraimi",
+      "bounty": 435858
+    },
+    {
+      "rank": 287,
+      "alliance_name": "⭐ⓉⓇⓈ①⭐",
+      "nickname": "ⓉⓇⓈ Teragon",
+      "bounty": 435613
+    },
+    {
+      "rank": 288,
+      "alliance_name": "สลัดนาเกลือ",
+      "nickname": "(βvˢ⚜️)-Bui",
+      "bounty": 435551
+    },
+    {
+      "rank": 289,
+      "alliance_name": "Shin Sekai Yonkou",
+      "nickname": "THE WALKING DEAD",
+      "bounty": 434823
+    },
+    {
+      "rank": 290,
+      "alliance_name": "",
+      "nickname": "니카D",
+      "bounty": 434225
+    },
+    {
+      "rank": 291,
+      "alliance_name": "【수련회】 패왕",
+      "nickname": "[S] 봉식이",
+      "bounty": 432599
+    },
+    {
+      "rank": 292,
+      "alliance_name": "ΛSSΛULT FORCΣ T00",
+      "nickname": "[ΛF] GROGU",
+      "bounty": 430913
+    },
+    {
+      "rank": 293,
+      "alliance_name": "T.E.A.M",
+      "nickname": "또저씨(  . .)/",
+      "bounty": 430784
+    },
+    {
+      "rank": 294,
+      "alliance_name": "Thunder Bagua",
+      "nickname": "Daifuku",
+      "bounty": 430276
+    },
+    {
+      "rank": 295,
+      "alliance_name": "MADS Renaissance",
+      "nickname": "Olian",
+      "bounty": 430025
+    },
+    {
+      "rank": 296,
+      "alliance_name": "⭐️ÆVENGERS⭐️",
+      "nickname": "[Æ] Burbukaneers",
+      "bounty": 429974
+    },
+    {
+      "rank": 297,
+      "alliance_name": "[CG] Neo~SWORD",
+      "nickname": "PTMEK",
+      "bounty": 429436
+    },
+    {
+      "rank": 298,
+      "alliance_name": "SOLO TOP di GAMMA",
+      "nickname": "[STG]Revolutionary",
+      "bounty": 429007
+    },
+    {
+      "rank": 299,
+      "alliance_name": "❄️ⓉⓇⓈ②❄️",
+      "nickname": "ocordon ⓉⓇⓈ",
+      "bounty": 427956
+    },
+    {
+      "rank": 300,
+      "alliance_name": "KING OF PIRATE CREW",
+      "nickname": "Ś8022",
+      "bounty": 427217
+    },
+    {
+      "rank": 301,
+      "alliance_name": "【수련회】 패왕",
+      "nickname": "【S】 Akagami",
+      "bounty": 426909
+    },
+    {
+      "rank": 302,
+      "alliance_name": "TBC",
+      "nickname": "Monkey Davy Chokez",
+      "bounty": 426807
+    },
+    {
+      "rank": 303,
+      "alliance_name": "UTOPIA",
+      "nickname": "퉷퉷퉷!!",
+      "bounty": 426005
+    },
+    {
+      "rank": 304,
+      "alliance_name": "España",
+      "nickname": "GuAoRoSei",
+      "bounty": 423303
+    },
+    {
+      "rank": 305,
+      "alliance_name": "Egghead pirates",
+      "nickname": "katakuri",
+      "bounty": 422310
+    },
+    {
+      "rank": 306,
+      "alliance_name": "Vietnam number1",
+      "nickname": "(◠‿◠)にん神様(◠‿◠)",
+      "bounty": 422282
+    },
+    {
+      "rank": 307,
+      "alliance_name": "DC2",
+      "nickname": "사계절쌈짱",
+      "bounty": 422100
+    },
+    {
+      "rank": 308,
+      "alliance_name": "⋆₊☽D",
+      "nickname": "⋆₊☽D. 잉어맨",
+      "bounty": 421060
+    },
+    {
+      "rank": 309,
+      "alliance_name": "(SCA) BLACK SCABBARDS",
+      "nickname": "/u/TheACS",
+      "bounty": 420642
+    },
+    {
+      "rank": 310,
+      "alliance_name": "Calm Grinders",
+      "nickname": "[CG] Mr.Davido",
+      "bounty": 420341
+    },
+    {
+      "rank": 311,
+      "alliance_name": "Pirate Kizuna Clasher",
+      "nickname": "Inori ツ ❤️",
+      "bounty": 419874
+    },
+    {
+      "rank": 312,
+      "alliance_name": "DIO CANCARO",
+      "nickname": "Fairy Tail Pirates",
+      "bounty": 419703
+    },
+    {
+      "rank": 313,
+      "alliance_name": "불의나라나뭇잎마을",
+      "nickname": "Onizuka",
+      "bounty": 419242
+    },
+    {
+      "rank": 314,
+      "alliance_name": "Duduk Manis",
+      "nickname": "T4T4NG",
+      "bounty": 419208
+    },
+    {
+      "rank": 315,
+      "alliance_name": "북미원주민",
+      "nickname": "WhyII",
+      "bounty": 417551
+    },
+    {
+      "rank": 316,
+      "alliance_name": "GLOBEST",
+      "nickname": "[BR] Rakano^⚡",
+      "bounty": 417043
+    },
+    {
+      "rank": 317,
+      "alliance_name": "RED WARLORDS ITALIA",
+      "nickname": "☀️♠️SAM D.CROW♠☀️",
+      "bounty": 415865
+    },
+    {
+      "rank": 318,
+      "alliance_name": "™Bro☠Grand Line",
+      "nickname": "™Bro☠밀.집모자",
+      "bounty": 415518
+    },
+    {
+      "rank": 319,
+      "alliance_name": "Zedka Krew",
+      "nickname": "col=8>Kaffalse",
+      "bounty": 412339
+    },
+    {
+      "rank": 320,
+      "alliance_name": "[GT] Gurkentruppe 1",
+      "nickname": "[GT]⚡️⚡️Drey⚡️⚡️",
+      "bounty": 412313
+    },
+    {
+      "rank": 321,
+      "alliance_name": "The Revolutionary Army [TRA-W]",
+      "nickname": "Jld69 ace/log lufy",
+      "bounty": 411453
+    },
+    {
+      "rank": 322,
+      "alliance_name": "T.E.A.M",
+      "nickname": "❄️득근❄️",
+      "bounty": 409812
+    },
+    {
+      "rank": 323,
+      "alliance_name": "The Red Legion",
+      "nickname": "Red Halo",
+      "bounty": 408800
+    },
+    {
+      "rank": 324,
+      "alliance_name": "LEGACY™️ - Crossguild ⚔️",
+      "nickname": "ⓁⒼⒸ Durin ᛞ",
+      "bounty": 408657
+    },
+    {
+      "rank": 325,
+      "alliance_name": "샬롯_Creme♦️",
+      "nickname": "샬롯_말로하자♦️",
+      "bounty": 408580
+    },
+    {
+      "rank": 326,
+      "alliance_name": "DARLING",
+      "nickname": "Red Bear",
+      "bounty": 407763
+    },
+    {
+      "rank": 327,
+      "alliance_name": "ResetEra",
+      "nickname": "Yamato & Pudding!!",
+      "bounty": 405921
+    },
+    {
+      "rank": 328,
+      "alliance_name": "「IDR」 ᴍᴀꜱᴛᴇʀ ᴏꜰ ʜᴀᴋɪ",
+      "nickname": "「IDR」 wise009",
+      "bounty": 405882
+    },
+    {
+      "rank": 329,
+      "alliance_name": "Bomba alliance",
+      "nickname": "Leana",
+      "bounty": 405158
+    },
+    {
+      "rank": 330,
+      "alliance_name": "The Revolutionary Army [TRA-4]",
+      "nickname": "【TRA】ParisiCrew",
+      "bounty": 403962
+    },
+    {
+      "rank": 331,
+      "alliance_name": "The Endless Sea",
+      "nickname": "Salsiccione",
+      "bounty": 403121
+    },
+    {
+      "rank": 332,
+      "alliance_name": "아레스",
+      "nickname": "Ru",
+      "bounty": 402750
+    },
+    {
+      "rank": 333,
+      "alliance_name": "⭐ⓉⓇⓈ①⭐",
+      "nickname": "ⓉⓇⓈHirsi",
+      "bounty": 402199
+    },
+    {
+      "rank": 334,
+      "alliance_name": "샬롯_Creme♦️",
+      "nickname": "샬롯_Kakao♦️",
+      "bounty": 401823
+    },
+    {
+      "rank": 335,
+      "alliance_name": "해적동맹",
+      "nickname": "밀짚모자 일당",
+      "bounty": 400937
+    },
+    {
+      "rank": 336,
+      "alliance_name": "Iron Crew [CDR]",
+      "nickname": "MaiNaGioia",
+      "bounty": 400115
+    },
+    {
+      "rank": 337,
+      "alliance_name": "Panda",
+      "nickname": "kimm",
+      "bounty": 399627
+    },
+    {
+      "rank": 338,
+      "alliance_name": "⚔️ⒺⓈⓅⒶⒹⒶ⚔️",
+      "nickname": "GameFreak",
+      "bounty": 399182
+    },
+    {
+      "rank": 339,
+      "alliance_name": "The Mad Monks",
+      "nickname": "[̷M̷M̷]̷ ✘∫hoguŊ✘",
+      "bounty": 398742
+    },
+    {
+      "rank": 340,
+      "alliance_name": "APHELION",
+      "nickname": "[APH] Solitär",
+      "bounty": 397961
+    },
+    {
+      "rank": 341,
+      "alliance_name": "Neo❌Gods❌Pirates",
+      "nickname": "[NGP] Kuma",
+      "bounty": 397269
+    },
+    {
+      "rank": 342,
+      "alliance_name": "자유",
+      "nickname": "혀니",
+      "bounty": 396666
+    },
+    {
+      "rank": 343,
+      "alliance_name": "SᴋʏPɪᴇᴀ-1조/have fun",
+      "nickname": "SᴋʏPɪᴇᴀ-김겨울",
+      "bounty": 396616
+    },
+    {
+      "rank": 344,
+      "alliance_name": "T.E.A.M",
+      "nickname": "슈퍼카카로트",
+      "bounty": 396592
+    },
+    {
+      "rank": 345,
+      "alliance_name": "(SCA) BLACK SCABBARDS",
+      "nickname": "(SCA) MONNIMON",
+      "bounty": 395014
+    },
+    {
+      "rank": 346,
+      "alliance_name": "미르",
+      "nickname": "덥다",
+      "bounty": 394299
+    },
+    {
+      "rank": 347,
+      "alliance_name": "나홀로",
+      "nickname": "SᴋʏPɪᴇᴀ-채리",
+      "bounty": 393956
+    },
+    {
+      "rank": 348,
+      "alliance_name": "EB잔바리",
+      "nickname": "하이",
+      "bounty": 393493
+    },
+    {
+      "rank": 349,
+      "alliance_name": "Krugs",
+      "nickname": "Straw Hat Pirates",
+      "bounty": 392445
+    },
+    {
+      "rank": 350,
+      "alliance_name": "Dday CREW",
+      "nickname": "Tree",
+      "bounty": 390787
+    },
+    {
+      "rank": 351,
+      "alliance_name": "Pirate Kizuna Clasher",
+      "nickname": "Sky",
+      "bounty": 390699
+    },
+    {
+      "rank": 352,
+      "alliance_name": "팀트갤 9대대",
+      "nickname": "동그리ㅇ",
+      "bounty": 390020
+    },
+    {
+      "rank": 353,
+      "alliance_name": "Red-Hair Pirates",
+      "nickname": "NEWGAME+",
+      "bounty": 387135
+    },
+    {
+      "rank": 354,
+      "alliance_name": "팀트갤 7대대",
+      "nickname": "그냥저냥",
+      "bounty": 386979
+    },
+    {
+      "rank": 355,
+      "alliance_name": "레일리해적단",
+      "nickname": "패왕색 상디",
+      "bounty": 386977
+    },
+    {
+      "rank": 356,
+      "alliance_name": "⛩️G͇O͇D͇ V͇A͇L͇L͇E͇Y͇⛩️",
+      "nickname": "D.H.C",
+      "bounty": 384997
+    },
+    {
+      "rank": 357,
+      "alliance_name": "⚔️LIONHEART⚔️",
+      "nickname": "[LH] - Saieki",
+      "bounty": 382668
+    },
+    {
+      "rank": 358,
+      "alliance_name": "Eyes of the Sea",
+      "nickname": "FaNG",
+      "bounty": 381274
+    },
+    {
+      "rank": 359,
+      "alliance_name": "<SGF> Spoon Titans",
+      "nickname": "[SGF] Itachi-89",
+      "bounty": 381233
+    },
+    {
+      "rank": 360,
+      "alliance_name": "Loopy",
+      "nickname": "Mazawa Backup",
+      "bounty": 380312
+    },
+    {
+      "rank": 361,
+      "alliance_name": "【LRS⚡️】 BALTIGO",
+      "nickname": "【LRS⚡️】Alien360×赤達",
+      "bounty": 379254
+    },
+    {
+      "rank": 362,
+      "alliance_name": "⚔️ⒺⓈⓅⒶⒹⒶ⚔️",
+      "nickname": "[EPD] Kaizoku-ô",
+      "bounty": 376917
+    },
+    {
+      "rank": 363,
+      "alliance_name": "Nautical Gemlins",
+      "nickname": "[NG] Haki",
+      "bounty": 376873
+    },
+    {
+      "rank": 364,
+      "alliance_name": "BIG TlTTY Waifu Pirates",
+      "nickname": "Strawhat Pirates",
+      "bounty": 376027
+    },
+    {
+      "rank": 365,
+      "alliance_name": "ITA Vaticani",
+      "nickname": "Aokiji",
+      "bounty": 374547
+    },
+    {
+      "rank": 366,
+      "alliance_name": "East Blue",
+      "nickname": "고구마팝니다",
+      "bounty": 373660
+    },
+    {
+      "rank": 367,
+      "alliance_name": "600 PIRATE LV PLAYER SQUAD",
+      "nickname": "Pino Pirates!",
+      "bounty": 373321
+    },
+    {
+      "rank": 368,
+      "alliance_name": "☠️P✘M☠️-1조",
+      "nickname": "☠️P✘M☠️-나미",
+      "bounty": 372927
+    },
+    {
+      "rank": 369,
+      "alliance_name": "¯⁠\\⁠_⁠(⁠ツ⁠)⁠_⁠/⁠¯",
+      "nickname": "Panda [8]",
+      "bounty": 371083
+    },
+    {
+      "rank": 370,
+      "alliance_name": "【喝】 Fam",
+      "nickname": "【喝】 염",
+      "bounty": 370856
+    },
+    {
+      "rank": 371,
+      "alliance_name": "[CG] Neo~SWORD",
+      "nickname": "[N-S] Owner of D",
+      "bounty": 370791
+    },
+    {
+      "rank": 372,
+      "alliance_name": "대한민국",
+      "nickname": "고니",
+      "bounty": 369513
+    },
+    {
+      "rank": 373,
+      "alliance_name": "GodValley Pirates",
+      "nickname": "GodValleyPirates",
+      "bounty": 369388
+    },
+    {
+      "rank": 374,
+      "alliance_name": "ΛＳＳΛＵＬＴ ＦＯＲＣΣ",
+      "nickname": "[ΛF] Ace",
+      "bounty": 368334
+    },
+    {
+      "rank": 375,
+      "alliance_name": "German Cruisers",
+      "nickname": "Shiido Pirates",
+      "bounty": 366981
+    },
+    {
+      "rank": 376,
+      "alliance_name": "몽키D❤️❤️",
+      "nickname": "Bamer",
+      "bounty": 366226
+    },
+    {
+      "rank": 377,
+      "alliance_name": "팀트갤 9대대",
+      "nickname": "마술사",
+      "bounty": 366009
+    },
+    {
+      "rank": 378,
+      "alliance_name": "CASTLEVANIA",
+      "nickname": "Adonis",
+      "bounty": 365205
+    },
+    {
+      "rank": 379,
+      "alliance_name": "RAFTEL ALLIANCE",
+      "nickname": "嵐_JollyRoger",
+      "bounty": 364569
+    },
+    {
+      "rank": 380,
+      "alliance_name": "AKAGAMIPIRATES",
+      "nickname": "Kaguyaaa",
+      "bounty": 364103
+    },
+    {
+      "rank": 381,
+      "alliance_name": "Luffy's Alliance",
+      "nickname": "TanSV",
+      "bounty": 363592
+    },
+    {
+      "rank": 382,
+      "alliance_name": "Vinland",
+      "nickname": "HermesGoldenGun",
+      "bounty": 362117
+    },
+    {
+      "rank": 383,
+      "alliance_name": "그리스신화",
+      "nickname": "Two Piece",
+      "bounty": 361483
+    },
+    {
+      "rank": 384,
+      "alliance_name": "Blossom",
+      "nickname": "무어",
+      "bounty": 361145
+    },
+    {
+      "rank": 385,
+      "alliance_name": "APHELION",
+      "nickname": "[APH] D. Snuts",
+      "bounty": 360261
+    },
+    {
+      "rank": 386,
+      "alliance_name": "LOS MAS PESADOS V2",
+      "nickname": "Rogue Creed",
+      "bounty": 359501
+    },
+    {
+      "rank": 387,
+      "alliance_name": "☁️ⓉⓇⓈ④☁️",
+      "nickname": "ⓉⓇⓈ⚔️Byakugan",
+      "bounty": 359472
+    },
+    {
+      "rank": 388,
+      "alliance_name": "Neo❌Gods❌Pirates",
+      "nickname": "『NSI』M!KΞ-182",
+      "bounty": 359201
+    },
+    {
+      "rank": 389,
+      "alliance_name": "ROMANCE DAWN",
+      "nickname": "[RD] ☠️✞Me✞☠️",
+      "bounty": 358851
+    },
+    {
+      "rank": 390,
+      "alliance_name": "Filthy Casual",
+      "nickname": "tibuhark",
+      "bounty": 358781
+    },
+    {
+      "rank": 391,
+      "alliance_name": "꧁༺тнє  w̶нαℓєѕ༻꧂",
+      "nickname": "TesoroHuevo.",
+      "bounty": 358266
+    },
+    {
+      "rank": 392,
+      "alliance_name": "TBC",
+      "nickname": "Redona",
+      "bounty": 356553
+    },
+    {
+      "rank": 393,
+      "alliance_name": "The Revolutionary Army [TRA-3]",
+      "nickname": "[TRA] Hermit",
+      "bounty": 354336
+    },
+    {
+      "rank": 394,
+      "alliance_name": "루조상",
+      "nickname": "초보",
+      "bounty": 353787
+    },
+    {
+      "rank": 395,
+      "alliance_name": "Yonko’s army",
+      "nickname": "Fr.D.Matt",
+      "bounty": 353282
+    },
+    {
+      "rank": 396,
+      "alliance_name": "⛩️G͇O͇D͇ V͇A͇L͇L͇E͇Y͇⛩️",
+      "nickname": "ttlam",
+      "bounty": 352902
+    },
+    {
+      "rank": 397,
+      "alliance_name": "HUEBR ☠️ Pirates",
+      "nickname": "[HUEBR] Konicks",
+      "bounty": 352435
+    },
+    {
+      "rank": 398,
+      "alliance_name": "Active Crew",
+      "nickname": "TT Loxka",
+      "bounty": 351757
+    },
+    {
+      "rank": 399,
+      "alliance_name": "샬롯_Creme♦️",
+      "nickname": "샬롯_보솜이♦️",
+      "bounty": 351591
+    },
+    {
+      "rank": 400,
+      "alliance_name": "ITA Vaticani",
+      "nickname": "⭐DannyBoy⭐",
+      "bounty": 351193
+    },
+    {
+      "rank": 401,
+      "alliance_name": "★ Laugh Tale★",
+      "nickname": "Luffy1790",
+      "bounty": 351185
+    },
+    {
+      "rank": 402,
+      "alliance_name": "аӏаваsтагds",
+      "nickname": "tribZ",
+      "bounty": 351005
+    },
+    {
+      "rank": 403,
+      "alliance_name": "Gabagool",
+      "nickname": "hopeidiesoon",
+      "bounty": 350745
+    },
+    {
+      "rank": 404,
+      "alliance_name": "Flyin Dutchman's Ghostly Crew",
+      "nickname": "PAPA NAPPA g",
+      "bounty": 350704
+    },
+    {
+      "rank": 405,
+      "alliance_name": "ㄴ",
+      "nickname": "RoGer",
+      "bounty": 348900
+    },
+    {
+      "rank": 406,
+      "alliance_name": "East Blue Trading Company",
+      "nickname": "Gentoo",
+      "bounty": 348750
+    },
+    {
+      "rank": 407,
+      "alliance_name": "SᴋʏPɪᴇᴀ-1조/have fun",
+      "nickname": "SᴋʏPɪᴇᴀ-⭐️늦은말⭐️",
+      "bounty": 346855
+    },
+    {
+      "rank": 408,
+      "alliance_name": "ELITE 10",
+      "nickname": "سيف - Bounty",
+      "bounty": 346701
+    },
+    {
+      "rank": 409,
+      "alliance_name": "Bon Voyage",
+      "nickname": "Bleblelele Pirates",
+      "bounty": 345862
+    },
+    {
+      "rank": 410,
+      "alliance_name": "The Revolutionary Army [TRA-E]",
+      "nickname": "[TRA] JadenCovi",
+      "bounty": 345705
+    },
+    {
+      "rank": 411,
+      "alliance_name": "Piratas Roubar ☠",
+      "nickname": "[P.R.] Sieghart",
+      "bounty": 344710
+    },
+    {
+      "rank": 412,
+      "alliance_name": "Genei ☠︎︎ Ryodan",
+      "nickname": "[P☠️⚡N] PAP CHIAP",
+      "bounty": 344065
+    },
+    {
+      "rank": 413,
+      "alliance_name": "SOLO TOP di GAMMA",
+      "nickname": "[STG]Ufoprogresivo",
+      "bounty": 343597
+    },
+    {
+      "rank": 414,
+      "alliance_name": "YONKOS [OPH 1]",
+      "nickname": "Iskael OPH",
+      "bounty": 343172
+    },
+    {
+      "rank": 415,
+      "alliance_name": "【LRS⚡️】 BALTIGO",
+      "nickname": "[LRS⚡️]AKandi14",
+      "bounty": 342461
+    },
+    {
+      "rank": 416,
+      "alliance_name": "The Smart Greeks",
+      "nickname": "[TSG] b0neman",
+      "bounty": 342333
+    },
+    {
+      "rank": 417,
+      "alliance_name": "팀트갤 5대대",
+      "nickname": "글래셔로드",
+      "bounty": 341779
+    },
+    {
+      "rank": 418,
+      "alliance_name": "팀트갤",
+      "nickname": "부시!",
+      "bounty": 341361
+    },
+    {
+      "rank": 419,
+      "alliance_name": "JoyFleet",
+      "nickname": "Tuor",
+      "bounty": 340512
+    },
+    {
+      "rank": 420,
+      "alliance_name": "LOS MAS PESADOS V2",
+      "nickname": "Monkey D.Germán",
+      "bounty": 339414
+    },
+    {
+      "rank": 421,
+      "alliance_name": "SᴋʏPɪᴇᴀ-5조/RE:BOOST!!!",
+      "nickname": "SᴋʏPɪᴇᴀ-Jin",
+      "bounty": 339200
+    },
+    {
+      "rank": 422,
+      "alliance_name": "BlaCkTH",
+      "nickname": "TyRO_Batz",
+      "bounty": 337972
+    },
+    {
+      "rank": 423,
+      "alliance_name": "Slime Pirate Crew",
+      "nickname": "☆ Kirby Pirates ☆",
+      "bounty": 337903
+    },
+    {
+      "rank": 424,
+      "alliance_name": "몽키D❤️❤️",
+      "nickname": "몽키D민이",
+      "bounty": 337129
+    },
+    {
+      "rank": 425,
+      "alliance_name": "Team O.P-PH",
+      "nickname": "OnePiece.Chicken",
+      "bounty": 336915
+    },
+    {
+      "rank": 426,
+      "alliance_name": "Summertime",
+      "nickname": "Monkey D.durex",
+      "bounty": 336748
+    },
+    {
+      "rank": 427,
+      "alliance_name": "팀트갤 공수대대",
+      "nickname": "SameBlue",
+      "bounty": 335780
+    },
+    {
+      "rank": 428,
+      "alliance_name": "「K2」The King Of Darkness",
+      "nickname": "✪Meito㉨Durandal✪",
+      "bounty": 335141
+    },
+    {
+      "rank": 429,
+      "alliance_name": "The Revolutionary Army [TRA-4]",
+      "nickname": "【ฬƤ】シャンクスTARO",
+      "bounty": 334591
+    },
+    {
+      "rank": 430,
+      "alliance_name": "The Revolutionary Army [TRA-4]",
+      "nickname": "Culurgiones",
+      "bounty": 334440
+    },
+    {
+      "rank": 431,
+      "alliance_name": "Indonesia Line",
+      "nickname": "YT | Indo-Nomercy",
+      "bounty": 334332
+    },
+    {
+      "rank": 432,
+      "alliance_name": "TOBI DOBBLO",
+      "nickname": "Gol D Roger",
+      "bounty": 333368
+    },
+    {
+      "rank": 433,
+      "alliance_name": "",
+      "nickname": "Karyudon [©]",
+      "bounty": 333182
+    },
+    {
+      "rank": 434,
+      "alliance_name": "Blossom",
+      "nickname": "창하인",
+      "bounty": 331504
+    },
+    {
+      "rank": 435,
+      "alliance_name": "Chapeau de pailles",
+      "nickname": "새우",
+      "bounty": 330882
+    },
+    {
+      "rank": 436,
+      "alliance_name": "【LRS❌】覇気 KENBUNSHOKU",
+      "nickname": "[LRS]NINJA'S GOD",
+      "bounty": 330728
+    },
+    {
+      "rank": 437,
+      "alliance_name": "Rocks Pirates Reborn",
+      "nickname": "crazy apples",
+      "bounty": 330657
+    },
+    {
+      "rank": 438,
+      "alliance_name": "ITALIA",
+      "nickname": "Re Dei Pirati | YT",
+      "bounty": 330610
+    },
+    {
+      "rank": 439,
+      "alliance_name": "Rabbit Refugees",
+      "nickname": "Krose",
+      "bounty": 330499
+    },
+    {
+      "rank": 440,
+      "alliance_name": "제육볶음팀",
+      "nickname": "밀짚모자",
+      "bounty": 330193
+    },
+    {
+      "rank": 441,
+      "alliance_name": "Panda Man",
+      "nickname": "카리나윈터",
+      "bounty": 330024
+    },
+    {
+      "rank": 442,
+      "alliance_name": "북미원주민",
+      "nickname": "BBongddoll",
+      "bounty": 328926
+    },
+    {
+      "rank": 443,
+      "alliance_name": "팀트갤 6대대",
+      "nickname": "ㅗ",
+      "bounty": 328409
+    },
+    {
+      "rank": 444,
+      "alliance_name": "Here we go !!!",
+      "nickname": "[HWꓨ]•SetsunaFzeA",
+      "bounty": 328267
+    },
+    {
+      "rank": 445,
+      "alliance_name": "Blossom",
+      "nickname": "슈스이",
+      "bounty": 327358
+    },
+    {
+      "rank": 446,
+      "alliance_name": "",
+      "nickname": "Jiwo",
+      "bounty": 327212
+    },
+    {
+      "rank": 447,
+      "alliance_name": "[OPC] The Flying10 Stars",
+      "nickname": "[OPC] Dirowe",
+      "bounty": 326622
+    },
+    {
+      "rank": 448,
+      "alliance_name": "필촉 크로스",
+      "nickname": "해적왕버기",
+      "bounty": 326428
+    },
+    {
+      "rank": 449,
+      "alliance_name": "LEGACY™️ - Crossguild ⚔️",
+      "nickname": "§ųck Ɗ. ɛɛZ Ɲut§",
+      "bounty": 326404
+    },
+    {
+      "rank": 450,
+      "alliance_name": "Alliance of liberation!",
+      "nickname": "nissan jr",
+      "bounty": 326050
+    },
+    {
+      "rank": 451,
+      "alliance_name": "KING NIKA",
+      "nickname": "Chin",
+      "bounty": 325570
+    },
+    {
+      "rank": 452,
+      "alliance_name": "신세계",
+      "nickname": "BLITZ",
+      "bounty": 325519
+    },
+    {
+      "rank": 453,
+      "alliance_name": "RED WARLORDS ITALIA",
+      "nickname": "OPM TRIGUN 2.00",
+      "bounty": 325288
+    },
+    {
+      "rank": 454,
+      "alliance_name": "GLOBEST",
+      "nickname": "HamiD.000oo",
+      "bounty": 323132
+    },
+    {
+      "rank": 455,
+      "alliance_name": "The Revolutionary Army [TRA]",
+      "nickname": "TRA | V3NOM",
+      "bounty": 322877
+    },
+    {
+      "rank": 456,
+      "alliance_name": "ROMANCE DAWN",
+      "nickname": "Gesù D. Nazareth",
+      "bounty": 322585
+    },
+    {
+      "rank": 457,
+      "alliance_name": "Freedom Pirates",
+      "nickname": "Boubouille",
+      "bounty": 322243
+    },
+    {
+      "rank": 458,
+      "alliance_name": "OPTC GRIND SQUAD",
+      "nickname": "goncalvp",
+      "bounty": 321081
+    },
+    {
+      "rank": 459,
+      "alliance_name": "한국 사람 들어오세요",
+      "nickname": "무기와라",
+      "bounty": 320380
+    },
+    {
+      "rank": 460,
+      "alliance_name": "The Mad Monks",
+      "nickname": "Squall D. HoruS",
+      "bounty": 320255
+    },
+    {
+      "rank": 461,
+      "alliance_name": "LOS MAS PESADOS V2",
+      "nickname": "DobleJ",
+      "bounty": 319748
+    },
+    {
+      "rank": 462,
+      "alliance_name": "NBW Pirate Alliance",
+      "nickname": "[NBW]⚡️Thunder⚡️",
+      "bounty": 319667
+    },
+    {
+      "rank": 463,
+      "alliance_name": "☠️P✘M☠️-2조",
+      "nickname": "☠️P✘M☠️-망원슬슬",
+      "bounty": 319581
+    },
+    {
+      "rank": 464,
+      "alliance_name": "Lockdown",
+      "nickname": "Neon Joe",
+      "bounty": 319447
+    },
+    {
+      "rank": 465,
+      "alliance_name": "(SCA) BLACK SCABBARDS",
+      "nickname": "(SCA)Tun3d!",
+      "bounty": 319326
+    },
+    {
+      "rank": 466,
+      "alliance_name": "LA PIRE GÉNÉRATION",
+      "nickname": "[LPG] • ʂƙ⭐ɓ૨ơơƙ ♬",
+      "bounty": 317362
+    },
+    {
+      "rank": 467,
+      "alliance_name": "이현이해적단",
+      "nickname": "2번",
+      "bounty": 316124
+    },
+    {
+      "rank": 468,
+      "alliance_name": "신세계",
+      "nickname": "쵸파랜드",
+      "bounty": 314615
+    },
+    {
+      "rank": 469,
+      "alliance_name": "Chopper's Candy Crew",
+      "nickname": "Wolf Pirates",
+      "bounty": 314539
+    },
+    {
+      "rank": 470,
+      "alliance_name": "iKON",
+      "nickname": "⚓ LaFleur ⚓",
+      "bounty": 314126
+    },
+    {
+      "rank": 471,
+      "alliance_name": "DB_대로행 [선장조]",
+      "nickname": "망사 무스탕",
+      "bounty": 313490
+    },
+    {
+      "rank": 472,
+      "alliance_name": "Pirate island alliance ♧♤",
+      "nickname": "Cross culture",
+      "bounty": 312846
+    },
+    {
+      "rank": 473,
+      "alliance_name": "LEGENDS OF OP",
+      "nickname": "Tama-Y",
+      "bounty": 311420
+    },
+    {
+      "rank": 474,
+      "alliance_name": "⚜️ Divine Pirates ⚜️",
+      "nickname": "D.Foxski #TreCru",
+      "bounty": 311353
+    },
+    {
+      "rank": 475,
+      "alliance_name": "유대결전,이벤트 같이 하실분.",
+      "nickname": "AcePower96 (MV)",
+      "bounty": 311290
+    },
+    {
+      "rank": 476,
+      "alliance_name": "The Revolutionary Army [TRA-W]",
+      "nickname": "[TRA] Zeppa",
+      "bounty": 309770
+    },
+    {
+      "rank": 477,
+      "alliance_name": "All Blue",
+      "nickname": "Guardian_Wizard",
+      "bounty": 309719
+    },
+    {
+      "rank": 478,
+      "alliance_name": "SILHOUETTE",
+      "nickname": "Steel Reign",
+      "bounty": 309552
+    },
+    {
+      "rank": 479,
+      "alliance_name": "Bandåi Crimė Fåmily",
+      "nickname": "Tiefseetaucher",
+      "bounty": 309095
+    },
+    {
+      "rank": 480,
+      "alliance_name": "12ª flotta [CDR]",
+      "nickname": "[SP] Mandrux",
+      "bounty": 309040
+    },
+    {
+      "rank": 481,
+      "alliance_name": "Ziggies",
+      "nickname": "원펀맨",
+      "bounty": 309010
+    },
+    {
+      "rank": 482,
+      "alliance_name": "Sea Southeast Pirate",
+      "nickname": "좀쌉",
+      "bounty": 308787
+    },
+    {
+      "rank": 483,
+      "alliance_name": "팀트갤 4대대",
+      "nickname": "그게그거",
+      "bounty": 308502
+    },
+    {
+      "rank": 484,
+      "alliance_name": "⚔️ Smokers Guild ⚔️",
+      "nickname": "Rose pirates",
+      "bounty": 308199
+    },
+    {
+      "rank": 485,
+      "alliance_name": "OLD⚡️SUPERNOVA",
+      "nickname": "[P☠️⚡️N] brice09",
+      "bounty": 307698
+    },
+    {
+      "rank": 486,
+      "alliance_name": "⭐ⓉⓇⓈ①⭐",
+      "nickname": "ⓉⓇⓈ ImbissBronko",
+      "bounty": 307146
+    },
+    {
+      "rank": 487,
+      "alliance_name": "Kizuna Enjoyers",
+      "nickname": "Red",
+      "bounty": 306344
+    },
+    {
+      "rank": 488,
+      "alliance_name": "He Laughed.",
+      "nickname": "Wee Pirates!",
+      "bounty": 305824
+    },
+    {
+      "rank": 489,
+      "alliance_name": "!",
+      "nickname": "RicanKing615",
+      "bounty": 304825
+    },
+    {
+      "rank": 490,
+      "alliance_name": "샬롯_Creme♦️",
+      "nickname": "샬롯_이솜아빠♦️",
+      "bounty": 303720
+    },
+    {
+      "rank": 491,
+      "alliance_name": "German Emperors",
+      "nickname": "GrizzlyKingPirates",
+      "bounty": 303334
+    },
+    {
+      "rank": 492,
+      "alliance_name": "❄️ⓉⓇⓈ②❄️",
+      "nickname": "ⓉⓇⓈ Chibi",
+      "bounty": 302357
+    },
+    {
+      "rank": 493,
+      "alliance_name": "Blue Buff",
+      "nickname": "MaeviuS",
+      "bounty": 302114
+    },
+    {
+      "rank": 494,
+      "alliance_name": "Optc FRANCE",
+      "nickname": "ノJΐҟū",
+      "bounty": 301503
+    },
+    {
+      "rank": 495,
+      "alliance_name": "팀트갤 5대대",
+      "nickname": "나무아미타불",
+      "bounty": 301400
+    },
+    {
+      "rank": 496,
+      "alliance_name": "Walk Together",
+      "nickname": "★cosmo☯︎ .",
+      "bounty": 301396
+    },
+    {
+      "rank": 497,
+      "alliance_name": "Vinland",
+      "nickname": "Sung Jin Woo",
+      "bounty": 301377
+    },
+    {
+      "rank": 498,
+      "alliance_name": "The Mad Monks",
+      "nickname": "[MM]_H0M€",
+      "bounty": 301229
+    },
+    {
+      "rank": 499,
+      "alliance_name": "팀트갤 8대대",
+      "nickname": "아이스티",
+      "bounty": 300511
+    },
+    {
+      "rank": 500,
+      "alliance_name": "칠무해",
+      "nickname": "balju",
+      "bounty": 300466
+    }
+  ]
+}

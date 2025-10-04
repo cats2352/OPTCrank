@@ -116,27 +116,10 @@ function filterByTgall() {
     displayResults(currentOldData, currentNewData);
 }
 
-async function displayLastUpdated(filePath, fallbackText) {
-    const lastUpdatedElement = document.getElementById('last-updated');
-    try {
-        const response = await fetch(filePath, { method: 'HEAD' });
-        const lastModified = response.headers.get('Last-Modified');
-        if (lastModified) {
-            const date = new Date(lastModified);
-            const formattedDate = `${date.getFullYear()}년 ${(date.getMonth() + 1).toString().padStart(2, '0')}월 ${date.getDate().toString().padStart(2, '0')}일 ${date.getHours().toString().padStart(2, '0')}시 ${date.getMinutes().toString().padStart(2, '0')}분`;
-            lastUpdatedElement.textContent = formattedDate;
-        } else {
-            lastUpdatedElement.textContent = fallbackText;
-        }
-    } catch (error) {
-        console.warn('Last-Modified 헤더를 가져올 수 없습니다.', error);
-        lastUpdatedElement.textContent = fallbackText;
-    }
-}
-
 async function loadAndCompareRankings() {
     const isSingleView = singleViewCheckbox.checked;
     const titleElement = document.getElementById('main-title');
+    const lastUpdatedElement = document.getElementById('last-updated');
 
     if (isSingleView) {
         const selectedDir = dataSelector.value;
@@ -146,9 +129,15 @@ async function loadAndCompareRankings() {
             return;
         }
         const path = `../data/${RANKING_TYPE}/${selectedDir}/${DATA_FILE_NAME}`;
-        await displayLastUpdated(path, selectedDir);
         try {
             const data = await fetch(path).then(res => res.json());
+            if (data.last_updated) {
+                const date = new Date(data.last_updated);
+                const formattedDate = `${date.getFullYear()}년 ${(date.getMonth() + 1).toString().padStart(2, '0')}월 ${date.getDate().toString().padStart(2, '0')}일 ${date.getHours().toString().padStart(2, '0')}시 ${date.getMinutes().toString().padStart(2, '0')}분`;
+                lastUpdatedElement.textContent = formattedDate;
+            } else {
+                lastUpdatedElement.textContent = "해당 업데이트 시간 정보가 없습니다.";
+            }
             currentNewData = data.rank_data;
             currentOldData = null;
             displayResults(null, currentNewData);
@@ -169,7 +158,6 @@ async function loadAndCompareRankings() {
         if(titleElement) titleElement.textContent = `🏆 ${latestDir} 트레저맵 랭킹`;
 
         const latestPath = `../data/${RANKING_TYPE}/${latestDir}/${DATA_FILE_NAME}`;
-        await displayLastUpdated(latestPath, latestDir);
         const comparisonPath = `../data/${RANKING_TYPE}/${selectedComparisonDir}/${DATA_FILE_NAME}`;
         
         try {
@@ -178,6 +166,13 @@ async function loadAndCompareRankings() {
                 fetch(latestPath).then(res => res.json())
             ]);
             
+            if (newJson.last_updated) {
+                const date = new Date(newJson.last_updated);
+                const formattedDate = `${date.getFullYear()}년 ${(date.getMonth() + 1).toString().padStart(2, '0')}월 ${date.getDate().toString().padStart(2, '0')}일 ${date.getHours().toString().padStart(2, '0')}시 ${date.getMinutes().toString().padStart(2, '0')}분`;
+                lastUpdatedElement.textContent = formattedDate;
+            } else {
+                lastUpdatedElement.textContent = "해당 업데이트 시간 정보가 없습니다.";
+            }
             currentOldData = oldJson.rank_data;
             currentNewData = newJson.rank_data;
             displayResults(currentOldData, currentNewData);
