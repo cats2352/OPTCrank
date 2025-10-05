@@ -1,0 +1,1038 @@
+{
+  "current_ranking": -1,
+  "current_rank_id": -1,
+  "current_rank_rate": null,
+  "ranking_datas": [
+    {
+      "id": 29037041,
+      "code": "196303581",
+      "nickname": "Wolverine",
+      "level": 461,
+      "score": 184647,
+      "achievement": "Promising Rookie",
+      "character_id": 14606,
+      "rank": 1
+    },
+    {
+      "id": 72924848,
+      "code": "807329543",
+      "nickname": "공투 셔틀",
+      "level": 265,
+      "score": 169350,
+      "achievement": "기대 루키",
+      "character_id": 14606,
+      "rank": 2
+    },
+    {
+      "id": 43767009,
+      "code": "169090813",
+      "nickname": "Oswald",
+      "level": 587,
+      "score": 169164,
+      "achievement": "해적왕 의 피해자 모임",
+      "character_id": 14608,
+      "rank": 3
+    },
+    {
+      "id": 38755951,
+      "code": "214566339",
+      "nickname": "냐리나",
+      "level": 1317,
+      "score": 166162,
+      "achievement": "기대 루키",
+      "character_id": 14606,
+      "rank": 4
+    },
+    {
+      "id": 23337476,
+      "code": "323107530",
+      "nickname": "Purple dragon",
+      "level": 407,
+      "score": 158685,
+      "achievement": "Promising Rookie",
+      "character_id": 13358,
+      "rank": 5
+    },
+    {
+      "id": 43228108,
+      "code": "309003310",
+      "nickname": "IcecreamWithDonut",
+      "level": 486,
+      "score": 150639,
+      "achievement": "<icon=common_font_grandparty_0096_nami_yamato_otama_14301_14422.png> <icon=common_font_kizuna_battle_0089_zorojuro_1_14421.png>",
+      "character_id": 14606,
+      "rank": 6
+    },
+    {
+      "id": 72921935,
+      "code": "339872956",
+      "nickname": "검은옷",
+      "level": 255,
+      "score": 138954,
+      "achievement": "세계 최강 의 합체 로봇",
+      "character_id": 14608,
+      "rank": 7
+    },
+    {
+      "id": 72716297,
+      "code": "630623170",
+      "nickname": "Codeline",
+      "level": 240,
+      "score": 135912,
+      "achievement": "Promising Rookie",
+      "character_id": 14558,
+      "rank": 8
+    },
+    {
+      "id": 38983024,
+      "code": "649933424",
+      "nickname": "도피",
+      "level": 1474,
+      "score": 135794,
+      "achievement": "<icon=common_font_10th.png>",
+      "character_id": 14608,
+      "rank": 9
+    },
+    {
+      "id": 58393068,
+      "code": "334815109",
+      "nickname": "Olian",
+      "level": 690,
+      "score": 132456,
+      "achievement": "Free of Cola",
+      "character_id": 14608,
+      "rank": 10
+    },
+    {
+      "id": 70817950,
+      "code": "563263191",
+      "nickname": "밀짚모자 일당3",
+      "level": 441,
+      "score": 131550,
+      "achievement": "기대 루키",
+      "character_id": 13358,
+      "rank": 11
+    },
+    {
+      "id": 68023360,
+      "code": "334516318",
+      "nickname": "New World Pirates",
+      "level": 249,
+      "score": 128777,
+      "achievement": "<icon=common_font_11th_0091.png> <icon=common_font_kizuna_battle_0065_moria_3.png>",
+      "character_id": 14606,
+      "rank": 12
+    },
+    {
+      "id": 29286813,
+      "code": "312339040",
+      "nickname": "Puga.",
+      "level": 484,
+      "score": 126342,
+      "achievement": "<icon=common_font_kizuna_battle_0061_yonkoh_1.png>",
+      "character_id": 14606,
+      "rank": 13
+    },
+    {
+      "id": 22040233,
+      "code": "538907963",
+      "nickname": "lazur756",
+      "level": 905,
+      "score": 124219,
+      "achievement": "<icon=common_font_kizuna_battle_0097_mihawk_perona_1_14511.png> although <icon=common_font_grandparty_0098_garling_garp_14512_14513.png>",
+      "character_id": 14606,
+      "rank": 14
+    },
+    {
+      "id": 55541822,
+      "code": "483498977",
+      "nickname": "Iñaki D. Nika",
+      "level": 482,
+      "score": 119747,
+      "achievement": "<icon=common_font_pirate_rumble_grandparty_0059_luffy_roger.png> <icon=common_font_pirate_rumble_grandparty_sp_0081_luffy_sabo_ace.png>",
+      "character_id": 14608,
+      "rank": 15
+    },
+    {
+      "id": 38666133,
+      "code": "389603815",
+      "nickname": "똘맥",
+      "level": 1604,
+      "score": 119691,
+      "achievement": "전설 의 <icon=common_font_zoro.png> 대검호",
+      "character_id": 14606,
+      "rank": 16
+    },
+    {
+      "id": 25333911,
+      "code": "556338043",
+      "nickname": "Moncef☔️",
+      "level": 1159,
+      "score": 119456,
+      "achievement": "Quatre Empereurs",
+      "character_id": 14608,
+      "rank": 17
+    },
+    {
+      "id": 30588279,
+      "code": "372606357",
+      "nickname": "ⓈⒼⒻ 0mae",
+      "level": 1381,
+      "score": 118810,
+      "achievement": "What A Life so Lovely",
+      "character_id": 14352,
+      "rank": 18
+    },
+    {
+      "id": 38770313,
+      "code": "136833598",
+      "nickname": "짜다",
+      "level": 646,
+      "score": 118601,
+      "achievement": "<icon=common_font_pirate_rumble_grandparty_0033_blackmaria_ulti.png> 젠틀맨",
+      "character_id": 14452,
+      "rank": 19
+    },
+    {
+      "id": 38666952,
+      "code": "930763886",
+      "nickname": "SHALLTEAR",
+      "level": 472,
+      "score": 117819,
+      "achievement": "해적왕 의 <icon=common_font_grandparty_sp_0093_luffy_zoro_sanji_14251.png>",
+      "character_id": 14452,
+      "rank": 20
+    },
+    {
+      "id": 44246980,
+      "code": "660993120",
+      "nickname": "B E N K.",
+      "level": 545,
+      "score": 116447,
+      "achievement": "<icon=common_font_grandparty_0098_garling_garp_14512_14513.png>",
+      "character_id": 14606,
+      "rank": 21
+    },
+    {
+      "id": 70472774,
+      "code": "625452357",
+      "nickname": "Durex",
+      "level": 194,
+      "score": 114095,
+      "achievement": "Promising Rookie",
+      "character_id": 14606,
+      "rank": 22
+    },
+    {
+      "id": 40609367,
+      "code": "353779188",
+      "nickname": "MDM",
+      "level": 825,
+      "score": 113854,
+      "achievement": "Man of <icon=common_font_pirate_rumble_grandparty_0059_luffy_roger.png>",
+      "character_id": 14606,
+      "rank": 23
+    },
+    {
+      "id": 73424269,
+      "code": "130503226",
+      "nickname": "⚜️오 로 성⚜️",
+      "level": 151,
+      "score": 113645,
+      "achievement": "기대 루키",
+      "character_id": 14452,
+      "rank": 24
+    },
+    {
+      "id": 43885259,
+      "code": "302993260",
+      "nickname": "Messed_up_Owl ",
+      "level": 362,
+      "score": 113262,
+      "achievement": "<icon=common_font_11th_0091.png> <icon=common_font_grandparty_sp_0093_luffy_zoro_sanji_14251.png>",
+      "character_id": 14606,
+      "rank": 25
+    },
+    {
+      "id": 38819051,
+      "code": "533676939",
+      "nickname": "SᴋʏPɪᴇᴀ-원피스매냐",
+      "level": 2288,
+      "score": 111610,
+      "achievement": "울던 아이도 웃게 만드는 합체 로봇",
+      "character_id": 14606,
+      "rank": 26
+    },
+    {
+      "id": 24222988,
+      "code": "630023663",
+      "nickname": "Marrow",
+      "level": 790,
+      "score": 110872,
+      "achievement": "Promising Rookie",
+      "character_id": 14370,
+      "rank": 27
+    },
+    {
+      "id": 1621439,
+      "code": "386492335",
+      "nickname": "STRYKER Pirates",
+      "level": 1180,
+      "score": 110763,
+      "achievement": "<icon=common_font_garp.png> Justice of <icon=common_font_garp.png> Devil",
+      "character_id": 14606,
+      "rank": 28
+    },
+    {
+      "id": 47237468,
+      "code": "901313009",
+      "nickname": "แมวน้อย",
+      "level": 926,
+      "score": 108280,
+      "achievement": "<icon=common_font_world_cruise2025_0084_sanji_kantou.png> <icon=common_font_11th_0091.png>",
+      "character_id": 13233,
+      "rank": 29
+    },
+    {
+      "id": 38667244,
+      "code": "843368108",
+      "nickname": "카이",
+      "level": 1590,
+      "score": 105384,
+      "achievement": "<icon=common_font_pirate_rumble_grandparty_0073_shanks_kid.png> 그러나 용서 못 해",
+      "character_id": 14606,
+      "rank": 30
+    },
+    {
+      "id": 56056948,
+      "code": "064068348",
+      "nickname": "Weather Moon",
+      "level": 243,
+      "score": 105025,
+      "achievement": "Promising Rookie",
+      "character_id": 12760,
+      "rank": 31
+    },
+    {
+      "id": 4478458,
+      "code": "450336932",
+      "nickname": "ADRYRODRY",
+      "level": 1238,
+      "score": 103642,
+      "achievement": "Promising Rookie",
+      "character_id": 14606,
+      "rank": 32
+    },
+    {
+      "id": 43401467,
+      "code": "233190793",
+      "nickname": "합",
+      "level": 132,
+      "score": 102424,
+      "achievement": "",
+      "character_id": 11104,
+      "rank": 33
+    },
+    {
+      "id": 19832958,
+      "code": "006903316",
+      "nickname": "JCnation.",
+      "level": 678,
+      "score": 101297,
+      "achievement": "Promising Rookie",
+      "character_id": 14452,
+      "rank": 34
+    },
+    {
+      "id": 43466275,
+      "code": "280790803",
+      "nickname": "카리나윈터",
+      "level": 613,
+      "score": 100835,
+      "achievement": "기대 루키",
+      "character_id": 14608,
+      "rank": 35
+    },
+    {
+      "id": 8487285,
+      "code": "432328102",
+      "nickname": "Kamui's Bastion",
+      "level": 1060,
+      "score": 100686,
+      "achievement": "Doofus with Nipple Lights",
+      "character_id": 14608,
+      "rank": 36
+    },
+    {
+      "id": 73055616,
+      "code": "222633704",
+      "nickname": "MAD D MAN",
+      "level": 193,
+      "score": 99882,
+      "achievement": "Promising Rookie",
+      "character_id": 14606,
+      "rank": 37
+    },
+    {
+      "id": 72018119,
+      "code": "661327633",
+      "nickname": "Tette D. Nami",
+      "level": 305,
+      "score": 99796,
+      "achievement": "Promising Rookie",
+      "character_id": 13358,
+      "rank": 38
+    },
+    {
+      "id": 23085560,
+      "code": "232631120",
+      "nickname": "AZUZ",
+      "level": 642,
+      "score": 99053,
+      "achievement": "Promising Rookie",
+      "character_id": 14606,
+      "rank": 39
+    },
+    {
+      "id": 43419307,
+      "code": "693200873",
+      "nickname": "에스프레소투샷",
+      "level": 834,
+      "score": 98819,
+      "achievement": "<icon=common_font_kaizokudoumeidairansen_0058_10th_anniv_kantou.png> <icon=common_font_pirate_rumble_grandparty_0059_luffy_roger.png>",
+      "character_id": 14608,
+      "rank": 40
+    },
+    {
+      "id": 26048771,
+      "code": "475336593",
+      "nickname": "xXx5C4RF4C3xXx325L",
+      "level": 1547,
+      "score": 98295,
+      "achievement": "Beast Master with Diva of the World",
+      "character_id": 14606,
+      "rank": 41
+    },
+    {
+      "id": 30343968,
+      "code": "459066351",
+      "nickname": "Ven D. Zallow",
+      "level": 459,
+      "score": 97390,
+      "achievement": "Le roi des Pirates",
+      "character_id": 14606,
+      "rank": 42
+    },
+    {
+      "id": 39890986,
+      "code": "262631813",
+      "nickname": "ⓁⒼⒸlongnose-senpai",
+      "level": 634,
+      "score": 97165,
+      "achievement": "<icon=common_font_grandparty_0094_saturn_bonny_14452_14457.png>",
+      "character_id": 14608,
+      "rank": 43
+    },
+    {
+      "id": 43699466,
+      "code": "307918123",
+      "nickname": "Łøķï",
+      "level": 359,
+      "score": 95685,
+      "achievement": "Godfather of <icon=common_font_kizuna_battle_0097_mihawk_perona_1_14511.png>",
+      "character_id": 14370,
+      "rank": 44
+    },
+    {
+      "id": 41726108,
+      "code": "309013012",
+      "nickname": "Straw Hat Pirate",
+      "level": 313,
+      "score": 94925,
+      "achievement": "Promising Rookie",
+      "character_id": 14606,
+      "rank": 45
+    },
+    {
+      "id": 66196456,
+      "code": "903443125",
+      "nickname": "최고박",
+      "level": 1107,
+      "score": 94822,
+      "achievement": "<icon=common_font_10th.png> 부터 레요?",
+      "character_id": 14608,
+      "rank": 46
+    },
+    {
+      "id": 53235274,
+      "code": "348207000",
+      "nickname": "Guts",
+      "level": 1215,
+      "score": 94613,
+      "achievement": "",
+      "character_id": 14608,
+      "rank": 47
+    },
+    {
+      "id": 18002717,
+      "code": "356073336",
+      "nickname": "Bärtigee",
+      "level": 554,
+      "score": 94227,
+      "achievement": "Promising 500-Year Sleep",
+      "character_id": 14608,
+      "rank": 48
+    },
+    {
+      "id": 70349127,
+      "code": "759312354",
+      "nickname": "Mugiwara ",
+      "level": 443,
+      "score": 93761,
+      "achievement": "<icon=common_font_11th_0091.png> of <icon=common_font_grandparty_sp_0093_luffy_zoro_sanji_14251.png>",
+      "character_id": 13358,
+      "rank": 49
+    },
+    {
+      "id": 3985184,
+      "code": "914024322",
+      "nickname": "♨拉麺の一味♨",
+      "level": 929,
+      "score": 93707,
+      "achievement": "Promising Rookie",
+      "character_id": 13358,
+      "rank": 50
+    },
+    {
+      "id": 59147597,
+      "code": "432681913",
+      "nickname": "whiteusher",
+      "level": 306,
+      "score": 93120,
+      "achievement": "Pirate King",
+      "character_id": 13359,
+      "rank": 51
+    },
+    {
+      "id": 28202867,
+      "code": "403363317",
+      "nickname": "Weedd",
+      "level": 370,
+      "score": 92544,
+      "achievement": "A Cold Man",
+      "character_id": 14608,
+      "rank": 52
+    },
+    {
+      "id": 72923280,
+      "code": "240973312",
+      "nickname": "Hima Bär :)",
+      "level": 260,
+      "score": 92054,
+      "achievement": "Promising Rookie",
+      "character_id": 13472,
+      "rank": 53
+    },
+    {
+      "id": 38663835,
+      "code": "453836848",
+      "nickname": "(라프텔)양념개장",
+      "level": 1409,
+      "score": 90377,
+      "achievement": "기대 루키",
+      "character_id": 14608,
+      "rank": 54
+    },
+    {
+      "id": 20558961,
+      "code": "756135433",
+      "nickname": "Zero♾️",
+      "level": 999,
+      "score": 89812,
+      "achievement": "Promising Rookie",
+      "character_id": 14608,
+      "rank": 55
+    },
+    {
+      "id": 38762612,
+      "code": "661733387",
+      "nickname": "Rollin",
+      "level": 1150,
+      "score": 89207,
+      "achievement": "기대 루키",
+      "character_id": 14512,
+      "rank": 56
+    },
+    {
+      "id": 73148075,
+      "code": "079234893",
+      "nickname": "골.D.로저",
+      "level": 234,
+      "score": 87971,
+      "achievement": "기대 루키",
+      "character_id": 14608,
+      "rank": 57
+    },
+    {
+      "id": 32129476,
+      "code": "267377334",
+      "nickname": "Draco",
+      "level": 772,
+      "score": 87216,
+      "achievement": "<icon=common_font_kizuna_battle_kujapirates_1.png> <icon=common_font_pirate_rumble_grandparty_0033_blackmaria_ulti.png>",
+      "character_id": 12760,
+      "rank": 58
+    },
+    {
+      "id": 8503661,
+      "code": "153347477",
+      "nickname": "fedemissa15 ",
+      "level": 821,
+      "score": 86219,
+      "achievement": "Promising Rookie",
+      "character_id": 12760,
+      "rank": 59
+    },
+    {
+      "id": 60068572,
+      "code": "635275873",
+      "nickname": "Stevens",
+      "level": 360,
+      "score": 85500,
+      "achievement": "Promising Rookie",
+      "character_id": 13358,
+      "rank": 60
+    },
+    {
+      "id": 17903575,
+      "code": "279930748",
+      "nickname": "Barze's pirates",
+      "level": 696,
+      "score": 85350,
+      "achievement": "<icon=common_font_garp.png> Fist <icon=common_font_super_pirate_rumble_akainu_kantou.png>",
+      "character_id": 13701,
+      "rank": 61
+    },
+    {
+      "id": 71872082,
+      "code": "635792322",
+      "nickname": "Straft",
+      "level": 352,
+      "score": 85100,
+      "achievement": "Promising Rookie",
+      "character_id": 14558,
+      "rank": 62
+    },
+    {
+      "id": 21563579,
+      "code": "634872327",
+      "nickname": "do you even jeff??",
+      "level": 469,
+      "score": 84349,
+      "achievement": "<icon=common_font_super_pirate_rumble_0095_sabo_koara_kantou_10915.png> <icon=common_font_garp.png> Fist",
+      "character_id": 14606,
+      "rank": 63
+    },
+    {
+      "id": 24696890,
+      "code": "641386013",
+      "nickname": "ace",
+      "level": 543,
+      "score": 84029,
+      "achievement": "<icon=common_font_grandparty_0094_saturn_bonny_14452_14457.png>",
+      "character_id": 14608,
+      "rank": 64
+    },
+    {
+      "id": 73460388,
+      "code": "030822288",
+      "nickname": "Straw Hat Pirates",
+      "level": 94,
+      "score": 82844,
+      "achievement": "Promising Rookie",
+      "character_id": 14608,
+      "rank": 65
+    },
+    {
+      "id": 38660074,
+      "code": "884633987",
+      "nickname": "밀짚모자 일당루피징베",
+      "level": 376,
+      "score": 82777,
+      "achievement": "기대 루키",
+      "character_id": 13818,
+      "rank": 66
+    },
+    {
+      "id": 8037890,
+      "code": "011643634",
+      "nickname": "1car89",
+      "level": 668,
+      "score": 82772,
+      "achievement": "Promising Rookie",
+      "character_id": 14608,
+      "rank": 67
+    },
+    {
+      "id": 12531656,
+      "code": "097773902",
+      "nickname": "Straw Hat Pirates",
+      "level": 592,
+      "score": 82558,
+      "achievement": "Promising Rookie",
+      "character_id": 14606,
+      "rank": 68
+    },
+    {
+      "id": 1118635,
+      "code": "843652374",
+      "nickname": "[AD.O] B.B. Lionel",
+      "level": 982,
+      "score": 82219,
+      "achievement": "<icon=common_font_pirate_rumble_grandparty_0032_zoro.png> and <icon=common_font_pirate_rumble_grandparty_0043_shanks_luffy.png>",
+      "character_id": 14606,
+      "rank": 69
+    },
+    {
+      "id": 38699171,
+      "code": "753368711",
+      "nickname": "753.368.711 ",
+      "level": 1248,
+      "score": 81844,
+      "achievement": "<icon=common_font_11th_0091.png> <icon=common_font_dairansen_0090_kizaru_kantou_14411.png>",
+      "character_id": 14608,
+      "rank": 70
+    },
+    {
+      "id": 6229888,
+      "code": "044430372",
+      "nickname": "Ƥɑղժɑ D. Տɑɾɑ",
+      "level": 607,
+      "score": 81185,
+      "achievement": "I Don't Need a Title",
+      "character_id": 14452,
+      "rank": 71
+    },
+    {
+      "id": 71652117,
+      "code": "313282643",
+      "nickname": "Mugiwara No.Bibu",
+      "level": 283,
+      "score": 80820,
+      "achievement": "L’Empereur de l’Or",
+      "character_id": 14606,
+      "rank": 72
+    },
+    {
+      "id": 15106877,
+      "code": "844073370",
+      "nickname": "Roméo 's pirate",
+      "level": 934,
+      "score": 80522,
+      "achievement": "Le jeune plein d'avenir  Le talentueux débutant",
+      "character_id": 14608,
+      "rank": 73
+    },
+    {
+      "id": 38668029,
+      "code": "433693886",
+      "nickname": "슈퍼카카로트",
+      "level": 984,
+      "score": 79320,
+      "achievement": "<icon=common_font_kizuna_battle_0021_doflamingo_1.png> <icon=common_font_kaizokudoumeidairansen_0047_yamato_kaidou_kantou.png>",
+      "character_id": 14606,
+      "rank": 74
+    },
+    {
+      "id": 73363938,
+      "code": "030425586",
+      "nickname": "Five Stars",
+      "level": 160,
+      "score": 79147,
+      "achievement": "Le jeune plein d'avenir  Le talentueux débutant",
+      "character_id": 14606,
+      "rank": 75
+    },
+    {
+      "id": 38758217,
+      "code": "343033316",
+      "nickname": "까부리까불",
+      "level": 1212,
+      "score": 78825,
+      "achievement": "기대 루키",
+      "character_id": 14606,
+      "rank": 76
+    },
+    {
+      "id": 73184770,
+      "code": "521473502",
+      "nickname": "Sumiko's Bunnies ",
+      "level": 254,
+      "score": 78287,
+      "achievement": "Laughing Bunny Girl",
+      "character_id": 13472,
+      "rank": 77
+    },
+    {
+      "id": 29087170,
+      "code": "312371116",
+      "nickname": "EsKaS",
+      "level": 821,
+      "score": 78066,
+      "achievement": "<icon=common_font_kizuna_battle_0026_garp_2.png> <icon=common_font_world_cruise2023_0025_zoro_kantou.png>",
+      "character_id": 14608,
+      "rank": 78
+    },
+    {
+      "id": 17233194,
+      "code": "010904346",
+      "nickname": "Adrian ಠ_ಠ ",
+      "level": 708,
+      "score": 77504,
+      "achievement": "Promising Rookie",
+      "character_id": 14606,
+      "rank": 79
+    },
+    {
+      "id": 73394684,
+      "code": "524523701",
+      "nickname": "黑滷蛋",
+      "level": 135,
+      "score": 76772,
+      "achievement": "Promising Rookie",
+      "character_id": 14606,
+      "rank": 80
+    },
+    {
+      "id": 72074983,
+      "code": "726236955",
+      "nickname": "Mugiwara Kaizoku",
+      "level": 276,
+      "score": 75677,
+      "achievement": "Promising Rookie",
+      "character_id": 14452,
+      "rank": 81
+    },
+    {
+      "id": 71646763,
+      "code": "089952321",
+      "nickname": "Straw D",
+      "level": 427,
+      "score": 75167,
+      "achievement": "Promising Rookie",
+      "character_id": 14606,
+      "rank": 82
+    },
+    {
+      "id": 65010324,
+      "code": "366485848",
+      "nickname": "Mugiwara",
+      "level": 936,
+      "score": 75092,
+      "achievement": "Le jeune plein d'avenir  Le talentueux débutant",
+      "character_id": 14606,
+      "rank": 83
+    },
+    {
+      "id": 73041442,
+      "code": "909233876",
+      "nickname": "UpTown Pirates",
+      "level": 191,
+      "score": 74610,
+      "achievement": "Promising Rookie",
+      "character_id": 14606,
+      "rank": 84
+    },
+    {
+      "id": 58650083,
+      "code": "398398284",
+      "nickname": "ᴺᵒᵖᙆʸ",
+      "level": 516,
+      "score": 74361,
+      "achievement": "<icon=common_font_3D2Y.png>",
+      "character_id": 14606,
+      "rank": 85
+    },
+    {
+      "id": 24577488,
+      "code": "376013325",
+      "nickname": "N.W.A",
+      "level": 224,
+      "score": 72832,
+      "achievement": "Promising Rookie",
+      "character_id": 14452,
+      "rank": 86
+    },
+    {
+      "id": 54465596,
+      "code": "228228366",
+      "nickname": "Akai Kuro",
+      "level": 277,
+      "score": 72452,
+      "achievement": "Pirate King",
+      "character_id": 13359,
+      "rank": 87
+    },
+    {
+      "id": 44556721,
+      "code": "375906454",
+      "nickname": "Comirnaty",
+      "level": 1656,
+      "score": 72140,
+      "achievement": "<icon=common_font_grandparty_0101_franky_brook_14551_14552.png> <icon=common_font_grandparty_0094_saturn_bonny_14452_14457.png>",
+      "character_id": 14558,
+      "rank": 88
+    },
+    {
+      "id": 43738508,
+      "code": "130023900",
+      "nickname": "파도소리",
+      "level": 462,
+      "score": 72054,
+      "achievement": "기대 루키",
+      "character_id": 13472,
+      "rank": 89
+    },
+    {
+      "id": 64391353,
+      "code": "559813699",
+      "nickname": "confoundead",
+      "level": 546,
+      "score": 71870,
+      "achievement": "Executor Enjoying the Sea",
+      "character_id": 14569,
+      "rank": 90
+    },
+    {
+      "id": 18134382,
+      "code": "287043503",
+      "nickname": "Liebing95",
+      "level": 284,
+      "score": 71275,
+      "achievement": "Promising of Pirate King",
+      "character_id": 13627,
+      "rank": 91
+    },
+    {
+      "id": 71342371,
+      "code": "926283755",
+      "nickname": "Muginawa",
+      "level": 363,
+      "score": 70858,
+      "achievement": "Le démon au bambou",
+      "character_id": 14608,
+      "rank": 92
+    },
+    {
+      "id": 73394803,
+      "code": "529503401",
+      "nickname": "EZRA PIRATES ☠️",
+      "level": 222,
+      "score": 70672,
+      "achievement": "Promising Rookie",
+      "character_id": 14606,
+      "rank": 93
+    },
+    {
+      "id": 71791651,
+      "code": "911572329",
+      "nickname": "Picyara",
+      "level": 544,
+      "score": 70380,
+      "achievement": "<icon=common_font_grandparty_0098_garling_garp_14512_14513.png> and <icon=common_font_grandparty_0101_franky_brook_14551_14552.png>",
+      "character_id": 13358,
+      "rank": 94
+    },
+    {
+      "id": 72390759,
+      "code": "532597168",
+      "nickname": "Lily Works",
+      "level": 178,
+      "score": 69745,
+      "achievement": "Le jeune plein d'avenir  Le talentueux débutant",
+      "character_id": 14265,
+      "rank": 95
+    },
+    {
+      "id": 43366419,
+      "code": "563390803",
+      "nickname": "020",
+      "level": 261,
+      "score": 69415,
+      "achievement": "기대 루키",
+      "character_id": 14606,
+      "rank": 96
+    },
+    {
+      "id": 32463427,
+      "code": "343276834",
+      "nickname": "J Jacobo",
+      "level": 290,
+      "score": 68764,
+      "achievement": "Le tonton ",
+      "character_id": 14610,
+      "rank": 97
+    },
+    {
+      "id": 73290740,
+      "code": "118823005",
+      "nickname": "Warjok Pirates",
+      "level": 302,
+      "score": 68302,
+      "achievement": "The Worst <icon=common_font_super_treasuremap_0100_luffy_kantou_14558.png>",
+      "character_id": 14606,
+      "rank": 98
+    },
+    {
+      "id": 73380607,
+      "code": "750383202",
+      "nickname": "ErTozzo",
+      "level": 150,
+      "score": 67974,
+      "achievement": "Promising Rookie",
+      "character_id": 14558,
+      "rank": 99
+    },
+    {
+      "id": 3301530,
+      "code": "025473159",
+      "nickname": "Tapir Pirates",
+      "level": 290,
+      "score": 67965,
+      "achievement": "Promising Rookie",
+      "character_id": 13358,
+      "rank": 100
+    }
+  ],
+  "rank_border_scores": [
+    {
+      "rank_id": 1,
+      "score": 128777
+    },
+    {
+      "rank_id": 2,
+      "score": 113645
+    },
+    {
+      "rank_id": 3,
+      "score": 94227
+    },
+    {
+      "rank_id": 4,
+      "score": 69415
+    },
+    {
+      "rank_id": 5,
+      "score": 50919
+    },
+    {
+      "rank_id": 6,
+      "score": 26395
+    },
+    {
+      "rank_id": 7,
+      "score": 600
+    }
+  ],
+  "last_updated": "2025-10-05T14:07:01.637791+00:00"
+}
