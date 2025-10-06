@@ -125,8 +125,10 @@ document.addEventListener('DOMContentLoaded', () => {
         users.forEach(user => {
             const userButton = document.createElement('button');
             userButton.className = 'user-select-btn';
+            // --- 변경된 부분: user.idType을 사용하여 라벨을 동적으로 변경 ---
+            const idLabel = user.idType === 'code' ? 'Code' : 'ID';
             userButton.innerHTML = `
-                <div><strong>ID/Code:</strong> ${user.id}</div>
+                <div><strong>${idLabel}:</strong> ${user.id}</div>
                 <div><strong>최근 활동:</strong> ${user.lastPeriod} (${getRankTypeName(user.lastRankType)})</div>
             `;
             userButton.addEventListener('click', () => {
@@ -193,9 +195,12 @@ document.addEventListener('DOMContentLoaded', () => {
                     const currentPlayerNickname = getNickname(player);
                     if (currentPlayerNickname && currentPlayerNickname.toLowerCase() === normalizedNickname) {
                         const id = getUserId(player, rankType);
+                        // --- 변경된 부분: idType(code/id) 정보도 함께 저장 ---
+                        const idType = getUserIdType(rankType); 
                         if (id && !usersMap.has(id)) {
                             usersMap.set(id, {
                                 id: id,
+                                idType: idType, // idType 정보 추가
                                 lastPeriod: entry.period,
                                 lastRankType: rankType,
                             });
@@ -399,15 +404,24 @@ document.addEventListener('DOMContentLoaded', () => {
         return player.user ? player.user.nickname : player.nickname;
     }
     
-    // --- 여기가 최종 수정된 부분입니다 ---
+    // --- 여기가 핵심 변경 부분입니다 ---
     function getUserId(player, rankType) {
         const user = player.user || player;
-        // 요청하신 4가지 랭킹 타입은 code를 우선으로 사용
-        if (rankType === 'run_data' || rankType === 'bounty_data' || rankType === 'kizuna_data' || rankType === 'gp_data') {
+        const codePriority = ['run_data', 'bounty_data', 'kizuna_data', 'gp_data'];
+        
+        if (codePriority.includes(rankType)) {
             return user.code || user.id;
         }
-        // 그 외의 경우 기존 로직대로 id를 우선으로 사용
         return user.id || user.code;
+    }
+
+    // --- idType을 반환하는 새로운 헬퍼 함수 ---
+    function getUserIdType(rankType) {
+        const codePriority = ['run_data', 'bounty_data', 'kizuna_data', 'gp_data'];
+        if (codePriority.includes(rankType)) {
+            return 'code';
+        }
+        return 'id';
     }
     // --- 여기까지 ---
 
