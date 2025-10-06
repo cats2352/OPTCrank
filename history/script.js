@@ -19,20 +19,18 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- 자동완성 기능 초기화 ---
     initializeAutocomplete();
 
-    // --- URL 파라미터를 이용한 자동 검색 기능 (추가된 부분) ---
+    // --- URL 파라미터를 이용한 자동 검색 기능 ---
     const urlParams = new URLSearchParams(window.location.search);
     const nicknameFromUrl = urlParams.get('nickname');
     if (nicknameFromUrl) {
-        nicknameInput.value = nicknameFromUrl; // URL 파라미터로 받은 닉네임을 입력창에 설정
-        performSearch(); // 자동으로 검색 실행
+        nicknameInput.value = nicknameFromUrl;
+        performSearch();
     }
-    // --- 여기까지 추가 ---
 
     async function initializeAutocomplete() {
         if (!allDataCache) {
             allDataCache = await loadAllData();
         }
-        // 모든 닉네임 수집
         for (const rankType in allDataCache) {
             allDataCache[rankType].forEach(entry => {
                 const players = getPlayersFromData({ type: rankType, data: entry.data });
@@ -45,7 +43,6 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         }
 
-        // 입력 필드에 input 이벤트 리스너 추가
         nicknameInput.addEventListener('input', function(e) {
             const val = this.value;
             closeAllLists();
@@ -86,7 +83,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-
     async function performSearch() {
         const nickname = nicknameInput.value.trim();
         closeAllLists();
@@ -104,14 +100,58 @@ document.addEventListener('DOMContentLoaded', () => {
             allDataCache = await loadAllData();
         }
 
-        const uniqueIds = findUniqueIdsByNickname(nickname, allDataCache);
-        if (uniqueIds.size === 0) {
+        const uniqueUsers = findUniqueUsersByNickname(nickname, allDataCache);
+
+        if (uniqueUsers.length === 0) {
             loadingIndicator.style.display = 'none';
             resultsContainer.innerHTML = '<p>해당 닉네임을 가진 유저를 찾을 수 없습니다.</p>';
             return;
         }
 
-        const history = findUserHistoryByIds(uniqueIds, allDataCache);
+        if (uniqueUsers.length > 1) {
+            loadingIndicator.style.display = 'none';
+            displayUserSelection(uniqueUsers);
+        } else {
+            const userId = uniqueUsers[0].id;
+            searchHistoryForUser(userId);
+        }
+    }
+
+    function displayUserSelection(users) {
+        resultsContainer.innerHTML = '<h2>동일한 닉네임을 사용하는 여러 유저가 검색되었습니다.</h2><p>조회할 유저를 선택해주세요.</p>';
+        const userList = document.createElement('div');
+        userList.className = 'user-selection-list';
+
+        users.forEach(user => {
+            const userButton = document.createElement('button');
+            userButton.className = 'user-select-btn';
+            userButton.innerHTML = `
+                <div><strong>ID/Code:</strong> ${user.id}</div>
+                <div><strong>최근 활동:</strong> ${user.lastPeriod} (${getRankTypeName(user.lastRankType)})</div>
+            `;
+            userButton.addEventListener('click', () => {
+                searchHistoryForUser(user.id);
+            });
+            userList.appendChild(userButton);
+        });
+        resultsContainer.appendChild(userList);
+
+        const style = document.createElement('style');
+        style.innerHTML = `
+            .user-selection-list { display: flex; flex-direction: column; gap: 10px; }
+            .user-select-btn { padding: 15px; border: 1px solid #ccc; border-radius: 8px; cursor: pointer; text-align: left; background-color: #f9f9f9; }
+            .user-select-btn:hover { background-color: #e9e9e9; }
+        `;
+        document.head.appendChild(style);
+    }
+    
+    async function searchHistoryForUser(userId) {
+        loadingIndicator.style.display = 'block';
+        resultsContainer.innerHTML = '';
+        summaryContainer.innerHTML = '';
+
+        const idSet = new Set([userId]);
+        const history = findUserHistoryByIds(idSet, allDataCache);
         
         loadingIndicator.style.display = 'none';
         displayHistory(history);
@@ -140,27 +180,32 @@ document.addEventListener('DOMContentLoaded', () => {
         return allRankings;
     }
     
-    function findUniqueIdsByNickname(nickname, allData) {
-        const ids = new Set();
+    function findUniqueUsersByNickname(nickname, allData) {
+        const usersMap = new Map();
         const normalizedNickname = nickname.toLowerCase();
 
         for (const rankType in allData) {
-            allData[rankType].forEach(entry => {
+            const sortedEntries = [...allData[rankType]].sort((a, b) => b.period.localeCompare(a.period));
+
+            sortedEntries.forEach(entry => {
                 const players = getPlayersFromData({ type: rankType, data: entry.data });
                 players.forEach(player => {
                     const currentPlayerNickname = getNickname(player);
                     if (currentPlayerNickname && currentPlayerNickname.toLowerCase() === normalizedNickname) {
-                        const id = getUserId(player);
-                        if (id) {
-                            ids.add(id);
+                        const id = getUserId(player, rankType);
+                        if (id && !usersMap.has(id)) {
+                            usersMap.set(id, {
+                                id: id,
+                                lastPeriod: entry.period,
+                                lastRankType: rankType,
+                            });
                         }
                     }
                 });
             });
         }
-        return ids;
+        return Array.from(usersMap.values());
     }
-
 
     function findUserHistoryByIds(ids, allData) {
         const history = {};
@@ -169,7 +214,7 @@ document.addEventListener('DOMContentLoaded', () => {
             allData[rankType].forEach(entry => {
                 const players = getPlayersFromData({ type: rankType, data: entry.data });
                 players.forEach(player => {
-                    const playerId = getUserId(player);
+                    const playerId = getUserId(player, rankType);
                     if (ids.has(playerId)) {
                          recordsMap.set(entry.period, {
                             period: entry.period,
@@ -184,7 +229,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
         return history;
     }
-
 
     function displayHistory(history) {
         resultsContainer.innerHTML = '';
@@ -204,7 +248,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 categoryDiv.className = 'result-category';
                 categoryDiv.innerHTML = `<h2>${getRankTypeName(rankType)}</h2>`;
 
-                // 차트 생성
                 const chartContainer = document.createElement('div');
                 chartContainer.className = 'chart-container';
                 const canvas = document.createElement('canvas');
@@ -212,7 +255,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 categoryDiv.appendChild(chartContainer);
                 createChart(canvas, records);
                 
-                // 테이블 생성 (닉네임 열 추가)
                 const table = document.createElement('table');
                 table.innerHTML = `
                     <thead>
@@ -240,14 +282,13 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         if (!hasResults) {
-            resultsContainer.innerHTML = '<p>해당 닉네임에 대한 랭킹 기록을 찾을 수 없습니다.</p>';
+            resultsContainer.innerHTML = '<p>해당 유저에 대한 랭킹 기록을 찾을 수 없습니다.</p>';
             saveBtn.style.display = 'none';
         } else {
             saveBtn.style.display = 'block';
         }
     }
     
-    /** 종합 요약 데이터 계산 */
     function calculateSummary(history) {
         let bestRank = Infinity;
         let top100Count = 0;
@@ -282,7 +323,6 @@ document.addEventListener('DOMContentLoaded', () => {
         };
     }
 
-    /** 종합 요약 카드 표시 */
     function displaySummary(summary) {
         const summaryHtml = `
             <div class="summary-card">
@@ -306,7 +346,6 @@ document.addEventListener('DOMContentLoaded', () => {
         summaryContainer.innerHTML = summaryHtml;
     }
 
-
     function createChart(canvas, records) {
         const labels = records.map(r => r.period);
         const data = records.map(r => r.rank);
@@ -327,7 +366,7 @@ document.addEventListener('DOMContentLoaded', () => {
             options: {
                 scales: {
                     y: {
-                        reverse: true, // 순위가 낮을수록 위로
+                        reverse: true,
                         beginAtZero: false
                     }
                 }
@@ -337,7 +376,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // --- 유틸리티 함수 ---
     function getFileNameForRankType(rankType) {
-        const map = { 'run_data': 'run.json', 'gp_data': 'gp.json', 'kizuna_data': 'kizuna.json', 'tm_data': 'tm.json', 'bounty_data': 'bounty.json', 'pvp_data': 'pvp.json' };
+        const map = {
+            'run_data': 'run.json', 'gp_data': 'gp.json', 'kizuna_data': 'kizuna.json', 
+            'tm_data': 'tm.json', 'bounty_data': 'bounty.json', 'pvp_data': 'pvp.json',
+            'blitz_data': 'blitz.json'
+        };
         return map[rankType];
     }
 
@@ -347,7 +390,7 @@ document.addEventListener('DOMContentLoaded', () => {
             case 'run_data': case 'pvp_data': return data.ranking_datas || [];
             case 'gp_data': case 'kizuna_data': return data.ranked_records || [];
             case 'tm_data': return data.rank_data || [];
-            case 'bounty_data': return data.rankings || [];
+            case 'bounty_data': case 'blitz_data': return data.rankings || [];
             default: return [];
         }
     }
@@ -356,10 +399,17 @@ document.addEventListener('DOMContentLoaded', () => {
         return player.user ? player.user.nickname : player.nickname;
     }
     
-    function getUserId(player) {
+    // --- 여기가 최종 수정된 부분입니다 ---
+    function getUserId(player, rankType) {
         const user = player.user || player;
+        // 요청하신 4가지 랭킹 타입은 code를 우선으로 사용
+        if (rankType === 'run_data' || rankType === 'bounty_data' || rankType === 'kizuna_data' || rankType === 'gp_data') {
+            return user.code || user.id;
+        }
+        // 그 외의 경우 기존 로직대로 id를 우선으로 사용
         return user.id || user.code;
     }
+    // --- 여기까지 ---
 
     function getScore(player) {
         if (player.score) return player.score;
@@ -373,13 +423,13 @@ document.addEventListener('DOMContentLoaded', () => {
     
     function getRankTypeName(rankType) {
         const names = {
-            'run_data': '트크런 랭킹', 'gp_data': '토벌페스티벌 랭킹', 'kizuna_data': '유대결전 랭킹',
-            'tm_data': '트맵 랭킹', 'bounty_data': '현상금 랭킹', 'pvp_data': '해적제 랭킹'
+            'run_data': '트크런', 'gp_data': '토벌페스티벌', 'kizuna_data': '유대결전',
+            'tm_data': '트레저맵', 'bounty_data': '현상금', 'pvp_data': '해적제',
+            'blitz_data': '대난투'
         };
         return names[rankType] || rankType;
     }
     
-    /** 이미지 저장 */
     function saveAsImage() {
         const nickname = nicknameInput.value.trim();
         const target = document.getElementById("capture-area");
@@ -413,5 +463,4 @@ document.addEventListener('DOMContentLoaded', () => {
             saveBtn.disabled = false;
         });
     }
-
 });
