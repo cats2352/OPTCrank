@@ -107,6 +107,50 @@ body {
     color: var(--secondary-color);
 }
 
+/* --- 공지사항 섹션 스타일 추가 --- */
+.notice-section {
+    background-color: var(--card-hover-bg);
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+.notice-section h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: var(--primary-color);
+    font-size: 1.5em;
+    border-bottom: 2px solid #dee2e6;
+    padding-bottom: 10px;
+}
+
+#notice-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#notice-list li {
+    padding: 10px 0;
+    border-bottom: 1px solid #e9ecef;
+}
+
+#notice-list li:last-child {
+    border-bottom: none;
+}
+
+#notice-list .date {
+    font-weight: bold;
+    color: var(--secondary-color);
+    margin-right: 15px;
+}
+
+#notice-list .content {
+    color: var(--text-color);
+}
+
+
 /* --- 반응형 처리 --- */
 @media (max-width: 768px) {
     .hub-container {
@@ -119,5 +163,21 @@ body {
 
     .card-grid {
         grid-template-columns: 1fr;
+    }
+    
+    .notice-section {
+        padding: 15px;
+        margin-bottom: 30px;
+    }
+
+    #notice-list li {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #notice-list .date {
+        margin-right: 0;
+        margin-bottom: 5px;
+        font-size: 0.9em;
     }
 }

@@ -144,6 +144,8 @@ async function loadAndCompareRankings() {
     const isSingleView = singleViewCheckbox.checked;
     const titleElement = document.getElementById('main-title');
     const lastUpdatedElement = document.getElementById('last-updated');
+    const cutoffList = document.getElementById('cutoff-list');
+    cutoffList.innerHTML = ''; // 커트라인 정보 초기화
 
     if (isSingleView) {
         const selectedDir = dataSelector.value;
@@ -160,6 +162,9 @@ async function loadAndCompareRankings() {
             currentNewData = data.ranking_datas;
             currentOldData = null;
             displayResults(null, currentNewData);
+            if (data.rank_border_scores) {
+                displayCutoffScores(data.rank_border_scores);
+            }
         } catch (error) {
             console.error("랭킹 파일 로딩 오류:", error);
             alert("랭킹 파일을 불러오는 데 실패했습니다.");
@@ -192,11 +197,41 @@ async function loadAndCompareRankings() {
             currentOldData = oldJson.ranking_datas;
             currentNewData = newJson.ranking_datas;
             displayResults(currentOldData, currentNewData);
+            if (newJson.rank_border_scores) {
+                displayCutoffScores(newJson.rank_border_scores);
+            }
         } catch (error) {
             console.error("랭킹 파일 로딩 오류:", error);
             alert("랭킹 파일을 불러오는 데 실패했습니다.");
         }
     }
+}
+
+/**
+ * 커트라인 점수를 화면에 표시하는 함수
+ * @param {Array} cutoffData - rank_border_scores 배열
+ */
+function displayCutoffScores(cutoffData) {
+    const cutoffList = document.getElementById('cutoff-list');
+    cutoffList.innerHTML = ''; // 기존 내용 초기화
+
+    const rankNames = {
+        1: '1% 이내', 2: '10% 이내', 3: '20% 이내', 4: '30% 이내',
+        5: '50% 이내', 6: '70% 이내', 7: '100% 이내'
+    };
+
+    cutoffData.forEach(item => {
+        const cutoffItem = document.createElement('div');
+        cutoffItem.className = 'cutoff-item';
+        
+        const rankName = rankNames[item.rank_id] || `${item.rank_id}위`;
+
+        cutoffItem.innerHTML = `
+            <div class="rank">${rankName}</div>
+            <div class="score">${item.score.toLocaleString()}</div>
+        `;
+        cutoffList.appendChild(cutoffItem);
+    });
 }
 
 function updateLastUpdated(lastUpdated, element) {

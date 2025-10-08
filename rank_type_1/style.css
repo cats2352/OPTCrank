@@ -124,6 +124,48 @@ tr.rank-new .rank-change { color: #629b41; font-weight: bold; }
     text-decoration: underline;
 }
 
+/* --- 커트라인 정보 스타일 추가 --- */
+.cutoff-container {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.cutoff-container h2 {
+    margin-top: 0;
+    text-align: center;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+.cutoff-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 15px;
+    text-align: center;
+}
+
+.cutoff-item {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.cutoff-item .rank {
+    font-size: 1em;
+    font-weight: bold;
+    color: #6c757d;
+    margin-bottom: 5px;
+}
+
+.cutoff-item .score {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #343a40;
+}
+
 @media (max-width: 768px) {
     body {
         padding: 10px;
