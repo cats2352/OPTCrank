@@ -216,8 +216,8 @@ function displayCutoffScores(cutoffData) {
     cutoffList.innerHTML = ''; // 기존 내용 초기화
 
     const rankNames = {
-        1: '1% 이내', 2: '10% 이내', 3: '20% 이내', 4: '30% 이내',
-        5: '50% 이내', 6: '70% 이내', 7: '100% 이내'
+        1: '5%<br>S랭크', 2: '5.01%~10%<br>A랭크', 3: '10.01%~20%<br>B랭크', 4: '20.01%~40%<br>C랭크',
+        5: '40.01%~60%<br>D랭크', 6: '60.01%~80%<br>E랭크', 7: '80.01%<br>F랭크'
     };
 
     cutoffData.forEach(item => {
