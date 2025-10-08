@@ -11,7 +11,8 @@ let currentOldData = [];
 
 // --- DOM 요소 ---
 const yearSelector = document.getElementById('yearSelector');
-const monthWeekSelector = document.getElementById('monthWeekSelector');
+const monthSelector = document.getElementById('monthSelector'); // 월 선택 추가
+const weekSelector = document.getElementById('weekSelector');   // 주차 선택 추가
 const dataSelector = document.getElementById('dataSelector');
 const singleViewCheckbox = document.getElementById('singleViewCheckbox');
 const tgallCheckbox = document.getElementById('tgallCheckbox');
@@ -21,8 +22,9 @@ const tableContainer = document.querySelector('.table-container');
 
 // 이벤트 리스너
 document.addEventListener('DOMContentLoaded', initializeApp);
-yearSelector.addEventListener('change', updateMonthWeekSelector);
-monthWeekSelector.addEventListener('change', loadAndCompareRankings);
+yearSelector.addEventListener('change', updateMonthSelector);
+monthSelector.addEventListener('change', updateWeekSelector);
+weekSelector.addEventListener('change', loadAndCompareRankings);
 dataSelector.addEventListener('change', loadAndCompareRankings);
 singleViewCheckbox.addEventListener('change', toggleViewMode);
 tgallCheckbox.addEventListener('change', filterByTgall);
@@ -43,14 +45,36 @@ async function initializeApp() {
 
 /** 모든 선택 메뉴 채우기 */
 function populateSelectors() {
-    populateYearSelector();
-    updateMonthWeekSelector();
+    const directories = configData[RANKING_TYPE].sort(sortDirectories).reverse();
+    const latestDir = directories[0];
+    
+    // 단일 데이터 선택 메뉴 채우기
+    dataSelector.innerHTML = '';
+    directories.forEach(dir => {
+        const option = document.createElement('option');
+        option.value = dir;
+        option.textContent = dir;
+        dataSelector.appendChild(option);
+    });
+
+    // 데이터가 1개만 있을 경우 단일 보기 모드로 강제 전환
+    if (directories.length <= 1) {
+        singleViewCheckbox.checked = true;
+        singleViewCheckbox.disabled = true;
+    } else {
+        singleViewCheckbox.disabled = false;
+    }
+
+    populateYearSelector(); // 연도 선택 메뉴 채우기 시작
+    toggleViewMode(); // 초기 뷰 모드 설정
 }
 
 /** 연도 선택 메뉴 채우기 */
 function populateYearSelector() {
     const directories = configData[RANKING_TYPE];
-    const years = [...new Set(directories.map(dir => parseDateString(dir).year))].sort((a, b) => b - a);
+    // 최신 데이터를 제외한 비교 가능한 데이터 목록 생성
+    const comparableDirectories = directories.slice(1); 
+    const years = [...new Set(comparableDirectories.map(dir => parseDateString(dir).year))].sort((a, b) => b - a);
     
     yearSelector.innerHTML = '';
     years.forEach(year => {
@@ -59,61 +83,59 @@ function populateYearSelector() {
         option.textContent = `${year}년`;
         yearSelector.appendChild(option);
     });
+    updateMonthSelector();
 }
 
-/** 월/주차 및 단일 데이터 선택 메뉴 업데이트 */
-function updateMonthWeekSelector() {
+/** 월 선택 메뉴 업데이트 */
+function updateMonthSelector() {
     const selectedYear = yearSelector.value;
-    const directories = configData[RANKING_TYPE]
-        .map(dir => ({ original: dir, parsed: parseDateString(dir) }))
-        .filter(item => item.parsed.year == selectedYear)
-        .sort((a, b) => sortDirectories(a.original, b.original))
-        .reverse();
+    const comparableDirectories = configData[RANKING_TYPE].slice(1);
 
-    monthWeekSelector.innerHTML = '';
-    dataSelector.innerHTML = '';
-    
-    directories.forEach((dir, index) => {
-        // 단일 데이터 선택 메뉴 채우기
-        const dataOption = document.createElement('option');
-        dataOption.value = dir.original;
-        dataOption.textContent = dir.original;
-        dataSelector.appendChild(dataOption);
+    const months = [...new Set(
+        comparableDirectories
+            .map(dir => parseDateString(dir))
+            .filter(date => date.year == selectedYear)
+            .map(date => date.month)
+    )].sort((a, b) => b - a);
 
-        // 비교 시점 선택 메뉴 채우기 (최신 데이터 제외)
-        if (index > 0) {
-            const comparisonOption = document.createElement('option');
-            comparisonOption.value = dir.original;
-            comparisonOption.textContent = dir.original;
-            monthWeekSelector.appendChild(comparisonOption);
-        }
+    monthSelector.innerHTML = '';
+    months.forEach(month => {
+        const option = document.createElement('option');
+        option.value = month;
+        option.textContent = `${month}월`;
+        monthSelector.appendChild(option);
     });
-    
-    // 데이터가 1개만 있을 경우 단일 보기 모드로 강제 전환
-    if (directories.length <= 1) {
-        singleViewCheckbox.checked = true;
-        singleViewCheckbox.disabled = true;
-        comparisonSelection.style.display = 'none';
-        singleSelection.style.display = '';
-        tableContainer.classList.add('single-view');
-    } else {
-        singleViewCheckbox.disabled = false;
-        if (!singleViewCheckbox.checked) {
-            comparisonSelection.style.display = '';
-            singleSelection.style.display = 'none';
-        }
-        tableContainer.classList.remove('single-view');
-    }
+    updateWeekSelector();
+}
 
+/** 주차 선택 메뉴 업데이트 */
+function updateWeekSelector() {
+    const selectedYear = yearSelector.value;
+    const selectedMonth = monthSelector.value;
+    const comparableDirectories = configData[RANKING_TYPE].slice(1);
+
+    const weeks = [...new Set(
+        comparableDirectories
+            .map(dir => parseDateString(dir))
+            .filter(date => date.year == selectedYear && date.month == selectedMonth)
+            .map(date => date.week)
+    )].sort((a, b) => b - a);
+
+    weekSelector.innerHTML = '';
+    weeks.forEach(week => {
+        const option = document.createElement('option');
+        option.value = week;
+        option.textContent = `${week}주차`;
+        weekSelector.appendChild(option);
+    });
     loadAndCompareRankings();
 }
-
 
 /** 보기 모드 전환 (단일/비교) */
 function toggleViewMode() {
     const isSingleView = singleViewCheckbox.checked;
-    comparisonSelection.style.display = isSingleView ? 'none' : '';
-    singleSelection.style.display = isSingleView ? '' : 'none';
+    comparisonSelection.style.display = isSingleView ? 'none' : 'flex';
+    singleSelection.style.display = isSingleView ? 'flex' : 'none';
     tableContainer.classList.toggle('single-view', isSingleView);
     loadAndCompareRankings();
 }
@@ -134,13 +156,7 @@ async function loadAndCompareRankings() {
         const path = `../data/${RANKING_TYPE}/${selectedDir}/${DATA_FILE_NAME}`;
         try {
             const data = await fetch(path).then(res => res.json());
-            if (data.last_updated) {
-                const date = new Date(data.last_updated);
-                const formattedDate = `${date.getFullYear()}년 ${(date.getMonth() + 1).toString().padStart(2, '0')}월 ${date.getDate().toString().padStart(2, '0')}일 ${date.getHours().toString().padStart(2, '0')}시 ${date.getMinutes().toString().padStart(2, '0')}분`;
-                lastUpdatedElement.textContent = formattedDate;
-            } else {
-                lastUpdatedElement.textContent = "해당 업데이트 시간 정보가 없습니다.";
-            }
+            updateLastUpdated(data.last_updated, lastUpdatedElement);
             currentNewData = data.ranking_datas;
             currentOldData = null;
             displayResults(null, currentNewData);
@@ -149,11 +165,15 @@ async function loadAndCompareRankings() {
             alert("랭킹 파일을 불러오는 데 실패했습니다.");
         }
     } else {
-        const selectedComparisonDir = monthWeekSelector.value;
-        if (!selectedComparisonDir) {
+        const selectedYear = yearSelector.value;
+        const selectedMonth = monthSelector.value;
+        const selectedWeek = weekSelector.value;
+
+        if (!selectedYear || !selectedMonth || !selectedWeek) {
             document.querySelector('#resultsTable tbody').innerHTML = '';
             return;
         }
+        const selectedComparisonDir = `${selectedYear}년${selectedMonth}월${selectedWeek}주차`;
 
         const allDirectories = configData[RANKING_TYPE].sort(sortDirectories).reverse();
         const latestDir = allDirectories[0];
@@ -168,13 +188,7 @@ async function loadAndCompareRankings() {
                 fetch(comparisonPath).then(res => res.json()),
                 fetch(latestPath).then(res => res.json())
             ]);
-            if (newJson.last_updated) {
-                const date = new Date(newJson.last_updated);
-                const formattedDate = `${date.getFullYear()}년 ${(date.getMonth() + 1).toString().padStart(2, '0')}월 ${date.getDate().toString().padStart(2, '0')}일 ${date.getHours().toString().padStart(2, '0')}시 ${date.getMinutes().toString().padStart(2, '0')}분`;
-                lastUpdatedElement.textContent = formattedDate;
-            } else {
-                lastUpdatedElement.textContent = "해당 업데이트 시간 정보가 없습니다.";
-            }
+            updateLastUpdated(newJson.last_updated, lastUpdatedElement);
             currentOldData = oldJson.ranking_datas;
             currentNewData = newJson.ranking_datas;
             displayResults(currentOldData, currentNewData);
@@ -182,6 +196,15 @@ async function loadAndCompareRankings() {
             console.error("랭킹 파일 로딩 오류:", error);
             alert("랭킹 파일을 불러오는 데 실패했습니다.");
         }
+    }
+}
+
+function updateLastUpdated(lastUpdated, element) {
+    if (lastUpdated) {
+        const date = new Date(lastUpdated);
+        element.textContent = `${date.getFullYear()}년 ${(date.getMonth() + 1).toString().padStart(2, '0')}월 ${date.getDate().toString().padStart(2, '0')}일 ${date.getHours().toString().padStart(2, '0')}시 ${date.getMinutes().toString().padStart(2, '0')}분`;
+    } else {
+        element.textContent = "해당 업데이트 시간 정보가 없습니다.";
     }
 }
 
@@ -238,8 +261,6 @@ function displayResults(oldData, newData) {
     filterByNickname();
 }
 
-
-/** 닉네임 필터링 */
 function filterByNickname() {
     const searchTerm = document.getElementById('searchInput').value.toLowerCase();
     const table = document.getElementById('resultsTable');
@@ -260,7 +281,6 @@ function filterByNickname() {
     noResultsMessage.style.display = (visibleCount === 0 && searchTerm) ? 'block' : 'none';
 }
 
-/** 이미지 저장 */
 function saveTableAsImage() {
     const target = document.querySelector(".table-container");
     const button = document.getElementById('saveAsImageBtn');
@@ -270,7 +290,7 @@ function saveTableAsImage() {
 
     html2canvas(target, { 
         backgroundColor: '#ffffff',
-        scale: Math.max(2, window.devicePixelRatio || 1), // 화질 개선
+        scale: Math.max(2, window.devicePixelRatio || 1),
         useCORS: true,
         onclone: (clonedDoc) => {
             const clonedTarget = clonedDoc.querySelector(".table-container");
@@ -302,7 +322,6 @@ function saveTableAsImage() {
         button.disabled = false;
     });
 }
-
 
 /** 날짜 문자열 파싱 유틸리티 */
 function parseDateString(dir) {

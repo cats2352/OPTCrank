@@ -63,7 +63,8 @@ p { text-align: center; color: #6c757d; margin-bottom: 30px; line-height: 1.6; }
     font-weight: bold;
     white-space: nowrap;
 }
-#yearSelector, #monthWeekSelector, #dataSelector {
+/* 수정된 부분: #monthSelector와 #weekSelector를 추가하여 스타일을 적용합니다. */
+#yearSelector, #monthSelector, #weekSelector, #dataSelector {
     padding: 10px;
     border: 1px solid #ced4da;
     background-color: #ffffff;
@@ -114,36 +115,13 @@ tr.rank-new .rank-change { color: #629b41; font-weight: bold; }
     display: inline-block;
 }
 
-/* 해적제 페이지용 추가 스타일 */
-.view-deck-btn { background-color: #007bff; color: #ffffff; border: none; padding: 8px 12px; border-radius: 5px; cursor: pointer; transition: background-color 0.3s; }
-.view-deck-btn:hover { background-color: #0056b3; }
-
-.modal { display: none; position: fixed; z-index: 100; left: 0; top: 0; width: 100%; height: 100%; overflow: auto; background-color: rgba(0,0,0,0.6); }
-.modal-content { background-color: #ffffff; margin: 15% auto; padding: 25px; border: 1px solid #888; width: 80%; max-width: 500px; border-radius: 10px; position: relative; }
-.close-button { color: #aaa; float: right; font-size: 28px; font-weight: bold; cursor: pointer; }
-#deckInfo p { margin: 5px 0; font-size: 1.2em; text-align: center; }
-
-/* 유대결전 페이지용 추가 스타일 */
-.sort-controls {
-    grid-area: functions; /* functions 영역 재활용 */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    flex-wrap: wrap;
-    margin-bottom: 15px;
-}
-.sort-controls span { font-weight: bold; color: #6c757d; }
-.sort-btn { border: 1px solid #ced4da; background-color: transparent; color: #495057; padding: 8px 12px; border-radius: 5px; font-size: 14px; font-weight: bold; cursor: pointer; transition: background-color 0.3s ease; }
-.sort-btn.active { background-color: #007bff; color: #ffffff; border-color: #007bff; }
-
 .history-link {
-    color: inherit; /* 부모 요소의 색상을 상속받음 */
-    text-decoration: none; /* 밑줄 제거 */
+    color: inherit;
+    text-decoration: none;
 }
 
 .history-link:hover {
-    text-decoration: underline; /* 마우스를 올리면 밑줄 표시 */
+    text-decoration: underline;
 }
 
 @media (max-width: 768px) {
