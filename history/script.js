@@ -22,6 +22,8 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- URL 파라미터를 이용한 자동 검색 기능 ---
     const urlParams = new URLSearchParams(window.location.search);
     const nicknameFromUrl = urlParams.get('nickname');
+    const idFromUrl = urlParams.get('id'); // URL에서 id 파라미터 가져오기
+
     if (nicknameFromUrl) {
         nicknameInput.value = nicknameFromUrl;
         performSearch();
@@ -110,14 +112,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
         if (uniqueUsers.length > 1) {
             loadingIndicator.style.display = 'none';
-            displayUserSelection(uniqueUsers);
+            displayUserSelection(uniqueUsers, idFromUrl); // idFromUrl 전달
         } else {
             const userId = uniqueUsers[0].id;
             searchHistoryForUser(userId);
         }
     }
 
-    function displayUserSelection(users) {
+    function displayUserSelection(users, sourceId) { // sourceId 파라미터 추가
         resultsContainer.innerHTML = '<h2>동일한 닉네임을 사용하는 여러 유저가 검색되었습니다.</h2><p>조회할 유저를 선택해주세요.</p>';
         const userList = document.createElement('div');
         userList.className = 'user-selection-list';
@@ -125,10 +127,14 @@ document.addEventListener('DOMContentLoaded', () => {
         users.forEach(user => {
             const userButton = document.createElement('button');
             userButton.className = 'user-select-btn';
-            // --- 변경된 부분: user.idType을 사용하여 라벨을 동적으로 변경 ---
             const idLabel = user.idType === 'code' ? 'Code' : 'ID';
+
+            // 이전 페이지에서 넘어온 ID와 일치하는지 확인
+            const isMatch = sourceId && user.id.toString() === sourceId.toString();
+            const matchIndicator = isMatch ? '<span class="match-indicator">✔️ 이전 페이지에서 클릭한 유저</span>' : '';
+
             userButton.innerHTML = `
-                <div><strong>${idLabel}:</strong> ${user.id}</div>
+                <div><strong>${idLabel}:</strong> ${user.id} ${matchIndicator}</div>
                 <div><strong>최근 활동:</strong> ${user.lastPeriod} (${getRankTypeName(user.lastRankType)})</div>
             `;
             userButton.addEventListener('click', () => {
@@ -143,6 +149,7 @@ document.addEventListener('DOMContentLoaded', () => {
             .user-selection-list { display: flex; flex-direction: column; gap: 10px; }
             .user-select-btn { padding: 15px; border: 1px solid #ccc; border-radius: 8px; cursor: pointer; text-align: left; background-color: #f9f9f9; }
             .user-select-btn:hover { background-color: #e9e9e9; }
+            .match-indicator { color: green; font-weight: bold; margin-left: 10px; }
         `;
         document.head.appendChild(style);
     }
@@ -195,12 +202,11 @@ document.addEventListener('DOMContentLoaded', () => {
                     const currentPlayerNickname = getNickname(player);
                     if (currentPlayerNickname && currentPlayerNickname.toLowerCase() === normalizedNickname) {
                         const id = getUserId(player, rankType);
-                        // --- 변경된 부분: idType(code/id) 정보도 함께 저장 ---
                         const idType = getUserIdType(rankType); 
                         if (id && !usersMap.has(id)) {
                             usersMap.set(id, {
                                 id: id,
-                                idType: idType, // idType 정보 추가
+                                idType: idType,
                                 lastPeriod: entry.period,
                                 lastRankType: rankType,
                             });
@@ -404,7 +410,6 @@ document.addEventListener('DOMContentLoaded', () => {
         return player.user ? player.user.nickname : player.nickname;
     }
     
-    // --- 여기가 핵심 변경 부분입니다 ---
     function getUserId(player, rankType) {
         const user = player.user || player;
         const codePriority = ['run_data', 'bounty_data', 'kizuna_data', 'gp_data'];
@@ -415,7 +420,6 @@ document.addEventListener('DOMContentLoaded', () => {
         return user.id || user.code;
     }
 
-    // --- idType을 반환하는 새로운 헬퍼 함수 ---
     function getUserIdType(rankType) {
         const codePriority = ['run_data', 'bounty_data', 'kizuna_data', 'gp_data'];
         if (codePriority.includes(rankType)) {
@@ -423,7 +427,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
         return 'id';
     }
-    // --- 여기까지 ---
 
     function getScore(player) {
         if (player.score) return player.score;

@@ -221,7 +221,8 @@ function displayResults(oldData, newData) {
         const isSpecial = specialUsers.includes(newUser.code) || specialUsers.includes(newUser.id);
         const nickname = newUser.nickname;
         const encodedNickname = encodeURIComponent(nickname);
-        const nicknameHtml = `<a href="../history/index.html?nickname=${encodedNickname}" class="history-link">${nickname}</a>${isSpecial ? '<span class="tgall-icon">트갤</span>' : ''}`;
+        const userId = newUser.code || newUser.id;
+        const nicknameHtml = `<a href="../history/index.html?nickname=${encodedNickname}&id=${userId}" class="history-link">${nickname}</a>${isSpecial ? '<span class="tgall-icon">트갤</span>' : ''}`;
 
         const row = document.createElement('tr');
         row.className = rankChangeClass;
