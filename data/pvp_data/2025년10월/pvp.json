@@ -4,16 +4,16 @@
   "ranking_datas": [
     {
       "ranking": 1,
-      "ranking_point": 11307,
+      "ranking_point": 12957,
       "pirates_arena_deck": [
-        "몽키 D. 루피 - 미래 도시에서 대폭주",
-        "S-스네이크 - 매혹의 윙크",
         "피카 - 대지를 흔드는 거대한 몸",
-        "보아 행콕  from ONE PIECE magazine - ‘번개번개 열매’의 능력자",
-        "검은 수염 - ‘최악의 세대’ 간의 격돌",
+        "셰퍼드 주. 피터 성 - 세계 정부 최고 권력 ‘오로성’ 농무무신",
+        "빅 맘&카타쿠리 - 지옥의 시작",
         "토프먼 워큐리 성 - 세계 정부 최고 권력 ‘오로성’ 법무무신",
-        "블루잼 - 귀족을 향한 복수의 맹세",
-        "후지토라 - 쳐들어가는 해군 대장"
+        "버기&크로커다일&미호크 - ‘CROSS GUILD’",
+        "바솔로뮤 쿠마 - 자아가 없는 충동",
+        "페루 - 국가를 지키는 팔콘",
+        "S-호크"
       ],
       "user": {
         "id": 1756780,
@@ -29,32 +29,32 @@
     },
     {
       "ranking": 2,
-      "ranking_point": 9888,
+      "ranking_point": 11654,
       "pirates_arena_deck": [
+        "검은 수염 - ‘최악의 세대’ 간의 격돌",
+        "S-스네이크 - 매혹의 윙크",
+        "피카 - 대지를 흔드는 거대한 몸",
         "몽키 D. 루피 - 미래 도시에서 대폭주",
         "보아 행콕  from ONE PIECE magazine - ‘번개번개 열매’의 능력자",
-        "버기&크로커다일&미호크 - ‘CROSS GUILD’",
-        "S-스네이크 - 매혹의 윙크",
-        "검은 수염 - ‘최악의 세대’ 간의 격돌",
-        "바솔로뮤 쿠마 - 자아가 없는 충동",
+        "샬롯 스무디 - 쥐어짜는 수분",
         "블루잼 - 귀족을 향한 복수의 맹세",
         "후지토라 - 쳐들어가는 해군 대장"
       ],
       "user": {
-        "id": 38661682,
-        "nickname": "샬롯_Kakao♦️",
-        "achievement": "",
-        "level": 2015,
-        "pirates_grade_id": 21
+        "id": 11279,
+        "nickname": "[ΛF] Puzzy",
+        "achievement": "<icon=common_font_world_cruise2024_0053_sanji_2.png>",
+        "level": 1773,
+        "pirates_grade_id": 20
       },
       "map_game_result": {
         "league_number": 3,
-        "rank": 72
+        "rank": 5
       }
     },
     {
       "ranking": 3,
-      "ranking_point": 9520,
+      "ranking_point": 11649,
       "pirates_arena_deck": [
         "몽키 D. 루피 - 미래 도시에서 대폭주",
         "보아 행콕  from ONE PIECE magazine - ‘번개번개 열매’의 능력자",
@@ -79,7 +79,7 @@
     },
     {
       "ranking": 4,
-      "ranking_point": 9449,
+      "ranking_point": 11613,
       "pirates_arena_deck": [
         "우타 - Happy Christmas!!",
         "피카 - 대지를 흔드는 거대한 몸",
@@ -87,99 +87,74 @@
         "몽키 D. 루피 - 마왕에 가하는 마지막 일격",
         "S-스네이크 - ‘최강의 인류’",
         "바솔로뮤 쿠마 - 자아가 없는 충동",
-        "사카즈키 원수 - 새로운 시대에 대한 각오",
-        "소바 마스크 - 투명해지는 전사"
+        "킹 - 가로막는 화재",
+        "상디 - 몸을 감싼 분노의 불꽃"
       ],
       "user": {
-        "id": 38669808,
-        "nickname": "벨",
-        "achievement": "<icon=common_font_world_cruise2024_0053_robin_6.png>",
-        "level": 1652,
+        "id": 38763656,
+        "nickname": "사과",
+        "achievement": "기대 루키",
+        "level": 1420,
         "pirates_grade_id": 19
       },
       "map_game_result": {
         "league_number": 3,
-        "rank": 17
+        "rank": 999
       }
     },
     {
       "ranking": 5,
-      "ranking_point": 9180,
+      "ranking_point": 11568,
       "pirates_arena_deck": [
-        "S-스네이크 - 매혹의 윙크",
-        "피카 - 대지를 흔드는 거대한 몸",
-        "몽키 D. 루피 - 미래 도시에서 대폭주",
-        "보아 행콕  from ONE PIECE magazine - ‘번개번개 열매’의 능력자",
-        "검은 수염 - ‘최악의 세대’ 간의 격돌",
         "토프먼 워큐리 성 - 세계 정부 최고 권력 ‘오로성’ 법무무신",
-        "블루잼 - 귀족을 향한 복수의 맹세",
-        "후지토라 - 쳐들어가는 해군 대장"
+        "버기&크로커다일&미호크 - ‘CROSS GUILD’",
+        "빅 맘&카타쿠리 - 지옥의 시작",
+        "셰퍼드 주. 피터 성 - 세계 정부 최고 권력 ‘오로성’ 농무무신",
+        "피카 - 대지를 흔드는 거대한 몸",
+        "바솔로뮤 쿠마 - 자아가 없는 충동",
+        "S-호크",
+        "페루 - 국가를 지키는 팔콘"
       ],
       "user": {
-        "id": 38665349,
-        "nickname": "샬롯_Hwaniz♦️",
+        "id": 38661682,
+        "nickname": "샬롯_Kakao♦️",
         "achievement": "",
-        "level": 2270,
-        "pirates_grade_id": 20
+        "level": 2015,
+        "pirates_grade_id": 21
       },
       "map_game_result": {
         "league_number": 3,
-        "rank": 61
+        "rank": 72
       }
     },
     {
       "ranking": 6,
-      "ranking_point": 9020,
+      "ranking_point": 11487,
       "pirates_arena_deck": [
         "검은 수염 - ‘최악의 세대’ 간의 격돌",
         "S-스네이크 - 매혹의 윙크",
         "피카 - 대지를 흔드는 거대한 몸",
-        "몽키 D. 루피 - 미래 도시에서 대폭주",
         "보아 행콕  from ONE PIECE magazine - ‘번개번개 열매’의 능력자",
-        "샬롯 스무디 - 쥐어짜는 수분",
+        "몽키 D. 루피 - 미래 도시에서 대폭주",
+        "토프먼 워큐리 성 - 세계 정부 최고 권력 ‘오로성’ 법무무신",
         "블루잼 - 귀족을 향한 복수의 맹세",
         "후지토라 - 쳐들어가는 해군 대장"
       ],
       "user": {
-        "id": 11279,
-        "nickname": "[ΛF] Puzzy",
-        "achievement": "<icon=common_font_world_cruise2024_0053_sanji_2.png>",
-        "level": 1773,
-        "pirates_grade_id": 20
+        "id": 4211066,
+        "nickname": "TRA - Procamich",
+        "achievement": "Promising Rookie",
+        "level": 1912,
+        "pirates_grade_id": 19
       },
       "map_game_result": {
         "league_number": 3,
-        "rank": 5
+        "rank": 3
       }
     },
     {
       "ranking": 7,
-      "ranking_point": 8807,
-      "pirates_arena_deck": [
-        "셰퍼드 주. 피터 성 - 세계 정부 최고 권력 ‘오로성’ 농무무신",
-        "에단바론 V. 나스쥬로 성 - 세계 정부 최고 권력 ‘오로성’ 재무무신",
-        "토프먼 워큐리 성 - 세계 정부 최고 권력 ‘오로성’ 법무무신",
-        "제이가르시아 새턴 성 - 세계정부 최고 권력 ‘오로성’ 과학방위무신",
-        "마커스 마즈 성 - 세계 정부 최고 권력 ‘오로성’ 환경무신",
-        "알파",
-        null,
-        null
-      ],
-      "user": {
-        "id": 38665622,
-        "nickname": "샬롯_VV♦️",
-        "achievement": "<icon=common_font_dairansen_0103_luffy_2_14558.png>",
-        "level": 1800,
-        "pirates_grade_id": 20
-      },
-      "map_game_result": {
-        "league_number": 3,
-        "rank": 45
-      }
-    },
-    {
-      "ranking": 8,
-      "ranking_point": 8806,
+      "ranking_point": 11469,
       "pirates_arena_deck": [
         "검은 수염 - ‘최악의 세대’ 간의 격돌",
         "S-스네이크 - 매혹의 윙크",
@@ -203,8 +178,33 @@
       }
     },
     {
+      "ranking": 8,
+      "ranking_point": 11442,
+      "pirates_arena_deck": [
+        "나미 from ONE PIECE magazine - 삼검류의 여검사",
+        "에단바론 V. 나스쥬로 성 - 세계 정부 최고 권력 ‘오로성’ 재무무신",
+        "루피&조로&상디 - 예측 불가능한 미래섬",
+        "트라팔가 로 - 바위를 조종하는 손끝",
+        "몽키 D. 가프 - 애제자를 위해 휘두르는 주먹",
+        "징베 - 길을 여는 어인 공수도",
+        "부들부들 푸르르",
+        "우솝 - 과학의 섬의 미래복"
+      ],
+      "user": {
+        "id": 38669808,
+        "nickname": "벨",
+        "achievement": "<icon=common_font_world_cruise2024_0053_robin_6.png>",
+        "level": 1652,
+        "pirates_grade_id": 19
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 17
+      }
+    },
+    {
       "ranking": 9,
-      "ranking_point": 8765,
+      "ranking_point": 11368,
       "pirates_arena_deck": [
         "에단바론 V. 나스쥬로 성 - 세계 정부 최고 권력 ‘오로성’ 재무무신",
         "루피&조로&상디 - 예측 불가능한 미래섬",
@@ -229,91 +229,66 @@
     },
     {
       "ranking": 10,
-      "ranking_point": 8584,
+      "ranking_point": 11307,
       "pirates_arena_deck": [
-        "검은 수염 - ‘최악의 세대’ 간의 격돌",
-        "S-스네이크 - 매혹의 윙크",
-        "피카 - 대지를 흔드는 거대한 몸",
-        "보아 행콕  from ONE PIECE magazine - ‘번개번개 열매’의 능력자",
-        "몽키 D. 루피 - 미래 도시에서 대폭주",
         "토프먼 워큐리 성 - 세계 정부 최고 권력 ‘오로성’ 법무무신",
-        "블루잼 - 귀족을 향한 복수의 맹세",
-        "후지토라 - 쳐들어가는 해군 대장"
-      ],
-      "user": {
-        "id": 4211066,
-        "nickname": "TRA - Procamich",
-        "achievement": "<icon=common_font_kaizokudoumeidairansen_0083_vs_strongest_3_14307.png>",
-        "level": 1912,
-        "pirates_grade_id": 19
-      },
-      "map_game_result": {
-        "league_number": 3,
-        "rank": 3
-      }
-    },
-    {
-      "ranking": 11,
-      "ranking_point": 8351,
-      "pirates_arena_deck": [
-        "우타 - Happy Christmas!!",
-        "피카 - 대지를 흔드는 거대한 몸",
-        "코비 - 방위 진형을 치는 사령탑",
-        "몽키 D. 루피 - 마왕에 가하는 마지막 일격",
-        "S-스네이크 - ‘최강의 인류’",
-        "바솔로뮤 쿠마 - 자아가 없는 충동",
-        "킹 - 가로막는 화재",
-        "상디 - 몸을 감싼 분노의 불꽃"
-      ],
-      "user": {
-        "id": 38763656,
-        "nickname": "사과",
-        "achievement": "기대 루키",
-        "level": 1420,
-        "pirates_grade_id": 19
-      },
-      "map_game_result": {
-        "league_number": 3,
-        "rank": 999
-      }
-    },
-    {
-      "ranking": 12,
-      "ranking_point": 7895,
-      "pirates_arena_deck": [
-        "보아 행콕  from ONE PIECE magazine - ‘번개번개 열매’의 능력자",
-        "S-스네이크 - 매혹의 윙크",
         "버기&크로커다일&미호크 - ‘CROSS GUILD’",
-        "몽키 D. 루피 - 미래 도시에서 대폭주",
-        "검은 수염 - ‘최악의 세대’ 간의 격돌",
+        "빅 맘&카타쿠리 - 지옥의 시작",
+        "셰퍼드 주. 피터 성 - 세계 정부 최고 권력 ‘오로성’ 농무무신",
+        "피카 - 대지를 흔드는 거대한 몸",
         "바솔로뮤 쿠마 - 자아가 없는 충동",
-        "블루잼 - 귀족을 향한 복수의 맹세",
-        "후지토라 - 쳐들어가는 해군 대장"
+        "S-호크",
+        "페루 - 국가를 지키는 팔콘"
       ],
       "user": {
-        "id": 38664892,
-        "nickname": "[ΛF] Bmil",
-        "achievement": "갓 파더",
-        "level": 2148,
+        "id": 38665349,
+        "nickname": "샬롯_Hwaniz♦️",
+        "achievement": "",
+        "level": 2270,
         "pirates_grade_id": 20
       },
       "map_game_result": {
         "league_number": 3,
-        "rank": 14
+        "rank": 61
       }
     },
     {
-      "ranking": 13,
-      "ranking_point": 7652,
+      "ranking": 11,
+      "ranking_point": 11237,
       "pirates_arena_deck": [
-        "우타 - Happy Christmas!!",
-        "피카 - 대지를 흔드는 거대한 몸",
-        "코비 - 방위 진형을 치는 사령탑",
-        "몽키 D. 루피 - 마왕에 가하는 마지막 일격",
-        "S-스네이크 - ‘최강의 인류’",
-        "바솔로뮤 쿠마 - 자아가 없는 충동",
-        "사카즈키 원수 - 새로운 시대에 대한 각오",
-        "소바 마스크 - 투명해지는 전사"
+        "나미 from ONE PIECE magazine - 삼검류의 여검사",
+        "트라팔가 로 - 바위를 조종하는 손끝",
+        "니코 로빈 - Memories of 밀짚모자 일당",
+        "루피&조로&상디 - 예측 불가능한 미래섬",
+        "몽키 D. 가프 - 애제자를 위해 휘두르는 주먹",
+        "징베 - 길을 여는 어인 공수도",
+        null,
+        null
+      ],
+      "user": {
+        "id": 38665622,
+        "nickname": "샬롯_VV♦️",
+        "achievement": "<icon=common_font_dairansen_0103_luffy_2_14558.png>",
+        "level": 1800,
+        "pirates_grade_id": 20
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 45
+      }
+    },
+    {
+      "ranking": 12,
+      "ranking_point": 9291,
+      "pirates_arena_deck": [
+        "S-스네이크 - 매혹의 윙크",
+        "셰퍼드 주. 피터 성 - 세계 정부 최고 권력 ‘오로성’ 농무무신",
+        "토프먼 워큐리 성 - 세계 정부 최고 권력 ‘오로성’ 법무무신",
+        "마커스 마즈 성 - 세계 정부 최고 권력 ‘오로성’ 환경무신",
+        "에단바론 V. 나스쥬로 성 - 세계 정부 최고 권력 ‘오로성’ 재무무신",
+        "제이가르시아 새턴 성 - 세계정부 최고 권력 ‘오로성’ 과학방위무신",
+        null,
+        null
       ],
       "user": {
         "id": 12142162,
@@ -328,67 +303,17 @@
       }
     },
     {
-      "ranking": 14,
-      "ranking_point": 7502,
+      "ranking": 13,
+      "ranking_point": 9259,
       "pirates_arena_deck": [
-        "로저&레일리&가반 - 목표로 하는 세계 제일의 해적단",
-        "에단바론 V. 나스쥬로 성 - 세계 정부 최고 권력 ‘오로성’ 재무무신",
-        "조로&상디 - 왕으로 가는 길을 여는 날개",
-        "샬롯 크래커 - 무한 비스킷의 공포",
-        "S-호크",
-        "루피&로&키드 - 눈앞에 다가온 화염",
-        null,
-        null
-      ],
-      "user": {
-        "id": 42295463,
-        "nickname": "[TRA] 2Shankz",
-        "achievement": "<icon=common_font_world_cruise2024_0053_nami_1.png>",
-        "level": 1985,
-        "pirates_grade_id": 19
-      },
-      "map_game_result": {
-        "league_number": 3,
-        "rank": 43
-      }
-    },
-    {
-      "ranking": 15,
-      "ranking_point": 7152,
-      "pirates_arena_deck": [
-        "S-스네이크 - 매혹의 윙크",
-        "나미&상디 - 과학의 최고봉과의 교전",
-        "피카 - 대지를 흔드는 거대한 몸",
-        "몽키 D. 루피 - Memories of 밀짚모자 일당",
-        "칼리파 - 왕녀를 납치하는 CP0",
-        "더글라스 불릿 - 결착을 내는 주먹다짐",
-        "킹 - 가로막는 화재",
-        "루치&카쿠 - 각성한 ‘동물계’ 능력자들"
-      ],
-      "user": {
-        "id": 53625348,
-        "nickname": "[TRA] HiM",
-        "achievement": "Kuja Empress",
-        "level": 1595,
-        "pirates_grade_id": 19
-      },
-      "map_game_result": {
-        "league_number": 3,
-        "rank": 68
-      }
-    },
-    {
-      "ranking": 16,
-      "ranking_point": 6966,
-      "pirates_arena_deck": [
-        "검은 수염 - ‘최악의 세대’ 간의 격돌",
-        "피카 - 대지를 흔드는 거대한 몸",
-        "S-스네이크 - 매혹의 윙크",
-        "보아 행콕  from ONE PIECE magazine - ‘번개번개 열매’의 능력자",
-        "몽키 D. 루피 - 미래 도시에서 대폭주",
-        "토프먼 워큐리 성 - 세계 정부 최고 권력 ‘오로성’ 법무무신",
-        "후지토라 - 쳐들어가는 해군 대장",
-        "블루잼 - 귀족을 향한 복수의 맹세"
+        "마커스 마즈 성 - 세계 정부 최고 권력 ‘오로성’ 환경무신",
+        "루피&루치 - 하나가 된 두 ‘건’",
+        "S-베어",
+        "S-스네이크 - ‘최강의 인류’",
+        "우솝&Dr. 베가펑크 ‘릴리스’ - 자유자재 바다의 에너지",
+        "바솔로뮤 쿠마 - 자아가 없는 충동",
+        "키자루 - 쳐들어가는 해군 대장",
+        "사카즈키 원수 - 새로운 시대에 대한 각오"
       ],
       "user": {
         "id": 43500919,
@@ -403,8 +328,83 @@
       }
     },
     {
+      "ranking": 14,
+      "ranking_point": 8105,
+      "pirates_arena_deck": [
+        "나미 from ONE PIECE magazine - 삼검류의 여검사",
+        "니코 로빈 - Memories of 밀짚모자 일당",
+        "루피&조로&상디 - 예측 불가능한 미래섬",
+        "몽키 D. 가프 - 애제자를 위해 휘두르는 주먹",
+        "트라팔가 로 - 바위를 조종하는 손끝",
+        "프랑키 - 끊어진 운반 수단",
+        null,
+        null
+      ],
+      "user": {
+        "id": 38664892,
+        "nickname": "[ΛF] Bmil",
+        "achievement": "갓 파더",
+        "level": 2148,
+        "pirates_grade_id": 20
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 14
+      }
+    },
+    {
+      "ranking": 15,
+      "ranking_point": 7912,
+      "pirates_arena_deck": [
+        "로저&레일리&가반 - 목표로 하는 세계 제일의 해적단",
+        "에단바론 V. 나스쥬로 성 - 세계 정부 최고 권력 ‘오로성’ 재무무신",
+        "조로&상디 - 왕으로 가는 길을 여는 날개",
+        "샬롯 크래커 - 무한 비스킷의 공포",
+        "S-호크",
+        "루피&로&키드 - 눈앞에 다가온 화염",
+        null,
+        null
+      ],
+      "user": {
+        "id": 42295463,
+        "nickname": "[TRA] 2Shankz",
+        "achievement": "<icon=common_font_world_cruise2024_0053_nami_1.png>",
+        "level": 1986,
+        "pirates_grade_id": 19
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 43
+      }
+    },
+    {
+      "ranking": 16,
+      "ranking_point": 7372,
+      "pirates_arena_deck": [
+        "우타 - Happy Christmas!!",
+        "S-스네이크 - ‘최강의 인류’",
+        "몽키 D. 루피 - 마왕에 가하는 마지막 일격",
+        "피카 - 대지를 흔드는 거대한 몸",
+        "마커스 마즈 성 - 세계 정부 최고 권력 ‘오로성’ 환경무신",
+        "바솔로뮤 쿠마 - 자아가 없는 충동",
+        "사카즈키 원수 - 새로운 시대에 대한 각오",
+        "킹 - 가로막는 화재"
+      ],
+      "user": {
+        "id": 53625348,
+        "nickname": "[TRA] HiM ✌︎︎",
+        "achievement": "Kuja Empress",
+        "level": 1595,
+        "pirates_grade_id": 19
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 68
+      }
+    },
+    {
       "ranking": 17,
-      "ranking_point": 6933,
+      "ranking_point": 7077,
       "pirates_arena_deck": [
         "몽키 D. 루피 - 마왕에 가하는 마지막 일격",
         "S-스네이크 - ‘최강의 인류’",
@@ -429,41 +429,41 @@
     },
     {
       "ranking": 18,
-      "ranking_point": 6681,
+      "ranking_point": 7015,
       "pirates_arena_deck": [
-        "검은 수염 - ‘최악의 세대’ 간의 격돌",
+        "마커스 마즈 성 - 세계 정부 최고 권력 ‘오로성’ 환경무신",
         "피카 - 대지를 흔드는 거대한 몸",
-        "빅 맘&카타쿠리 - 지옥의 시작",
-        "몽키 D. 루피 - 미래 도시에서 대폭주",
-        "버기&크로커다일&미호크 - ‘CROSS GUILD’",
-        "후지토라 - 쳐들어가는 해군 대장",
-        "쿠잔 - 절대 영도의 동결",
-        "블루잼 - 귀족을 향한 복수의 맹세"
+        "우타 - Happy Christmas!!",
+        "몽키 D. 루피 - 마왕에 가하는 마지막 일격",
+        "S-스네이크 - ‘최강의 인류’",
+        "바솔로뮤 쿠마 - 자아가 없는 충동",
+        "사카즈키 원수 - 새로운 시대에 대한 각오",
+        "상디 - 몸을 감싼 분노의 불꽃"
       ],
       "user": {
-        "id": 5345248,
-        "nickname": "[TRA] ⚡️RaZr⚡️",
-        "achievement": "<icon=common_font_doflamingo.png> Champion of Evil",
-        "level": 1570,
-        "pirates_grade_id": 17
+        "id": 1901575,
+        "nickname": " [ΛF] De4n",
+        "achievement": "<icon=common_font_waokuni.png> and Helping Hand",
+        "level": 1725,
+        "pirates_grade_id": 19
       },
       "map_game_result": {
         "league_number": 3,
-        "rank": 1808
+        "rank": 109
       }
     },
     {
       "ranking": 19,
-      "ranking_point": 6367,
+      "ranking_point": 6937,
       "pirates_arena_deck": [
         "우타 - Happy Christmas!!",
-        "몽키 D. 루피 - 마왕에 가하는 마지막 일격",
         "S-스네이크 - ‘최강의 인류’",
-        "코비 - 방위 진형을 치는 사령탑",
+        "마커스 마즈 성 - 세계 정부 최고 권력 ‘오로성’ 환경무신",
+        "몽키 D. 루피 - 마왕에 가하는 마지막 일격",
         "피카 - 대지를 흔드는 거대한 몸",
         "바솔로뮤 쿠마 - 자아가 없는 충동",
-        "킹 - 가로막는 화재",
-        "상디 - 몸을 감싼 분노의 불꽃"
+        "시노부&라이조 - 와노쿠니를 수호하는 닌자들",
+        "킹 - 가로막는 화재"
       ],
       "user": {
         "id": 38668937,
@@ -479,32 +479,82 @@
     },
     {
       "ranking": 20,
-      "ranking_point": 6266,
+      "ranking_point": 6896,
       "pirates_arena_deck": [
-        "우솝&Dr. 베가펑크 ‘릴리스’ - 자유자재 바다의 에너지",
-        "S-스네이크 - ‘최강의 인류’",
         "마커스 마즈 성 - 세계 정부 최고 권력 ‘오로성’ 환경무신",
-        "루피&루치 - 하나가 된 두 ‘건’",
-        "바솔로뮤 쿠마 - 자아가 없는 충동",
-        "시노부&라이조 - 와노쿠니를 수호하는 닌자들",
-        "사카즈키 원수 - 새로운 시대에 대한 각오",
-        "킹 - 가로막는 화재"
+        "몽키 D. 루피 - 마왕에 가하는 마지막 일격",
+        "잭 - 날려버리는 매머드",
+        "S-스네이크 - ‘최강의 인류’",
+        "돈키호테 도플라밍고 - 하늘에서 쏟아지는 흉탄",
+        null,
+        null,
+        null
       ],
       "user": {
-        "id": 38663646,
-        "nickname": "장어덮밥",
-        "achievement": "펄럭펄럭",
-        "level": 1616,
+        "id": 45307092,
+        "nickname": "【HWꓨ】 Λᴅᴅɪsᴏɴ ༄",
+        "achievement": "Ze Ha Ha",
+        "level": 1489,
         "pirates_grade_id": 19
       },
       "map_game_result": {
         "league_number": 3,
-        "rank": 20
+        "rank": 60
       }
     },
     {
       "ranking": 21,
-      "ranking_point": 6197,
+      "ranking_point": 6849,
+      "pirates_arena_deck": [
+        "비비 - 밤하늘 수영장에 피어난 큰 꽃",
+        "야마토 - 카이도의 아들",
+        "캐럿 - 밤에 미소짓는 사자",
+        "샬롯 푸딩 - 결별 후에…",
+        "나미 - ‘신세계’를 속이는 도둑 고양이",
+        null,
+        null,
+        null
+      ],
+      "user": {
+        "id": 5345248,
+        "nickname": "[TRA] ⚡️RaZr⚡️",
+        "achievement": "<icon=common_font_doflamingo.png> Champion of Evil",
+        "level": 1570,
+        "pirates_grade_id": 17
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 1808
+      }
+    },
+    {
+      "ranking": 22,
+      "ranking_point": 6637,
+      "pirates_arena_deck": [
+        "에단바론 V. 나스쥬로 성 - 세계 정부 최고 권력 ‘오로성’ 재무무신",
+        "트라팔가 로 - 바위를 조종하는 손끝",
+        "몽키 D. 가프 - 애제자를 위해 휘두르는 주먹",
+        "루피&조로&상디 - 예측 불가능한 미래섬",
+        "나미 from ONE PIECE magazine - 삼검류의 여검사",
+        "프랑키 - 끊어진 운반 수단",
+        "브룩 - 여름 휴가 차림의 밀짚모자 일당",
+        null
+      ],
+      "user": {
+        "id": 15291919,
+        "nickname": "[P☠️⚡️N] ɘ✗.Ɲ๏ɱ ☂️",
+        "achievement": "<icon=common_font_kizuna_battle_0102_nami_usopp_1_14569.png>",
+        "level": 1420,
+        "pirates_grade_id": 19
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 21
+      }
+    },
+    {
+      "ranking": 23,
+      "ranking_point": 6464,
       "pirates_arena_deck": [
         "에단바론 V. 나스쥬로 성 - 세계 정부 최고 권력 ‘오로성’ 재무무신",
         "나미 from ONE PIECE magazine - 삼검류의 여검사",
@@ -528,33 +578,58 @@
       }
     },
     {
-      "ranking": 22,
-      "ranking_point": 6165,
+      "ranking": 24,
+      "ranking_point": 6336,
       "pirates_arena_deck": [
-        "우타 - Happy Christmas!!",
-        "피카 - 대지를 흔드는 거대한 몸",
-        "코비 - 방위 진형을 치는 사령탑",
-        "몽키 D. 루피 - 마왕에 가하는 마지막 일격",
+        "우솝&Dr. 베가펑크 ‘릴리스’ - 자유자재 바다의 에너지",
         "S-스네이크 - ‘최강의 인류’",
+        "마커스 마즈 성 - 세계 정부 최고 권력 ‘오로성’ 환경무신",
+        "루피&루치 - 하나가 된 두 ‘건’",
         "바솔로뮤 쿠마 - 자아가 없는 충동",
+        "시노부&라이조 - 와노쿠니를 수호하는 닌자들",
         "사카즈키 원수 - 새로운 시대에 대한 각오",
-        "상디 - 몸을 감싼 분노의 불꽃"
+        "킹 - 가로막는 화재"
       ],
       "user": {
-        "id": 1901575,
-        "nickname": " [ΛF] De4n",
-        "achievement": "<icon=common_font_waokuni.png> and Helping Hand",
-        "level": 1725,
+        "id": 38663646,
+        "nickname": "장어덮밥",
+        "achievement": "펄럭펄럭",
+        "level": 1616,
         "pirates_grade_id": 19
       },
       "map_game_result": {
         "league_number": 3,
-        "rank": 109
+        "rank": 20
       }
     },
     {
-      "ranking": 23,
-      "ranking_point": 5893,
+      "ranking": 25,
+      "ranking_point": 6315,
+      "pirates_arena_deck": [
+        "에단바론 V. 나스쥬로 성 - 세계 정부 최고 권력 ‘오로성’ 재무무신",
+        "나미 from ONE PIECE magazine - 삼검류의 여검사",
+        "트라팔가 로 - 바위를 조종하는 손끝",
+        "루피&조로&상디 - 예측 불가능한 미래섬",
+        "몽키 D. 가프 - 애제자를 위해 휘두르는 주먹",
+        "징베 - 길을 여는 어인 공수도",
+        "코넬리아&코타츠",
+        "우솝 - 과학의 섬의 미래복"
+      ],
+      "user": {
+        "id": 43441226,
+        "nickname": "로시",
+        "achievement": "<icon=common_font_world_cruise2025_0084_sanji_10.png>",
+        "level": 967,
+        "pirates_grade_id": 19
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 28
+      }
+    },
+    {
+      "ranking": 26,
+      "ranking_point": 6083,
       "pirates_arena_deck": [
         "에단바론 V. 나스쥬로 성 - 세계 정부 최고 권력 ‘오로성’ 재무무신",
         "나미 from ONE PIECE magazine - 삼검류의 여검사",
@@ -578,192 +653,17 @@
       }
     },
     {
-      "ranking": 24,
-      "ranking_point": 5413,
-      "pirates_arena_deck": [
-        "야마토 from ONE PIECE magazine - 와노쿠니 제일의 오이란",
-        "Dr. 베가펑크 ‘아틀라스’ - ‘PUNK-05’",
-        "로빈&코알라 - 손과 손을 맞대고",
-        "나미&카리나 - 고양이와 여우의 쇼타임",
-        "우솝&Dr. 베가펑크 ‘릴리스’ - 자유자재 바다의 에너지",
-        "돌 - 상륙하는 해군 중장",
-        "코우시로 - 어린 검호의 스승",
-        "푸딩 - 매료된 쇼콜라티에"
-      ],
-      "user": {
-        "id": 11030203,
-        "nickname": "[TRA] ✞Antiℂristo✞",
-        "achievement": "Useless but <icon=common_font_10th.png>",
-        "level": 1503,
-        "pirates_grade_id": 19
-      },
-      "map_game_result": {
-        "league_number": 3,
-        "rank": 4
-      }
-    },
-    {
-      "ranking": 25,
-      "ranking_point": 5383,
-      "pirates_arena_deck": [
-        "마젤란 - 형벌을 내리는 지옥의 주인",
-        "검은 수염 - ‘최악의 세대’ 간의 격돌",
-        "쿠잔 - 검은 수염 해적단 10번선 선장",
-        "보아 행콕  from ONE PIECE magazine - ‘번개번개 열매’의 능력자",
-        "몽키 D. 루피 - 와노쿠니의 미래",
-        "후지토라 - 쳐들어가는 해군 대장",
-        "쥬얼리 보니 - 소녀의 가짜 울음",
-        "후쿠로 - 왕녀를 납치하는 CP0"
-      ],
-      "user": {
-        "id": 2496140,
-        "nickname": "[ΛF] ズのｷﾉ",
-        "achievement": "<icon=common_font_world_cruise2025_0084_zoro_2.png>",
-        "level": 1641,
-        "pirates_grade_id": 19
-      },
-      "map_game_result": {
-        "league_number": 3,
-        "rank": 7
-      }
-    },
-    {
-      "ranking": 26,
-      "ranking_point": 5326,
-      "pirates_arena_deck": [
-        "피카 - 대지를 흔드는 거대한 몸",
-        "마커스 마즈 성 - 세계 정부 최고 권력 ‘오로성’ 환경무신",
-        "제이가르시아 새턴 성 - 세계정부 최고 권력 ‘오로성’ 과학방위무신",
-        "에단바론 V. 나스쥬로 성 - 세계 정부 최고 권력 ‘오로성’ 재무무신",
-        "셰퍼드 주. 피터 성 - 세계 정부 최고 권력 ‘오로성’ 농무무신",
-        "토프먼 워큐리 성 - 세계 정부 최고 권력 ‘오로성’ 법무무신",
-        null,
-        null
-      ],
-      "user": {
-        "id": 36274048,
-        "nickname": "Nutapp",
-        "achievement": "I am Oden I was born to boil",
-        "level": 993,
-        "pirates_grade_id": 18
-      },
-      "map_game_result": {
-        "league_number": 3,
-        "rank": 304
-      }
-    },
-    {
       "ranking": 27,
-      "ranking_point": 5210,
+      "ranking_point": 6078,
       "pirates_arena_deck": [
-        "마커스 마즈 성 - 세계 정부 최고 권력 ‘오로성’ 환경무신",
-        "에단바론 V. 나스쥬로 성 - 세계 정부 최고 권력 ‘오로성’ 재무무신",
-        "셰퍼드 주. 피터 성 - 세계 정부 최고 권력 ‘오로성’ 농무무신",
-        "토프먼 워큐리 성 - 세계 정부 최고 권력 ‘오로성’ 법무무신",
-        "S-스네이크 - 매혹의 윙크",
-        "제이가르시아 새턴 성 - 세계정부 최고 권력 ‘오로성’ 과학방위무신",
+        "보아 행콕 - 탈주 노예",
+        "보아 마리골드 - 탈주 노예",
+        "보아 썬더소니아 - 탈주 노예",
+        null,
+        null,
+        null,
         null,
         null
-      ],
-      "user": {
-        "id": 38673218,
-        "nickname": "☠️P✘M☠️-윤아",
-        "achievement": "할로윈 해적왕",
-        "level": 4078,
-        "pirates_grade_id": 19
-      },
-      "map_game_result": {
-        "league_number": 3,
-        "rank": 182
-      }
-    },
-    {
-      "ranking": 28,
-      "ranking_point": 5189,
-      "pirates_arena_deck": [
-        "몽키 D. 루피 - 마왕에 가하는 마지막 일격",
-        "피카 - 대지를 흔드는 거대한 몸",
-        "우타 - Happy Christmas!!",
-        "코비 - 방위 진형을 치는 사령탑",
-        "S-스네이크 - ‘최강의 인류’",
-        "바솔로뮤 쿠마 - 자아가 없는 충동",
-        "사카즈키 원수 - 새로운 시대에 대한 각오",
-        "킹 - 가로막는 화재"
-      ],
-      "user": {
-        "id": 30364359,
-        "nickname": " MR RNG [TRA]",
-        "achievement": "Promising Rookie",
-        "level": 1521,
-        "pirates_grade_id": 18
-      },
-      "map_game_result": {
-        "league_number": 3,
-        "rank": 406
-      }
-    },
-    {
-      "ranking": 29,
-      "ranking_point": 5166,
-      "pirates_arena_deck": [
-        "사보 - 성지에서 목격한 진실",
-        "징베 - 길을 여는 어인 공수도",
-        "드래곤&이반코프&쿠마",
-        "나미&카리나 - 고양이와 여우의 쇼타임",
-        "우솝&Dr. 베가펑크 ‘릴리스’ - 자유자재 바다의 에너지",
-        "이나즈마 - 정상전쟁을 달리는 가위",
-        "Dr. 베가펑크 ‘요크’ - 에그 헤드에 숨어든 내통자",
-        "돌 - 상륙하는 해군 중장"
-      ],
-      "user": {
-        "id": 72367873,
-        "nickname": " [E10] Wounty",
-        "achievement": "<icon=common_font_grandparty_0098_garling_garp_14512_14513.png> <icon=common_font_grandparty_0101_franky_brook_14551_14552.png>",
-        "level": 829,
-        "pirates_grade_id": 20
-      },
-      "map_game_result": {
-        "league_number": 3,
-        "rank": 298
-      }
-    },
-    {
-      "ranking": 30,
-      "ranking_point": 5122,
-      "pirates_arena_deck": [
-        "Dr. 히루루크 - 돌팔이 의사의 이루고 싶은 꿈",
-        "몽키 D. 루피 - 미래 도시에서 대폭주",
-        "검은 수염 - ‘최악의 세대’ 간의 격돌",
-        "S-스네이크 - 매혹의 윙크",
-        "보아 행콕  from ONE PIECE magazine - ‘번개번개 열매’의 능력자",
-        "버기&크로커다일&미호크 - ‘CROSS GUILD’",
-        "후지토라 - 쳐들어가는 해군 대장",
-        "블루잼 - 귀족을 향한 복수의 맹세"
-      ],
-      "user": {
-        "id": 23094089,
-        "nickname": "【SUS】 Dr. P.",
-        "achievement": "<icon=common_font_kaizokudoumeidairansen_0079_vs_navy_nyusyo.png> <icon=common_font_pirate_rumble_grandparty_0035_luffy_gear5.png>",
-        "level": 1294,
-        "pirates_grade_id": 19
-      },
-      "map_game_result": {
-        "league_number": 3,
-        "rank": 54
-      }
-    },
-    {
-      "ranking": 31,
-      "ranking_point": 5121,
-      "pirates_arena_deck": [
-        "니코 로빈 - Memories of 밀짚모자 일당",
-        "루피&조로&상디 - 예측 불가능한 미래섬",
-        "몽키 D. 가프 - 애제자를 위해 휘두르는 주먹",
-        "나미 from ONE PIECE magazine - 삼검류의 여검사",
-        "트라팔가 로 - 바위를 조종하는 손끝",
-        null,
-        null,
-        "프랑키 - 끊어진 운반 수단"
       ],
       "user": {
         "id": 39942391,
@@ -778,533 +678,8 @@
       }
     },
     {
-      "ranking": 32,
-      "ranking_point": 5090,
-      "pirates_arena_deck": [
-        "나미 from ONE PIECE magazine - 삼검류의 여검사",
-        "에단바론 V. 나스쥬로 성 - 세계 정부 최고 권력 ‘오로성’ 재무무신",
-        "루피&조로&상디 - 예측 불가능한 미래섬",
-        "트라팔가 로 - 바위를 조종하는 손끝",
-        "몽키 D. 가프 - 애제자를 위해 휘두르는 주먹",
-        "징베 - 길을 여는 어인 공수도",
-        "코넬리아&코타츠",
-        "우솝 - 과학의 섬의 미래복"
-      ],
-      "user": {
-        "id": 43441226,
-        "nickname": "로시",
-        "achievement": "<icon=common_font_world_cruise2025_0084_sanji_10.png>",
-        "level": 967,
-        "pirates_grade_id": 19
-      },
-      "map_game_result": {
-        "league_number": 3,
-        "rank": 28
-      }
-    },
-    {
-      "ranking": 33,
-      "ranking_point": 5066,
-      "pirates_arena_deck": [
-        "몽키 D. 루피 - Memories of 밀짚모자 일당",
-        "피카 - 대지를 흔드는 거대한 몸",
-        "나미&상디 - 과학의 최고봉과의 교전",
-        "칼리파 - 왕녀를 납치하는 CP0",
-        "S-스네이크 - ‘최강의 인류’",
-        "페콤즈 - 빅 맘 해적단",
-        "앞바다의 괴물",
-        "머리까집기 인형"
-      ],
-      "user": {
-        "id": 34478935,
-        "nickname": "[HWꓨ] CRYBΛBY✨",
-        "achievement": "<icon=common_font_summer2020_purin_lowrank.png>Pudding Fake",
-        "level": 1725,
-        "pirates_grade_id": 19
-      },
-      "map_game_result": {
-        "league_number": 3,
-        "rank": 88
-      }
-    },
-    {
-      "ranking": 34,
-      "ranking_point": 5004,
-      "pirates_arena_deck": [
-        "피카 - 대지를 흔드는 거대한 몸",
-        "셰퍼드 주. 피터 성 - 세계 정부 최고 권력 ‘오로성’ 농무무신",
-        "빅 맘&카타쿠리 - 지옥의 시작",
-        "토프먼 워큐리 성 - 세계 정부 최고 권력 ‘오로성’ 법무무신",
-        "버기&크로커다일&미호크 - ‘CROSS GUILD’",
-        "산후안 울프 - 검은 수염 해적단 7번선 선장",
-        "S-호크",
-        "바솔로뮤 쿠마 - 자아가 없는 충동"
-      ],
-      "user": {
-        "id": 31408717,
-        "nickname": "【SUS】 ZO - ゾラ ⚓",
-        "achievement": "<icon=common_font_doflamingo.png> Champion of Evil",
-        "level": 1578,
-        "pirates_grade_id": 20
-      },
-      "map_game_result": {
-        "league_number": 3,
-        "rank": 122
-      }
-    },
-    {
-      "ranking": 35,
-      "ranking_point": 4946,
-      "pirates_arena_deck": [
-        "우타 - Happy Christmas!!",
-        "피카 - 대지를 흔드는 거대한 몸",
-        "코비 - 방위 진형을 치는 사령탑",
-        "몽키 D. 루피 - 마왕에 가하는 마지막 일격",
-        "S-스네이크 - ‘최강의 인류’",
-        "바솔로뮤 쿠마 - 자아가 없는 충동",
-        "사카즈키 원수 - 새로운 시대에 대한 각오",
-        "소바 마스크 - 투명해지는 전사"
-      ],
-      "user": {
-        "id": 1983748,
-        "nickname": "[TRA] ⚡Sen D. Nuds",
-        "achievement": "<icon=common_font_dairansen_0103_luffy_nyusyo_14558.png> but <icon=common_font_11th_0091.png>",
-        "level": 1928,
-        "pirates_grade_id": 19
-      },
-      "map_game_result": {
-        "league_number": 3,
-        "rank": 84
-      }
-    },
-    {
-      "ranking": 36,
-      "ranking_point": 4917,
-      "pirates_arena_deck": [
-        "에단바론 V. 나스쥬로 성 - 세계 정부 최고 권력 ‘오로성’ 재무무신",
-        "루피&조로&상디 - 예측 불가능한 미래섬",
-        "트라팔가 로 - 바위를 조종하는 손끝",
-        "몽키 D. 가프 - 애제자를 위해 휘두르는 주먹",
-        "나미 from ONE PIECE magazine - 삼검류의 여검사",
-        "징베 - 길을 여는 어인 공수도",
-        "부들부들 푸르르",
-        null
-      ],
-      "user": {
-        "id": 36554273,
-        "nickname": "[HWꓨ]ツsH!bΛtoz`",
-        "achievement": "Fair <icon=common_font_super_treasuremap_0100_luffy_nyusyo_14558.png>",
-        "level": 1982,
-        "pirates_grade_id": 19
-      },
-      "map_game_result": {
-        "league_number": 3,
-        "rank": 151
-      }
-    },
-    {
-      "ranking": 36,
-      "ranking_point": 4917,
-      "pirates_arena_deck": [
-        "마커스 마즈 성 - 세계 정부 최고 권력 ‘오로성’ 환경무신",
-        "우타 - Happy Christmas!!",
-        "피카 - 대지를 흔드는 거대한 몸",
-        "S-스네이크 - ‘최강의 인류’",
-        "몽키 D. 루피 - 마왕에 가하는 마지막 일격",
-        "바솔로뮤 쿠마 - 자아가 없는 충동",
-        "사카즈키 원수 - 새로운 시대에 대한 각오",
-        "킹 - 가로막는 화재"
-      ],
-      "user": {
-        "id": 15291919,
-        "nickname": "[P☠️⚡️N] ɘ✗.Ɲ๏ɱ ☂️",
-        "achievement": "<icon=common_font_kizuna_battle_0102_nami_usopp_1_14569.png>",
-        "level": 1420,
-        "pirates_grade_id": 19
-      },
-      "map_game_result": {
-        "league_number": 3,
-        "rank": 21
-      }
-    },
-    {
-      "ranking": 38,
-      "ranking_point": 4912,
-      "pirates_arena_deck": [
-        "우타 - Happy Christmas!!",
-        "피카 - 대지를 흔드는 거대한 몸",
-        "코비 - 방위 진형을 치는 사령탑",
-        "몽키 D. 루피 - 마왕에 가하는 마지막 일격",
-        "S-스네이크 - ‘최강의 인류’",
-        "바솔로뮤 쿠마 - 자아가 없는 충동",
-        "킹 - 가로막는 화재",
-        "상디 - 몸을 감싼 분노의 불꽃"
-      ],
-      "user": {
-        "id": 19125,
-        "nickname": "[P☠️⚡️N]₴corpio₦ ❦",
-        "achievement": "Bro Chill-Chill",
-        "level": 1459,
-        "pirates_grade_id": 19
-      },
-      "map_game_result": {
-        "league_number": 3,
-        "rank": 12
-      }
-    },
-    {
-      "ranking": 39,
-      "ranking_point": 4909,
-      "pirates_arena_deck": [
-        "마커스 마즈 성 - 세계 정부 최고 권력 ‘오로성’ 환경무신",
-        "몽키 D. 루피 - 마왕에 가하는 마지막 일격",
-        "피카 - 대지를 흔드는 거대한 몸",
-        "우타 - Happy Christmas!!",
-        "S-스네이크 - ‘최강의 인류’",
-        "바솔로뮤 쿠마 - 자아가 없는 충동",
-        "사카즈키 원수 - 새로운 시대에 대한 각오",
-        "상디 - 몸을 감싼 분노의 불꽃"
-      ],
-      "user": {
-        "id": 45307092,
-        "nickname": "【HWꓨ】 Λᴅᴅɪsᴏɴ ༄",
-        "achievement": "Ze Ha Ha",
-        "level": 1489,
-        "pirates_grade_id": 19
-      },
-      "map_game_result": {
-        "league_number": 3,
-        "rank": 60
-      }
-    },
-    {
-      "ranking": 40,
-      "ranking_point": 4872,
-      "pirates_arena_deck": [
-        "검은 수염 - ‘최악의 세대’ 간의 격돌",
-        "피카 - 대지를 흔드는 거대한 몸",
-        "빅 맘&카타쿠리 - 지옥의 시작",
-        "몽키 D. 루피 - 미래 도시에서 대폭주",
-        "보아 행콕  from ONE PIECE magazine - ‘번개번개 열매’의 능력자",
-        "S-스네이크 - 매혹의 윙크",
-        "후지토라 - 쳐들어가는 해군 대장",
-        "블루잼 - 귀족을 향한 복수의 맹세"
-      ],
-      "user": {
-        "id": 8612353,
-        "nickname": "[ΛF] The Hound",
-        "achievement": "<icon=common_font_zoro.png> Master Swordsman of <icon=common_font_waokuni.png>",
-        "level": 1561,
-        "pirates_grade_id": 18
-      },
-      "map_game_result": {
-        "league_number": 3,
-        "rank": 99
-      }
-    },
-    {
-      "ranking": 41,
-      "ranking_point": 4824,
-      "pirates_arena_deck": [
-        "몽키 D. 루피 - Memories of 밀짚모자 일당",
-        "캐럿&이누아라시&네코마무시 - 월야에 날뛰는 사자들",
-        "코비 - 악을 갈라버리는 정의의 주먹",
-        "피카 - 대지를 흔드는 거대한 몸",
-        "S-스네이크 - 매혹의 윙크",
-        "킹 - 가로막는 화재",
-        "후지토라&료쿠규",
-        "루치&카쿠 - 각성한 ‘동물계’ 능력자들"
-      ],
-      "user": {
-        "id": 38676603,
-        "nickname": "비런드ʕ •ᴥ•ʔ",
-        "achievement": "기대 루키",
-        "level": 1682,
-        "pirates_grade_id": 19
-      },
-      "map_game_result": {
-        "league_number": 3,
-        "rank": 31
-      }
-    },
-    {
-      "ranking": 42,
-      "ranking_point": 4779,
-      "pirates_arena_deck": [
-        "로저&레일리&가반 - 목표로 하는 세계 제일의 해적단",
-        "롤로노아 조로 - 염왕의 일격",
-        "몽키 D. 루피 - 도달하는 최고 지점",
-        "아발로 피사로 - ‘섬섬 열매’의 능력자",
-        "행콕&나미&로빈 - 아름답고 요염한 꽃들",
-        "쿠잔 - 절대 영도의 동결",
-        "바솔로뮤 쿠마 - 자아가 없는 충동",
-        "S-호크"
-      ],
-      "user": {
-        "id": 38756642,
-        "nickname": "☠️P✘M☠️-아므기",
-        "achievement": "밤 의 요정",
-        "level": 1546,
-        "pirates_grade_id": 19
-      },
-      "map_game_result": {
-        "league_number": 3,
-        "rank": 67
-      }
-    },
-    {
-      "ranking": 43,
-      "ranking_point": 4764,
-      "pirates_arena_deck": [
-        "나미 from ONE PIECE magazine - 삼검류의 여검사",
-        "에단바론 V. 나스쥬로 성 - 세계 정부 최고 권력 ‘오로성’ 재무무신",
-        "루피&조로&상디 - 예측 불가능한 미래섬",
-        "몽키 D. 가프 - 애제자를 위해 휘두르는 주먹",
-        "트라팔가 로 - 바위를 조종하는 손끝",
-        "브룩 - 밀짚모자 일당 격전의 궤적",
-        "우솝 - 과학의 섬의 미래복",
-        null
-      ],
-      "user": {
-        "id": 20607463,
-        "nickname": "[TRA] ☠️ Sheppo ❤️",
-        "achievement": "Soul King with Lazy Justice",
-        "level": 1439,
-        "pirates_grade_id": 18
-      },
-      "map_game_result": {
-        "league_number": 3,
-        "rank": 49
-      }
-    },
-    {
-      "ranking": 44,
-      "ranking_point": 4763,
-      "pirates_arena_deck": [
-        "보니 해적단",
-        "코비 - 방위 진형을 치는 사령탑",
-        "행콕&나미&로빈 - 요염한 분위기를 풍기는 미녀들",
-        "버기 - 영혼을 뒤흔드는 대선언",
-        "몽키 D. 루피 - 마왕에 가하는 마지막 일격",
-        null,
-        null,
-        null
-      ],
-      "user": {
-        "id": 16993555,
-        "nickname": "[P☠️⚡N]Crown Clown",
-        "achievement": "<icon=common_font_10th.png>",
-        "level": 1781,
-        "pirates_grade_id": 19
-      },
-      "map_game_result": {
-        "league_number": 3,
-        "rank": 32
-      }
-    },
-    {
-      "ranking": 45,
-      "ranking_point": 4761,
-      "pirates_arena_deck": [
-        "나미 from ONE PIECE magazine - 삼검류의 여검사",
-        "트라팔가 로 - 바위를 조종하는 손끝",
-        "니코 로빈 - Memories of 밀짚모자 일당",
-        "루피&조로&상디 - 예측 불가능한 미래섬",
-        "몽키 D. 가프 - 애제자를 위해 휘두르는 주먹",
-        "프랑키 - 끊어진 운반 수단",
-        null,
-        null
-      ],
-      "user": {
-        "id": 38768189,
-        "nickname": "부시!",
-        "achievement": "할짝할짝 할짜락♪",
-        "level": 1653,
-        "pirates_grade_id": 18
-      },
-      "map_game_result": {
-        "league_number": 3,
-        "rank": 71
-      }
-    },
-    {
-      "ranking": 46,
-      "ranking_point": 4753,
-      "pirates_arena_deck": [
-        "우타 - Happy Christmas!!",
-        "바솔로뮤 쿠마 - 자아가 없는 충동",
-        "코비 - 방위 진형을 치는 사령탑",
-        "버기 - 영혼을 뒤흔드는 대선언",
-        "몽키 D. 루피 - 마왕에 가하는 마지막 일격",
-        "트라팔가 로 - 잡힌 ‘하트’",
-        "사카즈키 원수 - 새로운 시대에 대한 각오",
-        "소바 마스크 - 투명해지는 전사"
-      ],
-      "user": {
-        "id": 51214124,
-        "nickname": "[TRA] Haldir",
-        "achievement": "<icon=common_font_world_cruise2024_0053_nami_nyusho.png>",
-        "level": 1290,
-        "pirates_grade_id": 19
-      },
-      "map_game_result": {
-        "league_number": 3,
-        "rank": 18
-      }
-    },
-    {
-      "ranking": 47,
-      "ranking_point": 4730,
-      "pirates_arena_deck": [
-        "볼사리노 - 최고 권력이 보낸 사자",
-        "우타 - Happy Halloween",
-        "카이도 - 와노쿠니의 미래",
-        "포트거스 D. 에이스 from ONE PIECE magazine - 3형제의 대탈주극",
-        "셰퍼드 주. 피터 성 - 세계 정부 최고 권력 ‘오로성’ 농무무신",
-        "소바 마스크 - 투명해지는 전사",
-        "페루 - 국가를 지키는 팔콘",
-        "주먹 가프 - 송곳을 박살 내는 주먹"
-      ],
-      "user": {
-        "id": 38735346,
-        "nickname": "☠️P✘M☠️-뷁",
-        "achievement": "기대 루키",
-        "level": 1768,
-        "pirates_grade_id": 19
-      },
-      "map_game_result": {
-        "league_number": 3,
-        "rank": 300
-      }
-    },
-    {
-      "ranking": 48,
-      "ranking_point": 4729,
-      "pirates_arena_deck": [
-        "검은 수염 - ‘최악의 세대’ 간의 격돌",
-        "S-스네이크 - 매혹의 윙크",
-        "버기&크로커다일&미호크 - ‘CROSS GUILD’",
-        "피카 - 대지를 흔드는 거대한 몸",
-        "몽키 D. 루피 - 미래 도시에서 대폭주",
-        "보아 행콕  from ONE PIECE magazine - ‘번개번개 열매’의 능력자",
-        "후지토라 - 쳐들어가는 해군 대장",
-        "블루잼 - 귀족을 향한 복수의 맹세"
-      ],
-      "user": {
-        "id": 43466275,
-        "nickname": "지민정",
-        "achievement": "기대 루키",
-        "level": 614,
-        "pirates_grade_id": 17
-      },
-      "map_game_result": {
-        "league_number": 3,
-        "rank": 1278
-      }
-    },
-    {
-      "ranking": 49,
-      "ranking_point": 4719,
-      "pirates_arena_deck": [
-        "키자루 - 흰 구름을 가르는 빛의 검",
-        "몽키 D. 루피 - 등을 맡길 수 있는 동료와 함께",
-        "야마토 from ONE PIECE magazine - 와노쿠니 제일의 오이란",
-        "페루 - 국가를 지키는 팔콘",
-        "포트거스 D. 에이스 from ONE PIECE magazine - 3형제의 대탈주극",
-        "트라팔가 로 - ‘사일런트’에 담는 은인의 의지",
-        null,
-        null
-      ],
-      "user": {
-        "id": 25921601,
-        "nickname": "【SUS】 BreaK0uT ⚡",
-        "achievement": "<icon=common_font_world_cruise2025_0084_nami_nyusyo.png> with <icon=common_font_summer_palmtree.png> Nami",
-        "level": 1474,
-        "pirates_grade_id": 19
-      },
-      "map_game_result": {
-        "league_number": 3,
-        "rank": 79
-      }
-    },
-    {
-      "ranking": 50,
-      "ranking_point": 4670,
-      "pirates_arena_deck": [
-        "몽키 D. 루피 - 마왕에 가하는 마지막 일격",
-        "피카 - 대지를 흔드는 거대한 몸",
-        "우타 - Happy Christmas!!",
-        "코비 - 방위 진형을 치는 사령탑",
-        "S-스네이크 - ‘최강의 인류’",
-        "바솔로뮤 쿠마 - 자아가 없는 충동",
-        "킹 - 가로막는 화재",
-        "상디 - 몸을 감싼 분노의 불꽃"
-      ],
-      "user": {
-        "id": 41719827,
-        "nickname": "[HWꓨ]《✨ᴇxᴏʀᴄɨꜱȶ✨》",
-        "achievement": "<icon=common_font_grandparty_0104_peter_nusjuro_14606_14608.png> <icon=common_font_super_treasuremap_0100_luffy_nyusyo_14558.png>",
-        "level": 979,
-        "pirates_grade_id": 19
-      },
-      "map_game_result": {
-        "league_number": 3,
-        "rank": 64
-      }
-    },
-    {
-      "ranking": 51,
-      "ranking_point": 4637,
-      "pirates_arena_deck": [
-        "마커스 마즈 성 - 세계 정부 최고 권력 ‘오로성’ 환경무신",
-        "몽키 D. 루피 - 마왕에 가하는 마지막 일격",
-        "피카 - 대지를 흔드는 거대한 몸",
-        "우타 - Happy Christmas!!",
-        "S-스네이크 - ‘최강의 인류’",
-        "바솔로뮤 쿠마 - 자아가 없는 충동",
-        "사카즈키 원수 - 새로운 시대에 대한 각오",
-        "킹 - 가로막는 화재"
-      ],
-      "user": {
-        "id": 38670657,
-        "nickname": "갓핑거",
-        "achievement": "갓 Z",
-        "level": 1639,
-        "pirates_grade_id": 16
-      },
-      "map_game_result": {
-        "league_number": 3,
-        "rank": 477
-      }
-    },
-    {
-      "ranking": 52,
-      "ranking_point": 4624,
-      "pirates_arena_deck": [
-        "몽키 D. 루피 - 마왕에 가하는 마지막 일격",
-        "피카 - 대지를 흔드는 거대한 몸",
-        "우타 - Happy Christmas!!",
-        "S-스네이크 - ‘최강의 인류’",
-        "코비 - 방위 진형을 치는 사령탑",
-        "바솔로뮤 쿠마 - 자아가 없는 충동",
-        "킹 - 가로막는 화재",
-        "상디 - 몸을 감싼 분노의 불꽃"
-      ],
-      "user": {
-        "id": 25272769,
-        "nickname": "ⓉⓇⓈ Soobak",
-        "achievement": "Thirst <icon=common_font_gekitou_lufy_sanji_1.png>",
-        "level": 1129,
-        "pirates_grade_id": 19
-      },
-      "map_game_result": {
-        "league_number": 3,
-        "rank": 110
-      }
-    },
-    {
-      "ranking": 53,
-      "ranking_point": 4611,
+      "ranking": 28,
+      "ranking_point": 5941,
       "pirates_arena_deck": [
         "검은 수염 - ‘최악의 세대’ 간의 격돌",
         "셰퍼드 주. 피터 성 - 세계 정부 최고 권력 ‘오로성’ 농무무신",
@@ -1328,347 +703,22 @@
       }
     },
     {
-      "ranking": 54,
-      "ranking_point": 4566,
-      "pirates_arena_deck": [
-        "로저&레일리&가반 - 목표로 하는 세계 제일의 해적단",
-        "코즈키 오뎅 - 용에 도전하는 사무라이",
-        "조로&상디 - 왕으로 가는 길을 여는 날개",
-        "킨에몬&덴지로&아슈라 동자&이누아라시 - 계승되는 오뎅 이검류",
-        "후지토라&료쿠규",
-        "S-호크",
-        "브룩 - 마음에 품는 정체불명의 친근감",
-        "페루 - 국가를 지키는 팔콘"
-      ],
-      "user": {
-        "id": 26881665,
-        "nickname": "7 7 7",
-        "achievement": "<icon=common_font_kaizokudoumeidairansen_0037_nika_nyusyo.png> and <icon=common_font_pirate_rumble_grandparty_0043_shanks_luffy.png>",
-        "level": 1375,
-        "pirates_grade_id": 19
-      },
-      "map_game_result": {
-        "league_number": 3,
-        "rank": 179
-      }
-    },
-    {
-      "ranking": 55,
-      "ranking_point": 4564,
-      "pirates_arena_deck": [
-        "몽키 D. 루피 - 마왕에 가하는 마지막 일격",
-        "피카 - 대지를 흔드는 거대한 몸",
-        "우타 - Happy Christmas!!",
-        "버기 - 영혼을 뒤흔드는 대선언",
-        "코비 - 방위 진형을 치는 사령탑",
-        "바솔로뮤 쿠마 - 자아가 없는 충동",
-        "사카즈키 원수 - 새로운 시대에 대한 각오",
-        "상디 - 밀짚모자 일당 격전의 궤적"
-      ],
-      "user": {
-        "id": 32801460,
-        "nickname": "TRA-Piratiazzurri",
-        "achievement": "<icon=common_font_11th_0091.png> at <icon=common_font_dairansen_0090_kizaru_nyusyo_14411.png>",
-        "level": 1452,
-        "pirates_grade_id": 19
-      },
-      "map_game_result": {
-        "league_number": 3,
-        "rank": 39
-      }
-    },
-    {
-      "ranking": 56,
-      "ranking_point": 4533,
-      "pirates_arena_deck": [
-        "우타 - Happy Christmas!!",
-        "S-스네이크 - ‘최강의 인류’",
-        "피카 - 대지를 흔드는 거대한 몸",
-        "코비 - 방위 진형을 치는 사령탑",
-        "몽키 D. 루피 - 마왕에 가하는 마지막 일격",
-        "사카즈키 원수 - 새로운 시대에 대한 각오",
-        "바솔로뮤 쿠마 - 자아가 없는 충동",
-        "상디 - 몸을 감싼 분노의 불꽃"
-      ],
-      "user": {
-        "id": 38756018,
-        "nickname": "JUSTICE⚔기억",
-        "achievement": "기대 루키",
-        "level": 2404,
-        "pirates_grade_id": 18
-      },
-      "map_game_result": {
-        "league_number": 3,
-        "rank": 145
-      }
-    },
-    {
-      "ranking": 57,
-      "ranking_point": 4519,
-      "pirates_arena_deck": [
-        "조로&상디 - 왕으로 가는 길을 여는 날개",
-        "코즈키 오뎅 - 용에 도전하는 사무라이",
-        "로저&레일리&가반 - 목표로 하는 세계 제일의 해적단",
-        "샹크스 - 사황과 신세대의 충돌",
-        "S-호크",
-        "샬롯 스무디 - 쥐어짜는 수분",
-        "후지토라&료쿠규",
-        "브룩 - 마음에 품는 정체불명의 친근감"
-      ],
-      "user": {
-        "id": 25602753,
-        "nickname": "▪️Usopp-un▪️",
-        "achievement": "10,000kg God of Salvation",
-        "level": 739,
-        "pirates_grade_id": 19
-      },
-      "map_game_result": {
-        "league_number": 3,
-        "rank": 4762
-      }
-    },
-    {
-      "ranking": 58,
-      "ranking_point": 4514,
-      "pirates_arena_deck": [
-        "루피&루치 - 하나가 된 두 ‘건’",
-        "조로&카쿠 - 교차하는 검과 다리의 궤적",
-        "프린스 그루스&쿠자쿠&히바리 - 구해내는 해군의 ‘미래’",
-        "우솝&Dr. 베가펑크 ‘릴리스’ - 자유자재 바다의 에너지",
-        "쿠잔 - 절대 영도의 동결",
-        "페루 - 국가를 지키는 팔콘",
-        "키자루 - 쳐들어가는 해군 대장",
-        "스튜시 - 암약하는 어둠의 정의"
-      ],
-      "user": {
-        "id": 43727575,
-        "nickname": "[^~^]{IL}CKG[^~^]",
-        "achievement": "Promising Rookie",
-        "level": 414,
-        "pirates_grade_id": 18
-      },
-      "map_game_result": {
-        "league_number": 3,
-        "rank": 2848
-      }
-    },
-    {
-      "ranking": 59,
-      "ranking_point": 4500,
-      "pirates_arena_deck": [
-        "에단바론 V. 나스쥬로 성 - 세계 정부 최고 권력 ‘오로성’ 재무무신",
-        "나미 from ONE PIECE magazine - 삼검류의 여검사",
-        "징베 - 길을 여는 어인 공수도",
-        "트라팔가 로 - 바위를 조종하는 손끝",
-        "루피&조로&상디 - 예측 불가능한 미래섬",
-        "니코 로빈 - 선의에게 전하는 감사",
-        "프랑키 - 끊어진 운반 수단",
-        "브룩 - 되살아나는 껄끄러운 기억"
-      ],
-      "user": {
-        "id": 38674502,
-        "nickname": "✔️조나센",
-        "achievement": "<icon=common_font_garp.png> 주먹",
-        "level": 1253,
-        "pirates_grade_id": 18
-      },
-      "map_game_result": {
-        "league_number": 1,
-        "rank": 232
-      }
-    },
-    {
-      "ranking": 60,
-      "ranking_point": 4497,
-      "pirates_arena_deck": [
-        "우타 - Happy Christmas!!",
-        "피카 - 대지를 흔드는 거대한 몸",
-        "몽키 D. 루피 - 마왕에 가하는 마지막 일격",
-        "코비 - 방위 진형을 치는 사령탑",
-        "마커스 마즈 성 - 세계 정부 최고 권력 ‘오로성’ 환경무신",
-        "바솔로뮤 쿠마 - 자아가 없는 충동",
-        "사카즈키 원수 - 새로운 시대에 대한 각오",
-        "소바 마스크 - 투명해지는 전사"
-      ],
-      "user": {
-        "id": 36383007,
-        "nickname": "【SUS】CC6",
-        "achievement": "<icon=common_font_world_cruise2024_0053_zoro_2.png>",
-        "level": 1355,
-        "pirates_grade_id": 18
-      },
-      "map_game_result": {
-        "league_number": 3,
-        "rank": 41
-      }
-    },
-    {
-      "ranking": 60,
-      "ranking_point": 4497,
-      "pirates_arena_deck": [
-        "버기&크로커다일&미호크 - ‘CROSS GUILD’",
-        "피카 - 대지를 흔드는 거대한 몸",
-        "빅 맘&카타쿠리 - 지옥의 시작",
-        "검은 수염 - ‘최악의 세대’ 간의 격돌",
-        "몽키 D. 루피 - 미래 도시에서 대폭주",
-        "후지토라 - 쳐들어가는 해군 대장",
-        "블루잼 - 귀족을 향한 복수의 맹세",
-        "오로치 - 습격하는 야마타노오로치"
-      ],
-      "user": {
-        "id": 33299756,
-        "nickname": "[LPG] • ʂƙ⭐ɓ૨ơơƙ ♬",
-        "achievement": "Laboon",
-        "level": 1371,
-        "pirates_grade_id": 19
-      },
-      "map_game_result": {
-        "league_number": 3,
-        "rank": 485
-      }
-    },
-    {
-      "ranking": 62,
-      "ranking_point": 4483,
+      "ranking": 29,
+      "ranking_point": 5833,
       "pirates_arena_deck": [
         "우솝&Dr. 베가펑크 ‘릴리스’ - 자유자재 바다의 에너지",
         "S-스네이크 - ‘최강의 인류’",
         "마커스 마즈 성 - 세계 정부 최고 권력 ‘오로성’ 환경무신",
-        "루피&루치 - 하나가 된 두 ‘건’",
-        "바솔로뮤 쿠마 - 자아가 없는 충동",
-        "시노부&라이조 - 와노쿠니를 수호하는 닌자들",
-        "킹 - 가로막는 화재",
-        "코비 - 계속 성장하는 청년"
-      ],
-      "user": {
-        "id": 38888286,
-        "nickname": "장어초밥",
-        "achievement": "펄럭펄럭",
-        "level": 1339,
-        "pirates_grade_id": 19
-      },
-      "map_game_result": {
-        "league_number": 3,
-        "rank": 22
-      }
-    },
-    {
-      "ranking": 63,
-      "ranking_point": 4470,
-      "pirates_arena_deck": [
-        "우타 - Happy Christmas!!",
-        "피카 - 대지를 흔드는 거대한 몸",
-        "코비 - 방위 진형을 치는 사령탑",
-        "S-스네이크 - ‘최강의 인류’",
-        "몽키 D. 루피 - 마왕에 가하는 마지막 일격",
-        "바솔로뮤 쿠마 - 자아가 없는 충동",
-        "킹 - 가로막는 화재",
-        "상디 - 몸을 감싼 분노의 불꽃"
-      ],
-      "user": {
-        "id": 38759585,
-        "nickname": "SᴋʏPɪᴇᴀ-주력",
-        "achievement": "3주년 기념 축제 참가자 그리고 <icon=common_font_11th_0091.png>",
-        "level": 1778,
-        "pirates_grade_id": 19
-      },
-      "map_game_result": {
-        "league_number": 3,
-        "rank": 97
-      }
-    },
-    {
-      "ranking": 64,
-      "ranking_point": 4465,
-      "pirates_arena_deck": [
-        "바솔로뮤 쿠마 - 자아가 없는 충동",
-        "츠루 - 노려보는 스왈로 섬",
-        "루피&루치 - 하나가 된 두 ‘건’",
-        "S-스네이크 - ‘최강의 인류’",
-        "우솝&Dr. 베가펑크 ‘릴리스’ - 자유자재 바다의 에너지",
-        "S-베어",
         "쿠잔 - 절대 영도의 동결",
-        "유스타스 키드 - 사황과 신세대의 충돌"
-      ],
-      "user": {
-        "id": 13150128,
-        "nickname": "[TRA]Shanks ",
-        "achievement": "Promising Rookie",
-        "level": 1578,
-        "pirates_grade_id": 13
-      },
-      "map_game_result": {
-        "league_number": 1,
-        "rank": 4019
-      }
-    },
-    {
-      "ranking": 65,
-      "ranking_point": 4377,
-      "pirates_arena_deck": [
-        "샹크스 - 마왕에 가하는 마지막 일격",
-        "몽키 D. 루피 - 울려 퍼지는 ‘해방의 드럼’",
-        "골 D. 로저 - 강자끼리의 격투",
-        "몽키 D. 가프 - 애제자를 위해 휘두르는 주먹",
-        "트라팔가 로 - 바위를 조종하는 손끝",
-        "병정 아저씨&레베카",
+        "루피&루치 - 하나가 된 두 ‘건’",
         null,
+        "S-베어",
         null
-      ],
-      "user": {
-        "id": 38819051,
-        "nickname": "SᴋʏPɪᴇᴀ-원피스매냐",
-        "achievement": "울던 아이도 웃게 만드는 합체 로봇",
-        "level": 2289,
-        "pirates_grade_id": 19
-      },
-      "map_game_result": {
-        "league_number": 3,
-        "rank": 138
-      }
-    },
-    {
-      "ranking": 66,
-      "ranking_point": 4375,
-      "pirates_arena_deck": [
-        "나미 from ONE PIECE magazine - 삼검류의 여검사",
-        "몽키 D. 가프 - 애제자를 위해 휘두르는 주먹",
-        "트라팔가 로 - 바위를 조종하는 손끝",
-        "루피&조로&상디 - 예측 불가능한 미래섬",
-        "에단바론 V. 나스쥬로 성 - 세계 정부 최고 권력 ‘오로성’ 재무무신",
-        "징베 - 길을 여는 어인 공수도",
-        "우솝 - 과학의 섬의 미래복",
-        "부들부들 푸르르"
-      ],
-      "user": {
-        "id": 38680394,
-        "nickname": "SᴋʏPɪᴇᴀ-BaRoNi",
-        "achievement": "<icon=common_font_11th_0091.png>",
-        "level": 1727,
-        "pirates_grade_id": 18
-      },
-      "map_game_result": {
-        "league_number": 3,
-        "rank": 40
-      }
-    },
-    {
-      "ranking": 67,
-      "ranking_point": 4370,
-      "pirates_arena_deck": [
-        "볼사리노 - 최고 권력이 보낸 사자",
-        "포트거스 D. 에이스 from ONE PIECE magazine - 3형제의 대탈주극",
-        "카이도 - 와노쿠니의 미래",
-        "셰퍼드 주. 피터 성 - 세계 정부 최고 권력 ‘오로성’ 농무무신",
-        "우타 - Happy Halloween",
-        "페루 - 국가를 지키는 팔콘",
-        "산후안 울프 - 검은 수염 해적단 7번선 선장",
-        "주먹 가프 - 송곳을 박살 내는 주먹"
       ],
       "user": {
         "id": 45282205,
         "nickname": "(βvˢ⚜️) DayToNa007",
-        "achievement": "<icon=common_font_kaizokudoumeidairansen_0083_vs_strongest_nyusyo_14307.png> <icon=common_font_world_cruise2025_0084_nami_nyusyo.png>",
+        "achievement": "<icon=common_font_11th_0091.png>",
         "level": 690,
         "pirates_grade_id": 18
       },
@@ -1678,33 +728,108 @@
       }
     },
     {
-      "ranking": 68,
-      "ranking_point": 4364,
+      "ranking": 29,
+      "ranking_point": 5833,
       "pirates_arena_deck": [
-        "우솝&Dr. 베가펑크 ‘릴리스’ - 자유자재 바다의 에너지",
-        "프린스 그루스&쿠자쿠&히바리 - 구해내는 해군의 ‘미래’",
-        "루피&루치 - 하나가 된 두 ‘건’",
-        "마커스 마즈 성 - 세계 정부 최고 권력 ‘오로성’ 환경무신",
-        "바솔로뮤 쿠마 - 자아가 없는 충동",
+        "로저&레일리&가반 - 목표로 하는 세계 제일의 해적단",
+        "롤로노아 조로 - 염왕의 일격",
+        "몽키 D. 루피 - 도달하는 최고 지점",
+        "아발로 피사로 - ‘섬섬 열매’의 능력자",
+        "행콕&나미&로빈 - 아름답고 요염한 꽃들",
         "쿠잔 - 절대 영도의 동결",
-        "사카즈키 원수 - 새로운 시대에 대한 각오",
-        "시노부&라이조 - 와노쿠니를 수호하는 닌자들"
+        "바솔로뮤 쿠마 - 자아가 없는 충동",
+        "S-호크"
       ],
       "user": {
-        "id": 38705605,
-        "nickname": "SᴋʏPɪᴇᴀ-김겨울",
-        "achievement": "기대 루키",
-        "level": 1399,
-        "pirates_grade_id": 18
+        "id": 38756642,
+        "nickname": "☠️P✘M☠️-아므기",
+        "achievement": "밤 의 요정",
+        "level": 1546,
+        "pirates_grade_id": 19
       },
       "map_game_result": {
         "league_number": 3,
-        "rank": 297
+        "rank": 67
       }
     },
     {
-      "ranking": 69,
-      "ranking_point": 4363,
+      "ranking": 29,
+      "ranking_point": 5833,
+      "pirates_arena_deck": [
+        "몽키 D. 루피 - Memories of 밀짚모자 일당",
+        "피카 - 대지를 흔드는 거대한 몸",
+        "나미&상디 - 과학의 최고봉과의 교전",
+        "칼리파 - 왕녀를 납치하는 CP0",
+        "S-스네이크 - ‘최강의 인류’",
+        "페콤즈 - 빅 맘 해적단",
+        "앞바다의 괴물",
+        "머리까집기 인형"
+      ],
+      "user": {
+        "id": 34478935,
+        "nickname": "[HWꓨ] CRYBΛBY✨",
+        "achievement": "<icon=common_font_summer2020_purin_lowrank.png>Pudding Fake",
+        "level": 1725,
+        "pirates_grade_id": 19
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 88
+      }
+    },
+    {
+      "ranking": 32,
+      "ranking_point": 5818,
+      "pirates_arena_deck": [
+        "볼사리노 - 최고 권력이 보낸 사자",
+        "우타 - Happy Halloween",
+        "카이도 - 와노쿠니의 미래",
+        "포트거스 D. 에이스 from ONE PIECE magazine - 3형제의 대탈주극",
+        "셰퍼드 주. 피터 성 - 세계 정부 최고 권력 ‘오로성’ 농무무신",
+        "소바 마스크 - 투명해지는 전사",
+        "페루 - 국가를 지키는 팔콘",
+        "주먹 가프 - 송곳을 박살 내는 주먹"
+      ],
+      "user": {
+        "id": 38735346,
+        "nickname": "☠️P✘M☠️-뷁",
+        "achievement": "기대 루키",
+        "level": 1768,
+        "pirates_grade_id": 19
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 300
+      }
+    },
+    {
+      "ranking": 33,
+      "ranking_point": 5813,
+      "pirates_arena_deck": [
+        "마젤란 - 형벌을 내리는 지옥의 주인",
+        "검은 수염 - ‘최악의 세대’ 간의 격돌",
+        "쿠잔 - 검은 수염 해적단 10번선 선장",
+        "보아 행콕  from ONE PIECE magazine - ‘번개번개 열매’의 능력자",
+        "몽키 D. 루피 - 와노쿠니의 미래",
+        "후지토라 - 쳐들어가는 해군 대장",
+        "쥬얼리 보니 - 소녀의 가짜 울음",
+        "후쿠로 - 왕녀를 납치하는 CP0"
+      ],
+      "user": {
+        "id": 2496140,
+        "nickname": "[ΛF] ズのｷﾉ",
+        "achievement": "<icon=common_font_world_cruise2025_0084_zoro_2.png>",
+        "level": 1641,
+        "pirates_grade_id": 19
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 7
+      }
+    },
+    {
+      "ranking": 34,
+      "ranking_point": 5792,
       "pirates_arena_deck": [
         "검은 수염 - ‘최악의 세대’ 간의 격돌",
         "셰퍼드 주. 피터 성 - 세계 정부 최고 권력 ‘오로성’ 농무무신",
@@ -1728,23 +853,73 @@
       }
     },
     {
-      "ranking": 70,
-      "ranking_point": 4348,
+      "ranking": 35,
+      "ranking_point": 5790,
+      "pirates_arena_deck": [
+        "Dr. 히루루크 - 돌팔이 의사",
+        "우타 - Happy Christmas!!",
+        "피카 - 대지를 흔드는 거대한 몸",
+        "마커스 마즈 성 - 세계 정부 최고 권력 ‘오로성’ 환경무신",
+        "S-스네이크 - ‘최강의 인류’",
+        "몽키 D. 루피 - 마왕에 가하는 마지막 일격",
+        "바솔로뮤 쿠마 - 자아가 없는 충동",
+        "킹 - 가로막는 화재"
+      ],
+      "user": {
+        "id": 23094089,
+        "nickname": "【SUS】 Dr. P.",
+        "achievement": "<icon=common_font_kaizokudoumeidairansen_0079_vs_navy_nyusyo.png> <icon=common_font_pirate_rumble_grandparty_0035_luffy_gear5.png>",
+        "level": 1294,
+        "pirates_grade_id": 19
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 54
+      }
+    },
+    {
+      "ranking": 36,
+      "ranking_point": 5767,
+      "pirates_arena_deck": [
+        "몽키 D. 가프 - 애제자를 위해 휘두르는 주먹",
+        "부처님 센고쿠 - 해군 총대장",
+        null,
+        null,
+        null,
+        "사카즈키 원수 - 새로운 시대에 대한 각오",
+        "쿠잔 - 갑자기 나타난 전 대장",
+        "키자루 - 흰 구름을 가르는 빛의 검"
+      ],
+      "user": {
+        "id": 27579693,
+        "nickname": "[TRA]⚓️Duke_Omar⚓️",
+        "achievement": "I Don't Need a Title",
+        "level": 1056,
+        "pirates_grade_id": 19
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 58
+      }
+    },
+    {
+      "ranking": 37,
+      "ranking_point": 5739,
       "pirates_arena_deck": [
         "S-스네이크 - 매혹의 윙크",
+        "에단바론 V. 나스쥬로 성 - 세계 정부 최고 권력 ‘오로성’ 재무무신",
+        "토프먼 워큐리 성 - 세계 정부 최고 권력 ‘오로성’ 법무무신",
         "셰퍼드 주. 피터 성 - 세계 정부 최고 권력 ‘오로성’ 농무무신",
-        "몽키 D. 루피 - 미래 도시에서 대폭주",
-        "검은 수염 - ‘최악의 세대’ 간의 격돌",
-        "보아 행콕  from ONE PIECE magazine - ‘번개번개 열매’의 능력자",
-        "후지토라&료쿠규",
-        "캐럿 - 튜브와 함께 원더랜드",
-        "그로키 몬스터즈"
+        "마커스 마즈 성 - 세계 정부 최고 권력 ‘오로성’ 환경무신",
+        "제이가르시아 새턴 성 - 세계정부 최고 권력 ‘오로성’ 과학방위무신",
+        null,
+        null
       ],
       "user": {
         "id": 43611387,
         "nickname": "메이루",
         "achievement": "<icon=common_font_kizuna_battle_0102_nami_usopp_1_14569.png> <icon=common_font_super_treasuremap_0100_luffy_nyusyo_14558.png>",
-        "level": 523,
+        "level": 524,
         "pirates_grade_id": null
       },
       "map_game_result": {
@@ -1753,308 +928,8 @@
       }
     },
     {
-      "ranking": 71,
-      "ranking_point": 4332,
-      "pirates_arena_deck": [
-        "에단바론 V. 나스쥬로 성 - 세계 정부 최고 권력 ‘오로성’ 재무무신",
-        "몽키 D. 가프 - 애제자를 위해 휘두르는 주먹",
-        "나미 from ONE PIECE magazine - 삼검류의 여검사",
-        "루피&조로&상디 - 예측 불가능한 미래섬",
-        "트라팔가 로 - 바위를 조종하는 손끝",
-        "토니토니 쵸파 - 동료에 대한 걱정",
-        "브룩 - 싸움에 맞서는 음악가",
-        null
-      ],
-      "user": {
-        "id": 38768523,
-        "nickname": "오다센세아리가또",
-        "achievement": "1주년 부터 <icon=common_font_11th_0091.png>",
-        "level": 1512,
-        "pirates_grade_id": 18
-      },
-      "map_game_result": {
-        "league_number": 3,
-        "rank": 16
-      }
-    },
-    {
-      "ranking": 72,
-      "ranking_point": 4308,
-      "pirates_arena_deck": [
-        "프린스 그루스&쿠자쿠&히바리 - 구해내는 해군의 ‘미래’",
-        "트라팔가 로 - ‘최악의 세대’ 간의 격돌",
-        "제이가르시아 새턴 성 - 세계정부 최고 권력 ‘오로성’ 과학방위무신",
-        "뉴게이트&시키&링링 - 올라서는 갓 밸리의 땅",
-        "로저&레일리&가반 - 들어서는 갓 밸리의 땅",
-        "S-호크",
-        null,
-        null
-      ],
-      "user": {
-        "id": 3265359,
-        "nickname": "FunkyFresh☠️ 310⑥☆",
-        "achievement": "Super Strength from Old Fart",
-        "level": 1547,
-        "pirates_grade_id": 19
-      },
-      "map_game_result": {
-        "league_number": 3,
-        "rank": 181
-      }
-    },
-    {
-      "ranking": 73,
-      "ranking_point": 4304,
-      "pirates_arena_deck": [
-        "우타 - Happy Christmas!!",
-        "피카 - 대지를 흔드는 거대한 몸",
-        "코비 - 방위 진형을 치는 사령탑",
-        "몽키 D. 루피 - 마왕에 가하는 마지막 일격",
-        "S-스네이크 - ‘최강의 인류’",
-        "바솔로뮤 쿠마 - 자아가 없는 충동",
-        "상디 - 몸을 감싼 분노의 불꽃",
-        "S-베어"
-      ],
-      "user": {
-        "id": 22262680,
-        "nickname": "[ΛF]⚡️TruGOAT⚡️",
-        "achievement": "<icon=common_font_world_cruise2025_0084_luffy_3.png> <icon=common_font_world_cruise2024_0053_nami_9.png>",
-        "level": 1478,
-        "pirates_grade_id": 18
-      },
-      "map_game_result": {
-        "league_number": 3,
-        "rank": 117
-      }
-    },
-    {
-      "ranking": 74,
-      "ranking_point": 4289,
-      "pirates_arena_deck": [
-        "나미 from ONE PIECE magazine - 삼검류의 여검사",
-        "몽키 D. 가프 - 애제자를 위해 휘두르는 주먹",
-        "야마토 from ONE PIECE magazine - 와노쿠니 제일의 오이란",
-        "루피&조로&상디 - 예측 불가능한 미래섬",
-        "트라팔가 로 - 바위를 조종하는 손끝",
-        "프랑키 - 끊어진 운반 수단",
-        "우솝 - 과학의 섬의 미래복",
-        "토니토니 쵸파 - Dress up for PIRATE FESTIVAL"
-      ],
-      "user": {
-        "id": 30616239,
-        "nickname": "[EPD] ᴜʟᴛɪᴍᴀ ⛩️ ",
-        "achievement": "X",
-        "level": 1834,
-        "pirates_grade_id": 19
-      },
-      "map_game_result": {
-        "league_number": 3,
-        "rank": 30
-      }
-    },
-    {
-      "ranking": 75,
-      "ranking_point": 4281,
-      "pirates_arena_deck": [
-        "검은 수염 - ‘해적여제’를 노리는 사황",
-        "코비 - 방위 진형을 치는 사령탑",
-        "몽키 D. 루피 - 마왕에 가하는 마지막 일격",
-        null,
-        null,
-        "우타 - Happy Christmas!!",
-        "행콕&나미&로빈 - 요염한 분위기를 풍기는 미녀들",
-        "바솔로뮤 쿠마 - 자아가 없는 충동"
-      ],
-      "user": {
-        "id": 38686619,
-        "nickname": "☠️P✘M☠️-동료",
-        "achievement": "동료",
-        "level": 1642,
-        "pirates_grade_id": 19
-      },
-      "map_game_result": {
-        "league_number": 3,
-        "rank": 46
-      }
-    },
-    {
-      "ranking": 76,
-      "ranking_point": 4223,
-      "pirates_arena_deck": [
-        "로저&레일리&가반 - 목표로 하는 세계 제일의 해적단",
-        "샬롯 크래커 - 무한 비스킷의 공포",
-        "에단바론 V. 나스쥬로 성 - 세계 정부 최고 권력 ‘오로성’ 재무무신",
-        "코즈키 오뎅 - 용에 도전하는 사무라이",
-        "S-호크",
-        "루피&로&키드 - 눈앞에 다가온 화염",
-        null,
-        null
-      ],
-      "user": {
-        "id": 36740899,
-        "nickname": "[P☠️⚡️N] Inganno",
-        "achievement": "<icon=common_font_kaizokudoumeidairansen_0037_nika_nyusyo.png> and <icon=common_font_pirate_rumble_grandparty_0041_uta.png>",
-        "level": 1262,
-        "pirates_grade_id": 18
-      },
-      "map_game_result": {
-        "league_number": 3,
-        "rank": 48
-      }
-    },
-    {
-      "ranking": 77,
-      "ranking_point": 4209,
-      "pirates_arena_deck": [
-        "니코 로빈 - Memories of 밀짚모자 일당",
-        "징베 - 길을 여는 어인 공수도",
-        "몽키 D. 가프 - 애제자를 위해 휘두르는 주먹",
-        "나미 from ONE PIECE magazine - 삼검류의 여검사",
-        "트라팔가 로 - 바위를 조종하는 손끝",
-        "루피&조로&상디 - 예측 불가능한 미래섬",
-        null,
-        null
-      ],
-      "user": {
-        "id": 38989322,
-        "nickname": "☠️P✘M☠️-레간자",
-        "achievement": "<icon=common_font_world_cruise2025_0084_zoro_10.png>",
-        "level": 1076,
-        "pirates_grade_id": 17
-      },
-      "map_game_result": {
-        "league_number": 3,
-        "rank": 589
-      }
-    },
-    {
-      "ranking": 78,
-      "ranking_point": 4191,
-      "pirates_arena_deck": [
-        "우타 - Happy Christmas!!",
-        "코비 - 방위 진형을 치는 사령탑",
-        "행콕&나미&로빈 - 요염한 분위기를 풍기는 미녀들",
-        null,
-        null,
-        null,
-        "몽키 D. 루피 - 마왕에 가하는 마지막 일격",
-        "검은 수염 - ‘해적여제’를 노리는 사황"
-      ],
-      "user": {
-        "id": 38824,
-        "nickname": "[LRS⚡] WESTEROS",
-        "achievement": "Old Fart Enjoying the Sea",
-        "level": 1340,
-        "pirates_grade_id": 18
-      },
-      "map_game_result": {
-        "league_number": 3,
-        "rank": 402
-      }
-    },
-    {
-      "ranking": 79,
-      "ranking_point": 4141,
-      "pirates_arena_deck": [
-        "롤로노아 조로 - 염왕의 일격",
-        "로저&레일리&가반 - 목표로 하는 세계 제일의 해적단",
-        "몽키 D. 루피 - 도달하는 최고 지점",
-        "행콕&나미&로빈 - 아름답고 요염한 꽃들",
-        null,
-        null,
-        null,
-        null
-      ],
-      "user": {
-        "id": 38770324,
-        "nickname": "SᴋʏPɪᴇᴀ-남매둥이",
-        "achievement": "선장 그리고 5번대 대장",
-        "level": 1683,
-        "pirates_grade_id": 18
-      },
-      "map_game_result": {
-        "league_number": 3,
-        "rank": 212
-      }
-    },
-    {
-      "ranking": 80,
-      "ranking_point": 4088,
-      "pirates_arena_deck": [
-        "셰퍼드 주. 피터 성 - 세계 정부 최고 권력 ‘오로성’ 농무무신",
-        "검은 수염 - ‘최악의 세대’ 간의 격돌",
-        "버기&크로커다일&미호크 - ‘CROSS GUILD’",
-        "피카 - 대지를 흔드는 거대한 몸",
-        "몽키 D. 루피 - 미래 도시에서 대폭주",
-        "샬롯 스무디 - 쥐어짜는 수분",
-        "포르쉐미 - 블루잼 해적단 선원",
-        "블루잼 - 귀족을 향한 복수의 맹세"
-      ],
-      "user": {
-        "id": 3478018,
-        "nickname": "ⓉⓇⓈ Zibility",
-        "achievement": "Let's Go!",
-        "level": 1392,
-        "pirates_grade_id": 18
-      },
-      "map_game_result": {
-        "league_number": 3,
-        "rank": 93
-      }
-    },
-    {
-      "ranking": 81,
-      "ranking_point": 4085,
-      "pirates_arena_deck": [
-        "나미 from ONE PIECE magazine - 삼검류의 여검사",
-        "에단바론 V. 나스쥬로 성 - 세계 정부 최고 권력 ‘오로성’ 재무무신",
-        "트라팔가 로 - 바위를 조종하는 손끝",
-        "루피&조로&상디 - 예측 불가능한 미래섬",
-        "몽키 D. 가프 - 애제자를 위해 휘두르는 주먹",
-        "S-호크",
-        "브룩 - Dress up for PIRATE FESTIVAL",
-        "토니토니 쵸파 - 여름 휴가 차림의 밀짚모자 일당"
-      ],
-      "user": {
-        "id": 38664742,
-        "nickname": "Zephyros",
-        "achievement": "",
-        "level": 1420,
-        "pirates_grade_id": 19
-      },
-      "map_game_result": {
-        "league_number": 3,
-        "rank": 183
-      }
-    },
-    {
-      "ranking": 82,
-      "ranking_point": 4066,
-      "pirates_arena_deck": [
-        "볼사리노 - 최고 권력이 보낸 사자",
-        "아발로 피사로 - ‘섬섬 열매’의 능력자",
-        "셰퍼드 주. 피터 성 - 세계 정부 최고 권력 ‘오로성’ 농무무신",
-        "포트거스 D. 에이스 from ONE PIECE magazine - 3형제의 대탈주극",
-        "우타 - Happy Halloween",
-        "카이도 - 와노쿠니의 미래",
-        "블루잼 - 귀족을 향한 복수의 맹세",
-        "그로키 몬스터즈"
-      ],
-      "user": {
-        "id": 39221686,
-        "nickname": "☠️P✘M☠️-구와구와",
-        "achievement": "밤 의 쿵푸 너구리",
-        "level": 1318,
-        "pirates_grade_id": 19
-      },
-      "map_game_result": {
-        "league_number": 3,
-        "rank": 26
-      }
-    },
-    {
-      "ranking": 83,
-      "ranking_point": 4057,
+      "ranking": 38,
+      "ranking_point": 5737,
       "pirates_arena_deck": [
         "검은 수염 - ‘최악의 세대’ 간의 격돌",
         "S-스네이크 - 매혹의 윙크",
@@ -2078,8 +953,1133 @@
       }
     },
     {
+      "ranking": 39,
+      "ranking_point": 5729,
+      "pirates_arena_deck": [
+        "보니 해적단",
+        "코비 - 방위 진형을 치는 사령탑",
+        "행콕&나미&로빈 - 요염한 분위기를 풍기는 미녀들",
+        "버기 - 영혼을 뒤흔드는 대선언",
+        "몽키 D. 루피 - 마왕에 가하는 마지막 일격",
+        null,
+        null,
+        null
+      ],
+      "user": {
+        "id": 16993555,
+        "nickname": "[P☠️⚡N]Crown Clown",
+        "achievement": "<icon=common_font_10th.png>",
+        "level": 1781,
+        "pirates_grade_id": 19
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 32
+      }
+    },
+    {
+      "ranking": 40,
+      "ranking_point": 5689,
+      "pirates_arena_deck": [
+        "마커스 마즈 성 - 세계 정부 최고 권력 ‘오로성’ 환경무신",
+        "에단바론 V. 나스쥬로 성 - 세계 정부 최고 권력 ‘오로성’ 재무무신",
+        "셰퍼드 주. 피터 성 - 세계 정부 최고 권력 ‘오로성’ 농무무신",
+        "토프먼 워큐리 성 - 세계 정부 최고 권력 ‘오로성’ 법무무신",
+        "S-스네이크 - 매혹의 윙크",
+        "제이가르시아 새턴 성 - 세계정부 최고 권력 ‘오로성’ 과학방위무신",
+        null,
+        null
+      ],
+      "user": {
+        "id": 38673218,
+        "nickname": "☠️P✘M☠️-윤아",
+        "achievement": "할로윈 해적왕",
+        "level": 4078,
+        "pirates_grade_id": 19
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 182
+      }
+    },
+    {
+      "ranking": 41,
+      "ranking_point": 5683,
+      "pirates_arena_deck": [
+        "샹크스 - 사황과 신세대의 충돌",
+        "캇파 카와마츠 - 주군의 혼을 이어받은 칼끝",
+        "알베르 - 자웅을 겨루는 사투",
+        "로저&레일리&가반 - 목표로 하는 세계 제일의 해적단",
+        "Mr.1 - 자유자재로 부리는 칼 솜씨",
+        "후지토라&료쿠규",
+        "네코마무시 - 해군 대장에게 겨누는 총구",
+        "S-호크"
+      ],
+      "user": {
+        "id": 38665097,
+        "nickname": "SᴋʏPɪᴇᴀ-利哦嶼遇",
+        "achievement": "기대 루키",
+        "level": 1174,
+        "pirates_grade_id": 16
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 4104
+      }
+    },
+    {
+      "ranking": 42,
+      "ranking_point": 5681,
+      "pirates_arena_deck": [
+        "야마토 from ONE PIECE magazine - 와노쿠니 제일의 오이란",
+        "Dr. 베가펑크 ‘아틀라스’ - ‘PUNK-05’",
+        "로빈&코알라 - 손과 손을 맞대고",
+        "나미&카리나 - 고양이와 여우의 쇼타임",
+        "우솝&Dr. 베가펑크 ‘릴리스’ - 자유자재 바다의 에너지",
+        "돌 - 상륙하는 해군 중장",
+        "코우시로 - 어린 검호의 스승",
+        "푸딩 - 매료된 쇼콜라티에"
+      ],
+      "user": {
+        "id": 11030203,
+        "nickname": "[TRA] ✞Antiℂristo✞",
+        "achievement": "Useless but <icon=common_font_10th.png>",
+        "level": 1503,
+        "pirates_grade_id": 19
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 4
+      }
+    },
+    {
+      "ranking": 43,
+      "ranking_point": 5680,
+      "pirates_arena_deck": [
+        "피카 - 대지를 흔드는 거대한 몸",
+        "셰퍼드 주. 피터 성 - 세계 정부 최고 권력 ‘오로성’ 농무무신",
+        "빅 맘&카타쿠리 - 지옥의 시작",
+        "토프먼 워큐리 성 - 세계 정부 최고 권력 ‘오로성’ 법무무신",
+        "버기&크로커다일&미호크 - ‘CROSS GUILD’",
+        "바솔로뮤 쿠마 - 자아가 없는 충동",
+        "페루 - 국가를 지키는 팔콘",
+        "S-호크"
+      ],
+      "user": {
+        "id": 22262680,
+        "nickname": "[ΛF]⚡️TruGOAT⚡️",
+        "achievement": "<icon=common_font_world_cruise2025_0084_luffy_3.png> <icon=common_font_world_cruise2024_0053_nami_9.png>",
+        "level": 1478,
+        "pirates_grade_id": 18
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 117
+      }
+    },
+    {
+      "ranking": 44,
+      "ranking_point": 5665,
+      "pirates_arena_deck": [
+        "칼리파 - 왕녀를 납치하는 CP0",
+        "나미&상디 - 과학의 최고봉과의 교전",
+        "피카 - 대지를 흔드는 거대한 몸",
+        "몽키 D. 루피 - Memories of 밀짚모자 일당",
+        "S-스네이크 - ‘최강의 인류’",
+        "루치&카쿠 - 각성한 ‘동물계’ 능력자들",
+        "토니토니 쵸파 - 마음은 조선공",
+        "코비"
+      ],
+      "user": {
+        "id": 31124360,
+        "nickname": "[HWꓨ] MystGunz56✨",
+        "achievement": "<icon=common_font_3D2Y.png>",
+        "level": 1379,
+        "pirates_grade_id": 18
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 603
+      }
+    },
+    {
+      "ranking": 45,
+      "ranking_point": 5655,
+      "pirates_arena_deck": [
+        "몽키 D. 루피 - 마왕에 가하는 마지막 일격",
+        "피카 - 대지를 흔드는 거대한 몸",
+        "우타 - Happy Christmas!!",
+        "코비 - 방위 진형을 치는 사령탑",
+        "S-스네이크 - ‘최강의 인류’",
+        "바솔로뮤 쿠마 - 자아가 없는 충동",
+        "킹 - 가로막는 화재",
+        "상디 - 몸을 감싼 분노의 불꽃"
+      ],
+      "user": {
+        "id": 41719827,
+        "nickname": "[HWꓨ]《✨ᴇxᴏʀᴄɨꜱȶ✨》",
+        "achievement": "<icon=common_font_grandparty_0104_peter_nusjuro_14606_14608.png> <icon=common_font_super_treasuremap_0100_luffy_nyusyo_14558.png>",
+        "level": 979,
+        "pirates_grade_id": 19
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 64
+      }
+    },
+    {
+      "ranking": 46,
+      "ranking_point": 5651,
+      "pirates_arena_deck": [
+        "나미 from ONE PIECE magazine - 삼검류의 여검사",
+        "트라팔가 로 - 바위를 조종하는 손끝",
+        "니코 로빈 - Memories of 밀짚모자 일당",
+        "루피&조로&상디 - 예측 불가능한 미래섬",
+        "몽키 D. 가프 - 애제자를 위해 휘두르는 주먹",
+        "프랑키 - 끊어진 운반 수단",
+        null,
+        null
+      ],
+      "user": {
+        "id": 38768189,
+        "nickname": "부시!",
+        "achievement": "할짝할짝 할짜락♪",
+        "level": 1654,
+        "pirates_grade_id": 18
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 71
+      }
+    },
+    {
+      "ranking": 46,
+      "ranking_point": 5651,
+      "pirates_arena_deck": [
+        "피카 - 대지를 흔드는 거대한 몸",
+        "마커스 마즈 성 - 세계 정부 최고 권력 ‘오로성’ 환경무신",
+        "제이가르시아 새턴 성 - 세계정부 최고 권력 ‘오로성’ 과학방위무신",
+        "에단바론 V. 나스쥬로 성 - 세계 정부 최고 권력 ‘오로성’ 재무무신",
+        "셰퍼드 주. 피터 성 - 세계 정부 최고 권력 ‘오로성’ 농무무신",
+        "토프먼 워큐리 성 - 세계 정부 최고 권력 ‘오로성’ 법무무신",
+        null,
+        null
+      ],
+      "user": {
+        "id": 36274048,
+        "nickname": "Nutapp",
+        "achievement": "I am Oden I was born to boil",
+        "level": 993,
+        "pirates_grade_id": 18
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 304
+      }
+    },
+    {
+      "ranking": 48,
+      "ranking_point": 5603,
+      "pirates_arena_deck": [
+        "S-베어",
+        "에단바론 V. 나스쥬로 성 - 세계 정부 최고 권력 ‘오로성’ 재무무신",
+        "루피&조로&상디 - 예측 불가능한 미래섬",
+        "몽키 D. 가프 - 애제자를 위해 휘두르는 주먹",
+        "나미 from ONE PIECE magazine - 삼검류의 여검사",
+        "슈트로이젠 - 부드럽고 포근한 요리사",
+        "징베 - 길을 여는 어인 공수도",
+        "브룩 - 되살아나는 껄끄러운 기억"
+      ],
+      "user": {
+        "id": 36554273,
+        "nickname": "[HWꓨ]ツsH!bΛtoz`",
+        "achievement": "Fair <icon=common_font_super_treasuremap_0100_luffy_nyusyo_14558.png>",
+        "level": 1982,
+        "pirates_grade_id": 19
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 151
+      }
+    },
+    {
+      "ranking": 49,
+      "ranking_point": 5593,
+      "pirates_arena_deck": [
+        "우타 - Happy Christmas!!",
+        "피카 - 대지를 흔드는 거대한 몸",
+        "코비 - 방위 진형을 치는 사령탑",
+        "몽키 D. 루피 - 마왕에 가하는 마지막 일격",
+        "S-스네이크 - ‘최강의 인류’",
+        "바솔로뮤 쿠마 - 자아가 없는 충동",
+        "킹 - 가로막는 화재",
+        "상디 - 몸을 감싼 분노의 불꽃"
+      ],
+      "user": {
+        "id": 19125,
+        "nickname": "[P☠️⚡️N]₴corpio₦ ❦",
+        "achievement": "Bro Chill-Chill",
+        "level": 1459,
+        "pirates_grade_id": 19
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 12
+      }
+    },
+    {
+      "ranking": 50,
+      "ranking_point": 5589,
+      "pirates_arena_deck": [
+        "몽키 D. 루피 - Memories of 밀짚모자 일당",
+        "피카 - 대지를 흔드는 거대한 몸",
+        "나미&상디 - 과학의 최고봉과의 교전",
+        "송곳 칭자오 - 자랑스러운 송곳머리",
+        "S-스네이크 - ‘최강의 인류’",
+        "루치&카쿠 - 각성한 ‘동물계’ 능력자들",
+        "블루그래스",
+        "징베 「개」 - 어인 해적단 선장"
+      ],
+      "user": {
+        "id": 38756018,
+        "nickname": "JUSTICE⚔기억",
+        "achievement": "기대 루키",
+        "level": 2404,
+        "pirates_grade_id": 18
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 145
+      }
+    },
+    {
+      "ranking": 51,
+      "ranking_point": 5586,
+      "pirates_arena_deck": [
+        "코비 - 방위 진형을 치는 사령탑",
+        "몽키 D. 루피 - 마왕에 가하는 마지막 일격",
+        "피카 - 대지를 흔드는 거대한 몸",
+        "S-스네이크 - ‘최강의 인류’",
+        "우타 - Happy Christmas!!",
+        "바솔로뮤 쿠마 - 자아가 없는 충동",
+        "킹 - 가로막는 화재",
+        "소바 마스크 - 투명해지는 전사"
+      ],
+      "user": {
+        "id": 38701707,
+        "nickname": "™Bro☠털즈⚓°•*⁀➷",
+        "achievement": "나 의 아저씨",
+        "level": 1885,
+        "pirates_grade_id": 18
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 355
+      }
+    },
+    {
+      "ranking": 52,
+      "ranking_point": 5576,
+      "pirates_arena_deck": [
+        "검은 수염 - ‘최악의 세대’ 간의 격돌",
+        "S-스네이크 - 매혹의 윙크",
+        "버기&크로커다일&미호크 - ‘CROSS GUILD’",
+        "몽키 D. 루피 - 미래 도시에서 대폭주",
+        "피카 - 대지를 흔드는 거대한 몸",
+        "보아 행콕  from ONE PIECE magazine - ‘번개번개 열매’의 능력자",
+        "후지토라 - 쳐들어가는 해군 대장",
+        "블루잼 - 귀족을 향한 복수의 맹세"
+      ],
+      "user": {
+        "id": 43466275,
+        "nickname": "지민정",
+        "achievement": "기대 루키",
+        "level": 614,
+        "pirates_grade_id": 17
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 1278
+      }
+    },
+    {
+      "ranking": 53,
+      "ranking_point": 5558,
+      "pirates_arena_deck": [
+        "셰퍼드 주. 피터 성 - 세계 정부 최고 권력 ‘오로성’ 농무무신",
+        "검은 수염 - ‘최악의 세대’ 간의 격돌",
+        "버기&크로커다일&미호크 - ‘CROSS GUILD’",
+        "피카 - 대지를 흔드는 거대한 몸",
+        "몽키 D. 루피 - 미래 도시에서 대폭주",
+        "샬롯 스무디 - 쥐어짜는 수분",
+        "포르쉐미 - 블루잼 해적단 선원",
+        "블루잼 - 귀족을 향한 복수의 맹세"
+      ],
+      "user": {
+        "id": 3478018,
+        "nickname": "ⓉⓇⓈ Zibility",
+        "achievement": "Let's Go!",
+        "level": 1392,
+        "pirates_grade_id": 18
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 93
+      }
+    },
+    {
+      "ranking": 54,
+      "ranking_point": 5555,
+      "pirates_arena_deck": [
+        "우타 - Happy Christmas!!",
+        "피카 - 대지를 흔드는 거대한 몸",
+        "코비 - 방위 진형을 치는 사령탑",
+        "S-스네이크 - ‘최강의 인류’",
+        "몽키 D. 루피 - 마왕에 가하는 마지막 일격",
+        "바솔로뮤 쿠마 - 자아가 없는 충동",
+        "킹 - 가로막는 화재",
+        "상디 - 몸을 감싼 분노의 불꽃"
+      ],
+      "user": {
+        "id": 38759585,
+        "nickname": "SᴋʏPɪᴇᴀ-주력",
+        "achievement": "3주년 기념 축제 참가자 그리고 <icon=common_font_11th_0091.png>",
+        "level": 1778,
+        "pirates_grade_id": 19
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 97
+      }
+    },
+    {
+      "ranking": 55,
+      "ranking_point": 5550,
+      "pirates_arena_deck": [
+        "로저&레일리&가반 - 목표로 하는 세계 제일의 해적단",
+        "코즈키 오뎅 - 용에 도전하는 사무라이",
+        "조로&상디 - 왕으로 가는 길을 여는 날개",
+        "킨에몬&덴지로&아슈라 동자&이누아라시 - 계승되는 오뎅 이검류",
+        "후지토라&료쿠규",
+        "S-호크",
+        "브룩 - 마음에 품는 정체불명의 친근감",
+        "페루 - 국가를 지키는 팔콘"
+      ],
+      "user": {
+        "id": 26881665,
+        "nickname": "[LRS⚡️]SungJinwoo✨",
+        "achievement": "<icon=common_font_kaizokudoumeidairansen_0037_nika_nyusyo.png> and <icon=common_font_pirate_rumble_grandparty_0043_shanks_luffy.png>",
+        "level": 1375,
+        "pirates_grade_id": 19
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 179
+      }
+    },
+    {
+      "ranking": 56,
+      "ranking_point": 5537,
+      "pirates_arena_deck": [
+        "키자루 - 흰 구름을 가르는 빛의 검",
+        "페루 - 국가를 지키는 팔콘",
+        "야마토 from ONE PIECE magazine - 와노쿠니 제일의 오이란",
+        "몽키 D. 루피 - 등을 맡길 수 있는 동료와 함께",
+        "포트거스 D. 에이스 from ONE PIECE magazine - 3형제의 대탈주극",
+        "로브 루치 - 처단하는 사령탑",
+        null,
+        null
+      ],
+      "user": {
+        "id": 38753839,
+        "nickname": "DeukDo",
+        "achievement": "",
+        "level": 1743,
+        "pirates_grade_id": 19
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 9
+      }
+    },
+    {
+      "ranking": 57,
+      "ranking_point": 5531,
+      "pirates_arena_deck": [
+        "나미 from ONE PIECE magazine - 삼검류의 여검사",
+        "루피&조로&상디 - 예측 불가능한 미래섬",
+        "키자루 - 흰 구름을 가르는 빛의 검",
+        "몽키 D. 가프 - 애제자를 위해 휘두르는 주먹",
+        "사카즈키 - 반격하는 원수",
+        "징베 - 길을 여는 어인 공수도",
+        "니코 로빈 - 선의에게 전하는 감사",
+        "히나 - 왕가 호위 임무"
+      ],
+      "user": {
+        "id": 38674502,
+        "nickname": "✔️조나센",
+        "achievement": "<icon=common_font_garp.png> 주먹",
+        "level": 1253,
+        "pirates_grade_id": 18
+      },
+      "map_game_result": {
+        "league_number": 1,
+        "rank": 232
+      }
+    },
+    {
+      "ranking": 58,
+      "ranking_point": 5529,
+      "pirates_arena_deck": [
+        "S-스네이크 - 매혹의 윙크",
+        "보아 행콕  from ONE PIECE magazine - ‘번개번개 열매’의 능력자",
+        "몽키 D. 루피 - 미래 도시에서 대폭주",
+        "피카 - 대지를 흔드는 거대한 몸",
+        "검은 수염 - ‘최악의 세대’ 간의 격돌",
+        "버기&크로커다일&미호크 - ‘CROSS GUILD’",
+        "샬롯 스무디 - 쥐어짜는 수분",
+        "블루잼 - 귀족을 향한 복수의 맹세"
+      ],
+      "user": {
+        "id": 35947351,
+        "nickname": "ⓉⓇⓈ Monkey D. Wise",
+        "achievement": "Captain of Old Fart",
+        "level": 1318,
+        "pirates_grade_id": 19
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 94
+      }
+    },
+    {
+      "ranking": 59,
+      "ranking_point": 5528,
+      "pirates_arena_deck": [
+        "버기&크로커다일&미호크 - ‘CROSS GUILD’",
+        "피카 - 대지를 흔드는 거대한 몸",
+        "빅 맘&카타쿠리 - 지옥의 시작",
+        "검은 수염 - ‘최악의 세대’ 간의 격돌",
+        "몽키 D. 루피 - 미래 도시에서 대폭주",
+        "후지토라 - 쳐들어가는 해군 대장",
+        "부 - 팔보수군",
+        "프랑키 - 여름 휴가 차림의 밀짚모자 일당"
+      ],
+      "user": {
+        "id": 33299756,
+        "nickname": "[LPG] • ʂƙ⭐ɓ૨ơơƙ ♬",
+        "achievement": "Laboon",
+        "level": 1371,
+        "pirates_grade_id": 19
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 485
+      }
+    },
+    {
+      "ranking": 60,
+      "ranking_point": 5521,
+      "pirates_arena_deck": [
+        "우타 - Happy Christmas!!",
+        "바솔로뮤 쿠마 - 자아가 없는 충동",
+        "코비 - 방위 진형을 치는 사령탑",
+        "마커스 마즈 성 - 세계 정부 최고 권력 ‘오로성’ 환경무신",
+        "몽키 D. 루피 - 마왕에 가하는 마지막 일격",
+        "시노부&라이조 - 와노쿠니를 수호하는 닌자들",
+        "사카즈키 원수 - 새로운 시대에 대한 각오",
+        "소바 마스크 - 투명해지는 전사"
+      ],
+      "user": {
+        "id": 51214124,
+        "nickname": "[TRA] Haldir",
+        "achievement": "<icon=common_font_world_cruise2024_0053_nami_nyusho.png>",
+        "level": 1290,
+        "pirates_grade_id": 19
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 18
+      }
+    },
+    {
+      "ranking": 61,
+      "ranking_point": 5515,
+      "pirates_arena_deck": [
+        "바솔로뮤 쿠마 - 자아가 없는 충동",
+        "츠루 - 노려보는 스왈로 섬",
+        "루피&루치 - 하나가 된 두 ‘건’",
+        "S-스네이크 - ‘최강의 인류’",
+        "우솝&Dr. 베가펑크 ‘릴리스’ - 자유자재 바다의 에너지",
+        "S-베어",
+        "쿠잔 - 절대 영도의 동결",
+        "유스타스 키드 - 사황과 신세대의 충돌"
+      ],
+      "user": {
+        "id": 13150128,
+        "nickname": "[TRA]Shanks ",
+        "achievement": "Promising Rookie",
+        "level": 1578,
+        "pirates_grade_id": 13
+      },
+      "map_game_result": {
+        "league_number": 1,
+        "rank": 4019
+      }
+    },
+    {
+      "ranking": 62,
+      "ranking_point": 5508,
+      "pirates_arena_deck": [
+        "니코 로빈 - 선의에게 전하는 감사",
+        "루피&조로&상디 - 예측 불가능한 미래섬",
+        "몽키 D. 가프 - 애제자를 위해 휘두르는 주먹",
+        null,
+        null,
+        "나미 from ONE PIECE magazine - 삼검류의 여검사",
+        "트라팔가 로 - 바위를 조종하는 손끝",
+        "프랑키 - 끊어진 운반 수단"
+      ],
+      "user": {
+        "id": 36383007,
+        "nickname": "【SUS】CC6",
+        "achievement": "<icon=common_font_world_cruise2024_0053_zoro_2.png>",
+        "level": 1355,
+        "pirates_grade_id": 18
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 41
+      }
+    },
+    {
+      "ranking": 63,
+      "ranking_point": 5503,
+      "pirates_arena_deck": [
+        "우타 - Happy Christmas!!",
+        "피카 - 대지를 흔드는 거대한 몸",
+        "코비 - 방위 진형을 치는 사령탑",
+        "몽키 D. 루피 - 마왕에 가하는 마지막 일격",
+        "S-스네이크 - ‘최강의 인류’",
+        "바솔로뮤 쿠마 - 자아가 없는 충동",
+        "사카즈키 원수 - 새로운 시대에 대한 각오",
+        "소바 마스크 - 투명해지는 전사"
+      ],
+      "user": {
+        "id": 1983748,
+        "nickname": "[TRA] ⚡Sen D. Nuds",
+        "achievement": "<icon=common_font_dairansen_0103_luffy_nyusyo_14558.png> but <icon=common_font_11th_0091.png>",
+        "level": 1928,
+        "pirates_grade_id": 19
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 84
+      }
+    },
+    {
+      "ranking": 64,
+      "ranking_point": 5502,
+      "pirates_arena_deck": [
+        "몽키 D. 루피 - 마왕에 가하는 마지막 일격",
+        "피카 - 대지를 흔드는 거대한 몸",
+        "우타 - Happy Christmas!!",
+        "코비 - 방위 진형을 치는 사령탑",
+        "S-스네이크 - ‘최강의 인류’",
+        "바솔로뮤 쿠마 - 자아가 없는 충동",
+        "사카즈키 원수 - 새로운 시대에 대한 각오",
+        "킹 - 가로막는 화재"
+      ],
+      "user": {
+        "id": 30364359,
+        "nickname": " MR RNG [TRA]",
+        "achievement": "Promising Rookie",
+        "level": 1521,
+        "pirates_grade_id": 18
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 406
+      }
+    },
+    {
+      "ranking": 65,
+      "ranking_point": 5498,
+      "pirates_arena_deck": [
+        "나미 from ONE PIECE magazine - 삼검류의 여검사",
+        "니코 로빈 - Memories of 밀짚모자 일당",
+        "트라팔가 로 - 바위를 조종하는 손끝",
+        "루피&조로&상디 - 예측 불가능한 미래섬",
+        "몽키 D. 가프 - 애제자를 위해 휘두르는 주먹",
+        "토니토니 쵸파 - 동료에 대한 걱정",
+        "브룩 - Dress up for PIRATE FESTIVAL",
+        "우솝 - 과학의 섬의 미래복"
+      ],
+      "user": {
+        "id": 38664742,
+        "nickname": "Zephyros",
+        "achievement": "",
+        "level": 1420,
+        "pirates_grade_id": 19
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 183
+      }
+    },
+    {
+      "ranking": 66,
+      "ranking_point": 5497,
+      "pirates_arena_deck": [
+        "우타 - 역광에 굽히지 않는 결의",
+        "루피&루치 - 하나가 된 두 ‘건’",
+        "우솝&Dr. 베가펑크 ‘릴리스’ - 자유자재 바다의 에너지",
+        "시노부&라이조 - 와노쿠니를 수호하는 닌자들",
+        "쿠잔 - 절대 영도의 동결",
+        "야마토 from ONE PIECE magazine - 와노쿠니 제일의 오이란",
+        "S-호크",
+        "바솔로뮤 쿠마 - 자아가 없는 충동"
+      ],
+      "user": {
+        "id": 59527878,
+        "nickname": "《》$0$《》",
+        "achievement": "<icon=common_font_dairansen_0103_luffy_nyusyo_14558.png> for <icon=common_font_grandparty_sp_0093_luffy_zoro_sanji_14251.png>",
+        "level": 964,
+        "pirates_grade_id": 19
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 433
+      }
+    },
+    {
+      "ranking": 67,
+      "ranking_point": 5469,
+      "pirates_arena_deck": [
+        "몽키 D. 루피 - 마왕에 가하는 마지막 일격",
+        "피카 - 대지를 흔드는 거대한 몸",
+        "우타 - Happy Christmas!!",
+        "버기 - 영혼을 뒤흔드는 대선언",
+        "코비 - 방위 진형을 치는 사령탑",
+        "바솔로뮤 쿠마 - 자아가 없는 충동",
+        "사카즈키 원수 - 새로운 시대에 대한 각오",
+        "상디 - 밀짚모자 일당 격전의 궤적"
+      ],
+      "user": {
+        "id": 32801460,
+        "nickname": "TRA-Piratiazzurri",
+        "achievement": "<icon=common_font_11th_0091.png> at <icon=common_font_dairansen_0090_kizaru_nyusyo_14411.png>",
+        "level": 1452,
+        "pirates_grade_id": 19
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 39
+      }
+    },
+    {
+      "ranking": 68,
+      "ranking_point": 5465,
+      "pirates_arena_deck": [
+        "나미 from ONE PIECE magazine - 삼검류의 여검사",
+        "니코 로빈 - Memories of 밀짚모자 일당",
+        "몽키 D. 가프 - 애제자를 위해 휘두르는 주먹",
+        "루피&조로&상디 - 예측 불가능한 미래섬",
+        "트라팔가 로 - 바위를 조종하는 손끝",
+        "브룩 - 되살아나는 껄끄러운 기억",
+        "네펠타리 비비 - 이별의 항구",
+        "캐럿 - 목욕 타임의 원더랜드"
+      ],
+      "user": {
+        "id": 38888143,
+        "nickname": "Soon",
+        "achievement": "빙크스의 술 <icon=common_font_dairansen_0103_luffy_nyusyo_14558.png>",
+        "level": 1227,
+        "pirates_grade_id": 19
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 90
+      }
+    },
+    {
+      "ranking": 69,
+      "ranking_point": 5464,
+      "pirates_arena_deck": [
+        "검은 수염 - ‘최악의 세대’ 간의 격돌",
+        "셰퍼드 주. 피터 성 - 세계 정부 최고 권력 ‘오로성’ 농무무신",
+        "산후안 울프 - 검은 수염 해적단 7번선 선장",
+        "S-스네이크 - 매혹의 윙크",
+        "피카 - 대지를 흔드는 거대한 몸",
+        "몽키 D. 루피 - 마왕에 가하는 마지막 일격",
+        "빅 맘&카타쿠리 - 지옥의 시작",
+        "S-호크"
+      ],
+      "user": {
+        "id": 38755747,
+        "nickname": "동그리ㅇ",
+        "achievement": "마녀 아가씨",
+        "level": 1156,
+        "pirates_grade_id": 17
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 247
+      }
+    },
+    {
+      "ranking": 70,
+      "ranking_point": 5463,
+      "pirates_arena_deck": [
+        "트라팔가 로 - 바위를 조종하는 손끝",
+        "징베 - 길을 여는 어인 공수도",
+        "몽키 D. 가프 - 애제자를 위해 휘두르는 주먹",
+        "에단바론 V. 나스쥬로 성 - 세계 정부 최고 권력 ‘오로성’ 재무무신",
+        "루피&조로&상디 - 예측 불가능한 미래섬",
+        "S-베어",
+        "후지토라&료쿠규",
+        "S-호크"
+      ],
+      "user": {
+        "id": 38815963,
+        "nickname": "마파",
+        "achievement": "X",
+        "level": 1484,
+        "pirates_grade_id": 19
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 33
+      }
+    },
+    {
+      "ranking": 71,
+      "ranking_point": 5461,
+      "pirates_arena_deck": [
+        "버기&크로커다일&미호크 - ‘CROSS GUILD’",
+        "S-스네이크 - 매혹의 윙크",
+        "몽키 D. 루피 - 미래 도시에서 대폭주",
+        "보아 행콕  from ONE PIECE magazine - ‘번개번개 열매’의 능력자",
+        "피카 - 대지를 흔드는 거대한 몸",
+        "검은 수염 - ‘최악의 세대’ 간의 격돌",
+        "샬롯 스무디 - 쥐어짜는 수분",
+        "블루잼 - 귀족을 향한 복수의 맹세"
+      ],
+      "user": {
+        "id": 72367873,
+        "nickname": " [E10] Wounty",
+        "achievement": "<icon=common_font_grandparty_0098_garling_garp_14512_14513.png> <icon=common_font_grandparty_0101_franky_brook_14551_14552.png>",
+        "level": 829,
+        "pirates_grade_id": 20
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 298
+      }
+    },
+    {
+      "ranking": 72,
+      "ranking_point": 5452,
+      "pirates_arena_deck": [
+        "루피&루치 - 하나가 된 두 ‘건’",
+        "조로&카쿠 - 교차하는 검과 다리의 궤적",
+        "프린스 그루스&쿠자쿠&히바리 - 구해내는 해군의 ‘미래’",
+        "우솝&Dr. 베가펑크 ‘릴리스’ - 자유자재 바다의 에너지",
+        "쿠잔 - 절대 영도의 동결",
+        "페루 - 국가를 지키는 팔콘",
+        "키자루 - 쳐들어가는 해군 대장",
+        "스튜시 - 암약하는 어둠의 정의"
+      ],
+      "user": {
+        "id": 43727575,
+        "nickname": "[^~^]{IL}CKG[^~^]",
+        "achievement": "Promising Rookie",
+        "level": 414,
+        "pirates_grade_id": 18
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 2848
+      }
+    },
+    {
+      "ranking": 73,
+      "ranking_point": 5451,
+      "pirates_arena_deck": [
+        "우타 - Happy Christmas!!",
+        "마커스 마즈 성 - 세계 정부 최고 권력 ‘오로성’ 환경무신",
+        "피카 - 대지를 흔드는 거대한 몸",
+        "몽키 D. 루피 - 마왕에 가하는 마지막 일격",
+        "S-스네이크 - ‘최강의 인류’",
+        "사카즈키 원수 - 새로운 시대에 대한 각오",
+        "바솔로뮤 쿠마 - 자아가 없는 충동",
+        "상디 - 몸을 감싼 분노의 불꽃"
+      ],
+      "user": {
+        "id": 38989322,
+        "nickname": "☠️P✘M☠️-레간자",
+        "achievement": "<icon=common_font_world_cruise2025_0084_zoro_10.png>",
+        "level": 1076,
+        "pirates_grade_id": 17
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 589
+      }
+    },
+    {
+      "ranking": 74,
+      "ranking_point": 5448,
+      "pirates_arena_deck": [
+        "우타 - Happy Christmas!!",
+        "마커스 마즈 성 - 세계 정부 최고 권력 ‘오로성’ 환경무신",
+        "피카 - 대지를 흔드는 거대한 몸",
+        "코비 - 방위 진형을 치는 사령탑",
+        "몽키 D. 루피 - 마왕에 가하는 마지막 일격",
+        "바솔로뮤 쿠마 - 자아가 없는 충동",
+        "킹 - 가로막는 화재",
+        "상디 - 몸을 감싼 분노의 불꽃"
+      ],
+      "user": {
+        "id": 38671089,
+        "nickname": "미친존재감",
+        "achievement": "기대 루키",
+        "level": 1414,
+        "pirates_grade_id": 18
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 171
+      }
+    },
+    {
+      "ranking": 75,
+      "ranking_point": 5444,
+      "pirates_arena_deck": [
+        "몽키 D. 루피 - Memories of 밀짚모자 일당",
+        "캐럿&이누아라시&네코마무시 - 월야에 날뛰는 사자들",
+        "코비 - 악을 갈라버리는 정의의 주먹",
+        "피카 - 대지를 흔드는 거대한 몸",
+        "S-스네이크 - 매혹의 윙크",
+        "킹 - 가로막는 화재",
+        "후지토라&료쿠규",
+        "루치&카쿠 - 각성한 ‘동물계’ 능력자들"
+      ],
+      "user": {
+        "id": 38676603,
+        "nickname": "비런드ʕ •ᴥ•ʔ",
+        "achievement": "기대 루키",
+        "level": 1682,
+        "pirates_grade_id": 19
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 31
+      }
+    },
+    {
+      "ranking": 76,
+      "ranking_point": 5443,
+      "pirates_arena_deck": [
+        "프린스 그루스&쿠자쿠&히바리 - 구해내는 해군의 ‘미래’",
+        "트라팔가 로 - ‘최악의 세대’ 간의 격돌",
+        "제이가르시아 새턴 성 - 세계정부 최고 권력 ‘오로성’ 과학방위무신",
+        "뉴게이트&시키&링링 - 올라서는 갓 밸리의 땅",
+        "로저&레일리&가반 - 들어서는 갓 밸리의 땅",
+        "S-호크",
+        null,
+        null
+      ],
+      "user": {
+        "id": 3265359,
+        "nickname": "FunkyFresh☠️ 310⑥☆",
+        "achievement": "Super Strength from Old Fart",
+        "level": 1547,
+        "pirates_grade_id": 19
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 181
+      }
+    },
+    {
+      "ranking": 76,
+      "ranking_point": 5443,
+      "pirates_arena_deck": [
+        "나미 from ONE PIECE magazine - 삼검류의 여검사",
+        "몽키 D. 가프 - 애제자를 위해 휘두르는 주먹",
+        "마커스 마즈 성 - 세계 정부 최고 권력 ‘오로성’ 환경무신",
+        "루피&조로&상디 - 예측 불가능한 미래섬",
+        "트라팔가 로 - 바위를 조종하는 손끝",
+        "프랑키 - 끊어진 운반 수단",
+        "우솝 - 과학의 섬의 미래복",
+        "토니토니 쵸파 - Dress up for PIRATE FESTIVAL"
+      ],
+      "user": {
+        "id": 30616239,
+        "nickname": "[EPD] ᴜʟᴛɪᴍᴀ ⛩️ ",
+        "achievement": "X",
+        "level": 1834,
+        "pirates_grade_id": 19
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 30
+      }
+    },
+    {
+      "ranking": 78,
+      "ranking_point": 5442,
+      "pirates_arena_deck": [
+        "우타 - Happy Halloween",
+        "볼사리노 - 최고 권력이 보낸 사자",
+        "셰퍼드 주. 피터 성 - 세계 정부 최고 권력 ‘오로성’ 농무무신",
+        "포트거스 D. 에이스 from ONE PIECE magazine - 3형제의 대탈주극",
+        "카이도 - 와노쿠니의 미래",
+        "페루 - 국가를 지키는 팔콘",
+        "소바 마스크 - 투명해지는 전사",
+        "주먹 가프 - 송곳을 박살 내는 주먹"
+      ],
+      "user": {
+        "id": 38666863,
+        "nickname": "샬롯_이솜아빠♦️",
+        "achievement": "기대 루키",
+        "level": 1454,
+        "pirates_grade_id": 19
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 346
+      }
+    },
+    {
+      "ranking": 79,
+      "ranking_point": 5438,
+      "pirates_arena_deck": [
+        "나미 from ONE PIECE magazine - 삼검류의 여검사",
+        "몽키 D. 가프 - 애제자를 위해 휘두르는 주먹",
+        "트라팔가 로 - 바위를 조종하는 손끝",
+        "루피&조로&상디 - 예측 불가능한 미래섬",
+        "에단바론 V. 나스쥬로 성 - 세계 정부 최고 권력 ‘오로성’ 재무무신",
+        "징베 - 길을 여는 어인 공수도",
+        "우솝 - 과학의 섬의 미래복",
+        "부들부들 푸르르"
+      ],
+      "user": {
+        "id": 38680394,
+        "nickname": "SᴋʏPɪᴇᴀ-BaRoNi",
+        "achievement": "<icon=common_font_11th_0091.png>",
+        "level": 1727,
+        "pirates_grade_id": 18
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 40
+      }
+    },
+    {
+      "ranking": 80,
+      "ranking_point": 5431,
+      "pirates_arena_deck": [
+        "S-스네이크 - ‘최강의 인류’",
+        "마커스 마즈 성 - 세계 정부 최고 권력 ‘오로성’ 환경무신",
+        "시노부&라이조 - 와노쿠니를 수호하는 닌자들",
+        "우타 - Happy Christmas!!",
+        "몽키 D. 루피 - 마왕에 가하는 마지막 일격",
+        "사카즈키 원수 - 새로운 시대에 대한 각오",
+        "바솔로뮤 쿠마 - 자아가 없는 충동",
+        "킹 - 가로막는 화재"
+      ],
+      "user": {
+        "id": 38768523,
+        "nickname": "오다센세아리가또",
+        "achievement": "1주년 부터 <icon=common_font_11th_0091.png>",
+        "level": 1512,
+        "pirates_grade_id": 18
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 16
+      }
+    },
+    {
+      "ranking": 81,
+      "ranking_point": 5425,
+      "pirates_arena_deck": [
+        "바솔로뮤 쿠마 - 자아가 없는 충동",
+        "마커스 마즈 성 - 세계 정부 최고 권력 ‘오로성’ 환경무신",
+        "루피&루치 - 하나가 된 두 ‘건’",
+        "S-스네이크 - ‘최강의 인류’",
+        "우솝&Dr. 베가펑크 ‘릴리스’ - 자유자재 바다의 에너지",
+        "시노부&라이조 - 와노쿠니를 수호하는 닌자들",
+        "츠루 - 노려보는 스왈로 섬",
+        "사카즈키 원수 - 새로운 시대에 대한 각오"
+      ],
+      "user": {
+        "id": 25602753,
+        "nickname": "▪️Usopp-un▪️",
+        "achievement": "10,000kg God of Salvation",
+        "level": 739,
+        "pirates_grade_id": 19
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 4762
+      }
+    },
+    {
+      "ranking": 82,
+      "ranking_point": 5424,
+      "pirates_arena_deck": [
+        "셰퍼드 주. 피터 성 - 세계 정부 최고 권력 ‘오로성’ 농무무신",
+        "우타 - Happy Halloween",
+        "키자루 - 흰 구름을 가르는 빛의 검",
+        "카이도 - 와노쿠니의 미래",
+        "오이란 오링 - 신세대를 향한 세례",
+        "페루 - 국가를 지키는 팔콘",
+        "코즈키 모모노스케 - 사방팔방에 하는 충돌",
+        "사보 - 3명이서 나눈 잔"
+      ],
+      "user": {
+        "id": 7426567,
+        "nickname": "[TRA] D. Martinez",
+        "achievement": "Sorry Bro",
+        "level": 1205,
+        "pirates_grade_id": 18
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 148
+      }
+    },
+    {
+      "ranking": 83,
+      "ranking_point": 5422,
+      "pirates_arena_deck": [
+        "에단바론 V. 나스쥬로 성 - 세계 정부 최고 권력 ‘오로성’ 재무무신",
+        "피카 - 대지를 흔드는 거대한 몸",
+        "키자루 - 흰 구름을 가르는 빛의 검",
+        "피거랜드 갈링 성",
+        "버기&크로커다일&미호크 - ‘CROSS GUILD’",
+        "S-호크",
+        "롤로노아 조로 - 시험당하는 검사의 진가",
+        "브로기 - 엘바프의 긍지를 걸고"
+      ],
+      "user": {
+        "id": 35977974,
+        "nickname": "[P☠️⚡N]NewTheJesus",
+        "achievement": "Enjoying the Sea",
+        "level": 1155,
+        "pirates_grade_id": 19
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 57
+      }
+    },
+    {
       "ranking": 84,
-      "ranking_point": 4001,
+      "ranking_point": 5411,
       "pirates_arena_deck": [
         "칼리파 - 왕녀를 납치하는 CP0",
         "나미&상디 - 과학의 최고봉과의 교전",
@@ -2104,32 +2104,57 @@
     },
     {
       "ranking": 85,
-      "ranking_point": 3991,
+      "ranking_point": 5409,
       "pirates_arena_deck": [
-        "샹크스 - 사황과 신세대의 충돌",
+        "마커스 마즈 성 - 세계 정부 최고 권력 ‘오로성’ 환경무신",
         "에단바론 V. 나스쥬로 성 - 세계 정부 최고 권력 ‘오로성’ 재무무신",
-        "S-호크",
-        "조로&상디 - 왕으로 가는 길을 여는 날개",
-        "시노부&라이조 - 와노쿠니를 수호하는 닌자들",
-        "로저&레일리&가반 - 목표로 하는 세계 제일의 해적단",
-        "후지토라&료쿠규",
-        "브룩 - 마음에 품는 정체불명의 친근감"
+        "토프먼 워큐리 성 - 세계 정부 최고 권력 ‘오로성’ 법무무신",
+        "셰퍼드 주. 피터 성 - 세계 정부 최고 권력 ‘오로성’ 농무무신",
+        "S-스네이크 - 매혹의 윙크",
+        "제이가르시아 새턴 성 - 세계정부 최고 권력 ‘오로성’ 과학방위무신",
+        null,
+        null
       ],
       "user": {
-        "id": 59527878,
-        "nickname": "《》$0$《》",
-        "achievement": "<icon=common_font_dairansen_0103_luffy_nyusyo_14558.png> for <icon=common_font_grandparty_sp_0093_luffy_zoro_sanji_14251.png>",
-        "level": 964,
-        "pirates_grade_id": 19
+        "id": 38664564,
+        "nickname": "척",
+        "achievement": "기대 루키",
+        "level": 1706,
+        "pirates_grade_id": 16
       },
       "map_game_result": {
         "league_number": 3,
-        "rank": 433
+        "rank": 35
       }
     },
     {
       "ranking": 86,
-      "ranking_point": 3986,
+      "ranking_point": 5402,
+      "pirates_arena_deck": [
+        "검은 수염 - ‘최악의 세대’ 간의 격돌",
+        "피카 - 대지를 흔드는 거대한 몸",
+        "빅 맘&카타쿠리 - 지옥의 시작",
+        "몽키 D. 루피 - 미래 도시에서 대폭주",
+        "보아 행콕  from ONE PIECE magazine - ‘번개번개 열매’의 능력자",
+        "S-스네이크 - 매혹의 윙크",
+        "후지토라 - 쳐들어가는 해군 대장",
+        "블루잼 - 귀족을 향한 복수의 맹세"
+      ],
+      "user": {
+        "id": 8612353,
+        "nickname": "[ΛF] The Hound",
+        "achievement": "<icon=common_font_zoro.png> Master Swordsman of <icon=common_font_waokuni.png>",
+        "level": 1561,
+        "pirates_grade_id": 18
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 99
+      }
+    },
+    {
+      "ranking": 87,
+      "ranking_point": 5399,
       "pirates_arena_deck": [
         "검은 수염 - ‘최악의 세대’ 간의 격돌",
         "S-스네이크 - 매혹의 윙크",
@@ -2153,40 +2178,90 @@
       }
     },
     {
-      "ranking": 87,
-      "ranking_point": 3966,
+      "ranking": 88,
+      "ranking_point": 5391,
       "pirates_arena_deck": [
-        "검은 수염 - ‘최악의 세대’ 간의 격돌",
-        "셰퍼드 주. 피터 성 - 세계 정부 최고 권력 ‘오로성’ 농무무신",
-        "산후안 울프 - 검은 수염 해적단 7번선 선장",
-        "S-스네이크 - 매혹의 윙크",
-        "피카 - 대지를 흔드는 거대한 몸",
-        "몽키 D. 루피 - 마왕에 가하는 마지막 일격",
-        "빅 맘&카타쿠리 - 지옥의 시작",
-        "S-호크"
+        "키자루 - 흰 구름을 가르는 빛의 검",
+        "몽키 D. 루피 - 등을 맡길 수 있는 동료와 함께",
+        "야마토 from ONE PIECE magazine - 와노쿠니 제일의 오이란",
+        "페루 - 국가를 지키는 팔콘",
+        "포트거스 D. 에이스 from ONE PIECE magazine - 3형제의 대탈주극",
+        "트라팔가 로 - ‘사일런트’에 담는 은인의 의지",
+        null,
+        null
       ],
       "user": {
-        "id": 38755747,
-        "nickname": "동그리ㅇ",
-        "achievement": "마녀 아가씨",
-        "level": 1156,
-        "pirates_grade_id": 17
+        "id": 25921601,
+        "nickname": "【SUS】 BreaK0uT ⚡",
+        "achievement": "<icon=common_font_world_cruise2025_0084_nami_nyusyo.png> with <icon=common_font_summer_palmtree.png> Nami",
+        "level": 1474,
+        "pirates_grade_id": 19
       },
       "map_game_result": {
         "league_number": 3,
-        "rank": 247
+        "rank": 79
       }
     },
     {
-      "ranking": 88,
-      "ranking_point": 3963,
+      "ranking": 89,
+      "ranking_point": 5386,
       "pirates_arena_deck": [
-        "검은 수염 - ‘최악의 세대’ 간의 격돌",
+        "바솔로뮤 쿠마 - 자아가 없는 충동",
+        "우타 - Happy Christmas!!",
+        "행콕&나미&로빈 - 요염한 분위기를 풍기는 미녀들",
         "몽키 D. 루피 - 마왕에 가하는 마지막 일격",
-        "샬롯 크래커 - 무한 비스킷의 공포",
-        "후즈 후 - 덮치는 고대의 이빨",
-        "쿠잔 - 검은 수염 해적단 10번선 선장",
-        "S-호크",
+        "버기 - 영혼을 뒤흔드는 대선언",
+        "킹 - 가로막는 화재",
+        "사카즈키 원수 - 새로운 시대에 대한 각오",
+        "S-호크"
+      ],
+      "user": {
+        "id": 45186165,
+        "nickname": "[æ] BostonG",
+        "achievement": "Promising Rookie",
+        "level": 1090,
+        "pirates_grade_id": 18
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 167
+      }
+    },
+    {
+      "ranking": 90,
+      "ranking_point": 5378,
+      "pirates_arena_deck": [
+        "우타 - Happy Christmas!!",
+        "피카 - 대지를 흔드는 거대한 몸",
+        "코비 - 방위 진형을 치는 사령탑",
+        "몽키 D. 루피 - 마왕에 가하는 마지막 일격",
+        "S-스네이크 - ‘최강의 인류’",
+        "바솔로뮤 쿠마 - 자아가 없는 충동",
+        "사카즈키 원수 - 새로운 시대에 대한 각오",
+        "상디 - 몸을 감싼 분노의 불꽃"
+      ],
+      "user": {
+        "id": 20607463,
+        "nickname": "[TRA] ☠️ Sheppo ❤️",
+        "achievement": "Soul King with Lazy Justice",
+        "level": 1439,
+        "pirates_grade_id": 18
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 49
+      }
+    },
+    {
+      "ranking": 91,
+      "ranking_point": 5376,
+      "pirates_arena_deck": [
+        "나미 from ONE PIECE magazine - 삼검류의 여검사",
+        "니코 로빈 - Memories of 밀짚모자 일당",
+        "루피&조로&상디 - 예측 불가능한 미래섬",
+        "몽키 D. 가프 - 애제자를 위해 휘두르는 주먹",
+        "트라팔가 로 - 바위를 조종하는 손끝",
+        "프랑키 - 끊어진 운반 수단",
         null,
         null
       ],
@@ -2203,142 +2278,42 @@
       }
     },
     {
-      "ranking": 89,
-      "ranking_point": 3949,
-      "pirates_arena_deck": [
-        "나미 from ONE PIECE magazine - 삼검류의 여검사",
-        "니코 로빈 - Memories of 밀짚모자 일당",
-        "몽키 D. 가프 - 애제자를 위해 휘두르는 주먹",
-        "루피&조로&상디 - 예측 불가능한 미래섬",
-        "트라팔가 로 - 바위를 조종하는 손끝",
-        "브룩 - 되살아나는 껄끄러운 기억",
-        "네펠타리 비비 - 이별의 항구",
-        "캐럿 - 목욕 타임의 원더랜드"
-      ],
-      "user": {
-        "id": 38888143,
-        "nickname": "Soon",
-        "achievement": "빙크스의 술 <icon=common_font_dairansen_0103_luffy_nyusyo_14558.png>",
-        "level": 1227,
-        "pirates_grade_id": 19
-      },
-      "map_game_result": {
-        "league_number": 3,
-        "rank": 90
-      }
-    },
-    {
-      "ranking": 90,
-      "ranking_point": 3939,
-      "pirates_arena_deck": [
-        "트라팔가 로 - 바위를 조종하는 손끝",
-        "나미 from ONE PIECE magazine - 삼검류의 여검사",
-        "몽키 D. 가프 - 애제자를 위해 휘두르는 주먹",
-        "루피&조로&상디 - 예측 불가능한 미래섬",
-        "에단바론 V. 나스쥬로 성 - 세계 정부 최고 권력 ‘오로성’ 재무무신",
-        "징베 - 길을 여는 어인 공수도",
-        "슈트로이젠 - 뮤지컬 쿠킹",
-        "브룩 - 싸움에 맞서는 음악가"
-      ],
-      "user": {
-        "id": 52106238,
-        "nickname": "[LPG] •❄️ExoDiA❄️",
-        "achievement": "Le jeune plein d'avenir  Le talentueux débutant",
-        "level": 1148,
-        "pirates_grade_id": 19
-      },
-      "map_game_result": {
-        "league_number": 3,
-        "rank": 62
-      }
-    },
-    {
-      "ranking": 91,
-      "ranking_point": 3937,
-      "pirates_arena_deck": [
-        "키자루 - 흰 구름을 가르는 빛의 검",
-        "우타 - Happy Halloween",
-        "야마토 from ONE PIECE magazine - 와노쿠니 제일의 오이란",
-        "몽키 D. 루피 - 등을 맡길 수 있는 동료와 함께",
-        "포트거스 D. 에이스 from ONE PIECE magazine - 3형제의 대탈주극",
-        "페루 - 국가를 지키는 팔콘",
-        null,
-        null
-      ],
-      "user": {
-        "id": 38753839,
-        "nickname": "DeukDo",
-        "achievement": "",
-        "level": 1743,
-        "pirates_grade_id": 19
-      },
-      "map_game_result": {
-        "league_number": 3,
-        "rank": 9
-      }
-    },
-    {
       "ranking": 92,
-      "ranking_point": 3898,
+      "ranking_point": 5369,
       "pirates_arena_deck": [
-        "검은 수염 - ‘최악의 세대’ 간의 격돌",
-        "카이도&킹 - 세계를 바꾸는 불꽃",
         "피카 - 대지를 흔드는 거대한 몸",
-        "버기&크로커다일&미호크 - ‘CROSS GUILD’",
+        "셰퍼드 주. 피터 성 - 세계 정부 최고 권력 ‘오로성’ 농무무신",
         "빅 맘&카타쿠리 - 지옥의 시작",
+        "토프먼 워큐리 성 - 세계 정부 최고 권력 ‘오로성’ 법무무신",
+        "버기&크로커다일&미호크 - ‘CROSS GUILD’",
+        "산후안 울프 - 검은 수염 해적단 7번선 선장",
         "S-호크",
-        "블루잼 - 귀족을 향한 복수의 맹세",
         "바솔로뮤 쿠마 - 자아가 없는 충동"
       ],
       "user": {
-        "id": 36825332,
-        "nickname": "욱이북이",
-        "achievement": "기대 루키",
-        "level": 1354,
-        "pirates_grade_id": 19
+        "id": 31408717,
+        "nickname": "【SUS】 ZO - ゾラ ⚓",
+        "achievement": "<icon=common_font_doflamingo.png> Champion of Evil",
+        "level": 1578,
+        "pirates_grade_id": 20
       },
       "map_game_result": {
         "league_number": 3,
-        "rank": 65
+        "rank": 122
       }
     },
     {
-      "ranking": 92,
-      "ranking_point": 3898,
+      "ranking": 93,
+      "ranking_point": 5359,
       "pirates_arena_deck": [
-        "몽키 D. 가프 - 애제자를 위해 휘두르는 주먹",
-        "부처님 센고쿠 - 해군 총대장",
+        "우타 - Happy Christmas!!",
+        "코비 - 방위 진형을 치는 사령탑",
+        "피카 - 대지를 흔드는 거대한 몸",
+        "몽키 D. 루피 - 마왕에 가하는 마지막 일격",
+        "S-스네이크 - ‘최강의 인류’",
+        "바솔로뮤 쿠마 - 자아가 없는 충동",
         "사카즈키 원수 - 새로운 시대에 대한 각오",
-        "키자루 - 흰 구름을 가르는 빛의 검",
-        "쿠잔 - 갑자기 나타난 전 대장",
-        null,
-        null,
-        null
-      ],
-      "user": {
-        "id": 27579693,
-        "nickname": "[TRA]⚓️Duke_Omar⚓️",
-        "achievement": "I Don't Need a Title",
-        "level": 1056,
-        "pirates_grade_id": 19
-      },
-      "map_game_result": {
-        "league_number": 3,
-        "rank": 58
-      }
-    },
-    {
-      "ranking": 94,
-      "ranking_point": 3884,
-      "pirates_arena_deck": [
-        "코비 - 악을 갈라버리는 정의의 주먹",
-        "트라팔가 로 - 바위를 조종하는 손끝",
-        "몽키 D. 가프 - 애제자를 위해 휘두르는 주먹",
-        "키자루 - 흰 구름을 가르는 빛의 검",
-        "사카즈키 - 반격하는 원수",
-        "S-베어",
-        "갓 에넬 - 절망적인 신의 능력",
-        "하운드"
+        "상디 - 몸을 감싼 분노의 불꽃"
       ],
       "user": {
         "id": 39427552,
@@ -2353,108 +2328,108 @@
       }
     },
     {
-      "ranking": 95,
-      "ranking_point": 3862,
+      "ranking": 94,
+      "ranking_point": 5357,
       "pirates_arena_deck": [
-        "루피&조로&상디 - 예측 불가능한 미래섬",
-        "나미 from ONE PIECE magazine - 삼검류의 여검사",
-        "트라팔가 로 - 바위를 조종하는 손끝",
-        "몽키 D. 가프 - 애제자를 위해 휘두르는 주먹",
-        "니코 로빈 - 선의에게 전하는 감사",
-        "S-베어",
-        "토니토니 쵸파 - 동료에 대한 걱정",
-        "프랑키 - 끊어진 운반 수단"
+        "롤로노아 조로 - 염왕의 일격",
+        "로저&레일리&가반 - 목표로 하는 세계 제일의 해적단",
+        "몽키 D. 루피 - 도달하는 최고 지점",
+        "행콕&나미&로빈 - 아름답고 요염한 꽃들",
+        null,
+        null,
+        null,
+        null
       ],
       "user": {
-        "id": 28497694,
-        "nickname": "【SUS】 DayDreamer",
-        "achievement": "Promising Rookie",
-        "level": 1414,
-        "pirates_grade_id": 19
+        "id": 38770324,
+        "nickname": "SᴋʏPɪᴇᴀ-남매둥이",
+        "achievement": "선장 그리고 5번대 대장",
+        "level": 1683,
+        "pirates_grade_id": 18
       },
       "map_game_result": {
         "league_number": 3,
-        "rank": 102
+        "rank": 212
+      }
+    },
+    {
+      "ranking": 95,
+      "ranking_point": 5348,
+      "pirates_arena_deck": [
+        "우타 - Happy Christmas!!",
+        "코비 - 방위 진형을 치는 사령탑",
+        "행콕&나미&로빈 - 요염한 분위기를 풍기는 미녀들",
+        null,
+        null,
+        null,
+        "몽키 D. 루피 - 마왕에 가하는 마지막 일격",
+        "검은 수염 - ‘해적여제’를 노리는 사황"
+      ],
+      "user": {
+        "id": 38824,
+        "nickname": "[LRS⚡] WESTEROS",
+        "achievement": "Old Fart Enjoying the Sea",
+        "level": 1340,
+        "pirates_grade_id": 18
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 402
       }
     },
     {
       "ranking": 96,
-      "ranking_point": 3837,
+      "ranking_point": 5346,
       "pirates_arena_deck": [
-        "몽키 D. 루피 - 미래 도시에서 대폭주",
-        "S-스네이크 - 매혹의 윙크",
-        "빅 맘&카타쿠리 - 지옥의 시작",
-        "버기&크로커다일&미호크 - ‘CROSS GUILD’",
-        "검은 수염 - ‘최악의 세대’ 간의 격돌",
-        "블루잼 - 귀족을 향한 복수의 맹세",
-        "후지토라 - 쳐들어가는 해군 대장",
-        "쿠잔 - 절대 영도의 동결"
+        "에단바론 V. 나스쥬로 성 - 세계 정부 최고 권력 ‘오로성’ 재무무신",
+        "루피&조로&상디 - 예측 불가능한 미래섬",
+        "몽키 D. 가프 - 애제자를 위해 휘두르는 주먹",
+        "트라팔가 로 - 바위를 조종하는 손끝",
+        "나미 from ONE PIECE magazine - 삼검류의 여검사",
+        "징베 - 길을 여는 어인 공수도",
+        null,
+        null
       ],
       "user": {
-        "id": 7426567,
-        "nickname": "[TRA] D. Martinez",
-        "achievement": "Sorry Bro",
-        "level": 1205,
-        "pirates_grade_id": 18
+        "id": 38670657,
+        "nickname": "갓핑거",
+        "achievement": "갓 Z",
+        "level": 1639,
+        "pirates_grade_id": 16
       },
       "map_game_result": {
         "league_number": 3,
-        "rank": 148
+        "rank": 477
       }
     },
     {
       "ranking": 97,
-      "ranking_point": 3809,
+      "ranking_point": 5336,
       "pirates_arena_deck": [
-        "스무디 - 진로를 방해하는 장성",
-        "에단바론 V. 나스쥬로 성 - 세계 정부 최고 권력 ‘오로성’ 재무무신",
-        "루피&조로&상디 - 예측 불가능한 미래섬",
-        "병정 아저씨&레베카",
-        "나미 from ONE PIECE magazine - 삼검류의 여검사",
-        "몽키 D. 가프 - 애제자를 위해 휘두르는 주먹",
-        "S-베어",
-        "슈트로이젠 - 부드럽고 포근한 요리사"
+        "검은 수염 - ‘해적여제’를 노리는 사황",
+        "코비 - 방위 진형을 치는 사령탑",
+        "몽키 D. 루피 - 마왕에 가하는 마지막 일격",
+        null,
+        null,
+        "우타 - Happy Christmas!!",
+        "행콕&나미&로빈 - 요염한 분위기를 풍기는 미녀들",
+        "바솔로뮤 쿠마 - 자아가 없는 충동"
       ],
       "user": {
-        "id": 45186165,
-        "nickname": "[æ] BostonG",
-        "achievement": "Promising Rookie",
-        "level": 1090,
-        "pirates_grade_id": 18
+        "id": 38686619,
+        "nickname": "☠️P✘M☠️-동료",
+        "achievement": "동료",
+        "level": 1642,
+        "pirates_grade_id": 19
       },
       "map_game_result": {
         "league_number": 3,
-        "rank": 167
+        "rank": 46
       }
     },
     {
       "ranking": 98,
-      "ranking_point": 3729,
-      "pirates_arena_deck": [
-        "아발로 피사로 - ‘섬섬 열매’의 능력자",
-        "로저&레일리&가반 - 목표로 하는 세계 제일의 해적단",
-        "롤로노아 조로 - 염왕의 일격",
-        "몽키 D. 루피 - 도달하는 최고 지점",
-        "행콕&나미&로빈 - 아름답고 요염한 꽃들",
-        "쿠잔 - 절대 영도의 동결",
-        "S-호크",
-        "바솔로뮤 쿠마 - 자아가 없는 충동"
-      ],
-      "user": {
-        "id": 57309682,
-        "nickname": "ᴍᴀᴇʟ",
-        "achievement": "",
-        "level": 1302,
-        "pirates_grade_id": 18
-      },
-      "map_game_result": {
-        "league_number": 3,
-        "rank": 19
-      }
-    },
-    {
-      "ranking": 99,
-      "ranking_point": 3701,
+      "ranking_point": 5313,
       "pirates_arena_deck": [
         "몽키 D. 가프 - 애제자를 위해 휘두르는 주먹",
         "에단바론 V. 나스쥬로 성 - 세계 정부 최고 권력 ‘오로성’ 재무무신",
@@ -2478,30 +2453,55 @@
       }
     },
     {
-      "ranking": 100,
-      "ranking_point": 3683,
+      "ranking": 99,
+      "ranking_point": 5267,
       "pirates_arena_deck": [
-        "S-스네이크 - 매혹의 윙크",
-        "셰퍼드 주. 피터 성 - 세계 정부 최고 권력 ‘오로성’ 농무무신",
-        "토프먼 워큐리 성 - 세계 정부 최고 권력 ‘오로성’ 법무무신",
-        "에단바론 V. 나스쥬로 성 - 세계 정부 최고 권력 ‘오로성’ 재무무신",
-        "제이가르시아 새턴 성 - 세계정부 최고 권력 ‘오로성’ 과학방위무신",
-        null,
+        "트라팔가 로 - 바위를 조종하는 손끝",
+        "몽키 D. 루피 - 울려 퍼지는 ‘해방의 드럼’",
+        "골 D. 로저 - 강자끼리의 격투",
+        "몽키 D. 가프 - 애제자를 위해 휘두르는 주먹",
+        "샹크스 - 마왕에 가하는 마지막 일격",
+        "병정 아저씨&레베카",
         null,
         null
       ],
       "user": {
-        "id": 38664564,
-        "nickname": "척",
-        "achievement": "기대 루키",
-        "level": 1706,
-        "pirates_grade_id": 16
+        "id": 38819051,
+        "nickname": "SᴋʏPɪᴇᴀ-원피스매냐",
+        "achievement": "울던 아이도 웃게 만드는 합체 로봇",
+        "level": 2289,
+        "pirates_grade_id": 19
       },
       "map_game_result": {
         "league_number": 3,
-        "rank": 35
+        "rank": 138
+      }
+    },
+    {
+      "ranking": 100,
+      "ranking_point": 5249,
+      "pirates_arena_deck": [
+        "우타 - Happy Christmas!!",
+        "피카 - 대지를 흔드는 거대한 몸",
+        "마커스 마즈 성 - 세계 정부 최고 권력 ‘오로성’ 환경무신",
+        "몽키 D. 루피 - 마왕에 가하는 마지막 일격",
+        "S-스네이크 - ‘최강의 인류’",
+        "바솔로뮤 쿠마 - 자아가 없는 충동",
+        "사카즈키 원수 - 새로운 시대에 대한 각오",
+        "상디 - 몸을 감싼 분노의 불꽃"
+      ],
+      "user": {
+        "id": 57309682,
+        "nickname": "ᴍᴀᴇʟ",
+        "achievement": "",
+        "level": 1302,
+        "pirates_grade_id": 18
+      },
+      "map_game_result": {
+        "league_number": 3,
+        "rank": 19
       }
     }
   ],
-  "last_updated": "2025-10-12T03:10:33.075761+00:00"
+  "last_updated": "2025-10-12T13:14:29.660308+00:00"
 }
